@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "alchemical_power:block/alchemical_processing_diamond_block"
+  }
+}

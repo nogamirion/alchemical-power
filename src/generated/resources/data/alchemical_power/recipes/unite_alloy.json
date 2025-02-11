@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:unite_alloy_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "alchemical_power:unite_alloy"
+  }
+}

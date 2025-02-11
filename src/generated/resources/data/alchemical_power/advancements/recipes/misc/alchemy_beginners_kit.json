@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_t1_alchemy_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:t1_alchemy_dust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alchemical_power:alchemy_beginners_kit"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_t1_alchemy_dust",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alchemical_power:alchemy_beginners_kit"
+    ]
+  },
+  "sends_telemetry_event": false
+}

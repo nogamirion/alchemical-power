@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:glass"
+    },
+    "b": {
+      "tag": "minecraft:wooden_buttons"
+    },
+    "c": {
+      "item": "alchemical_power:t1_alchemy_dust"
+    }
+  },
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "result": {
+    "item": "alchemical_power:alchemy_beginners_kit"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "t0_alchemy_dust",
+  "ingredient": {
+    "item": "alchemical_power:stone_containing_alchemy_dust"
+  },
+  "result": "alchemical_power:t0_alchemy_dust"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "alchemical_power:block/alchemy_dust_reed_t1",
+    "particle": "alchemical_power:block/alchemy_dust_reed_t1"
+  },
+  "render_type": "cutout"
+}

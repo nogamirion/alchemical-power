@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "alchemical_power:block/alchemical_processing_diamond_block"
+    }
+  }
+}

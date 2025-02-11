@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "alchemical_power:stone_containing_alchemy_dust",
+  "step": "underground_ores"
+}

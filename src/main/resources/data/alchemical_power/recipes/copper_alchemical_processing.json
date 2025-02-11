@@ -1,0 +1,19 @@
+{
+  "type": "alchemical_power:alchemy_table_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:t1_alchemy_dust"},
+    {"item": "alchemical_power:t1_alchemy_dust"},
+    {"item": "alchemical_power:t1_alchemy_dust"},
+    {"item": "alchemical_power:t1_alchemy_dust"},
+    {"item": "minecraft:copper_ingot"},
+    {"item": "alchemical_power:t1_alchemy_dust"},
+    {"item": "alchemical_power:t1_alchemy_dust"},
+    {"item": "alchemical_power:t1_alchemy_dust"},
+    {"item": "alchemical_power:t1_alchemy_dust"},
+    {"tag": "alchemical_power:alchemy_kit_tier1"}
+  ],
+  "output":{
+    "count":1,
+    "item":"alchemical_power:alchemical_processing_copper"
+  }
+}

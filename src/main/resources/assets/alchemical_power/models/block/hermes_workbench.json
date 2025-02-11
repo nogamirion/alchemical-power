@@ -1,0 +1,13 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"down": "alchemical_power:block/hermes_workbench_bot",
+		"up": "alchemical_power:block/hermes_workbench_top",
+		"north": "alchemical_power:block/hermes_workbench_front",
+		"east": "alchemical_power:block/hermes_workbench_side",
+		"south": "alchemical_power:block/hermes_workbench_front",
+		"west": "alchemical_power:block/hermes_workbench_side",
+		"particle": "minecraft:block/oak_planks"
+	},
+	"render_type": "solid"
+}
