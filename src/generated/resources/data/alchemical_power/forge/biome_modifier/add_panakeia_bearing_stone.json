@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "alchemical_power:panakeia_bearing_stone",
+  "step": "underground_ores"
+}

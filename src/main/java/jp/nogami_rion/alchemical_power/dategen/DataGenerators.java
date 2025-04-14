@@ -1,6 +1,7 @@
 package jp.nogami_rion.alchemical_power.dategen;
 
 import jp.nogami_rion.alchemical_power.Alchemical_power;
+import jp.nogami_rion.alchemical_power.dategen.server.ModWorldGenProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -31,6 +32,8 @@ public class DataGenerators {
         generator.addProvider(event.includeServer(),new ModItemTagGenerator(packOutput,lookupProvider,blockTagGenerator.contentsGetter(),existingFileHelper));
 
         generator.addProvider(event.includeServer(),new ModGlobalLootModifierProvider(packOutput));
+
+        generator.addProvider(event.includeServer(),new ModWorldGenProvider(packOutput,lookupProvider));
 
 
     }
