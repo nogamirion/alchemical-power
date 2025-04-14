@@ -1,0 +1,12 @@
+{
+  "type": "alchemical_power:alchemical_engraver_recipe",
+  "ingredients": [
+    {"item": "minecraft:flint"},
+    {"item": "alchemical_power:void_rune"},
+    {"item": "alchemical_power:ultimate_engraving_ink"}
+  ],
+  "output":{
+    "count":1,
+    "item":"alchemical_power:ultimate_grinding_rune"
+  }
+}

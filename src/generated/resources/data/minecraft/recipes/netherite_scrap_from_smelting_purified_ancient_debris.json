@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "netherite_scrap",
+  "ingredient": {
+    "item": "alchemical_power:purified_ancient_debris"
+  },
+  "result": "minecraft:netherite_scrap"
+}

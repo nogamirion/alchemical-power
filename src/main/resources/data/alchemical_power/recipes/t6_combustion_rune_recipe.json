@@ -1,0 +1,12 @@
+{
+  "type": "alchemical_power:alchemical_engraver_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:t6_panakeia"},
+    {"item": "alchemical_power:t5_combustion_rune"},
+    {"tag": "alchemical_power:jei_empty_tag"}
+  ],
+  "output":{
+    "count":1,
+    "item":"alchemical_power:t6_combustion_rune"
+  }
+}

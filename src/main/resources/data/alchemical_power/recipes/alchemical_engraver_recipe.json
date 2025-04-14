@@ -1,0 +1,22 @@
+{
+  "type": "alchemical_power:alchemy_table_recipe",
+  "ingredients": [
+    {"item": "minecraft:stone_bricks"},
+    {"item": "alchemical_power:basic_engraving_ink"},
+    {"item": "minecraft:stone_bricks"},
+
+    {"item": "minecraft:stone_bricks"},
+    {"item": "minecraft:amethyst_block"},
+    {"item": "minecraft:stone_bricks"},
+
+    {"item": "minecraft:stone_bricks"},
+    {"item": "minecraft:stone_bricks"},
+    {"item": "minecraft:stone_bricks"},
+
+    {"tag": "alchemical_power:alchemy_kit_tier1"}
+  ],
+  "output": {
+    "count": 1,
+    "item": "alchemical_power:alchemical_engraver"
+  }
+}

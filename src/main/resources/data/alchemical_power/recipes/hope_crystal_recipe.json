@@ -1,0 +1,35 @@
+{
+  "type": "alchemical_power:hermes_workbench_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "minecraft:nether_star"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"item": "alchemical_power:high_density_alchemical_emerald"},
+    {"tag": "alchemical_power:alchemy_kit_tier3"}
+  ],
+  "output":{
+    "count":1,
+    "item":"alchemical_power:hope_crystal"
+  }
+}

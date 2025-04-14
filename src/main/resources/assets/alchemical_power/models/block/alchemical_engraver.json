@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "alchemical_power:block/alchemical_engraver_bot",
+    "up": "alchemical_power:block/alchemical_engraver_top",
+    "north": "alchemical_power:block/alchemical_engraver_side",
+    "east": "alchemical_power:block/alchemical_engraver_side",
+    "south": "alchemical_power:block/alchemical_engraver_side",
+    "west": "alchemical_power:block/alchemical_engraver_side",
+    "particle": "minecraft:block/stone"
+  },
+  "render_type": "solid"
+}

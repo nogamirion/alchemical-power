@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "t0_panakeia",
+  "ingredient": {
+    "item": "alchemical_power:panakeia_bearing_stone"
+  },
+  "result": "alchemical_power:t0_panakeia"
+}

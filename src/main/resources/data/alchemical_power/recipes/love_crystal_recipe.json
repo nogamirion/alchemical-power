@@ -1,0 +1,35 @@
+{
+  "type": "alchemical_power:hermes_workbench_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "minecraft:nether_star"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"item": "alchemical_power:high_density_alchemical_diamond"},
+    {"tag": "alchemical_power:alchemy_kit_tier3"}
+  ],
+  "output":{
+    "count":1,
+    "item":"alchemical_power:love_crystal"
+  }
+}

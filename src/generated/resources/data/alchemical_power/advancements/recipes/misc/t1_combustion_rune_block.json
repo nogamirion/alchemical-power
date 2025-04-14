@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_t1_combustion_rune": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:t1_combustion_rune"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alchemical_power:t1_combustion_rune_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_t1_combustion_rune",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alchemical_power:t1_combustion_rune_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_panakeia_bearing_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:panakeia_bearing_stone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:t0_panakeia_from_smelting_panakeia_bearing_stone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_panakeia_bearing_stone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:t0_panakeia_from_smelting_panakeia_bearing_stone"
+    ]
+  },
+  "sends_telemetry_event": false
+}

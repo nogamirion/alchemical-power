@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "alchemical_power:block/rune_activator_bot",
+    "up": "alchemical_power:block/rune_activator_top",
+    "north": "alchemical_power:block/rune_activator_side",
+    "east": "alchemical_power:block/rune_activator_front",
+    "south": "alchemical_power:block/rune_activator_side",
+    "west": "alchemical_power:block/rune_activator_front",
+    "particle": "minecraft:block/stone"
+  },
+  "render_type": "solid"
+}

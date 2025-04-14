@@ -1,0 +1,11 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:elite_grinding_rune"},
+    {"item": "minecraft:raw_copper"}
+  ],
+  "output":{
+    "count":6,
+    "item":"alchemical_power:crushed_raw_copper"
+  }
+}

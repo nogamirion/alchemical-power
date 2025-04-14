@@ -1,0 +1,11 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:philosophers_stone"},
+    {"item": "minecraft:raw_iron"}
+  ],
+  "output":{
+    "count":64,
+    "item":"alchemical_power:crushed_raw_iron"
+  }
+}

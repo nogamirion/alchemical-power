@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "gold_ingot",
+  "ingredient": {
+    "item": "alchemical_power:crushed_raw_gold"
+  },
+  "result": "minecraft:gold_ingot"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:advanced_grinding_rune"},
+    {"item": "minecraft:amethyst_block"}
+  ],
+  "output":{
+    "count":4,
+    "item":"minecraft:amethyst_shard"
+  }
+}

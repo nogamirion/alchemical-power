@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alchemical_power:item/origin_of_wisdom_base",
+    "layer1": "alchemical_power:item/origin_of_wisdom_overlay"
+  }
+}

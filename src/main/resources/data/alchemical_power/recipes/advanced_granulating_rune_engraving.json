@@ -1,0 +1,12 @@
+{
+  "type": "alchemical_power:alchemical_engraver_recipe",
+  "ingredients": [
+    {"item": "minecraft:grindstone"},
+    {"item": "alchemical_power:blank_rune"},
+    {"item": "alchemical_power:advanced_engraving_ink"}
+  ],
+  "output":{
+    "count":1,
+    "item":"alchemical_power:advanced_granulating_rune"
+  }
+}

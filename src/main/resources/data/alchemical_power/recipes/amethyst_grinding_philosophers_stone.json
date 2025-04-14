@@ -1,0 +1,11 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:philosophers_stone"},
+    {"item": "minecraft:amethyst_block"}
+  ],
+  "output":{
+    "count":64,
+    "item":"minecraft:amethyst_shard"
+  }
+}

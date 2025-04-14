@@ -1,0 +1,22 @@
+{
+  "type": "alchemical_power:alchemy_table_recipe",
+  "ingredients": [
+    {"item": "minecraft:cobblestone"},
+    {"item": "minecraft:cobblestone"},
+    {"item": "minecraft:cobblestone"},
+
+    {"item": "minecraft:cobblestone"},
+    {"item": "minecraft:cobblestone"},
+    {"item": "minecraft:cobblestone"},
+
+    {"item": "minecraft:cobblestone"},
+    {"item": "minecraft:cobblestone"},
+    {"item": "minecraft:cobblestone"},
+
+    {"tag": "alchemical_power:alchemy_kit_tier1"}
+  ],
+  "output": {
+    "count": 1,
+    "item": "alchemical_power:x9_cobblestone"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:elite_softening_rune"},
+    {"item": "alchemical_power:granulated_ancient_debris"}
+  ],
+  "output":{
+    "count":6,
+    "item":"alchemical_power:softened_ancient_debris"
+  }
+}

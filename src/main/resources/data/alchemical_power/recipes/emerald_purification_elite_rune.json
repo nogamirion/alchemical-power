@@ -1,0 +1,11 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:elite_purification_rune"},
+    {"item": "alchemical_power:softened_emerald"}
+  ],
+  "output":{
+    "count":6,
+    "item":"alchemical_power:purified_emerald"
+  }
+}

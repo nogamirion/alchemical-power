@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alchemical_power:block/transcendental_table"
+    },
+    "facing=east": {
+      "model": "alchemical_power:block/transcendental_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alchemical_power:block/transcendental_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alchemical_power:block/transcendental_table",
+      "y": 270
+    }
+  }
+}

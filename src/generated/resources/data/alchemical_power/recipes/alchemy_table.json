@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "minecraft:logs"
+    },
+    "b": {
+      "item": "alchemical_power:t1_panakeia"
+    },
+    "c": {
+      "item": "alchemical_power:alchemy_beginners_kit"
+    },
+    "d": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "result": {
+    "item": "alchemical_power:alchemy_table"
+  },
+  "show_notification": true
+}

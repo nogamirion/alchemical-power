@@ -1,0 +1,12 @@
+{
+  "type": "alchemical_power:alchemical_engraver_recipe",
+  "ingredients": [
+    {"item": "minecraft:brewing_stand"},
+    {"item": "alchemical_power:void_rune"},
+    {"item": "alchemical_power:ultimate_engraving_ink"}
+  ],
+  "output":{
+    "count":1,
+    "item":"alchemical_power:ultimate_purification_rune"
+  }
+}

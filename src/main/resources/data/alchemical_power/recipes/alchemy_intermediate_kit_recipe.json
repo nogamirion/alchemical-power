@@ -1,0 +1,19 @@
+{
+  "type": "alchemical_power:alchemy_table_recipe",
+  "ingredients": [
+    {"item": "minecraft:glass"},
+    {"item": "alchemical_power:t2_panakeia"},
+    {"item": "minecraft:glass"},
+    {"item": "minecraft:glass"},
+    {"item": "alchemical_power:t3_panakeia"},
+    {"item": "minecraft:glass"},
+    {"item": "minecraft:glass"},
+    {"item": "minecraft:glass"},
+    {"item": "minecraft:glass"},
+    {"tag": "alchemical_power:alchemy_kit_tier1"}
+  ],
+  "output": {
+    "count": 1,
+    "item": "alchemical_power:alchemy_intermediate_kit"
+  }
+}

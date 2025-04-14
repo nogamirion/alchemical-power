@@ -1,0 +1,12 @@
+{
+  "type": "alchemical_power:alchemical_engraver_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:t1_panakeia"},
+    {"tag": "minecraft:coals"},
+    {"tag": "alchemical_power:jei_empty_tag"}
+  ],
+  "output":{
+    "count":1,
+    "item":"alchemical_power:t1_combustion_rune"
+  }
+}

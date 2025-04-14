@@ -1,0 +1,11 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:advanced_grinding_rune"},
+    {"item": "minecraft:raw_iron"}
+  ],
+  "output":{
+    "count":4,
+    "item":"alchemical_power:crushed_raw_iron"
+  }
+}

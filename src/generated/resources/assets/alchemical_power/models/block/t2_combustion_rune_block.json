@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "alchemical_power:block/t2_combustion_rune_block"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "alchemical_power:hermes_workbench_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "minecraft:nether_star"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"item": "alchemical_power:high_density_unite_alloy"},
+    {"tag": "alchemical_power:alchemy_kit_tier3"}
+  ],
+  "output":{
+    "count":1,
+    "item":"alchemical_power:faith_crystal"
+  }
+}

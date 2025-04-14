@@ -1,0 +1,40 @@
+{
+  "type": "alchemical_power:hermes_workbench_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x9_cobblestone"},
+
+    {"tag": "alchemical_power:alchemy_kit_tier2"}
+  ],
+  "output":{
+    "count":1,
+    "item":"alchemical_power:x225_cobblestone"
+  }
+}

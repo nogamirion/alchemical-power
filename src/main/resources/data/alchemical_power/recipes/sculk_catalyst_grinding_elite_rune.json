@@ -1,0 +1,11 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:elite_grinding_rune"},
+    {"item": "minecraft:sculk_catalyst"}
+  ],
+  "output":{
+    "count":6,
+    "item":"minecraft:echo_shard"
+  }
+}

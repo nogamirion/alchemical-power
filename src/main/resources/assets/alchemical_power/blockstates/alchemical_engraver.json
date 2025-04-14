@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alchemical_power:block/alchemical_engraver"
+    },
+    "facing=east": {
+      "model": "alchemical_power:block/alchemical_engraver",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alchemical_power:block/alchemical_engraver",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alchemical_power:block/alchemical_engraver",
+      "y": 270
+    }
+  }
+}

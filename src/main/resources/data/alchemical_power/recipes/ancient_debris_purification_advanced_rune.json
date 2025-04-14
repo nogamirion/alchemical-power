@@ -1,0 +1,11 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:advanced_purification_rune"},
+    {"item": "alchemical_power:softened_ancient_debris"}
+  ],
+  "output":{
+    "count":4,
+    "item":"alchemical_power:purified_ancient_debris"
+  }
+}
