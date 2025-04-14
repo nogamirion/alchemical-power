@@ -120,7 +120,7 @@ public class Hermes_Workbench_Recipe implements Recipe<SimpleContainer> {
             ItemStack output = ShapedRecipe.itemStackFromJson(GsonHelper.getAsJsonObject(jsonObject, "output"));
 
             JsonArray ingredients = GsonHelper.getAsJsonArray(jsonObject, "ingredients");
-            NonNullList<Ingredient> inputs = NonNullList.withSize(10, Ingredient.EMPTY);
+            NonNullList<Ingredient> inputs = NonNullList.withSize(26, Ingredient.EMPTY);
 
             for (int i = 0; i < inputs.size(); i++) {
                 inputs.set(i, Ingredient.fromJson(ingredients.get(i)));
@@ -142,15 +142,15 @@ public class Hermes_Workbench_Recipe implements Recipe<SimpleContainer> {
         }
 
         @Override
-        public void toNetwork(FriendlyByteBuf friendlyByteBuf, Hermes_Workbench_Recipe alchemyTableRecipe) {
-            friendlyByteBuf.writeInt(alchemyTableRecipe.inputItems.size());
+        public void toNetwork(FriendlyByteBuf friendlyByteBuf, Hermes_Workbench_Recipe hermesWorkbenchRecipe) {
+            friendlyByteBuf.writeInt(hermesWorkbenchRecipe.inputItems.size());
 
-            for (Ingredient ingredient : alchemyTableRecipe.getIngredients()) {
+            for (Ingredient ingredient : hermesWorkbenchRecipe.getIngredients()) {
                 {
                     ingredient.toNetwork(friendlyByteBuf);
                 }
 
-                friendlyByteBuf.writeItemStack(alchemyTableRecipe.getResultItem(null), false);
+                friendlyByteBuf.writeItemStack(hermesWorkbenchRecipe.getResultItem(null), false);
 
             }
         }

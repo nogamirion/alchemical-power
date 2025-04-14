@@ -27,7 +27,7 @@ public class Hermes_Workbench extends BaseEntityBlock {
 
 
     public Hermes_Workbench() {
-        super(Properties.of().sound(SoundType.WOOD).strength(2.5f, 2.5f));
+        super(Properties.of().sound(SoundType.STONE).strength(2.5f, 2.5f));
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 
     }

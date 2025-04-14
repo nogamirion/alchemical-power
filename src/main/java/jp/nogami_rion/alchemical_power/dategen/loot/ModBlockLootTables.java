@@ -3,9 +3,7 @@ package jp.nogami_rion.alchemical_power.dategen.loot;
 import jp.nogami_rion.alchemical_power.init.blocklist;
 import jp.nogami_rion.alchemical_power.init.itemlist;
 import net.minecraft.data.loot.BlockLootSubProvider;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -18,10 +16,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.add(blocklist.STONE_CONTAINING_ALCHEMY_DUST.get()
-        ,block -> createOreDrop(blocklist.STONE_CONTAINING_ALCHEMY_DUST.get(),itemlist.T0_ALCHEMY_DUST.get()));
+        this.add(blocklist.PANAKEIA_BEARING_STONE.get()
+        ,block -> createOreDrop(blocklist.PANAKEIA_BEARING_STONE.get(),itemlist.T0_PANAKEIA.get()));
         this.dropSelf(blocklist.ALCHEMY_TABLE.get());
         this.dropSelf(blocklist.HERMES_WORKBENCH.get());
+        this.dropSelf(blocklist.TRANSCENDENTAL_TABLE.get());
+        this.dropSelf(blocklist.ALCHEMICAL_ENGRAVER.get());
+        this.dropSelf(blocklist.RUNE_ACTIVATOR.get());
         this.dropSelf(blocklist.ALCHEMICAL_PROCESSING_COPPER_BLOCK.get());
         this.dropSelf(blocklist.ALCHEMICAL_PROCESSING_IRON_BLOCK.get());
         this.dropSelf(blocklist.ALCHEMICAL_PROCESSING_GOLD_BLOCK.get());
@@ -29,15 +30,24 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(blocklist.ALCHEMICAL_PROCESSING_EMERALD_BLOCK.get());
         this.dropSelf(blocklist.ALCHEMICAL_PROCESSING_NETHERITE_BLOCK.get());
         this.dropSelf(blocklist.UNITE_ALLOY_BLOCK.get());
-        this.dropSelf(blocklist.ALCHEMY_DUST_REED_T0.get());
-        this.dropSelf(blocklist.ALCHEMY_DUST_REED_T1.get());
-        this.dropSelf(blocklist.ALCHEMY_DUST_REED_T2.get());
-        this.dropSelf(blocklist.ALCHEMY_DUST_REED_T3.get());
-        this.dropSelf(blocklist.ALCHEMY_DUST_REED_T4.get());
-        this.dropSelf(blocklist.ALCHEMY_DUST_REED_T5.get());
-        this.dropSelf(blocklist.ALCHEMY_DUST_REED_T6.get());
-        this.dropSelf(blocklist.ALCHEMY_DUST_REED_T7.get());
-
+        this.dropSelf(blocklist.PANAKEIA_REED_T0.get());
+        this.dropSelf(blocklist.PANAKEIA_REED_T1.get());
+        this.dropSelf(blocklist.PANAKEIA_REED_T2.get());
+        this.dropSelf(blocklist.PANAKEIA_REED_T3.get());
+        this.dropSelf(blocklist.PANAKEIA_REED_T4.get());
+        this.dropSelf(blocklist.PANAKEIA_REED_T5.get());
+        this.dropSelf(blocklist.PANAKEIA_REED_T6.get());
+        this.dropSelf(blocklist.PANAKEIA_REED_T7.get());
+        this.dropSelf(blocklist.X9_COBBLESTONE.get());
+        this.dropSelf(blocklist.X225_COBBLESTONE.get());
+        this.dropSelf(blocklist.X38025_COBBLESTONE.get());
+        this.dropSelf(blocklist.IMITATED_BEDROCK.get());
+        this.dropSelf(blocklist.T1_COMBUSTION_RUNE_BLOCK.get());
+        this.dropSelf(blocklist.T2_COMBUSTION_RUNE_BLOCK.get());
+        this.dropSelf(blocklist.T3_COMBUSTION_RUNE_BLOCK.get());
+        this.dropSelf(blocklist.T4_COMBUSTION_RUNE_BLOCK.get());
+        this.dropSelf(blocklist.T5_COMBUSTION_RUNE_BLOCK.get());
+        this.dropSelf(blocklist.T6_COMBUSTION_RUNE_BLOCK.get());
 
     }
 

@@ -23,7 +23,6 @@ import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.items.IItemHandlerModifiable;
 import net.minecraftforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -49,14 +48,14 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
 
     protected final ContainerData data;
     private int progress = 0;
-    private int maxProgress = 1;
+    private int maxProgress = 20;
 
     public Alchemy_Table_Entity(BlockPos pPos, BlockState pBlockState) {
         super(ModBlockEntities.ALCHEMY_TABLE_BE.get(), pPos, pBlockState);
         this.data = new ContainerData() {
             @Override
             public int get(int pIndex) {
-                return switch (pIndex){
+                return switch (pIndex) {
                     case 0 -> Alchemy_Table_Entity.this.progress;
                     case 1 -> Alchemy_Table_Entity.this.maxProgress;
                     default -> 0;
@@ -64,16 +63,16 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
 
             }
 
-             @Override
+            @Override
             public void set(int pIndex, int pValue) {
-                switch (pIndex){
+                switch (pIndex) {
                     case 0 -> Alchemy_Table_Entity.this.progress = pValue;
                     case 1 -> Alchemy_Table_Entity.this.maxProgress = pValue;
                 }
 
-             }
+            }
 
-             @Override
+            @Override
             public int getCount() {
                 return 2;
             }
@@ -83,7 +82,7 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
 
     @Override
     public @NotNull <T> LazyOptional<T> getCapability(@NotNull Capability<T> cap, @Nullable Direction side) {
-        if(cap == ForgeCapabilities.ITEM_HANDLER){
+        if (cap == ForgeCapabilities.ITEM_HANDLER) {
             return LazyItemHandler.cast();
         }
         return super.getCapability(cap, side);
@@ -103,10 +102,10 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
 
     public void drops() {
         SimpleContainer inventory = new SimpleContainer((itemHandler.getSlots()));
-        for (int i = 0; i < itemHandler.getSlots(); i++){
-            inventory.setItem(i,itemHandler.getStackInSlot(i));
+        for (int i = 0; i < itemHandler.getSlots(); i++) {
+            inventory.setItem(i, itemHandler.getStackInSlot(i));
         }
-        Containers.dropContents(this.level,this.worldPosition,inventory);
+        Containers.dropContents(this.level, this.worldPosition, inventory);
     }
 
     @Override
@@ -117,13 +116,13 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
     @Override
     @Nullable
     public AbstractContainerMenu createMenu(int i, Inventory inventory, Player player) {
-        return new Alchemy_Table_Menu(i,inventory,this, this.data);
+        return new Alchemy_Table_Menu(i, inventory, this, this.data);
     }
 
     @Override
     protected void saveAdditional(CompoundTag pTag) {
-        pTag.put("inventory",itemHandler.serializeNBT());
-        pTag.putInt("alchemy_table_progress",progress);
+        pTag.put("inventory", itemHandler.serializeNBT());
+        pTag.putInt("alchemy_table_progress", progress);
 
         super.saveAdditional(pTag);
     }
@@ -136,19 +135,23 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
     }
 
     public void tick(Level pLevel, BlockPos pPos, BlockState pState) {
-        if(hasRecipe()){
-            increaseCraftingProgress();
-            setChanged(pLevel,pPos,pState);
-            if(hasProgressFinished()) {
-                craftItem();
+        if (!itemHandler.getStackInSlot(INPUT_SLOT10).isEmpty()) { // ツールスロットが空でない場合
+            if (hasRecipe()) {
+                setChanged(pLevel, pPos, pState);
+                increaseCraftingProgress();
+                if (hasProgressFinished()) {
+                    craftItem();
+                    resetProgress();
+                }
+            } else {
                 resetProgress();
             }
-        }else{
+        } else {
             resetProgress();
         }
     }
 
-    private void resetProgress(){
+    private void resetProgress() {
         progress = 0;
     }
 
@@ -156,32 +159,30 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
         Optional<Alchemy_Table_Recipe> recipe = getCurrentRecipe();
         ItemStack result = recipe.get().getResultItem(null);
 
-        this.itemHandler.extractItem(INPUT_SLOT,1,false);
-        this.itemHandler.extractItem(INPUT_SLOT2,1,false);
-        this.itemHandler.extractItem(INPUT_SLOT3,1,false);
-        this.itemHandler.extractItem(INPUT_SLOT4,1,false);
-        this.itemHandler.extractItem(INPUT_SLOT5,1,false);
-        this.itemHandler.extractItem(INPUT_SLOT6,1,false);
-        this.itemHandler.extractItem(INPUT_SLOT7,1,false);
-        this.itemHandler.extractItem(INPUT_SLOT8,1,false);
-        this.itemHandler.extractItem(INPUT_SLOT9,1,false);
+        extractItem();
+
+        itemHandler.setStackInSlot(OUTPUT_SLOT, new ItemStack(result.getItem(),
+                itemHandler.getStackInSlot(OUTPUT_SLOT).getCount() + result.getCount()));
+
+    }
+
+    public void extractItem() {
+
+        for (int i : new int[]{INPUT_SLOT, INPUT_SLOT2, INPUT_SLOT3, INPUT_SLOT4, INPUT_SLOT5, INPUT_SLOT6, INPUT_SLOT7, INPUT_SLOT8, INPUT_SLOT9}) {
+            this.itemHandler.extractItem(i, 1, false);
+        }
         ItemStack _stk = this.itemHandler.getStackInSlot(INPUT_SLOT10).copy();
-        if(_stk.hurt(1, RandomSource.create(),null)){
+        if (_stk.hurt(1, RandomSource.create(), null)) {
             _stk.shrink(1);
             _stk.setDamageValue(0);
         }
-        this.itemHandler.setStackInSlot(INPUT_SLOT10,_stk);
-
-
-        this.itemHandler.setStackInSlot(OUTPUT_SLOT,new ItemStack(result.getItem(),
-                this.itemHandler.getStackInSlot(OUTPUT_SLOT).getCount() + result.getCount()));
-
+        this.itemHandler.setStackInSlot(INPUT_SLOT10, _stk);
     }
 
     private boolean hasRecipe() {
         Optional<Alchemy_Table_Recipe> recipe = getCurrentRecipe();
 
-        if (recipe.isEmpty()){
+        if (recipe.isEmpty()) {
             return false;
         }
         ItemStack result = recipe.get().getResultItem(null);
@@ -191,11 +192,11 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
 
     private Optional<Alchemy_Table_Recipe> getCurrentRecipe() {
         SimpleContainer inventory = new SimpleContainer(this.itemHandler.getSlots());
-        for (int i = 0; i < itemHandler.getSlots();i++){
-            inventory.setItem(i,this.itemHandler.getStackInSlot(i));
+        for (int i = 0; i < this.itemHandler.getSlots(); i++) {
+            inventory.setItem(i, this.itemHandler.getStackInSlot(i));
         }
 
-        return this.level.getRecipeManager().getRecipeFor(Alchemy_Table_Recipe.Type.INSTANCE,inventory,level);
+        return this.level.getRecipeManager().getRecipeFor(Alchemy_Table_Recipe.Type.INSTANCE, inventory, level);
     }
 
     private boolean canInsertItemIntoOutputSlot(Item item) {
@@ -206,11 +207,14 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
         return this.itemHandler.getStackInSlot(OUTPUT_SLOT).getCount() + count <= this.itemHandler.getStackInSlot(OUTPUT_SLOT).getMaxStackSize();
     }
 
-    private boolean hasProgressFinished(){
+    private boolean hasProgressFinished() {
         return progress >= maxProgress;
     }
-    private void increaseCraftingProgress(){
+
+    private void increaseCraftingProgress() {
         progress++;
     }
+
+
 
 }

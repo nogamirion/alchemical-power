@@ -1,16 +1,16 @@
 {
   "type": "alchemical_power:alchemy_table_recipe",
   "ingredients": [
-    {"item": "alchemical_power:t3_alchemy_dust"},
-    {"item": "alchemical_power:t3_alchemy_dust"},
-    {"item": "alchemical_power:t3_alchemy_dust"},
-    {"item": "alchemical_power:t3_alchemy_dust"},
+    {"item": "alchemical_power:t3_panakeia"},
+    {"item": "alchemical_power:t3_panakeia"},
+    {"item": "alchemical_power:t3_panakeia"},
+    {"item": "alchemical_power:t3_panakeia"},
     {"item": "minecraft:gold_ingot"},
-    {"item": "alchemical_power:t3_alchemy_dust"},
-    {"item": "alchemical_power:t3_alchemy_dust"},
-    {"item": "alchemical_power:t3_alchemy_dust"},
-    {"item": "alchemical_power:t3_alchemy_dust"},
-    {"tag": "alchemical_power:alchemy_kit_tier1"}
+    {"item": "alchemical_power:t3_panakeia"},
+    {"item": "alchemical_power:t3_panakeia"},
+    {"item": "alchemical_power:t3_panakeia"},
+    {"item": "alchemical_power:t3_panakeia"},
+    {"tag": "alchemical_power:alchemy_kit_tier2"}
   ],
   "output":{
     "count":1,

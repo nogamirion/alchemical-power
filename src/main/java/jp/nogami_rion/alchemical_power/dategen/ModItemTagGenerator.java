@@ -6,7 +6,10 @@ import jp.nogami_rion.alchemical_power.item.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.fml.common.Mod;
 import org.jetbrains.annotations.Nullable;
@@ -33,9 +36,14 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .addTag(ModTags.Items.ALCHEMY_KIT_TIER4);
 
         this.tag(ModTags.Items.ALCHEMY_KIT_TIER4)
-                .add(itemlist.ULTIMATE_ALCHEMY_KIT.get());
-  //              .addTag(ModTags.Items.ALCHEMY_KIT_TIER5);
+                .add(itemlist.ULTIMATE_ALCHEMY_KIT.get())
+                .addTag(ModTags.Items.ALCHEMY_KIT_TIER5);
 
+        this.tag(ModTags.Items.ALCHEMY_KIT_TIER5)
+                .add(itemlist.PHILOSOPHERS_STONE.get());
+
+        this.tag(ModTags.Items.JEI_EMPTY_TAG)
+                .add(Blocks.AIR.asItem());
 
 
     }

@@ -1,12 +1,14 @@
 package jp.nogami_rion.alchemical_power;
 
 import jp.nogami_rion.alchemical_power.block.entity.ModBlockEntities;
+import jp.nogami_rion.alchemical_power.event.ModEventBusClientEvents;
+import jp.nogami_rion.alchemical_power.event.ModItemEventHandler;
 import jp.nogami_rion.alchemical_power.init.blocklist;
 import jp.nogami_rion.alchemical_power.init.creativetab;
 import jp.nogami_rion.alchemical_power.init.itemlist;
+import jp.nogami_rion.alchemical_power.loot.ModLootModifiers;
 import jp.nogami_rion.alchemical_power.recipe.ModRecipes;
-import jp.nogami_rion.alchemical_power.screen.Alchemy_Table_Screen;
-import jp.nogami_rion.alchemical_power.screen.ModMenuTypes;
+import jp.nogami_rion.alchemical_power.screen.*;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -41,9 +43,15 @@ public class Alchemical_power {
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
         ModRecipes.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        //イベントの登録
+        MinecraftForge.EVENT_BUS.register(ModItemEventHandler.class);
+        MinecraftForge.EVENT_BUS.register(ModEventBusClientEvents.class);
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -75,7 +83,12 @@ public class Alchemical_power {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
 
+            //GUIの追加
             MenuScreens.register(ModMenuTypes.ALCHEMY_TABLE_MENU.get(), Alchemy_Table_Screen::new);
+            MenuScreens.register(ModMenuTypes.HERMES_WORKBENCH_MENU.get(), HermesWorkbench_Screen::new);
+            MenuScreens.register(ModMenuTypes.TRANSCENDENTAL_TABLE_MENU.get(), Transcendental_Table_Screen::new);
+            MenuScreens.register(ModMenuTypes.ALCHEMICAL_ENGRAVER_MENU.get(), Alchemical_Engraver_Screen::new);
+            MenuScreens.register(ModMenuTypes.RUNE_ACTIVATOR_MENU.get(), Rune_Activator_Screen::new);
         }
     }
 }

@@ -34,58 +34,19 @@ import java.util.Optional;
 public class Hermes_Workbench_Entity extends BlockEntity implements MenuProvider {
     private final ItemStackHandler itemHandler = new ItemStackHandler(27);
 
-    private static final List<Integer> INPUT_SLOT = new ArrayList<Integer>();
+    private static final List<Integer> INPUT_SLOT  = new ArrayList<>();;
     private static int OUTPUT_SLOT;
-//    public void listup(){
-//        for (int i =0; i < this.itemHandler.getSlots();i++){
-//            if(i != this.itemHandler.getSlots()){
-//                INPUT_SLOT.add(i);
-//            } else if (i == this.itemHandler.getSlots()) {
-//                OUTPUT_SLOT = i;
-//            }
-//
-//        }
-//    }
 
-
-
-
-//    private static final int INPUT_SLOT = 0;
-//    private static final int INPUT_SLOT2 = 1;
-//    private static final int INPUT_SLOT3 = 2;
-//    private static final int INPUT_SLOT4 = 3;
-//    private static final int INPUT_SLOT5 = 4;
-//    private static final int INPUT_SLOT6 = 5;
-//    private static final int INPUT_SLOT7 = 6;
-//    private static final int INPUT_SLOT8 = 7;
-//    private static final int INPUT_SLOT9 = 8;
-//    private static final int INPUT_SLOT10 = 9;
-//    private static final int INPUT_SLOT11 = 10;
-//    private static final int INPUT_SLOT12 = 11;
-//    private static final int INPUT_SLOT13 = 12;
-//    private static final int INPUT_SLOT14 = 13;
-//    private static final int INPUT_SLOT15 = 14;
-//    private static final int INPUT_SLOT16 = 15;
-//    private static final int INPUT_SLOT17 = 16;
-//    private static final int INPUT_SLOT18 = 17;
-//    private static final int INPUT_SLOT19 = 18;
-//    private static final int INPUT_SLOT20 = 19;
-//    private static final int INPUT_SLOT21 = 20;
-//    private static final int INPUT_SLOT22 = 21;
-//    private static final int INPUT_SLOT23 = 22;
-//    private static final int INPUT_SLOT24 = 23;
-//    private static final int INPUT_SLOT25 = 24;
-//    private static final int INPUT_SLOT26 = 25;
-//    private static final int OUTPUT_SLOT = 26;
 
     private LazyOptional<IItemHandler> LazyItemHandler = LazyOptional.empty();
 
     protected final ContainerData data;
     private int progress = 0;
-    private int maxProgress = 1;
+    private int maxProgress = 40;
 
     public Hermes_Workbench_Entity(BlockPos pPos, BlockState pBlockState) {
         super(ModBlockEntities.HERMES_WORKBENCH_BE.get(), pPos, pBlockState);
+
         this.data = new ContainerData() {
             @Override
             public int get(int pIndex) {
@@ -119,6 +80,7 @@ public class Hermes_Workbench_Entity extends BlockEntity implements MenuProvider
                 OUTPUT_SLOT = i;
             }
         }
+
     }
 
     @Override
@@ -176,14 +138,18 @@ public class Hermes_Workbench_Entity extends BlockEntity implements MenuProvider
     }
 
     public void tick(Level pLevel, BlockPos pPos, BlockState pState) {
-        if(hasRecipe()){
-            increaseCraftingProgress();
-            setChanged(pLevel,pPos,pState);
-            if(hasProgressFinished()) {
-                craftItem();
+        if (!itemHandler.getStackInSlot(INPUT_SLOT.get(25)).isEmpty()) { // ツールスロットが空でない場合
+            if (hasRecipe()) {
+                setChanged(pLevel, pPos, pState);
+                increaseCraftingProgress();
+                if (hasProgressFinished()) {
+                    craftItem();
+                    resetProgress();
+                }
+            } else {
                 resetProgress();
             }
-        }else{
+        } else {
             resetProgress();
         }
     }
@@ -222,9 +188,7 @@ public class Hermes_Workbench_Entity extends BlockEntity implements MenuProvider
 //            _stk.shrink(1);
 //            _stk.setDamageValue(0);
 //        }
-//        this.itemHandler.setStackInSlot(INPUT_SLOT26,_stk);
-
-
+//        this.itemHandler.setStackInSlot(INPUT_SLOT26,_s
         this.itemHandler.setStackInSlot(OUTPUT_SLOT,new ItemStack(result.getItem(),
                 this.itemHandler.getStackInSlot(OUTPUT_SLOT).getCount() + result.getCount()));
 
@@ -243,7 +207,7 @@ public class Hermes_Workbench_Entity extends BlockEntity implements MenuProvider
 
     private Optional<Hermes_Workbench_Recipe> getCurrentRecipe() {
         SimpleContainer inventory = new SimpleContainer(this.itemHandler.getSlots());
-        for (int i = 0; i < itemHandler.getSlots();i++){
+        for (int i = 0; i < this.itemHandler.getSlots();i++){
             inventory.setItem(i,this.itemHandler.getStackInSlot(i));
         }
 

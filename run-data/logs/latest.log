@@ -1,31 +1,33 @@
-[112月2025 17:54:19.874] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\naniw\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.27, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, alchemical_power, --all, --output, C:\Users\naniw\IdeaProjects\Alchemical Power\src\generated\resources, --existing, C:\Users\naniw\IdeaProjects\Alchemical Power\src\main\resources]
-[112月2025 17:54:19.884] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
-[112月2025 17:54:20.019] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[112月2025 17:54:20.087] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/naniw/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[112月2025 17:54:20.459] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\naniw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.27\8001575a8be1ded39093805ca80ef976b5149b3f\javafmllanguage-1.20.1-47.3.27.jar is missing mods.toml file
-[112月2025 17:54:20.463] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\naniw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.27\17ff592420fbc1f933420f0a473783943ac176ce\lowcodelanguage-1.20.1-47.3.27.jar is missing mods.toml file
-[112月2025 17:54:20.466] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\naniw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.27\48269e2cdbd3c44641fb99a6b05f205b63efa37b\mclanguage-1.20.1-47.3.27.jar is missing mods.toml file
-[112月2025 17:54:20.470] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\naniw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.27\8e7f3f29ab42d8116b9ee3f9f06fc8e8fa0fd12f\fmlcore-1.20.1-47.3.27.jar is missing mods.toml file
-[112月2025 17:54:20.580] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[112月2025 17:54:22.266] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\naniw\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, alchemical_power, --all, --output, C:\Users\naniw\IdeaProjects\Alchemical Power\src\generated\resources, --existing, C:\Users\naniw\IdeaProjects\Alchemical Power\src\main\resources]
-[112月2025 17:54:22.651] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [alchemical_power]
-[112月2025 17:54:27.300] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.27, for MC 1.20.1 with MCP 20230612.114412
-[112月2025 17:54:27.301] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.27 Initialized
-[112月2025 17:54:27.593] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[112月2025 17:54:27.602] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.488 ms
-[112月2025 17:54:27.919] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/naniw/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.27_mapped_official_1.20.1/forge-1.20.1-47.3.27_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[112月2025 17:54:27.919] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/naniw/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.27_mapped_official_1.20.1/forge-1.20.1-47.3.27_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[112月2025 17:54:28.118] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[112月2025 17:54:28.155] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 36 ms
-[112月2025 17:54:28.155] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[112月2025 17:54:28.198] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 42 ms
-[112月2025 17:54:28.198] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: alchemical_power
-[112月2025 17:54:28.348] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: alchemical_power finished after 149 ms
-[112月2025 17:54:28.348] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: alchemical_power
-[112月2025 17:54:28.359] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: alchemical_power finished after 11 ms
-[112月2025 17:54:28.359] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id alchemical_power
-[112月2025 17:54:28.375] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id alchemical_power finished after 15 ms
-[112月2025 17:54:28.375] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id alchemical_power
-[112月2025 17:54:28.377] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id alchemical_power finished after 1 ms
-[112月2025 17:54:28.377] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 260 ms
-[112月2025 17:54:28.392] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 111, old count: 110, new count: 112, removed stale: 0, written: 1
+[124月2025 22:52:32.920] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\naniw\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.27, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, alchemical_power, --all, --output, C:\Users\naniw\IdeaProjects\Alchemical Power\src\generated\resources, --existing, C:\Users\naniw\IdeaProjects\Alchemical Power\src\main\resources]
+[124月2025 22:52:32.925] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[124月2025 22:52:33.060] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[124月2025 22:52:33.112] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/naniw/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[124月2025 22:52:33.456] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\naniw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.27\8001575a8be1ded39093805ca80ef976b5149b3f\javafmllanguage-1.20.1-47.3.27.jar is missing mods.toml file
+[124月2025 22:52:33.461] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\naniw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.27\17ff592420fbc1f933420f0a473783943ac176ce\lowcodelanguage-1.20.1-47.3.27.jar is missing mods.toml file
+[124月2025 22:52:33.464] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\naniw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.27\48269e2cdbd3c44641fb99a6b05f205b63efa37b\mclanguage-1.20.1-47.3.27.jar is missing mods.toml file
+[124月2025 22:52:33.467] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\naniw\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.27\8e7f3f29ab42d8116b9ee3f9f06fc8e8fa0fd12f\fmlcore-1.20.1-47.3.27.jar is missing mods.toml file
+[124月2025 22:52:33.586] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[124月2025 22:52:35.203] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\naniw\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, alchemical_power, --all, --output, C:\Users\naniw\IdeaProjects\Alchemical Power\src\generated\resources, --existing, C:\Users\naniw\IdeaProjects\Alchemical Power\src\main\resources]
+[124月2025 22:52:35.587] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [alchemical_power]
+[124月2025 22:52:40.734] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.27, for MC 1.20.1 with MCP 20230612.114412
+[124月2025 22:52:40.735] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.27 Initialized
+[124月2025 22:52:41.081] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[124月2025 22:52:41.089] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 5.583 ms
+[124月2025 22:52:41.485] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/naniw/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.27_mapped_official_1.20.1/forge-1.20.1-47.3.27_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[124月2025 22:52:41.486] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/naniw/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.27_mapped_official_1.20.1/forge-1.20.1-47.3.27_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[124月2025 22:52:41.870] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[124月2025 22:52:41.936] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 65 ms
+[124月2025 22:52:41.936] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[124月2025 22:52:41.986] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 49 ms
+[124月2025 22:52:41.986] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: alchemical_power
+[124月2025 22:52:42.123] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: alchemical_power finished after 137 ms
+[124月2025 22:52:42.123] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: alchemical_power
+[124月2025 22:52:42.174] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: alchemical_power finished after 49 ms
+[124月2025 22:52:42.174] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id alchemical_power
+[124月2025 22:52:42.195] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id alchemical_power finished after 20 ms
+[124月2025 22:52:42.195] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id alchemical_power
+[124月2025 22:52:42.199] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id alchemical_power finished after 3 ms
+[124月2025 22:52:42.199] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : alchemical_power
+[124月2025 22:52:42.210] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : alchemical_power finished after 11 ms
+[124月2025 22:52:42.210] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 340 ms
+[124月2025 22:52:42.242] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 352, old count: 352, new count: 353, removed stale: 0, written: 0

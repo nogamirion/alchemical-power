@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.Block;
 public class ModTags {
     public static class Blocks{
 
+
         private static TagKey<Block> tag(String name){
             return BlockTags.create(new ResourceLocation(Alchemical_power.MODID,name));
         }
@@ -22,7 +23,8 @@ public class ModTags {
         public static final TagKey<Item> ALCHEMY_KIT_TIER2 = tag("alchemy_kit_tier2");
         public static final TagKey<Item> ALCHEMY_KIT_TIER3 = tag("alchemy_kit_tier3");
         public static final TagKey<Item> ALCHEMY_KIT_TIER4 = tag("alchemy_kit_tier4");
-  //      public static final TagKey<Item> ALCHEMY_KIT_TIER5 = tag("alchemy_kit_tier5");
+        public static final TagKey<Item> ALCHEMY_KIT_TIER5 = tag("alchemy_kit_tier5");
+        public static final TagKey<Item> JEI_EMPTY_TAG = tag("jei_empty_tag");
 
         private static TagKey<Item> tag(String name){
             return ItemTags.create(new ResourceLocation(Alchemical_power.MODID,name));

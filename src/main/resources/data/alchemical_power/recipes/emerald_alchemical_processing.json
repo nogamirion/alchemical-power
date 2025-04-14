@@ -1,16 +1,16 @@
 {
   "type": "alchemical_power:alchemy_table_recipe",
   "ingredients": [
-    {"item": "alchemical_power:t5_alchemy_dust"},
-    {"item": "alchemical_power:t5_alchemy_dust"},
-    {"item": "alchemical_power:t5_alchemy_dust"},
-    {"item": "alchemical_power:t5_alchemy_dust"},
+    {"item": "alchemical_power:t5_panakeia"},
+    {"item": "alchemical_power:t5_panakeia"},
+    {"item": "alchemical_power:t5_panakeia"},
+    {"item": "alchemical_power:t5_panakeia"},
     {"item": "minecraft:emerald"},
-    {"item": "alchemical_power:t5_alchemy_dust"},
-    {"item": "alchemical_power:t5_alchemy_dust"},
-    {"item": "alchemical_power:t5_alchemy_dust"},
-    {"item": "alchemical_power:t5_alchemy_dust"},
-    {"tag": "alchemical_power:alchemy_kit_tier1"}
+    {"item": "alchemical_power:t5_panakeia"},
+    {"item": "alchemical_power:t5_panakeia"},
+    {"item": "alchemical_power:t5_panakeia"},
+    {"item": "alchemical_power:t5_panakeia"},
+    {"tag": "alchemical_power:alchemy_kit_tier3"}
   ],
   "output":{
     "count":1,

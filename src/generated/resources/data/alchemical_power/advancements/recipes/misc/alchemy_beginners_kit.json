@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_t1_alchemy_dust": {
+    "has_t1_panakeia": {
       "conditions": {
         "items": [
           {
             "items": [
-              "alchemical_power:t1_alchemy_dust"
+              "alchemical_power:t1_panakeia"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_t1_alchemy_dust",
+      "has_t1_panakeia",
       "has_the_recipe"
     ]
   ],

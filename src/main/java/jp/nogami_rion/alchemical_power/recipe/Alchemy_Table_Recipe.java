@@ -37,17 +37,13 @@ public class Alchemy_Table_Recipe implements Recipe<SimpleContainer> {
             return false;
         }
 
-        return inputItems.get(0).test(simpleContainer.getItem(0))
-                && inputItems.get(1).test(simpleContainer.getItem(1))
-                && inputItems.get(2).test(simpleContainer.getItem(2))
-                && inputItems.get(3).test(simpleContainer.getItem(3))
-                && inputItems.get(4).test(simpleContainer.getItem(4))
-                && inputItems.get(5).test(simpleContainer.getItem(5))
-                && inputItems.get(6).test(simpleContainer.getItem(6))
-                && inputItems.get(7).test(simpleContainer.getItem(7))
-                && inputItems.get(8).test(simpleContainer.getItem(8))
-                && inputItems.get(9).test(simpleContainer.getItem(9))
-                ;
+        for (int i = 0 ; i < 10 ; i++){
+            if( !(inputItems.get(i).test(simpleContainer.getItem(i)))){
+                return false;
+            }
+        }
+
+        return true;
     }
 
     @Override

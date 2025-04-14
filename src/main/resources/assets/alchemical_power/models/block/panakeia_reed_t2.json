@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "alchemical_power:block/panakeia_reed_t2",
+    "particle": "alchemical_power:block/panakeia_reed_t2"
+  },
+  "render_type": "cutout"
+}

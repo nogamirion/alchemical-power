@@ -1,5 +1,6 @@
 {
   "values": [
-    "alchemical_power:ultimate_alchemy_kit"
+    "alchemical_power:ultimate_alchemy_kit",
+    "#alchemical_power:alchemy_kit_tier5"
   ]
 }

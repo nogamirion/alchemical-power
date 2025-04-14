@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "alchemical_power:item/alchemy_dust_reed_t6"
-  }
-}

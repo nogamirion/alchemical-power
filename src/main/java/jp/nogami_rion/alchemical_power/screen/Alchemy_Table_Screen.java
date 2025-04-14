@@ -15,11 +15,15 @@ import net.minecraftforge.client.extensions.IForgeGuiGraphics;
 public class Alchemy_Table_Screen extends AbstractContainerScreen<Alchemy_Table_Menu> {
     private static final ResourceLocation TEXTURE =
             new ResourceLocation(Alchemical_power.MODID,"textures/gui/alchemy_table_gui.png");
+    private static final ResourceLocation PROGRESS =
+            new ResourceLocation(Alchemical_power.MODID,"textures/gui/alchemy_table_gui2.png");
     private static final int FONT_COLOR = new IForgeGuiGraphics(){}.getColorFromFormattingCharacter('f',false);
 
 
     public Alchemy_Table_Screen(Alchemy_Table_Menu pMenu, Inventory pPlayerInventory, Component pTitle) {
         super(pMenu, pPlayerInventory, pTitle);
+        this.imageWidth = 176;
+        this.imageHeight = 160;
     }
 
     @Override
@@ -34,17 +38,19 @@ public class Alchemy_Table_Screen extends AbstractContainerScreen<Alchemy_Table_
         RenderSystem.setShader(GameRenderer::getPositionTexShader);
         RenderSystem.setShaderColor(1.0f,1.0f,1.0f,1.0f);
         RenderSystem.setShaderTexture(0,TEXTURE);
-        int x = (width - imageWidth) / 2;
-        int y = (height - imageHeight) / 2;
+        int x = (width - this.imageWidth) / 2;
+        int y = (height - this.imageHeight) / 2;
 
-        guiGraphics.blit(TEXTURE,x,y,0,0,imageWidth,imageHeight,imageWidth,imageHeight);
+        guiGraphics.blit(TEXTURE,x,y,0,0,this.imageWidth,this.imageHeight,this.imageWidth,this.imageHeight);
 
         renderProgressArrow(guiGraphics,x,y);
 
     }
 
     private void renderProgressArrow(GuiGraphics guiGraphics,int x ,int y){
-
+        if(menu.isCrafting()){
+            guiGraphics.blit(PROGRESS,x + 116,y + 42,116,42,menu.getScaledProgress(),13,this.imageWidth,this.imageHeight);
+        }
     }
 
     @Override
@@ -58,10 +64,10 @@ public class Alchemy_Table_Screen extends AbstractContainerScreen<Alchemy_Table_
     protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
         Font font = Minecraft.getInstance().font;
 
-        int iStringX = ((width - imageWidth) / 2) - font.width("block.alchemical_power.alchemy_table")/2;
+        int iStringX = ((width - this.imageWidth) / 2) - font.width("block.alchemical_power.alchemy_table")/2;
 
 //        guiGraphics.drawString(this.font, Component.translatable("block.alchemical_power.alchemy_table"), iStringX, 4, FONT_COLOR,false);
-        guiGraphics.drawCenteredString(this.font, Component.translatable("block.alchemical_power.alchemy_table"), imageWidth / 2, 4, FONT_COLOR);
+        guiGraphics.drawCenteredString(this.font, Component.translatable("block.alchemical_power.alchemy_table"), this.imageWidth / 2, 4, FONT_COLOR);
     }
 
 }

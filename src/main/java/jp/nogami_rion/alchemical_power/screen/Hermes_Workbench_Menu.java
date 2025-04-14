@@ -32,20 +32,35 @@ public class Hermes_Workbench_Menu extends AbstractContainerMenu {
         addPlayerHotbar(inv);
 
         this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler -> {
-//            this.addSlot(new SlotItemHandler(iItemHandler, 0,16, 24));
-//            this.addSlot(new SlotItemHandler(iItemHandler, 1,34, 24));
-//            this.addSlot(new SlotItemHandler(iItemHandler, 2,52, 24));
-//            this.addSlot(new SlotItemHandler(iItemHandler, 3,16, 43));
-//            this.addSlot(new SlotItemHandler(iItemHandler, 4,34, 43));
-//            this.addSlot(new SlotItemHandler(iItemHandler, 5,52, 43));
-//            this.addSlot(new SlotItemHandler(iItemHandler, 6,16, 61));
-//            this.addSlot(new SlotItemHandler(iItemHandler, 7,34, 61));
-//            this.addSlot(new SlotItemHandler(iItemHandler, 8,52, 61));
-//            this.addSlot(new SlotItemHandler(iItemHandler, 9,88, 43));
-//            this.addSlot(new SlotItemHandler(iItemHandler, 10,145, 43));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 0,10, 20));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 1,28, 20));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 2,46, 20));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 3,64, 20));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 4,82, 20));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 5,10, 39));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 6,28, 39));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 7,46, 39));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 8,64, 39));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 9,82, 39));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 10,10, 58));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 11,28, 58));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 12,46, 58));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 13,64, 58));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 14,82, 58));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 15,10, 77));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 16,28, 77));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 17,46, 77));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 18,64, 77));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 19,82, 77));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 20,10, 96));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 21,28, 96));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 22,46, 96));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 23,64, 96));
+//            this.addSlot(new SlotItemHandler(iItemHandler, 24,82, 96));
+
             for (int i = 0; i < 5; ++i) {
                 for (int l = 0; l < 5; ++l) {
-                    this.addSlot(new SlotItemHandler(iItemHandler, l + i * 5, 10 + l * 18, 20 + i * 19));
+                    this.addSlot(new SlotItemHandler(iItemHandler, l + i * 5, 10 + l * 18, 20 + i * 18));
                 }
             }
             this.addSlot(new SlotItemHandler(iItemHandler, 25,109, 56));
@@ -56,6 +71,18 @@ public class Hermes_Workbench_Menu extends AbstractContainerMenu {
         addDataSlots(data);
 
 
+    }
+
+    public boolean isCrafting(){
+        return data.get(0) > 0;
+    }
+
+    public int getScaledProgress(){
+        int progress = this.data.get(0);
+        int maxProgress = this.data.get(1);
+        int progressArrowSize = 16;
+
+        return maxProgress != 0 && progress != 0 ? progress * progressArrowSize / maxProgress:0;
     }
 
     // CREDIT GOES TO: diesieben07 | https://github.com/diesieben07/SevenCommons

@@ -1,6 +1,7 @@
 package jp.nogami_rion.alchemical_power.block.entity;
 
 import jp.nogami_rion.alchemical_power.Alchemical_power;
+import jp.nogami_rion.alchemical_power.block.Rune_Activator;
 import jp.nogami_rion.alchemical_power.init.blocklist;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +20,18 @@ public class ModBlockEntities {
     public static final RegistryObject<BlockEntityType<Hermes_Workbench_Entity>> HERMES_WORKBENCH_BE =
             BLOCK_ENTITIES.register("hermes_workbench_be",() ->
                     BlockEntityType.Builder.of(Hermes_Workbench_Entity::new, blocklist.HERMES_WORKBENCH.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<Transcendental_Table_Entity>> TRANSCENDENTAL_TABLE_BE =
+            BLOCK_ENTITIES.register("transcendental_table_be",() ->
+                    BlockEntityType.Builder.of(Transcendental_Table_Entity::new, blocklist.TRANSCENDENTAL_TABLE.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<Alchemical_Engraver_Entity>> ALCHEMICAL_ENGRAVER_BE =
+            BLOCK_ENTITIES.register("alchemical_engraver_be",() ->
+                    BlockEntityType.Builder.of(Alchemical_Engraver_Entity::new, blocklist.ALCHEMICAL_ENGRAVER.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<Rune_Activator_Entity>> RUNE_ACTIVATOR_BE =
+            BLOCK_ENTITIES.register("rune_activator_be",() ->
+                    BlockEntityType.Builder.of(Rune_Activator_Entity::new, blocklist.RUNE_ACTIVATOR.get()).build(null));
 
     public static void register(IEventBus eventBus){
         BLOCK_ENTITIES.register(eventBus);

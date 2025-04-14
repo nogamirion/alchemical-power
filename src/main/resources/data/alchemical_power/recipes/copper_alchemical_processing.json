@@ -1,15 +1,15 @@
 {
   "type": "alchemical_power:alchemy_table_recipe",
   "ingredients": [
-    {"item": "alchemical_power:t1_alchemy_dust"},
-    {"item": "alchemical_power:t1_alchemy_dust"},
-    {"item": "alchemical_power:t1_alchemy_dust"},
-    {"item": "alchemical_power:t1_alchemy_dust"},
+    {"item": "alchemical_power:t1_panakeia"},
+    {"item": "alchemical_power:t1_panakeia"},
+    {"item": "alchemical_power:t1_panakeia"},
+    {"item": "alchemical_power:t1_panakeia"},
     {"item": "minecraft:copper_ingot"},
-    {"item": "alchemical_power:t1_alchemy_dust"},
-    {"item": "alchemical_power:t1_alchemy_dust"},
-    {"item": "alchemical_power:t1_alchemy_dust"},
-    {"item": "alchemical_power:t1_alchemy_dust"},
+    {"item": "alchemical_power:t1_panakeia"},
+    {"item": "alchemical_power:t1_panakeia"},
+    {"item": "alchemical_power:t1_panakeia"},
+    {"item": "alchemical_power:t1_panakeia"},
     {"tag": "alchemical_power:alchemy_kit_tier1"}
   ],
   "output":{

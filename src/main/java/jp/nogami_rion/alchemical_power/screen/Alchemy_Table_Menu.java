@@ -1,16 +1,26 @@
 package jp.nogami_rion.alchemical_power.screen;
 
+import jp.nogami_rion.alchemical_power.Alchemical_power;
 import jp.nogami_rion.alchemical_power.block.entity.Alchemy_Table_Entity;
 import jp.nogami_rion.alchemical_power.init.blocklist;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.StackedContents;
 import net.minecraft.world.inventory.*;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
+import net.minecraftforge.event.level.NoteBlockEvent;
+import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.SlotItemHandler;
+import net.minecraft.world.inventory.CraftingContainer;
+
+import java.util.List;
 
 public class Alchemy_Table_Menu extends AbstractContainerMenu {
     public final Alchemy_Table_Entity blockEntity;
@@ -32,23 +42,46 @@ public class Alchemy_Table_Menu extends AbstractContainerMenu {
         addPlayerHotbar(inv);
 
         this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler -> {
-            this.addSlot(new SlotItemHandler(iItemHandler, 0,16, 24));
-            this.addSlot(new SlotItemHandler(iItemHandler, 1,34, 24));
-            this.addSlot(new SlotItemHandler(iItemHandler, 2,52, 24));
-            this.addSlot(new SlotItemHandler(iItemHandler, 3,16, 43));
-            this.addSlot(new SlotItemHandler(iItemHandler, 4,34, 43));
-            this.addSlot(new SlotItemHandler(iItemHandler, 5,52, 43));
-            this.addSlot(new SlotItemHandler(iItemHandler, 6,16, 61));
-            this.addSlot(new SlotItemHandler(iItemHandler, 7,34, 61));
-            this.addSlot(new SlotItemHandler(iItemHandler, 8,52, 61));
-            this.addSlot(new SlotItemHandler(iItemHandler, 9,88, 43));
-            this.addSlot(new SlotItemHandler(iItemHandler, 10,145, 43));
+            for (int i = 0; i < 3; ++i) {
+                for (int l = 0; l < 3; ++l) {
+                    this.addSlot(new SlotItemHandler(iItemHandler, l + i * 3, 16 + l * 18, 23 + i * 18));
+                }
+            }
+            this.addSlot(new SlotItemHandler(iItemHandler, 9,88, 41));
+            this.addSlot(new SlotItemHandler(iItemHandler, 10,145, 41)
+//            {
+//                @Override
+//                public void onTake(Player entity,ItemStack stack){
+//                    super.onTake(entity,stack);
+//                    if(level != null && level.isClientSide()){
+//
+//                    }
+//                }
+//                @Override
+//                public boolean mayPlace(ItemStack stack) {
+//                    return false;
+//                }
+//            }
+            );
+
 
         });
 
         addDataSlots(data);
 
 
+    }
+
+    public boolean isCrafting(){
+        return data.get(0) > 0;
+    }
+
+    public int getScaledProgress(){
+        int progress = this.data.get(0);
+        int maxProgress = this.data.get(1);
+        int progressArrowSize = 16;
+
+        return maxProgress != 0 && progress != 0 ? progress * progressArrowSize / maxProgress:0;
     }
 
     // CREDIT GOES TO: diesieben07 | https://github.com/diesieben07/SevenCommons
@@ -110,14 +143,15 @@ public class Alchemy_Table_Menu extends AbstractContainerMenu {
     private void addPlayerInventory(Inventory playerInventory) {
         for (int i = 0; i < 3; ++i) {
             for (int l = 0; l < 9; ++l) {
-                this.addSlot(new Slot(playerInventory, l + i * 9 + 9, 8 + l * 18, 84 + i * 19));
+                this.addSlot(new Slot(playerInventory, l + i * 9 + 9, 8 + l * 18, 81 + i * 18));
             }
         }
     }
 
     private void addPlayerHotbar(Inventory playerInventory) {
         for (int i = 0; i < 9; ++i) {
-            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 144));
+            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 139));
         }
     }
+
 }
