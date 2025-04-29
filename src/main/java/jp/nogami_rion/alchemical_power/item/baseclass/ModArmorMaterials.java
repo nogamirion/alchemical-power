@@ -19,7 +19,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     T6_INGOT("t6_ingot", 65, new int[]{3, 8, 6, 3}, 16, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.5F, 0.1F, () -> Ingredient.of(itemlist.T6_PANAKEIA_INGOT.get())),
     UNITE_ALLOY("unite_alloy", 175, new int[]{5, 10, 8, 5}, 30, SoundEvents.ARMOR_EQUIP_NETHERITE, 5.0F, 0.3F, () -> Ingredient.of(itemlist.UNITE_ALLOY.get())),
     IMITATED_BEDROCK("imitated_bedrock", 100000, new int[]{10, 20, 16, 10}, 10, SoundEvents.ARMOR_EQUIP_NETHERITE, 10.0F, 1.0F, () -> Ingredient.of(itemlist.IMITATED_BEDROCK.get()));
-    ;
+
 
     private final String name;
     private final int durabilityMultiplier;
