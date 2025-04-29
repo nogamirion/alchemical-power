@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "alchemical_power:t5_panakeia_gem"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "result": {
+    "item": "alchemical_power:t5_panakeia_helmet"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "alchemical_power:crushed_emerald_ore"
+  },
+  "result": "minecraft:emerald"
+}

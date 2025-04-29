@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "#forge:ingots/awakened_supremium",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/neutronium",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/allthemodium",
+      "required": false
+    }
+  ]
+}

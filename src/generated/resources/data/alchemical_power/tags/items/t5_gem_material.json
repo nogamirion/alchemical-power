@@ -1,0 +1,56 @@
+{
+  "values": [
+    {
+      "id": "#forge:gems/emerald",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/iridium",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/imperium",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/horizonite",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/ultimet",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/tungsten_carbide",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/tungsten_steel",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/hsse",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/forgotten_metal",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/draconium",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/uterium",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/vanadium_steel",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/red_steel",
+      "required": false
+    }
+  ]
+}

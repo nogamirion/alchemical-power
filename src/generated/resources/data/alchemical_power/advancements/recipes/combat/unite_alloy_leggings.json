@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alchemical_power:unite_alloy_leggings"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_unite_alloy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:unite_alloy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_unite_alloy",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alchemical_power:unite_alloy_leggings"
+    ]
+  },
+  "sends_telemetry_event": false
+}

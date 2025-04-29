@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_t3_panakeia_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:t3_panakeia_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alchemical_power:t3_panakeia_axe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_t3_panakeia_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alchemical_power:t3_panakeia_axe"
+    ]
+  },
+  "sends_telemetry_event": false
+}

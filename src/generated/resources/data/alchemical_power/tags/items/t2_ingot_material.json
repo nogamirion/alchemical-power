@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "#forge:ingots/iron",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/bronze",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/ironwood",
+      "required": false
+    },
+    {
+      "id": "#forge:gems/zanite",
+      "required": false
+    },
+    {
+      "id": "#blue_skies:gems/aquite",
+      "required": false
+    },
+    {
+      "id": "#forge:ingot/inferium",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/wrought_iron",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/cloggrum",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/invar",
+      "required": false
+    }
+  ]
+}

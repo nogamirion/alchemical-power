@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "alchemical_power:t6_panakeia_ingot"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "aa ",
+    " b ",
+    " b "
+  ],
+  "result": {
+    "item": "alchemical_power:t6_panakeia_hoe"
+  },
+  "show_notification": true
+}

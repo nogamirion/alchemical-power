@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alchemical_power:item/t1_panakeia_shovel"
+  }
+}

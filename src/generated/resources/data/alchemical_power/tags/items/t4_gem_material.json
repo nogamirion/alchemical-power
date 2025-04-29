@@ -1,0 +1,56 @@
+{
+  "values": [
+    {
+      "id": "#forge:gems/diamond",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/platinum",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/refined_glowstone",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/knightmetal",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/tertium",
+      "required": false
+    },
+    {
+      "id": "#blue_skies:gems/diopside",
+      "required": false
+    },
+    {
+      "id": "#blue_skies:gems/charoite",
+      "required": false
+    },
+    {
+      "id": "#forge:ingot/titanium",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/tangsten",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/elementium",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/stainless_steel",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/blue_steel",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/damascus_steel",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "alchemical_power:t5_panakeia_gem"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "aa ",
+    "ab ",
+    " b "
+  ],
+  "result": {
+    "item": "alchemical_power:t5_panakeia_axe"
+  },
+  "show_notification": true
+}

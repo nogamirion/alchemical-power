@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "#forge:ingots/netherite",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/refined_obsidian",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/supremium",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/naquadah_alloy",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/duranium",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/regalium",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/draconium_awakened",
+      "required": false
+    }
+  ]
+}

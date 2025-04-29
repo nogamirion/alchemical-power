@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crushed_emerald_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:crushed_emerald_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stonecutting_emerald_from_crushed_emerald"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_crushed_emerald_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stonecutting_emerald_from_crushed_emerald"
+    ]
+  },
+  "sends_telemetry_event": false
+}

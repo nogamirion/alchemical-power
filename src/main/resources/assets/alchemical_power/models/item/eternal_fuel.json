@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alchemical_power:item/eternal_fuel",
+    "layer1": "alchemical_power:item/eternal_fuel_overlay"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:panakeia_reed_t0"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:t0_panakeia"
+  }
+}

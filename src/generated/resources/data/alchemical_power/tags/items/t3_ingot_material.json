@@ -1,0 +1,56 @@
+{
+  "values": [
+    {
+      "id": "#forge:ingots/gold",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/silver",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/sterling_silver",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/steel",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/rose_gold",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/steeleaf",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/prudentium",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/aluminum",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/froststeel",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/manasteel",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/cobalt",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/cobalt_brass",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots/osmium",
+      "required": false
+    }
+  ]
+}

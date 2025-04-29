@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_panakeia_reed_t0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:panakeia_reed_t0"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:t0_panakeia_from_panakeia_reed"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_panakeia_reed_t0",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:t0_panakeia_from_panakeia_reed"
+    ]
+  },
+  "sends_telemetry_event": false
+}

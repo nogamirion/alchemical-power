@@ -1,0 +1,40 @@
+{
+  "type": "alchemical_power:hermes_workbench_recipe",
+  "ingredients": [
+    {"tag": "alchemical_power:jei_empty_tag"},
+    {"item": "alchemical_power:t4_panakeia_cube"},
+    {"tag": "alchemical_power:jei_empty_tag"},
+    {"item": "alchemical_power:t4_panakeia_cube"},
+    {"tag": "alchemical_power:jei_empty_tag"},
+
+    {"item": "alchemical_power:t4_panakeia_cube"},
+    {"tag": "alchemical_power:t4_gem_material"},
+    {"tag": "alchemical_power:t4_gem_material"},
+    {"tag": "alchemical_power:t4_gem_material"},
+    {"item": "alchemical_power:t4_panakeia_cube"},
+
+    {"tag": "alchemical_power:jei_empty_tag"},
+    {"tag": "alchemical_power:t4_gem_material"},
+    {"tag": "alchemical_power:t4_gem_material"},
+    {"tag": "alchemical_power:t4_gem_material"},
+    {"tag": "alchemical_power:jei_empty_tag"},
+
+    {"item": "alchemical_power:t4_panakeia_cube"},
+    {"tag": "alchemical_power:t4_gem_material"},
+    {"tag": "alchemical_power:t4_gem_material"},
+    {"tag": "alchemical_power:t4_gem_material"},
+    {"item": "alchemical_power:t4_panakeia_cube"},
+
+    {"tag": "alchemical_power:jei_empty_tag"},
+    {"item": "alchemical_power:t4_panakeia_cube"},
+    {"tag": "alchemical_power:jei_empty_tag"},
+    {"item": "alchemical_power:t4_panakeia_cube"},
+    {"tag": "alchemical_power:jei_empty_tag"},
+
+    {"tag": "alchemical_power:alchemy_kit_tier3"}
+  ],
+  "output":{
+    "count":1,
+    "item":"alchemical_power:t4_panakeia_gem_block"
+  }
+}
