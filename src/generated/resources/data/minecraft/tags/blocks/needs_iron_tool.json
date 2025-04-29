@@ -1,8 +1,8 @@
 {
   "values": [
-    "alchemical_power:alchemical_processing_gold_block",
-    "alchemical_power:alchemical_processing_diamond_block",
-    "alchemical_power:alchemical_processing_emerald_block",
+    "alchemical_power:t3_panakeia_ingot_block",
+    "alchemical_power:t4_panakeia_gem_block",
+    "alchemical_power:t5_panakeia_gem_block",
     "alchemical_power:x9_cobblestone"
   ]
 }

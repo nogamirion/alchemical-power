@@ -28,7 +28,7 @@ public class Rune_Activator_Renderer implements BlockEntityRenderer<Rune_Activat
         ItemStack itemStack = pActivatorEntity.getRenderStack();
 
         pPoseStack.pushPose();
-        pPoseStack.translate(0.5f,1.0f,0.5f);
+        pPoseStack.translate(0.5f,1.05f,0.5f);
         pPoseStack.scale(0.35f,0.35f,0.35f);
         pPoseStack.mulPose(Axis.XP.rotationDegrees(270));
 
@@ -40,6 +40,6 @@ public class Rune_Activator_Renderer implements BlockEntityRenderer<Rune_Activat
     private int getLightLevel(Level level, BlockPos pos){
         int bLight = level.getBrightness(LightLayer.BLOCK,pos);
         int sLight = level.getBrightness(LightLayer.SKY,pos);
-        return LightTexture.pack(bLight,sLight);
+        return LightTexture.pack(bLight,15);
     }
 }

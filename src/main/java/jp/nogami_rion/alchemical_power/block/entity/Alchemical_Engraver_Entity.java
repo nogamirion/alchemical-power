@@ -41,7 +41,7 @@ public class Alchemical_Engraver_Entity extends BlockEntity implements MenuProvi
 
     protected final ContainerData data;
     private int progress = 0;
-    private int maxProgress = 200;
+    private int maxProgress = 40;
 
     public Alchemical_Engraver_Entity(BlockPos pPos, BlockState pBlockState) {
         super(ModBlockEntities.ALCHEMICAL_ENGRAVER_BE.get(), pPos, pBlockState);

@@ -1,7 +1,14 @@
-// 1.20.1	2025-03-28T23:41:07.508103	Tags for minecraft:item mod id alchemical_power
+// 1.20.1	2025-04-23T23:15:19.3193184	Tags for minecraft:item mod id alchemical_power
 0f9567d8e352415eaaa31cf0e4db1a23a3cf6811 data/alchemical_power/tags/items/alchemy_kit_tier1.json
 90c4347ed612802c6f05ec543212ca47c06a92d2 data/alchemical_power/tags/items/alchemy_kit_tier2.json
 6ecf49a8c398b07d3ee497821b381387a2f52aa0 data/alchemical_power/tags/items/alchemy_kit_tier3.json
 2fd5bd567d2c8e5d876e08a7e640d4ee8ad5417c data/alchemical_power/tags/items/alchemy_kit_tier4.json
 0e996b8bf937a44ddedc554b1dae53deb63e048f data/alchemical_power/tags/items/alchemy_kit_tier5.json
 8a3b6c43de5696d22edea798ffefe18769ecd1fb data/alchemical_power/tags/items/jei_empty_tag.json
+ec3b4e119830a3f206de8acbbe04fb49f60be8e3 data/alchemical_power/tags/items/t1_ingot_material.json
+483b15e8328610d3608a60ab38a216fcfc08a4a9 data/alchemical_power/tags/items/t2_ingot_material.json
+acbedbf0b869d42b19cf147e904484e71799ad82 data/alchemical_power/tags/items/t3_ingot_material.json
+866b9f84153f50c5fef5a1d8c0c8fca37f208e20 data/alchemical_power/tags/items/t4_gem_material.json
+f0d183286c57e47f55dbd37f9b4fd6399969c3c9 data/alchemical_power/tags/items/t5_gem_material.json
+58920b4892c2f66725487bf7de8e2f03537030aa data/alchemical_power/tags/items/t6_ingot_material.json
+ee9f200ca076b067ac761a5e59c33b6049d596d3 data/alchemical_power/tags/items/t7_ingot_material.json

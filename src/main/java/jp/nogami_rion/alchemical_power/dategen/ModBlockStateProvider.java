@@ -16,12 +16,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(blocklist.PANAKEIA_BEARING_STONE);
-        blockWithItem(blocklist.ALCHEMICAL_PROCESSING_COPPER_BLOCK);
-        blockWithItem(blocklist.ALCHEMICAL_PROCESSING_IRON_BLOCK);
-        blockWithItem(blocklist.ALCHEMICAL_PROCESSING_GOLD_BLOCK);
-        blockWithItem(blocklist.ALCHEMICAL_PROCESSING_DIAMOND_BLOCK);
-        blockWithItem(blocklist.ALCHEMICAL_PROCESSING_EMERALD_BLOCK);
-        blockWithItem(blocklist.ALCHEMICAL_PROCESSING_NETHERITE_BLOCK);
+        blockWithItem(blocklist.T1_PANAKEIA_INGOT_BLOCK);
+        blockWithItem(blocklist.T2_PANAKEIA_INGOT_BLOCK);
+        blockWithItem(blocklist.T3_PANAKEIA_INGOT_BLOCK);
+        blockWithItem(blocklist.T4_PANAKEIA_GEM_BLOCK);
+        blockWithItem(blocklist.T5_PANAKEIA_GEM_BLOCK);
+        blockWithItem(blocklist.T6_PANAKEIA_INGOT_BLOCK);
         blockWithItem(blocklist.UNITE_ALLOY_BLOCK);
         blockWithItem(blocklist.X9_COBBLESTONE);
         blockWithItem(blocklist.X225_COBBLESTONE);

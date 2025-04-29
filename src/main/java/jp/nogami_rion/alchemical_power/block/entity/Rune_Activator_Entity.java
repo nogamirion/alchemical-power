@@ -51,7 +51,7 @@ public class Rune_Activator_Entity extends BlockEntity implements MenuProvider {
 
     protected final ContainerData data;
     private int progress = 0;
-    private int maxProgress = 200;
+    private int maxProgress = 40;
 
     public Rune_Activator_Entity(BlockPos pPos, BlockState pBlockState) {
         super(ModBlockEntities.RUNE_ACTIVATOR_BE.get(), pPos, pBlockState);

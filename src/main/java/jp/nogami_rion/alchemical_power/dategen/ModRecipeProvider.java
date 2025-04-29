@@ -60,6 +60,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(itemlist.PURIFIED_DIAMOND.get()),has(itemlist.PURIFIED_DIAMOND.get()))
                 .save(consumer,"stonecutting_diamond_from_purified_diamond");
 
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(itemlist.CRUSHED_EMERALD_ORE.get()),RecipeCategory.MISC,Items.EMERALD)
+                .unlockedBy(getHasName(itemlist.CRUSHED_EMERALD_ORE.get()),has(itemlist.CRUSHED_EMERALD_ORE.get()))
+                .save(consumer,"stonecutting_emerald_from_crushed_emerald");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(itemlist.GRANULATED_EMERALD.get()),RecipeCategory.MISC,Items.EMERALD)
                 .unlockedBy(getHasName(itemlist.GRANULATED_EMERALD.get()),has(itemlist.GRANULATED_EMERALD.get()))
                 .save(consumer,"stonecutting_emerald_from_granulated_emerald");
@@ -86,52 +89,52 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(itemlist.T1_PANAKEIA.get()),has(itemlist.T1_PANAKEIA.get()))
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, blocklist.ALCHEMICAL_PROCESSING_COPPER_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, blocklist.T1_PANAKEIA_INGOT_BLOCK.get())
                 .pattern("aaa")
                 .pattern("aaa")
                 .pattern("aaa")
-                .define('a',itemlist.ALCHEMICAL_PROCESSING_COPPER.get())
-                .unlockedBy(getHasName(itemlist.ALCHEMICAL_PROCESSING_COPPER.get()),has(itemlist.ALCHEMICAL_PROCESSING_COPPER.get()))
+                .define('a',itemlist.T1_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T1_PANAKEIA_INGOT.get()),has(itemlist.T1_PANAKEIA_INGOT.get()))
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, blocklist.ALCHEMICAL_PROCESSING_IRON_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, blocklist.T2_PANAKEIA_INGOT_BLOCK.get())
                 .pattern("aaa")
                 .pattern("aaa")
                 .pattern("aaa")
-                .define('a',itemlist.ALCHEMICAL_PROCESSING_IRON.get())
-                .unlockedBy(getHasName(itemlist.ALCHEMICAL_PROCESSING_IRON.get()),has(itemlist.ALCHEMICAL_PROCESSING_IRON.get()))
+                .define('a',itemlist.T2_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T2_PANAKEIA_INGOT.get()),has(itemlist.T2_PANAKEIA_INGOT.get()))
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, blocklist.ALCHEMICAL_PROCESSING_GOLD_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, blocklist.T3_PANAKEIA_INGOT_BLOCK.get())
                 .pattern("aaa")
                 .pattern("aaa")
                 .pattern("aaa")
-                .define('a',itemlist.ALCHEMICAL_PROCESSING_GOLD.get())
-                .unlockedBy(getHasName(itemlist.ALCHEMICAL_PROCESSING_GOLD.get()),has(itemlist.ALCHEMICAL_PROCESSING_GOLD.get()))
+                .define('a',itemlist.T3_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T3_PANAKEIA_INGOT.get()),has(itemlist.T3_PANAKEIA_INGOT.get()))
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, blocklist.ALCHEMICAL_PROCESSING_DIAMOND_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, blocklist.T4_PANAKEIA_GEM_BLOCK.get())
                 .pattern("aaa")
                 .pattern("aaa")
                 .pattern("aaa")
-                .define('a',itemlist.ALCHEMICAL_PROCESSING_DIAMOND.get())
-                .unlockedBy(getHasName(itemlist.ALCHEMICAL_PROCESSING_DIAMOND.get()),has(itemlist.ALCHEMICAL_PROCESSING_DIAMOND.get()))
+                .define('a',itemlist.T4_PANAKEIA_GEM.get())
+                .unlockedBy(getHasName(itemlist.T4_PANAKEIA_GEM.get()),has(itemlist.T4_PANAKEIA_GEM.get()))
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, blocklist.ALCHEMICAL_PROCESSING_EMERALD_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, blocklist.T5_PANAKEIA_GEM_BLOCK.get())
                 .pattern("aaa")
                 .pattern("aaa")
                 .pattern("aaa")
-                .define('a',itemlist.ALCHEMICAL_PROCESSING_EMERALD.get())
-                .unlockedBy(getHasName(itemlist.ALCHEMICAL_PROCESSING_EMERALD.get()),has(itemlist.ALCHEMICAL_PROCESSING_EMERALD.get()))
+                .define('a',itemlist.T5_PANAKEIA_GEM.get())
+                .unlockedBy(getHasName(itemlist.T5_PANAKEIA_GEM.get()),has(itemlist.T5_PANAKEIA_GEM.get()))
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, blocklist.ALCHEMICAL_PROCESSING_NETHERITE_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, blocklist.T6_PANAKEIA_INGOT_BLOCK.get())
                 .pattern("aaa")
                 .pattern("aaa")
                 .pattern("aaa")
-                .define('a',itemlist.ALCHEMICAL_PROCESSING_NETHERITE.get())
-                .unlockedBy(getHasName(itemlist.ALCHEMICAL_PROCESSING_NETHERITE.get()),has(itemlist.ALCHEMICAL_PROCESSING_NETHERITE.get()))
+                .define('a',itemlist.T6_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T6_PANAKEIA_INGOT.get()),has(itemlist.T6_PANAKEIA_INGOT.get()))
                 .save(consumer);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, blocklist.UNITE_ALLOY_BLOCK.get())
@@ -142,34 +145,34 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(itemlist.UNITE_ALLOY.get()),has(itemlist.UNITE_ALLOY.get()))
                 .save(consumer);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.ALCHEMICAL_PROCESSING_COPPER.get(),9)
-                .requires(blocklist.ALCHEMICAL_PROCESSING_COPPER_BLOCK.get())
-                .unlockedBy(getHasName(blocklist.ALCHEMICAL_PROCESSING_COPPER_BLOCK.get()),has(blocklist.ALCHEMICAL_PROCESSING_COPPER_BLOCK.get()))
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T1_PANAKEIA_INGOT.get(),9)
+                .requires(blocklist.T1_PANAKEIA_INGOT_BLOCK.get())
+                .unlockedBy(getHasName(blocklist.T1_PANAKEIA_INGOT_BLOCK.get()),has(blocklist.T1_PANAKEIA_INGOT_BLOCK.get()))
                 .save(consumer);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.ALCHEMICAL_PROCESSING_IRON.get(),9)
-                .requires(blocklist.ALCHEMICAL_PROCESSING_IRON_BLOCK.get())
-                .unlockedBy(getHasName(blocklist.ALCHEMICAL_PROCESSING_IRON_BLOCK.get()),has(blocklist.ALCHEMICAL_PROCESSING_IRON_BLOCK.get()))
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T2_PANAKEIA_INGOT.get(),9)
+                .requires(blocklist.T2_PANAKEIA_INGOT_BLOCK.get())
+                .unlockedBy(getHasName(blocklist.T2_PANAKEIA_INGOT_BLOCK.get()),has(blocklist.T2_PANAKEIA_INGOT_BLOCK.get()))
                 .save(consumer);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.ALCHEMICAL_PROCESSING_GOLD.get(),9)
-                .requires(blocklist.ALCHEMICAL_PROCESSING_GOLD_BLOCK.get())
-                .unlockedBy(getHasName(blocklist.ALCHEMICAL_PROCESSING_GOLD_BLOCK.get()),has(blocklist.ALCHEMICAL_PROCESSING_GOLD_BLOCK.get()))
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T3_PANAKEIA_INGOT.get(),9)
+                .requires(blocklist.T3_PANAKEIA_INGOT_BLOCK.get())
+                .unlockedBy(getHasName(blocklist.T3_PANAKEIA_INGOT_BLOCK.get()),has(blocklist.T3_PANAKEIA_INGOT_BLOCK.get()))
                 .save(consumer);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.ALCHEMICAL_PROCESSING_DIAMOND.get(),9)
-                .requires(blocklist.ALCHEMICAL_PROCESSING_DIAMOND_BLOCK.get())
-                .unlockedBy(getHasName(blocklist.ALCHEMICAL_PROCESSING_DIAMOND_BLOCK.get()),has(blocklist.ALCHEMICAL_PROCESSING_DIAMOND_BLOCK.get()))
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T4_PANAKEIA_GEM.get(),9)
+                .requires(blocklist.T4_PANAKEIA_GEM_BLOCK.get())
+                .unlockedBy(getHasName(blocklist.T4_PANAKEIA_GEM_BLOCK.get()),has(blocklist.T4_PANAKEIA_GEM_BLOCK.get()))
                 .save(consumer);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.ALCHEMICAL_PROCESSING_EMERALD.get(),9)
-                .requires(blocklist.ALCHEMICAL_PROCESSING_EMERALD_BLOCK.get())
-                .unlockedBy(getHasName(blocklist.ALCHEMICAL_PROCESSING_EMERALD_BLOCK.get()),has(blocklist.ALCHEMICAL_PROCESSING_EMERALD_BLOCK.get()))
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T5_PANAKEIA_GEM.get(),9)
+                .requires(blocklist.T5_PANAKEIA_GEM_BLOCK.get())
+                .unlockedBy(getHasName(blocklist.T5_PANAKEIA_GEM_BLOCK.get()),has(blocklist.T5_PANAKEIA_GEM_BLOCK.get()))
                 .save(consumer);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.ALCHEMICAL_PROCESSING_NETHERITE.get(),9)
-                .requires(blocklist.ALCHEMICAL_PROCESSING_NETHERITE_BLOCK.get())
-                .unlockedBy(getHasName(blocklist.ALCHEMICAL_PROCESSING_NETHERITE_BLOCK.get()),has(blocklist.ALCHEMICAL_PROCESSING_NETHERITE_BLOCK.get()))
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T6_PANAKEIA_INGOT.get(),9)
+                .requires(blocklist.T6_PANAKEIA_INGOT_BLOCK.get())
+                .unlockedBy(getHasName(blocklist.T6_PANAKEIA_INGOT_BLOCK.get()),has(blocklist.T6_PANAKEIA_INGOT_BLOCK.get()))
                 .save(consumer);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.UNITE_ALLOY.get(),9)
@@ -286,42 +289,659 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T0_PANAKEIA.get(),1)
                 .requires(blocklist.PANAKEIA_REED_T0.get())
                 .unlockedBy(getHasName(blocklist.PANAKEIA_REED_T0.get()),has(blocklist.PANAKEIA_REED_T0.get()))
-                .save(consumer);
+                .save(consumer,"t0_panakeia_from_panakeia_reed");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T1_PANAKEIA.get(),1)
                 .requires(blocklist.PANAKEIA_REED_T1.get())
                 .unlockedBy(getHasName(blocklist.PANAKEIA_REED_T1.get()),has(blocklist.PANAKEIA_REED_T1.get()))
-                .save(consumer);
+                .save(consumer,"t1_panakeia_from_panakeia_reed");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T2_PANAKEIA.get(),1)
                 .requires(blocklist.PANAKEIA_REED_T2.get())
                 .unlockedBy(getHasName(blocklist.PANAKEIA_REED_T2.get()),has(blocklist.PANAKEIA_REED_T2.get()))
-                .save(consumer);
+                .save(consumer,"t2_panakeia_from_panakeia_reed");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T3_PANAKEIA.get(),1)
                 .requires(blocklist.PANAKEIA_REED_T3.get())
                 .unlockedBy(getHasName(blocklist.PANAKEIA_REED_T3.get()),has(blocklist.PANAKEIA_REED_T3.get()))
-                .save(consumer);
+                .save(consumer,"t3_panakeia_from_panakeia_reed");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T4_PANAKEIA.get(),1)
                 .requires(blocklist.PANAKEIA_REED_T4.get())
                 .unlockedBy(getHasName(blocklist.PANAKEIA_REED_T4.get()),has(blocklist.PANAKEIA_REED_T4.get()))
-                .save(consumer);
+                .save(consumer,"t4_panakeia_from_panakeia_reed");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T5_PANAKEIA.get(),1)
                 .requires(blocklist.PANAKEIA_REED_T5.get())
                 .unlockedBy(getHasName(blocklist.PANAKEIA_REED_T5.get()),has(blocklist.PANAKEIA_REED_T5.get()))
-                .save(consumer);
+                .save(consumer,"t5_panakeia_from_panakeia_reed");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T6_PANAKEIA.get(),1)
                 .requires(blocklist.PANAKEIA_REED_T6.get())
                 .unlockedBy(getHasName(blocklist.PANAKEIA_REED_T6.get()),has(blocklist.PANAKEIA_REED_T6.get()))
-                .save(consumer);
+                .save(consumer,"t6_panakeia_from_panakeia_reed");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T7_PANAKEIA.get(),1)
                 .requires(blocklist.PANAKEIA_REED_T7.get())
                 .unlockedBy(getHasName(blocklist.PANAKEIA_REED_T7.get()),has(blocklist.PANAKEIA_REED_T7.get()))
+                .save(consumer,"t7_panakeia_from_panakeia_reed");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T1_PANAKEIA_CUBE.get())
+                .pattern("aaa")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.T1_PANAKEIA.get())
+                .unlockedBy(getHasName(itemlist.T1_PANAKEIA.get()),has(itemlist.T1_PANAKEIA.get()))
                 .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T2_PANAKEIA_CUBE.get())
+                .pattern("aaa")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.T2_PANAKEIA.get())
+                .unlockedBy(getHasName(itemlist.T2_PANAKEIA.get()),has(itemlist.T2_PANAKEIA.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T3_PANAKEIA_CUBE.get())
+                .pattern("aaa")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.T3_PANAKEIA.get())
+                .unlockedBy(getHasName(itemlist.T3_PANAKEIA.get()),has(itemlist.T3_PANAKEIA.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T4_PANAKEIA_CUBE.get())
+                .pattern("aaa")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.T4_PANAKEIA.get())
+                .unlockedBy(getHasName(itemlist.T4_PANAKEIA.get()),has(itemlist.T4_PANAKEIA.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T5_PANAKEIA_CUBE.get())
+                .pattern("aaa")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.T5_PANAKEIA.get())
+                .unlockedBy(getHasName(itemlist.T5_PANAKEIA.get()),has(itemlist.T5_PANAKEIA.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T6_PANAKEIA_CUBE.get())
+                .pattern("aaa")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.T6_PANAKEIA.get())
+                .unlockedBy(getHasName(itemlist.T6_PANAKEIA.get()),has(itemlist.T6_PANAKEIA.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T7_PANAKEIA_CUBE.get())
+                .pattern("aaa")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.T7_PANAKEIA.get())
+                .unlockedBy(getHasName(itemlist.T7_PANAKEIA.get()),has(itemlist.T7_PANAKEIA.get()))
+                .save(consumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T1_PANAKEIA.get(),9)
+                .requires(itemlist.T1_PANAKEIA_CUBE.get())
+                .unlockedBy(getHasName(itemlist.T1_PANAKEIA_CUBE.get()),has(itemlist.T1_PANAKEIA_CUBE.get()))
+                .save(consumer,"t1_panakeia_from_cube");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T2_PANAKEIA.get(),9)
+                .requires(itemlist.T2_PANAKEIA_CUBE.get())
+                .unlockedBy(getHasName(itemlist.T2_PANAKEIA_CUBE.get()),has(itemlist.T2_PANAKEIA_CUBE.get()))
+                .save(consumer,"t2_panakeia_from_cube");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T3_PANAKEIA.get(),9)
+                .requires(itemlist.T3_PANAKEIA_CUBE.get())
+                .unlockedBy(getHasName(itemlist.T3_PANAKEIA_CUBE.get()),has(itemlist.T3_PANAKEIA_CUBE.get()))
+                .save(consumer,"t3_panakeia_from_cube");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T4_PANAKEIA.get(),9)
+                .requires(itemlist.T4_PANAKEIA_CUBE.get())
+                .unlockedBy(getHasName(itemlist.T4_PANAKEIA_CUBE.get()),has(itemlist.T4_PANAKEIA_CUBE.get()))
+                .save(consumer,"t4_panakeia_from_cube");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T5_PANAKEIA.get(),9)
+                .requires(itemlist.T5_PANAKEIA_CUBE.get())
+                .unlockedBy(getHasName(itemlist.T5_PANAKEIA_CUBE.get()),has(itemlist.T5_PANAKEIA_CUBE.get()))
+                .save(consumer,"t5_panakeia_from_cube");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T6_PANAKEIA.get(),9)
+                .requires(itemlist.T6_PANAKEIA_CUBE.get())
+                .unlockedBy(getHasName(itemlist.T6_PANAKEIA_CUBE.get()),has(itemlist.T6_PANAKEIA_CUBE.get()))
+                .save(consumer,"t6_panakeia_from_cube");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.T7_PANAKEIA.get(),9)
+                .requires(itemlist.T7_PANAKEIA_CUBE.get())
+                .unlockedBy(getHasName(itemlist.T7_PANAKEIA_CUBE.get()),has(itemlist.T7_PANAKEIA_CUBE.get()))
+                .save(consumer,"t7_panakeia_from_cube");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T1_PANAKEIA_PICKAXE.get())
+                .pattern("aaa")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T1_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T1_PANAKEIA_INGOT.get()),has(itemlist.T1_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T2_PANAKEIA_PICKAXE.get())
+                .pattern("aaa")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T2_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T2_PANAKEIA_INGOT.get()),has(itemlist.T2_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T3_PANAKEIA_PICKAXE.get())
+                .pattern("aaa")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T3_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T3_PANAKEIA_INGOT.get()),has(itemlist.T3_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T4_PANAKEIA_PICKAXE.get())
+                .pattern("aaa")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T4_PANAKEIA_GEM.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T4_PANAKEIA_GEM.get()),has(itemlist.T4_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T5_PANAKEIA_PICKAXE.get())
+                .pattern("aaa")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T5_PANAKEIA_GEM.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T5_PANAKEIA_GEM.get()),has(itemlist.T5_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T6_PANAKEIA_PICKAXE.get())
+                .pattern("aaa")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T6_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T6_PANAKEIA_INGOT.get()),has(itemlist.T6_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.UNITE_ALLOY_PICKAXE.get())
+                .pattern("aaa")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.UNITE_ALLOY.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.UNITE_ALLOY.get()),has(itemlist.UNITE_ALLOY.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T1_PANAKEIA_AXE.get())
+                .pattern("aa ")
+                .pattern("ab ")
+                .pattern(" b ")
+                .define('a',itemlist.T1_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T1_PANAKEIA_INGOT.get()),has(itemlist.T1_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T2_PANAKEIA_AXE.get())
+                .pattern("aa ")
+                .pattern("ab ")
+                .pattern(" b ")
+                .define('a',itemlist.T2_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T2_PANAKEIA_INGOT.get()),has(itemlist.T2_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T3_PANAKEIA_AXE.get())
+                .pattern("aa ")
+                .pattern("ab ")
+                .pattern(" b ")
+                .define('a',itemlist.T3_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T3_PANAKEIA_INGOT.get()),has(itemlist.T3_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T4_PANAKEIA_AXE.get())
+                .pattern("aa ")
+                .pattern("ab ")
+                .pattern(" b ")
+                .define('a',itemlist.T4_PANAKEIA_GEM.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T4_PANAKEIA_GEM.get()),has(itemlist.T4_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T5_PANAKEIA_AXE.get())
+                .pattern("aa ")
+                .pattern("ab ")
+                .pattern(" b ")
+                .define('a',itemlist.T5_PANAKEIA_GEM.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T5_PANAKEIA_GEM.get()),has(itemlist.T5_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T6_PANAKEIA_AXE.get())
+                .pattern("aa ")
+                .pattern("ab ")
+                .pattern(" b ")
+                .define('a',itemlist.T6_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T6_PANAKEIA_INGOT.get()),has(itemlist.T6_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.UNITE_ALLOY_AXE.get())
+                .pattern("aa ")
+                .pattern("ab ")
+                .pattern(" b ")
+                .define('a',itemlist.UNITE_ALLOY.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.UNITE_ALLOY.get()),has(itemlist.UNITE_ALLOY.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T1_PANAKEIA_SHOVEL.get())
+                .pattern(" a ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T1_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T1_PANAKEIA_INGOT.get()),has(itemlist.T1_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T2_PANAKEIA_SHOVEL.get())
+                .pattern(" a ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T2_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T2_PANAKEIA_INGOT.get()),has(itemlist.T2_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T3_PANAKEIA_SHOVEL.get())
+                .pattern(" a ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T3_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T3_PANAKEIA_INGOT.get()),has(itemlist.T3_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T4_PANAKEIA_SHOVEL.get())
+                .pattern(" a ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T4_PANAKEIA_GEM.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T4_PANAKEIA_GEM.get()),has(itemlist.T4_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T5_PANAKEIA_SHOVEL.get())
+                .pattern(" a ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T5_PANAKEIA_GEM.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T5_PANAKEIA_GEM.get()),has(itemlist.T5_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T6_PANAKEIA_SHOVEL.get())
+                .pattern(" a ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T6_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T6_PANAKEIA_INGOT.get()),has(itemlist.T6_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.UNITE_ALLOY_SHOVEL.get())
+                .pattern(" a ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.UNITE_ALLOY.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.UNITE_ALLOY.get()),has(itemlist.UNITE_ALLOY.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T1_PANAKEIA_SWORD.get())
+                .pattern(" a ")
+                .pattern(" a ")
+                .pattern(" b ")
+                .define('a',itemlist.T1_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T1_PANAKEIA_INGOT.get()),has(itemlist.T1_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T2_PANAKEIA_SWORD.get())
+                .pattern(" a ")
+                .pattern(" a ")
+                .pattern(" b ")
+                .define('a',itemlist.T2_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T2_PANAKEIA_INGOT.get()),has(itemlist.T2_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T3_PANAKEIA_SWORD.get())
+                .pattern(" a ")
+                .pattern(" a ")
+                .pattern(" b ")
+                .define('a',itemlist.T3_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T3_PANAKEIA_INGOT.get()),has(itemlist.T3_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T4_PANAKEIA_SWORD.get())
+                .pattern(" a ")
+                .pattern(" a ")
+                .pattern(" b ")
+                .define('a',itemlist.T4_PANAKEIA_GEM.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T4_PANAKEIA_GEM.get()),has(itemlist.T4_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T5_PANAKEIA_SWORD.get())
+                .pattern(" a ")
+                .pattern(" a ")
+                .pattern(" b ")
+                .define('a',itemlist.T5_PANAKEIA_GEM.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T5_PANAKEIA_GEM.get()),has(itemlist.T5_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T6_PANAKEIA_SWORD.get())
+                .pattern(" a ")
+                .pattern(" a ")
+                .pattern(" b ")
+                .define('a',itemlist.T6_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T6_PANAKEIA_INGOT.get()),has(itemlist.T6_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.UNITE_ALLOY_SWORD.get())
+                .pattern(" a ")
+                .pattern(" a ")
+                .pattern(" b ")
+                .define('a',itemlist.UNITE_ALLOY.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.UNITE_ALLOY.get()),has(itemlist.UNITE_ALLOY.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T1_PANAKEIA_HOE.get())
+                .pattern("aa ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T1_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T1_PANAKEIA_INGOT.get()),has(itemlist.T1_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T2_PANAKEIA_HOE.get())
+                .pattern("aa ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T2_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T2_PANAKEIA_INGOT.get()),has(itemlist.T2_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T3_PANAKEIA_HOE.get())
+                .pattern("aa ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T3_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T3_PANAKEIA_INGOT.get()),has(itemlist.T3_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T4_PANAKEIA_HOE.get())
+                .pattern("aa ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T4_PANAKEIA_GEM.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T4_PANAKEIA_GEM.get()),has(itemlist.T4_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T5_PANAKEIA_HOE.get())
+                .pattern("aa ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T5_PANAKEIA_GEM.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T5_PANAKEIA_GEM.get()),has(itemlist.T5_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.T6_PANAKEIA_HOE.get())
+                .pattern("aa ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.T6_PANAKEIA_INGOT.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.T6_PANAKEIA_INGOT.get()),has(itemlist.T6_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.UNITE_ALLOY_HOE.get())
+                .pattern("aa ")
+                .pattern(" b ")
+                .pattern(" b ")
+                .define('a',itemlist.UNITE_ALLOY.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.UNITE_ALLOY.get()),has(itemlist.UNITE_ALLOY.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T1_PANAKEIA_HELMET.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .define('a',itemlist.T1_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T1_PANAKEIA_INGOT.get()),has(itemlist.T1_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T2_PANAKEIA_HELMET.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .define('a',itemlist.T2_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T2_PANAKEIA_INGOT.get()),has(itemlist.T2_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T3_PANAKEIA_HELMET.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .define('a',itemlist.T3_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T3_PANAKEIA_INGOT.get()),has(itemlist.T3_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T4_PANAKEIA_HELMET.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .define('a',itemlist.T4_PANAKEIA_GEM.get())
+                .unlockedBy(getHasName(itemlist.T4_PANAKEIA_GEM.get()),has(itemlist.T4_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T5_PANAKEIA_HELMET.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .define('a',itemlist.T5_PANAKEIA_GEM.get())
+                .unlockedBy(getHasName(itemlist.T5_PANAKEIA_GEM.get()),has(itemlist.T5_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T6_PANAKEIA_HELMET.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .define('a',itemlist.T6_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T6_PANAKEIA_INGOT.get()),has(itemlist.T6_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.UNITE_ALLOY_HELMET.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .define('a',itemlist.UNITE_ALLOY.get())
+                .unlockedBy(getHasName(itemlist.UNITE_ALLOY.get()),has(itemlist.UNITE_ALLOY.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T1_PANAKEIA_CHESTPLATE.get())
+                .pattern("a a")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.T1_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T1_PANAKEIA_INGOT.get()),has(itemlist.T1_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T2_PANAKEIA_CHESTPLATE.get())
+                .pattern("a a")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.T2_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T2_PANAKEIA_INGOT.get()),has(itemlist.T2_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T3_PANAKEIA_CHESTPLATE.get())
+                .pattern("a a")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.T3_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T3_PANAKEIA_INGOT.get()),has(itemlist.T3_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T4_PANAKEIA_CHESTPLATE.get())
+                .pattern("a a")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.T4_PANAKEIA_GEM.get())
+                .unlockedBy(getHasName(itemlist.T4_PANAKEIA_GEM.get()),has(itemlist.T4_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T5_PANAKEIA_CHESTPLATE.get())
+                .pattern("a a")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.T5_PANAKEIA_GEM.get())
+                .unlockedBy(getHasName(itemlist.T5_PANAKEIA_GEM.get()),has(itemlist.T5_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T6_PANAKEIA_CHESTPLATE.get())
+                .pattern("a a")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.T6_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T6_PANAKEIA_INGOT.get()),has(itemlist.T6_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.UNITE_ALLOY_CHESTPLATE.get())
+                .pattern("a a")
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.UNITE_ALLOY.get())
+                .unlockedBy(getHasName(itemlist.UNITE_ALLOY.get()),has(itemlist.UNITE_ALLOY.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T1_PANAKEIA_LEGGINGS.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.T1_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T1_PANAKEIA_INGOT.get()),has(itemlist.T1_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T2_PANAKEIA_LEGGINGS.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.T2_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T2_PANAKEIA_INGOT.get()),has(itemlist.T2_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T3_PANAKEIA_LEGGINGS.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.T3_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T3_PANAKEIA_INGOT.get()),has(itemlist.T3_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T4_PANAKEIA_LEGGINGS.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.T4_PANAKEIA_GEM.get())
+                .unlockedBy(getHasName(itemlist.T4_PANAKEIA_GEM.get()),has(itemlist.T4_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T5_PANAKEIA_LEGGINGS.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.T5_PANAKEIA_GEM.get())
+                .unlockedBy(getHasName(itemlist.T5_PANAKEIA_GEM.get()),has(itemlist.T5_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T6_PANAKEIA_LEGGINGS.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.T6_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T6_PANAKEIA_INGOT.get()),has(itemlist.T6_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.UNITE_ALLOY_LEGGINGS.get())
+                .pattern("aaa")
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.UNITE_ALLOY.get())
+                .unlockedBy(getHasName(itemlist.UNITE_ALLOY.get()),has(itemlist.UNITE_ALLOY.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T1_PANAKEIA_BOOTS.get())
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.T1_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T1_PANAKEIA_INGOT.get()),has(itemlist.T1_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T2_PANAKEIA_BOOTS.get())
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.T2_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T2_PANAKEIA_INGOT.get()),has(itemlist.T2_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T3_PANAKEIA_BOOTS.get())
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.T3_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T3_PANAKEIA_INGOT.get()),has(itemlist.T3_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T4_PANAKEIA_BOOTS.get())
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.T4_PANAKEIA_GEM.get())
+                .unlockedBy(getHasName(itemlist.T4_PANAKEIA_GEM.get()),has(itemlist.T4_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T5_PANAKEIA_BOOTS.get())
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.T5_PANAKEIA_GEM.get())
+                .unlockedBy(getHasName(itemlist.T5_PANAKEIA_GEM.get()),has(itemlist.T5_PANAKEIA_GEM.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.T6_PANAKEIA_BOOTS.get())
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.T6_PANAKEIA_INGOT.get())
+                .unlockedBy(getHasName(itemlist.T6_PANAKEIA_INGOT.get()),has(itemlist.T6_PANAKEIA_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,itemlist.UNITE_ALLOY_BOOTS.get())
+                .pattern("a a")
+                .pattern("a a")
+                .define('a',itemlist.UNITE_ALLOY.get())
+                .unlockedBy(getHasName(itemlist.UNITE_ALLOY.get()),has(itemlist.UNITE_ALLOY.get()))
+                .save(consumer);
+
 
 
 

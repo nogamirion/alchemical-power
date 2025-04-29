@@ -25,6 +25,14 @@ public class ModTags {
         public static final TagKey<Item> ALCHEMY_KIT_TIER4 = tag("alchemy_kit_tier4");
         public static final TagKey<Item> ALCHEMY_KIT_TIER5 = tag("alchemy_kit_tier5");
         public static final TagKey<Item> JEI_EMPTY_TAG = tag("jei_empty_tag");
+        public static final TagKey<Item> T1_INGOT_MATERIAL = tag("t1_ingot_material");
+        public static final TagKey<Item> T2_INGOT_MATERIAL = tag("t2_ingot_material");
+        public static final TagKey<Item> T3_INGOT_MATERIAL = tag("t3_ingot_material");
+        public static final TagKey<Item> T4_GEM_MATERIAL = tag("t4_gem_material");
+        public static final TagKey<Item> T5_GEM_MATERIAL = tag("t5_gem_material");
+        public static final TagKey<Item> T6_INGOT_MATERIAL = tag("t6_ingot_material");
+        public static final TagKey<Item> T7_INGOT_MATERIAL = tag("t7_ingot_material");
+
 
         private static TagKey<Item> tag(String name){
             return ItemTags.create(new ResourceLocation(Alchemical_power.MODID,name));

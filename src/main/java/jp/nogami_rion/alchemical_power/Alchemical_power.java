@@ -5,6 +5,7 @@ import jp.nogami_rion.alchemical_power.event.ModEventBusClientEvents;
 import jp.nogami_rion.alchemical_power.event.ModItemEventHandler;
 import jp.nogami_rion.alchemical_power.init.blocklist;
 import jp.nogami_rion.alchemical_power.init.creativetab;
+import jp.nogami_rion.alchemical_power.init.effectlist;
 import jp.nogami_rion.alchemical_power.init.itemlist;
 import jp.nogami_rion.alchemical_power.loot.ModLootModifiers;
 import jp.nogami_rion.alchemical_power.recipe.ModRecipes;
@@ -44,6 +45,7 @@ public class Alchemical_power {
         ModMenuTypes.register(modEventBus);
         ModRecipes.register(modEventBus);
         ModLootModifiers.register(modEventBus);
+        effectlist.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

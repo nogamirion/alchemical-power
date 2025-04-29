@@ -1,5 +1,6 @@
 package jp.nogami_rion.alchemical_power.block.entity;
 
+import jp.nogami_rion.alchemical_power.init.itemlist;
 import jp.nogami_rion.alchemical_power.recipe.Hermes_Workbench_Recipe;
 import jp.nogami_rion.alchemical_power.screen.Hermes_Workbench_Menu;
 import net.minecraft.core.BlockPos;
@@ -162,18 +163,7 @@ public class Hermes_Workbench_Entity extends BlockEntity implements MenuProvider
         Optional<Hermes_Workbench_Recipe> recipe = getCurrentRecipe();
         ItemStack result = recipe.get().getResultItem(null);
 
-        for (int i =0; i < this.itemHandler.getSlots()-1;i++){
-            if(i != this.itemHandler.getSlots()-2) {
-                this.itemHandler.extractItem(INPUT_SLOT.get(i), 1, false);
-            } else if (i == this.itemHandler.getSlots()-2) {
-                ItemStack _stk = this.itemHandler.getStackInSlot(INPUT_SLOT.get(i)).copy();
-                if(_stk.hurt(1, RandomSource.create(),null)){
-                    _stk.shrink(1);
-                    _stk.setDamageValue(0);
-                }
-                this.itemHandler.setStackInSlot(INPUT_SLOT.get(i),_stk);
-            }
-        }
+        extractItem();
 //        this.itemHandler.extractItem(INPUT_SLOT,1,false);
 //        this.itemHandler.extractItem(INPUT_SLOT2,1,false);
 //        this.itemHandler.extractItem(INPUT_SLOT3,1,false);
@@ -192,6 +182,28 @@ public class Hermes_Workbench_Entity extends BlockEntity implements MenuProvider
         this.itemHandler.setStackInSlot(OUTPUT_SLOT,new ItemStack(result.getItem(),
                 this.itemHandler.getStackInSlot(OUTPUT_SLOT).getCount() + result.getCount()));
 
+    }
+
+    private void extractItem(){
+        for (int i =0; i < this.itemHandler.getSlots()-1;i++){
+            if(i != this.itemHandler.getSlots()-2) {
+                this.itemHandler.extractItem(INPUT_SLOT.get(i), 1, false);
+            } else if (i == this.itemHandler.getSlots()-2) {
+                ItemStack _stk = this.itemHandler.getStackInSlot(INPUT_SLOT.get(i)).copy();
+                if(_stk.is(itemlist.PHILOSOPHERS_STONE.get())){
+                    return;
+                }
+                if(_stk.isDamageableItem()) {
+                    if (_stk.hurt(1, RandomSource.create(), null)) {
+                        _stk.shrink(1);
+                        _stk.setDamageValue(0);
+                    }
+                }else {
+                    _stk.shrink(1);
+                }
+                this.itemHandler.setStackInSlot(INPUT_SLOT.get(i),_stk);
+            }
+        }
     }
 
     private boolean hasRecipe() {

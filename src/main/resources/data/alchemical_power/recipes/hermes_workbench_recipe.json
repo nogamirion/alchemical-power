@@ -2,7 +2,7 @@
   "type": "alchemical_power:alchemy_table_recipe",
   "ingredients": [
     {"item": "alchemical_power:x9_cobblestone"},
-    {"item": "alchemical_power:alchemical_processing_gold"},
+    {"item": "alchemical_power:t3_panakeia_ingot"},
     {"item": "alchemical_power:x9_cobblestone"},
     {"item": "alchemical_power:x9_cobblestone"},
     {"item": "alchemical_power:alchemy_intermediate_kit"},

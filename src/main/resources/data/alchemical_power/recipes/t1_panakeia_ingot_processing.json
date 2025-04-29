@@ -1,0 +1,19 @@
+{
+  "type": "alchemical_power:alchemy_table_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:t1_panakeia"},
+    {"item": "alchemical_power:t1_panakeia"},
+    {"item": "alchemical_power:t1_panakeia"},
+    {"item": "alchemical_power:t1_panakeia"},
+    {"tag": "alchemical_power:t1_ingot_material"},
+    {"item": "alchemical_power:t1_panakeia"},
+    {"item": "alchemical_power:t1_panakeia"},
+    {"item": "alchemical_power:t1_panakeia"},
+    {"item": "alchemical_power:t1_panakeia"},
+    {"tag": "alchemical_power:alchemy_kit_tier1"}
+  ],
+  "output":{
+    "count":1,
+    "item":"alchemical_power:t1_panakeia_ingot"
+  }
+}

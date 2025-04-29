@@ -23,12 +23,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(blocklist.TRANSCENDENTAL_TABLE.get());
         this.dropSelf(blocklist.ALCHEMICAL_ENGRAVER.get());
         this.dropSelf(blocklist.RUNE_ACTIVATOR.get());
-        this.dropSelf(blocklist.ALCHEMICAL_PROCESSING_COPPER_BLOCK.get());
-        this.dropSelf(blocklist.ALCHEMICAL_PROCESSING_IRON_BLOCK.get());
-        this.dropSelf(blocklist.ALCHEMICAL_PROCESSING_GOLD_BLOCK.get());
-        this.dropSelf(blocklist.ALCHEMICAL_PROCESSING_DIAMOND_BLOCK.get());
-        this.dropSelf(blocklist.ALCHEMICAL_PROCESSING_EMERALD_BLOCK.get());
-        this.dropSelf(blocklist.ALCHEMICAL_PROCESSING_NETHERITE_BLOCK.get());
+        this.dropSelf(blocklist.T1_PANAKEIA_INGOT_BLOCK.get());
+        this.dropSelf(blocklist.T2_PANAKEIA_INGOT_BLOCK.get());
+        this.dropSelf(blocklist.T3_PANAKEIA_INGOT_BLOCK.get());
+        this.dropSelf(blocklist.T4_PANAKEIA_GEM_BLOCK.get());
+        this.dropSelf(blocklist.T5_PANAKEIA_GEM_BLOCK.get());
+        this.dropSelf(blocklist.T6_PANAKEIA_INGOT_BLOCK.get());
         this.dropSelf(blocklist.UNITE_ALLOY_BLOCK.get());
         this.dropSelf(blocklist.PANAKEIA_REED_T0.get());
         this.dropSelf(blocklist.PANAKEIA_REED_T1.get());

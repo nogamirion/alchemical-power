@@ -1,5 +1,6 @@
 package jp.nogami_rion.alchemical_power.block.entity;
 
+import jp.nogami_rion.alchemical_power.init.itemlist;
 import jp.nogami_rion.alchemical_power.recipe.Alchemy_Table_Recipe;
 import jp.nogami_rion.alchemical_power.screen.Alchemy_Table_Menu;
 import net.minecraft.core.BlockPos;
@@ -77,6 +78,7 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
                 return 2;
             }
         };
+
 
     }
 
@@ -172,9 +174,16 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
             this.itemHandler.extractItem(i, 1, false);
         }
         ItemStack _stk = this.itemHandler.getStackInSlot(INPUT_SLOT10).copy();
-        if (_stk.hurt(1, RandomSource.create(), null)) {
+        if(_stk.is(itemlist.PHILOSOPHERS_STONE.get())){
+            return;
+        }
+        if(_stk.isDamageableItem()) {
+            if (_stk.hurt(1, RandomSource.create(), null)) {
+                _stk.shrink(1);
+                _stk.setDamageValue(0);
+            }
+        }else {
             _stk.shrink(1);
-            _stk.setDamageValue(0);
         }
         this.itemHandler.setStackInSlot(INPUT_SLOT10, _stk);
     }
@@ -214,7 +223,5 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
     private void increaseCraftingProgress() {
         progress++;
     }
-
-
 
 }

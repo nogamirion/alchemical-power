@@ -1,12 +1,12 @@
 {
   "values": [
     "alchemical_power:panakeia_bearing_stone",
-    "alchemical_power:alchemical_processing_copper_block",
-    "alchemical_power:alchemical_processing_iron_block",
-    "alchemical_power:alchemical_processing_gold_block",
-    "alchemical_power:alchemical_processing_diamond_block",
-    "alchemical_power:alchemical_processing_emerald_block",
-    "alchemical_power:alchemical_processing_netherite_block",
+    "alchemical_power:t1_panakeia_ingot_block",
+    "alchemical_power:t2_panakeia_ingot_block",
+    "alchemical_power:t3_panakeia_ingot_block",
+    "alchemical_power:t4_panakeia_gem_block",
+    "alchemical_power:t5_panakeia_gem_block",
+    "alchemical_power:t6_panakeia_ingot_block",
     "alchemical_power:unite_alloy_block",
     "alchemical_power:x9_cobblestone",
     "alchemical_power:x225_cobblestone",
