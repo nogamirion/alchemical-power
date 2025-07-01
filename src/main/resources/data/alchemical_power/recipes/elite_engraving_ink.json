@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt":{"Potion":"minecraft:water"}
+    },
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "alchemical_power:t6_panakeia"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:elite_engraving_ink"
+  }
+}

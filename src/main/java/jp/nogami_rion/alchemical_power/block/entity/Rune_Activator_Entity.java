@@ -1,7 +1,9 @@
 package jp.nogami_rion.alchemical_power.block.entity;
 
+import jp.nogami_rion.alchemical_power.init.itemlist;
 import jp.nogami_rion.alchemical_power.recipe.Rune_Activator_Recipe;
 import jp.nogami_rion.alchemical_power.screen.Rune_Activator_Menu;
+import jp.nogami_rion.alchemical_power.util.ConfigurableItemHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
@@ -31,9 +33,11 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.Optional;
+import java.util.Set;
 
 public class Rune_Activator_Entity extends BlockEntity implements MenuProvider {
-    private final ItemStackHandler itemHandler = new ItemStackHandler(3){
+    private final ConfigurableItemHandler itemHandler = new ConfigurableItemHandler(3,
+            Set.of(0, 1), Set.of(2)){
         @Override
         protected void onContentsChanged(int slot){
             setChanged();
@@ -164,12 +168,29 @@ public class Rune_Activator_Entity extends BlockEntity implements MenuProvider {
 
     private void craftItem() {
         Optional<Rune_Activator_Recipe> recipe = getCurrentRecipe();
-        ItemStack result = recipe.get().getResultItem(null);
+        if(recipe.isPresent()) {
+            ItemStack result = recipe.get().getResultItem(null);
+            extractItem();
+            itemHandler.setStackInSlot(OUTPUT_SLOT, new ItemStack(result.getItem(),
+                    itemHandler.getStackInSlot(OUTPUT_SLOT).getCount() + result.getCount()));
+            return;
+        }
 
-        extractItem();
+        ItemStack rune = itemHandler.getStackInSlot(INPUT_SLOT);
+        ItemStack cloneTarget = itemHandler.getStackInSlot(INPUT_SLOT2).copy();
+        if(rune.getItem() == itemlist.RUNE_OF_REPRODUCTION.get() && !cloneTarget.isEmpty()) {
+          ItemStack clone = cloneTarget.copy();
+          clone.setCount(64);
+          ItemStack output = itemHandler.getStackInSlot(OUTPUT_SLOT);
+          if(output.isEmpty() || output.is(clone.getItem())) {
+              itemHandler.setStackInSlot(OUTPUT_SLOT,clone);
+          }else{
+              output.grow(1);
+          }
 
-        itemHandler.setStackInSlot(OUTPUT_SLOT,new ItemStack(result.getItem(),
-                itemHandler.getStackInSlot(OUTPUT_SLOT).getCount() + result.getCount()));
+        }
+
+
 
     }
     public void extractItem(){
@@ -190,12 +211,18 @@ public class Rune_Activator_Entity extends BlockEntity implements MenuProvider {
     private boolean hasRecipe() {
         Optional<Rune_Activator_Recipe> recipe = getCurrentRecipe();
 
-        if (recipe.isEmpty()){
-            return false;
+        if (recipe.isPresent()) {
+            ItemStack result = recipe.get().getResultItem(null);
+            return canInsertAmountIntoOutputSlot(result.getCount()) && canInsertItemIntoOutputSlot(result.getItem());
         }
-        ItemStack result = recipe.get().getResultItem(null);
 
-        return canInsertAmountIntoOutputSlot(result.getCount()) && canInsertItemIntoOutputSlot(result.getItem());
+        ItemStack rune = itemHandler.getStackInSlot(INPUT_SLOT);
+        ItemStack items = itemHandler.getStackInSlot(INPUT_SLOT2);
+        if(rune.getItem() == itemlist.RUNE_OF_REPRODUCTION.get() && !items.isEmpty()){
+            return canInsertAmountIntoOutputSlot(1) && canInsertItemIntoOutputSlot(items.getItem());
+        }
+
+        return false;
     }
 
     private Optional<Rune_Activator_Recipe> getCurrentRecipe() {
@@ -232,4 +259,5 @@ public class Rune_Activator_Entity extends BlockEntity implements MenuProvider {
     public CompoundTag getUpdateTag() {
         return saveWithoutMetadata();
     }
+
 }

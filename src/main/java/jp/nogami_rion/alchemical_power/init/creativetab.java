@@ -14,6 +14,8 @@ public class creativetab {
 
     //レジストリにタブを追加
     public static final RegistryObject<CreativeModeTab> ALCHEMICAL_POWER_TAB;
+    public static final RegistryObject<CreativeModeTab> ALCHEMICAL_POWER_FOODS_TAB;
+
 
     static {
         ALCHEMICAL_POWER_TAB = TABS.register("alchemical_power_tab", () -> CreativeModeTab.builder()
@@ -60,6 +62,8 @@ public class creativetab {
                     output.accept(itemlist.T5_PANAKEIA_GEM.get());
                     output.accept(itemlist.T6_PANAKEIA_INGOT.get());
                     output.accept(itemlist.UNITE_ALLOY.get());
+                    output.accept(itemlist.UNITE_ALLOY_SMITHING_TEMPLATE.get());
+                    output.accept(itemlist.SINGULARITY_INGOT_SMITHING_TEMPLATE.get());
                     output.accept(itemlist.ALCHEMY_TABLE.get());
                     output.accept(itemlist.HERMES_WORKBENCH.get());
                     output.accept(itemlist.TRANSCENDENTAL_TABLE.get());
@@ -118,6 +122,7 @@ public class creativetab {
                     output.accept(itemlist.ADVANCED_PURIFICATION_RUNE.get());
                     output.accept(itemlist.ELITE_PURIFICATION_RUNE.get());
                     output.accept(itemlist.ULTIMATE_PURIFICATION_RUNE.get());
+                    output.accept(itemlist.RUNE_OF_FRUITS.get());
                     output.accept(itemlist.T1_COMBUSTION_RUNE.get());
                     output.accept(itemlist.T2_COMBUSTION_RUNE.get());
                     output.accept(itemlist.T3_COMBUSTION_RUNE.get());
@@ -131,7 +136,6 @@ public class creativetab {
                     output.accept(itemlist.T5_COMBUSTION_RUNE_BLOCK.get());
                     output.accept(itemlist.T6_COMBUSTION_RUNE_BLOCK.get());
                     output.accept(itemlist.SEMI_ETERNAL_FUEL.get());
-                    output.accept(itemlist.ETERNAL_FUEL.get());
                     output.accept(itemlist.CRUSHED_RAW_COPPER.get());
                     output.accept(itemlist.CRUSHED_RAW_IRON.get());
                     output.accept(itemlist.CRUSHED_RAW_GOLD.get());
@@ -156,6 +160,55 @@ public class creativetab {
                     output.accept(itemlist.PURIFIED_DIAMOND.get());
                     output.accept(itemlist.PURIFIED_EMERALD.get());
                     output.accept(itemlist.PURIFIED_ANCIENT_DEBRIS.get());
+                    output.accept(itemlist.COLLECTED_CRUSHED_RAW_COPPER.get());
+                    output.accept(itemlist.COLLECTED_CRUSHED_RAW_IRON.get());
+                    output.accept(itemlist.COLLECTED_CRUSHED_RAW_GOLD.get());
+                    output.accept(itemlist.COLLECTED_CRUSHED_DIAMOND_ORE.get());
+                    output.accept(itemlist.COLLECTED_CRUSHED_EMERALD_ORE.get());
+                    output.accept(itemlist.COLLECTED_CRUSHED_ANCIENT_DEBRIS.get());
+                    output.accept(itemlist.COLLECTED_GRANULATED_COPPER.get());
+                    output.accept(itemlist.COLLECTED_GRANULATED_IRON.get());
+                    output.accept(itemlist.COLLECTED_GRANULATED_GOLD.get());
+                    output.accept(itemlist.COLLECTED_GRANULATED_DIAMOND.get());
+                    output.accept(itemlist.COLLECTED_GRANULATED_EMERALD.get());
+                    output.accept(itemlist.COLLECTED_GRANULATED_ANCIENT_DEBRIS.get());
+                    output.accept(itemlist.COLLECTED_SOFTENED_COPPER.get());
+                    output.accept(itemlist.COLLECTED_SOFTENED_IRON.get());
+                    output.accept(itemlist.COLLECTED_SOFTENED_GOLD.get());
+                    output.accept(itemlist.COLLECTED_SOFTENED_DIAMOND.get());
+                    output.accept(itemlist.COLLECTED_SOFTENED_EMERALD.get());
+                    output.accept(itemlist.COLLECTED_SOFTENED_ANCIENT_DEBRIS.get());
+                    output.accept(itemlist.COLLECTED_PURIFIED_COPPER.get());
+                    output.accept(itemlist.COLLECTED_PURIFIED_IRON.get());
+                    output.accept(itemlist.COLLECTED_PURIFIED_GOLD.get());
+                    output.accept(itemlist.COLLECTED_PURIFIED_DIAMOND.get());
+                    output.accept(itemlist.COLLECTED_PURIFIED_EMERALD.get());
+                    output.accept(itemlist.COLLECTED_PURIFIED_ANCIENT_DEBRIS.get());
+                    output.accept(itemlist.PACKAGED_CRUSHED_RAW_COPPER.get());
+                    output.accept(itemlist.PACKAGED_CRUSHED_RAW_IRON.get());
+                    output.accept(itemlist.PACKAGED_CRUSHED_RAW_GOLD.get());
+                    output.accept(itemlist.PACKAGED_CRUSHED_DIAMOND_ORE.get());
+                    output.accept(itemlist.PACKAGED_CRUSHED_EMERALD_ORE.get());
+                    output.accept(itemlist.PACKAGED_CRUSHED_ANCIENT_DEBRIS.get());
+                    output.accept(itemlist.PACKAGED_GRANULATED_COPPER.get());
+                    output.accept(itemlist.PACKAGED_GRANULATED_IRON.get());
+                    output.accept(itemlist.PACKAGED_GRANULATED_GOLD.get());
+                    output.accept(itemlist.PACKAGED_GRANULATED_DIAMOND.get());
+                    output.accept(itemlist.PACKAGED_GRANULATED_EMERALD.get());
+                    output.accept(itemlist.PACKAGED_GRANULATED_ANCIENT_DEBRIS.get());
+                    output.accept(itemlist.PACKAGED_SOFTENED_COPPER.get());
+                    output.accept(itemlist.PACKAGED_SOFTENED_IRON.get());
+                    output.accept(itemlist.PACKAGED_SOFTENED_GOLD.get());
+                    output.accept(itemlist.PACKAGED_SOFTENED_DIAMOND.get());
+                    output.accept(itemlist.PACKAGED_SOFTENED_EMERALD.get());
+                    output.accept(itemlist.PACKAGED_SOFTENED_ANCIENT_DEBRIS.get());
+                    output.accept(itemlist.PACKAGED_PURIFIED_COPPER.get());
+                    output.accept(itemlist.PACKAGED_PURIFIED_IRON.get());
+                    output.accept(itemlist.PACKAGED_PURIFIED_GOLD.get());
+                    output.accept(itemlist.PACKAGED_PURIFIED_DIAMOND.get());
+                    output.accept(itemlist.PACKAGED_PURIFIED_EMERALD.get());
+                    output.accept(itemlist.PACKAGED_PURIFIED_ANCIENT_DEBRIS.get());
+
                     output.accept(itemlist.T1_PANAKEIA_PICKAXE.get());
                     output.accept(itemlist.T2_PANAKEIA_PICKAXE.get());
                     output.accept(itemlist.T3_PANAKEIA_PICKAXE.get());
@@ -219,15 +272,190 @@ public class creativetab {
                     output.accept(itemlist.UNITE_ALLOY_CHESTPLATE.get());
                     output.accept(itemlist.UNITE_ALLOY_LEGGINGS.get());
                     output.accept(itemlist.UNITE_ALLOY_BOOTS.get());
+                    output.accept(itemlist.LEGGINGS_OF_SAGA.get());
+                    output.accept(itemlist.BLADE_OF_VALOR.get());
+                    output.accept(itemlist.CRIMSON_PLATE_OF_JUSTICE.get());
+                    output.accept(itemlist.ETERNAL_FUEL.get());
                     output.accept(itemlist.THE_DESTROYER_OF_THE_RIAL.get());
+                    output.accept(itemlist.MARCH_OF_THE_RULER.get());
                     output.accept(itemlist.ANGEL_RING.get());
-
-
+                    output.accept(itemlist.COBBLESTONE_GENERATOR_Mk1.get());
+                    output.accept(itemlist.COBBLESTONE_GENERATOR_Mk2.get());
+                    output.accept(itemlist.COBBLESTONE_GENERATOR_Mk3.get());
+                    output.accept(itemlist.COBBLESTONE_GENERATOR_Mk4.get());
+                    output.accept(itemlist.COBBLESTONE_GENERATOR_Mk5.get());
+                    output.accept(itemlist.COBBLESTONE_GENERATOR_Mk6.get());
+                    output.accept(itemlist.COBBLESTONE_GENERATOR_Mk7.get());
+                    output.accept(itemlist.COBBLESTONE_GENERATOR_Mk8.get());
+                    output.accept(itemlist.X9_COBBLESTONE_GENERATOR_Mk1.get());
+                    output.accept(itemlist.X9_COBBLESTONE_GENERATOR_Mk2.get());
+                    output.accept(itemlist.X9_COBBLESTONE_GENERATOR_Mk3.get());
+                    output.accept(itemlist.X9_COBBLESTONE_GENERATOR_Mk4.get());
+                    output.accept(itemlist.X9_COBBLESTONE_GENERATOR_Mk5.get());
+                    output.accept(itemlist.X9_COBBLESTONE_GENERATOR_Mk6.get());
+                    output.accept(itemlist.X9_COBBLESTONE_GENERATOR_Mk7.get());
+                    output.accept(itemlist.X9_COBBLESTONE_GENERATOR_Mk8.get());
+                    output.accept(itemlist.X225_COBBLESTONE_GENERATOR_Mk1.get());
+                    output.accept(itemlist.X225_COBBLESTONE_GENERATOR_Mk2.get());
+                    output.accept(itemlist.X225_COBBLESTONE_GENERATOR_Mk3.get());
+                    output.accept(itemlist.X225_COBBLESTONE_GENERATOR_Mk4.get());
+                    output.accept(itemlist.X225_COBBLESTONE_GENERATOR_Mk5.get());
+                    output.accept(itemlist.X225_COBBLESTONE_GENERATOR_Mk6.get());
+                    output.accept(itemlist.X225_COBBLESTONE_GENERATOR_Mk7.get());
+                    output.accept(itemlist.X225_COBBLESTONE_GENERATOR_Mk8.get());
+                    output.accept(itemlist.X38025_COBBLESTONE_GENERATOR_Mk1.get());
+                    output.accept(itemlist.X38025_COBBLESTONE_GENERATOR_Mk2.get());
+                    output.accept(itemlist.X38025_COBBLESTONE_GENERATOR_Mk3.get());
+                    output.accept(itemlist.X38025_COBBLESTONE_GENERATOR_Mk4.get());
+                    output.accept(itemlist.X38025_COBBLESTONE_GENERATOR_Mk5.get());
+                    output.accept(itemlist.X38025_COBBLESTONE_GENERATOR_Mk6.get());
+                    output.accept(itemlist.X38025_COBBLESTONE_GENERATOR_Mk7.get());
+                    output.accept(itemlist.X38025_COBBLESTONE_GENERATOR_Mk8.get());
+                    output.accept(itemlist.CROWN_OF_THE_SERAPH.get());
+                    output.accept(itemlist.JUDICIAL_CARAPACE.get());
+                    output.accept(itemlist.GAIT_OF_INSIGHT.get());
+                    output.accept(itemlist.BOOTS_OF_AETHERLIGHT.get());
+                    output.accept(itemlist.SEVEN_SWORDS_OF_TERMINUS.get());
+                    output.accept(itemlist.SINGULARITY_NUGGET.get());
+                    output.accept(itemlist.SINGULARITY_INGOT.get());
+                    output.accept(itemlist.RUNE_OF_REPRODUCTION.get());
+                    output.accept(itemlist.FOUNDATION_OF_RING.get());
+                    output.accept(itemlist.ALCHEMISTS_RING.get());
+                    output.accept(itemlist.GLUTTONYS_RING.get());
+                    output.accept(itemlist.GREED_RING.get());
+                    output.accept(itemlist.RUNE_OF_EQUIVALENT.get());
 
 
                 })
                 .build());
+
+        ALCHEMICAL_POWER_FOODS_TAB = TABS.register("alchemical_power_foods_tab", () -> CreativeModeTab.builder()
+                .title(Component.translatable("creativetabs.alchemical_power_foods_tab"))
+                .icon(itemlist.COOKWARE_SET.get()::getDefaultInstance)
+                .displayItems((itemDisplayParameters, output) ->{
+                    output.accept(itemlist.COOKWARE_SET.get());
+
+                    //食材系（材料）
+                    output.accept(itemlist.TOMATO.get());
+                    output.accept(itemlist.CABBAGE.get());
+                    output.accept(itemlist.ONION.get());
+                    output.accept(itemlist.CHEESE.get());
+                    output.accept(itemlist.RAW_PASTA.get());
+                    output.accept(itemlist.DOUGH.get());
+                    output.accept(itemlist.FLOUR.get());
+                    output.accept(itemlist.RICE.get());
+                    output.accept(itemlist.SLICED_APPLE.get());
+                    output.accept(itemlist.CHOPPED_SEAWEED.get());
+                    output.accept(itemlist.NORI.get());
+                    output.accept(itemlist.SALMON_ROE.get());
+                    output.accept(itemlist.COD_ROE.get());
+                    output.accept(itemlist.CHOCOLATE.get());
+                    output.accept(itemlist.LEMON.get());
+                    output.accept(itemlist.SALT.get());
+                    output.accept(itemlist.VINEGAR.get());
+                    output.accept(itemlist.COOKING_OIL.get());
+                    output.accept(itemlist.BUTTER.get());
+
+                    //食材系（飲料・ジャム系）
+                    output.accept(itemlist.APPLE_JAM.get());
+                    output.accept(itemlist.SWEET_BERRY_JAM.get());
+                    output.accept(itemlist.GLOW_BERRY_JAM.get());
+                    output.accept(itemlist.TOMATO_JAM.get());
+                    output.accept(itemlist.CHORUS_FRUIT_JAM.get());
+                    output.accept(itemlist.LEMON_JAM.get());
+                    output.accept(itemlist.MELON_JAM.get());
+                    output.accept(itemlist.PUMPKIN_JAM.get());
+                    output.accept(itemlist.MILK_BOTTLE.get());
+                    output.accept(itemlist.APPLE_JUICE.get());
+                    output.accept(itemlist.LEMON_JUICE.get());
+                    output.accept(itemlist.TOMATO_JUICE.get());
+                    output.accept(itemlist.CARROT_JUICE.get());
+                    output.accept(itemlist.WHEAT_JUICE.get());
+                    output.accept(itemlist.MELON_JUICE.get());
+                    output.accept(itemlist.PUMPKIN_JUICE.get());
+                    output.accept(itemlist.SWEET_BERRY_JUICE.get());
+                    output.accept(itemlist.GLOW_BERRY_JUICE.get());
+                    output.accept(itemlist.CHORUS_FRUIT_JUICE.get());
+                    output.accept(itemlist.HONEY_LEMON_JUICE.get());
+
+                    //食材系（ソース系）
+                    output.accept(itemlist.TOMATO_SAUCE.get());
+                    output.accept(itemlist.CHEESE_SAUCE.get());
+                    output.accept(itemlist.CREAM_SAUCE.get());
+                    output.accept(itemlist.VINAIGRETTE_SAUCE.get());
+
+                    //食材系アイテム（スープ系）
+                    output.accept(itemlist.TOMATO_SOUP.get());
+                    output.accept(itemlist.CABBAGE_AND_EGG_SOUP.get());
+                    output.accept(itemlist.ONION_SOUP.get());
+                    output.accept(itemlist.TOMATO_CREAM_SOUP.get());
+                    output.accept(itemlist.CHICKEN_NOODLE_SOUP.get());
+                    output.accept(itemlist.BEEF_STEW.get());
+                    output.accept(itemlist.SEAFOOD_CHOWDER.get());
+                    output.accept(itemlist.PUMPKIN_THICK_SOUP.get());
+                    output.accept(itemlist.POTATO_THICK_SOUP.get());
+
+                    //食材系アイテム（パスタ・ご飯系）
+                    output.accept(itemlist.MEAT_SAUCE_PASTA.get());
+                    output.accept(itemlist.CREAM_PASTA.get());
+                    output.accept(itemlist.MUSHROOM_RISOTTO.get());
+                    output.accept(itemlist.CHEESE_RISOTTO.get());
+                    output.accept(itemlist.TOMATO_RISOTTO.get());
+                    output.accept(itemlist.FRIED_RICE.get());
+                    output.accept(itemlist.OMELETTE_RICE.get());
+                    output.accept(itemlist.RICE_BALL.get());
+                    output.accept(itemlist.SALMON_SUSHI.get());
+                    output.accept(itemlist.KOMBUJIME_COD_SUSHI.get());
+                    output.accept(itemlist.SUSHI_ROLLS.get());
+
+                    //食材系アイテム（パン・焼き菓子系）
+                    output.accept(itemlist.CHEESE_BREAD.get());
+                    output.accept(itemlist.ONION_BREAD.get());
+                    output.accept(itemlist.TOMATO_FOCACCIA.get());
+                    output.accept(itemlist.PIZZA_DOUGH.get());
+                    output.accept(itemlist.PIZZA_BEFORE_BAKING.get());
+                    output.accept(itemlist.PIZZA.get());
+                    output.accept(itemlist.CALZONE_BEFORE_BAKING.get());
+                    output.accept(itemlist.CALZONE.get());
+                    output.accept(itemlist.CHEESE_CRACKER.get());
+                    output.accept(itemlist.CHEESE_CAKE.get());
+                    output.accept(itemlist.CHOCOLATE_CAKE.get());
+                    output.accept(itemlist.LEMON_CAKE.get());
+                    output.accept(itemlist.APPLE_PIE.get());
+
+                    //食材系アイテム（野菜系）
+                    output.accept(itemlist.COLESLAW.get());
+                    output.accept(itemlist.CHEESE_BAKED_POTATO.get());
+                    output.accept(itemlist.ONION_RING.get());
+                    output.accept(itemlist.GRILLED_TOMATO_AND_CHEESE.get());
+                    output.accept(itemlist.CABBAGE_ROLL.get());
+                    output.accept(itemlist.FRIED_POTATO.get());
+                    output.accept(itemlist.GREEN_SALAD.get());
+                    output.accept(itemlist.POTATO_SALAD.get());
+
+                    //食材系アイテム（肉系）
+                    output.accept(itemlist.FRIED_CHICKEN.get());
+                    output.accept(itemlist.FRIED_FISH.get());
+                    output.accept(itemlist.HAMBURG_STEAK.get());
+                    output.accept(itemlist.HAMBURGER.get());
+                    output.accept(itemlist.STEVES_LAVA_CHICKEN.get());
+
+                    //食材系アイテム（デザート・スナック系）
+                    output.accept(itemlist.ICE_CREAM.get());
+                    output.accept(itemlist.CHOCOLATE_ICE_CREAM.get());
+                    output.accept(itemlist.LEMON_ICE_CREAM.get());
+                    output.accept(itemlist.APPLE_ICE_CREAM.get());
+                    output.accept(itemlist.SWEET_BERRY_SMOOTHIE.get());
+                    output.accept(itemlist.GLOW_BERRY_SMOOTHIE.get());
+                    output.accept(itemlist.RICE_PUDDING.get());
+                    output.accept(itemlist.JAM_BUN.get());
+
+                    output.accept(itemlist.OMG_STEW.get());
+
+                }).build());
     }
+
+
 
     public static void register(IEventBus eventBus){
         TABS.register(eventBus);

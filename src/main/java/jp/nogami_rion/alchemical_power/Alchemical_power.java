@@ -1,6 +1,7 @@
 package jp.nogami_rion.alchemical_power;
 
 import jp.nogami_rion.alchemical_power.block.entity.ModBlockEntities;
+import jp.nogami_rion.alchemical_power.event.Origins_armor_effect_event;
 import jp.nogami_rion.alchemical_power.event.ModEventBusClientEvents;
 import jp.nogami_rion.alchemical_power.event.ModItemEventHandler;
 import jp.nogami_rion.alchemical_power.init.blocklist;
@@ -53,6 +54,7 @@ public class Alchemical_power {
         //イベントの登録
         MinecraftForge.EVENT_BUS.register(ModItemEventHandler.class);
         MinecraftForge.EVENT_BUS.register(ModEventBusClientEvents.class);
+        MinecraftForge.EVENT_BUS.register(Origins_armor_effect_event.class);
 
 
         // Register the item to a creative tab

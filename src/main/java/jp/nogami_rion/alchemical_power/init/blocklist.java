@@ -3,6 +3,7 @@ package jp.nogami_rion.alchemical_power.init;
 import jp.nogami_rion.alchemical_power.Alchemical_power;
 import jp.nogami_rion.alchemical_power.block.*;
 import jp.nogami_rion.alchemical_power.item.custom.FuelBlock;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -46,6 +47,38 @@ public class blocklist {
     public static final RegistryObject<Block> T5_COMBUSTION_RUNE_BLOCK = BLOCKS.register("t5_combustion_rune_block",() -> new FuelBlock(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(18f,54f).requiresCorrectToolForDrops(),12150*9));
     public static final RegistryObject<Block> T6_COMBUSTION_RUNE_BLOCK = BLOCKS.register("t6_combustion_rune_block",() -> new FuelBlock(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(18f,54f).requiresCorrectToolForDrops(),18225*9));
 
+    public static final RegistryObject<Block> COBBLESTONE_GENERATOR_MK1 = BLOCKS.register("cobblestone_generator_mk1", () -> new CobblestoneGeneratorMk1(()-> Items.COBBLESTONE));
+    public static final RegistryObject<Block> COBBLESTONE_GENERATOR_MK2 = BLOCKS.register("cobblestone_generator_mk2", () -> new CobblestoneGeneratorMk2(()-> Items.COBBLESTONE));
+    public static final RegistryObject<Block> COBBLESTONE_GENERATOR_MK3 = BLOCKS.register("cobblestone_generator_mk3", () -> new CobblestoneGeneratorMk3(()-> Items.COBBLESTONE));
+    public static final RegistryObject<Block> COBBLESTONE_GENERATOR_MK4 = BLOCKS.register("cobblestone_generator_mk4", () -> new CobblestoneGeneratorMk4(()-> Items.COBBLESTONE));
+    public static final RegistryObject<Block> COBBLESTONE_GENERATOR_MK5 = BLOCKS.register("cobblestone_generator_mk5", () -> new CobblestoneGeneratorMk5(()-> Items.COBBLESTONE));
+    public static final RegistryObject<Block> COBBLESTONE_GENERATOR_MK6 = BLOCKS.register("cobblestone_generator_mk6", () -> new CobblestoneGeneratorMk6(()-> Items.COBBLESTONE));
+    public static final RegistryObject<Block> COBBLESTONE_GENERATOR_MK7 = BLOCKS.register("cobblestone_generator_mk7", () -> new CobblestoneGeneratorMk7(()-> Items.COBBLESTONE));
+    public static final RegistryObject<Block> COBBLESTONE_GENERATOR_MK8 = BLOCKS.register("cobblestone_generator_mk8", () -> new CobblestoneGeneratorMk8(()-> Items.COBBLESTONE));
+    public static final RegistryObject<Block> X9_COBBLESTONE_GENERATOR_MK1 = BLOCKS.register("x9_cobblestone_generator_mk1", () -> new CobblestoneGeneratorMk1(itemlist.X9_COBBLESTONE));
+    public static final RegistryObject<Block> X9_COBBLESTONE_GENERATOR_MK2 = BLOCKS.register("x9_cobblestone_generator_mk2", () -> new CobblestoneGeneratorMk2(itemlist.X9_COBBLESTONE));
+    public static final RegistryObject<Block> X9_COBBLESTONE_GENERATOR_MK3 = BLOCKS.register("x9_cobblestone_generator_mk3", () -> new CobblestoneGeneratorMk3(itemlist.X9_COBBLESTONE));
+    public static final RegistryObject<Block> X9_COBBLESTONE_GENERATOR_MK4 = BLOCKS.register("x9_cobblestone_generator_mk4", () -> new CobblestoneGeneratorMk4(itemlist.X9_COBBLESTONE));
+    public static final RegistryObject<Block> X9_COBBLESTONE_GENERATOR_MK5 = BLOCKS.register("x9_cobblestone_generator_mk5", () -> new CobblestoneGeneratorMk5(itemlist.X9_COBBLESTONE));
+    public static final RegistryObject<Block> X9_COBBLESTONE_GENERATOR_MK6 = BLOCKS.register("x9_cobblestone_generator_mk6", () -> new CobblestoneGeneratorMk6(itemlist.X9_COBBLESTONE));
+    public static final RegistryObject<Block> X9_COBBLESTONE_GENERATOR_MK7 = BLOCKS.register("x9_cobblestone_generator_mk7", () -> new CobblestoneGeneratorMk7(itemlist.X9_COBBLESTONE));
+    public static final RegistryObject<Block> X9_COBBLESTONE_GENERATOR_MK8 = BLOCKS.register("x9_cobblestone_generator_mk8", () -> new CobblestoneGeneratorMk8(itemlist.X9_COBBLESTONE));
+    public static final RegistryObject<Block> X225_COBBLESTONE_GENERATOR_MK1 = BLOCKS.register("x225_cobblestone_generator_mk1", () -> new CobblestoneGeneratorMk1(itemlist.X225_COBBLESTONE));
+    public static final RegistryObject<Block> X225_COBBLESTONE_GENERATOR_MK2 = BLOCKS.register("x225_cobblestone_generator_mk2", () -> new CobblestoneGeneratorMk2(itemlist.X225_COBBLESTONE));
+    public static final RegistryObject<Block> X225_COBBLESTONE_GENERATOR_MK3 = BLOCKS.register("x225_cobblestone_generator_mk3", () -> new CobblestoneGeneratorMk3(itemlist.X225_COBBLESTONE));
+    public static final RegistryObject<Block> X225_COBBLESTONE_GENERATOR_MK4 = BLOCKS.register("x225_cobblestone_generator_mk4", () -> new CobblestoneGeneratorMk4(itemlist.X225_COBBLESTONE));
+    public static final RegistryObject<Block> X225_COBBLESTONE_GENERATOR_MK5 = BLOCKS.register("x225_cobblestone_generator_mk5", () -> new CobblestoneGeneratorMk5(itemlist.X225_COBBLESTONE));
+    public static final RegistryObject<Block> X225_COBBLESTONE_GENERATOR_MK6 = BLOCKS.register("x225_cobblestone_generator_mk6", () -> new CobblestoneGeneratorMk6(itemlist.X225_COBBLESTONE));
+    public static final RegistryObject<Block> X225_COBBLESTONE_GENERATOR_MK7 = BLOCKS.register("x225_cobblestone_generator_mk7", () -> new CobblestoneGeneratorMk7(itemlist.X225_COBBLESTONE));
+    public static final RegistryObject<Block> X225_COBBLESTONE_GENERATOR_MK8 = BLOCKS.register("x225_cobblestone_generator_mk8", () -> new CobblestoneGeneratorMk8(itemlist.X225_COBBLESTONE));
+    public static final RegistryObject<Block> X38025_COBBLESTONE_GENERATOR_MK1 = BLOCKS.register("x38025_cobblestone_generator_mk1", () -> new CobblestoneGeneratorMk1(itemlist.X38025_COBBLESTONE));
+    public static final RegistryObject<Block> X38025_COBBLESTONE_GENERATOR_MK2 = BLOCKS.register("x38025_cobblestone_generator_mk2", () -> new CobblestoneGeneratorMk2(itemlist.X38025_COBBLESTONE));
+    public static final RegistryObject<Block> X38025_COBBLESTONE_GENERATOR_MK3 = BLOCKS.register("x38025_cobblestone_generator_mk3", () -> new CobblestoneGeneratorMk3(itemlist.X38025_COBBLESTONE));
+    public static final RegistryObject<Block> X38025_COBBLESTONE_GENERATOR_MK4 = BLOCKS.register("x38025_cobblestone_generator_mk4", () -> new CobblestoneGeneratorMk4(itemlist.X38025_COBBLESTONE));
+    public static final RegistryObject<Block> X38025_COBBLESTONE_GENERATOR_MK5 = BLOCKS.register("x38025_cobblestone_generator_mk5", () -> new CobblestoneGeneratorMk5(itemlist.X38025_COBBLESTONE));
+    public static final RegistryObject<Block> X38025_COBBLESTONE_GENERATOR_MK6 = BLOCKS.register("x38025_cobblestone_generator_mk6", () -> new CobblestoneGeneratorMk6(itemlist.X38025_COBBLESTONE));
+    public static final RegistryObject<Block> X38025_COBBLESTONE_GENERATOR_MK7 = BLOCKS.register("x38025_cobblestone_generator_mk7", () -> new CobblestoneGeneratorMk7(itemlist.X38025_COBBLESTONE));
+    public static final RegistryObject<Block> X38025_COBBLESTONE_GENERATOR_MK8 = BLOCKS.register("x38025_cobblestone_generator_mk8", () -> new CobblestoneGeneratorMk8(itemlist.X38025_COBBLESTONE));
 
     //アイテムリストの登録用
     public static void register(IEventBus eventBus){

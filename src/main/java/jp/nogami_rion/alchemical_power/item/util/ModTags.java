@@ -32,6 +32,21 @@ public class ModTags {
         public static final TagKey<Item> T5_GEM_MATERIAL = tag("t5_gem_material");
         public static final TagKey<Item> T6_INGOT_MATERIAL = tag("t6_ingot_material");
         public static final TagKey<Item> T7_INGOT_MATERIAL = tag("t7_ingot_material");
+        public static final TagKey<Item> COLLECTED_DOUBLING_COPPER = tag("collected_doubling_copper");
+        public static final TagKey<Item> COLLECTED_DOUBLING_IRON = tag("collected_doubling_iron");
+        public static final TagKey<Item> COLLECTED_DOUBLING_GOLD = tag("collected_doubling_gold");
+        public static final TagKey<Item> COLLECTED_DOUBLING_DIAMOND = tag("collected_doubling_diamond");
+        public static final TagKey<Item> COLLECTED_DOUBLING_EMERALD = tag("collected_doubling_emerald");
+        public static final TagKey<Item> COLLECTED_DOUBLING_ANCIENT_DEBRIS = tag("collected_doubling_ancient_debris");
+        public static final TagKey<Item> PACKAGED_DOUBLING_COPPER = tag("packaged_doubling_copper");
+        public static final TagKey<Item> PACKAGED_DOUBLING_IRON = tag("packaged_doubling_iron");
+        public static final TagKey<Item> PACKAGED_DOUBLING_GOLD = tag("packaged_doubling_gold");
+        public static final TagKey<Item> PACKAGED_DOUBLING_DIAMOND = tag("packaged_doubling_diamond");
+        public static final TagKey<Item> PACKAGED_DOUBLING_EMERALD = tag("packaged_doubling_emerald");
+        public static final TagKey<Item> PACKAGED_DOUBLING_ANCIENT_DEBRIS = tag("packaged_doubling_ancient_debris");
+        public static final TagKey<Item> JAMS = tag("jams");
+        public static final TagKey<Item> BEEF_OR_PORK = tag("beef_or_pork");
+        public static final TagKey<Item> NETHERITE_UPGRADE_TEMPLATE_MATERIALS = tag("netherite_upgrade_template_materials");
 
 
         private static TagKey<Item> tag(String name){

@@ -48,6 +48,39 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(blocklist.T4_COMBUSTION_RUNE_BLOCK.get());
         this.dropSelf(blocklist.T5_COMBUSTION_RUNE_BLOCK.get());
         this.dropSelf(blocklist.T6_COMBUSTION_RUNE_BLOCK.get());
+        this.dropSelf(blocklist.COBBLESTONE_GENERATOR_MK1.get());
+        this.dropSelf(blocklist.COBBLESTONE_GENERATOR_MK2.get());
+        this.dropSelf(blocklist.COBBLESTONE_GENERATOR_MK3.get());
+        this.dropSelf(blocklist.COBBLESTONE_GENERATOR_MK4.get());
+        this.dropSelf(blocklist.COBBLESTONE_GENERATOR_MK5.get());
+        this.dropSelf(blocklist.COBBLESTONE_GENERATOR_MK6.get());
+        this.dropSelf(blocklist.COBBLESTONE_GENERATOR_MK7.get());
+        this.dropSelf(blocklist.COBBLESTONE_GENERATOR_MK8.get());
+        this.dropSelf(blocklist.X9_COBBLESTONE_GENERATOR_MK1.get());
+        this.dropSelf(blocklist.X9_COBBLESTONE_GENERATOR_MK2.get());
+        this.dropSelf(blocklist.X9_COBBLESTONE_GENERATOR_MK3.get());
+        this.dropSelf(blocklist.X9_COBBLESTONE_GENERATOR_MK4.get());
+        this.dropSelf(blocklist.X9_COBBLESTONE_GENERATOR_MK5.get());
+        this.dropSelf(blocklist.X9_COBBLESTONE_GENERATOR_MK6.get());
+        this.dropSelf(blocklist.X9_COBBLESTONE_GENERATOR_MK7.get());
+        this.dropSelf(blocklist.X9_COBBLESTONE_GENERATOR_MK8.get());
+        this.dropSelf(blocklist.X225_COBBLESTONE_GENERATOR_MK1.get());
+        this.dropSelf(blocklist.X225_COBBLESTONE_GENERATOR_MK2.get());
+        this.dropSelf(blocklist.X225_COBBLESTONE_GENERATOR_MK3.get());
+        this.dropSelf(blocklist.X225_COBBLESTONE_GENERATOR_MK4.get());
+        this.dropSelf(blocklist.X225_COBBLESTONE_GENERATOR_MK5.get());
+        this.dropSelf(blocklist.X225_COBBLESTONE_GENERATOR_MK6.get());
+        this.dropSelf(blocklist.X225_COBBLESTONE_GENERATOR_MK7.get());
+        this.dropSelf(blocklist.X225_COBBLESTONE_GENERATOR_MK8.get());
+        this.dropSelf(blocklist.X38025_COBBLESTONE_GENERATOR_MK1.get());
+        this.dropSelf(blocklist.X38025_COBBLESTONE_GENERATOR_MK2.get());
+        this.dropSelf(blocklist.X38025_COBBLESTONE_GENERATOR_MK3.get());
+        this.dropSelf(blocklist.X38025_COBBLESTONE_GENERATOR_MK4.get());
+        this.dropSelf(blocklist.X38025_COBBLESTONE_GENERATOR_MK5.get());
+        this.dropSelf(blocklist.X38025_COBBLESTONE_GENERATOR_MK6.get());
+        this.dropSelf(blocklist.X38025_COBBLESTONE_GENERATOR_MK7.get());
+        this.dropSelf(blocklist.X38025_COBBLESTONE_GENERATOR_MK8.get());
+
 
     }
 

@@ -3,11 +3,14 @@ package jp.nogami_rion.alchemical_power.init;
 
 import jp.nogami_rion.alchemical_power.Alchemical_power;
 import jp.nogami_rion.alchemical_power.item.*;
-import jp.nogami_rion.alchemical_power.item.baseclass.CommonAlchemyMaterial;
-import jp.nogami_rion.alchemical_power.item.baseclass.EpicAlchemyMaterial;
-import jp.nogami_rion.alchemical_power.item.baseclass.RareAlchemyMaterial;
-import jp.nogami_rion.alchemical_power.item.baseclass.UncommonAlchemyMaterial;
+import jp.nogami_rion.alchemical_power.item.accessory.Alchemists_ring;
+import jp.nogami_rion.alchemical_power.item.accessory.Gluttonys_ring;
+import jp.nogami_rion.alchemical_power.item.accessory.Greed_Ring;
+import jp.nogami_rion.alchemical_power.item.baseclass.*;
 import jp.nogami_rion.alchemical_power.item.custom.FuelItem;
+import jp.nogami_rion.alchemical_power.item.food.Steaves_Lava_Chicken;
+import jp.nogami_rion.alchemical_power.item.materials.*;
+import jp.nogami_rion.alchemical_power.item.rune.*;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -218,6 +221,262 @@ public class itemlist {
     public static final RegistryObject<Item> UNITE_ALLOY_BOOTS = ITEMS.register("unite_alloy_boots",() -> Panakeia_Armors.UNITE_ALLOY_BOOTS);
     public static final RegistryObject<Item> THE_DESTROYER_OF_THE_RIAL = ITEMS.register("the_destroyer_of_the_rial",The_Destroyer_of_the_Rial::new);
     public static final RegistryObject<Item> ANGEL_RING = ITEMS.register("angel_ring",Angel_Ring::new);
+    public static final RegistryObject<Item> CRIMSON_PLATE_OF_JUSTICE = ITEMS.register("crimson_plate_of_justice",Crimson_Plate_of_Justice::new);
+    public static final RegistryObject<Item> LEGGINGS_OF_SAGA = ITEMS.register("leggings_of_saga", Leggings_of_Sage::new);
+    public static final RegistryObject<Item> MARCH_OF_THE_RULER = ITEMS.register("march_of_the_ruler", March_of_the_Ruler::new);
+    public static final RegistryObject<Item> BLADE_OF_VALOR = ITEMS.register("blade_of_valor",BladeOfValor::new);
+    public static final RegistryObject<Item> SINGULARITY_NUGGET = ITEMS.register("singularity_nugget",EpicAlchemyMaterial::new);
+    public static final RegistryObject<Item> SINGULARITY_INGOT = ITEMS.register("singularity_ingot",EpicAlchemyMaterial::new);
+    public static final RegistryObject<Item> UNITE_ALLOY_SMITHING_TEMPLATE = ITEMS.register("unite_alloy_smithing_template",Unite_Alloy_Smithing_Template::new);
+    public static final RegistryObject<Item> SINGULARITY_INGOT_SMITHING_TEMPLATE = ITEMS.register("singularity_ingot_smithing_template",Singularity_Ingot_Smithing_Template::new);
+
+    public static final RegistryObject<Item> CROWN_OF_THE_SERAPH = ITEMS.register("crown_of_the_seraph",CrownOfTheSeraph::new);
+    public static final RegistryObject<Item> JUDICIAL_CARAPACE = ITEMS.register("judicial_carapace",JudicialCarapace::new);
+    public static final RegistryObject<Item> GAIT_OF_INSIGHT = ITEMS.register("gait_of_insight",GaitOfInsight::new);
+    public static final RegistryObject<Item> BOOTS_OF_AETHERLIGHT = ITEMS.register("boots_of_aetherlight",BootsOfAetherlight::new);
+    public static final RegistryObject<Item> SEVEN_SWORDS_OF_TERMINUS = ITEMS.register("seven_swords_of_terminus",SevenSwordsOfTerminus::new);
+    public static final RegistryObject<Item> RUNE_OF_REPRODUCTION = ITEMS.register("rune_of_reproduction",Rune_of_Reproduction::new);
+
+    public static final RegistryObject<Item> FOUNDATION_OF_RING = ITEMS.register("foundation_of_ring", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> ALCHEMISTS_RING = ITEMS.register("alchemists_ring", Alchemists_ring::new);
+    public static final RegistryObject<Item> GLUTTONYS_RING = ITEMS.register("gluttonys_ring", Gluttonys_ring::new);
+    public static final RegistryObject<Item> GREED_RING = ITEMS.register("greed_ring", Greed_Ring::new);
+    public static final RegistryObject<Item> RUNE_OF_EQUIVALENT = ITEMS.register("rune_of_equivalent", Rune_of_Equivalent::new);
+
+
+    public static final RegistryObject<Item> RUNE_OF_FRUITS = ITEMS.register("rune_of_fruits",Rune_of_Fruits::new);
+    public static final RegistryObject<Item> COOKWARE_SET = ITEMS.register("cookware_set",Cookware_Set::new);
+    public static final RegistryObject<Item> COLLECTED_CRUSHED_RAW_COPPER = ITEMS.register("collected_crushed_raw_copper", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_CRUSHED_RAW_IRON = ITEMS.register("collected_crushed_raw_iron", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_CRUSHED_RAW_GOLD = ITEMS.register("collected_crushed_raw_gold", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_CRUSHED_DIAMOND_ORE = ITEMS.register("collected_crushed_diamond_ore", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_CRUSHED_EMERALD_ORE = ITEMS.register("collected_crushed_emerald_ore", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_CRUSHED_ANCIENT_DEBRIS = ITEMS.register("collected_crushed_ancient_debris", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_GRANULATED_COPPER = ITEMS.register("collected_granulated_copper", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_GRANULATED_IRON = ITEMS.register("collected_granulated_iron", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_GRANULATED_GOLD = ITEMS.register("collected_granulated_gold", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_GRANULATED_DIAMOND = ITEMS.register("collected_granulated_diamond", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_GRANULATED_EMERALD = ITEMS.register("collected_granulated_emerald", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_GRANULATED_ANCIENT_DEBRIS = ITEMS.register("collected_granulated_ancient_debris", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_SOFTENED_COPPER = ITEMS.register("collected_softened_copper", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_SOFTENED_IRON = ITEMS.register("collected_softened_iron", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_SOFTENED_GOLD = ITEMS.register("collected_softened_gold", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_SOFTENED_DIAMOND = ITEMS.register("collected_softened_diamond", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_SOFTENED_EMERALD = ITEMS.register("collected_softened_emerald", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_SOFTENED_ANCIENT_DEBRIS = ITEMS.register("collected_softened_ancient_debris", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_PURIFIED_COPPER = ITEMS.register("collected_purified_copper", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_PURIFIED_IRON = ITEMS.register("collected_purified_iron", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_PURIFIED_GOLD = ITEMS.register("collected_purified_gold", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_PURIFIED_DIAMOND = ITEMS.register("collected_purified_diamond", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_PURIFIED_EMERALD = ITEMS.register("collected_purified_emerald", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COLLECTED_PURIFIED_ANCIENT_DEBRIS = ITEMS.register("collected_purified_ancient_debris", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_CRUSHED_RAW_COPPER = ITEMS.register("packaged_crushed_raw_copper", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_CRUSHED_RAW_IRON = ITEMS.register("packaged_crushed_raw_iron", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_CRUSHED_RAW_GOLD = ITEMS.register("packaged_crushed_raw_gold", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_CRUSHED_DIAMOND_ORE = ITEMS.register("packaged_crushed_diamond_ore", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_CRUSHED_EMERALD_ORE = ITEMS.register("packaged_crushed_emerald_ore", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_CRUSHED_ANCIENT_DEBRIS = ITEMS.register("packaged_crushed_ancient_debris", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_GRANULATED_COPPER = ITEMS.register("packaged_granulated_copper", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_GRANULATED_IRON = ITEMS.register("packaged_granulated_iron", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_GRANULATED_GOLD = ITEMS.register("packaged_granulated_gold", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_GRANULATED_DIAMOND = ITEMS.register("packaged_granulated_diamond", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_GRANULATED_EMERALD = ITEMS.register("packaged_granulated_emerald", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_GRANULATED_ANCIENT_DEBRIS = ITEMS.register("packaged_granulated_ancient_debris", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_SOFTENED_COPPER = ITEMS.register("packaged_softened_copper", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_SOFTENED_IRON = ITEMS.register("packaged_softened_iron", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_SOFTENED_GOLD = ITEMS.register("packaged_softened_gold", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_SOFTENED_DIAMOND = ITEMS.register("packaged_softened_diamond", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_SOFTENED_EMERALD = ITEMS.register("packaged_softened_emerald", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_SOFTENED_ANCIENT_DEBRIS = ITEMS.register("packaged_softened_ancient_debris", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_PURIFIED_COPPER = ITEMS.register("packaged_purified_copper", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_PURIFIED_IRON = ITEMS.register("packaged_purified_iron", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_PURIFIED_GOLD = ITEMS.register("packaged_purified_gold", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_PURIFIED_DIAMOND = ITEMS.register("packaged_purified_diamond", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_PURIFIED_EMERALD = ITEMS.register("packaged_purified_emerald", CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> PACKAGED_PURIFIED_ANCIENT_DEBRIS = ITEMS.register("packaged_purified_ancient_debris", CommonAlchemyMaterial::new);
+
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk1 = ITEMS.register("cobblestone_generator_mk1", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK1.get(), new Item.Properties()));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk2 = ITEMS.register("cobblestone_generator_mk2", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK2.get(), new Item.Properties()));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk3 = ITEMS.register("cobblestone_generator_mk3", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK3.get(), new Item.Properties()));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk4 = ITEMS.register("cobblestone_generator_mk4", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK4.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk5 = ITEMS.register("cobblestone_generator_mk5", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK5.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk6 = ITEMS.register("cobblestone_generator_mk6", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK6.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk7 = ITEMS.register("cobblestone_generator_mk7", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK7.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk8 = ITEMS.register("cobblestone_generator_mk8", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK8.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk1 = ITEMS.register("x9_cobblestone_generator_mk1", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK1.get(), new Item.Properties()));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk2 = ITEMS.register("x9_cobblestone_generator_mk2", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK2.get(), new Item.Properties()));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk3 = ITEMS.register("x9_cobblestone_generator_mk3", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK3.get(), new Item.Properties()));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk4 = ITEMS.register("x9_cobblestone_generator_mk4", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK4.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk5 = ITEMS.register("x9_cobblestone_generator_mk5", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK5.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk6 = ITEMS.register("x9_cobblestone_generator_mk6", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK6.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk7 = ITEMS.register("x9_cobblestone_generator_mk7", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK7.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk8 = ITEMS.register("x9_cobblestone_generator_mk8", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK8.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk1 = ITEMS.register("x225_cobblestone_generator_mk1", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK1.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk2 = ITEMS.register("x225_cobblestone_generator_mk2", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK2.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk3 = ITEMS.register("x225_cobblestone_generator_mk3", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK3.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk4 = ITEMS.register("x225_cobblestone_generator_mk4", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK4.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk5 = ITEMS.register("x225_cobblestone_generator_mk5", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK5.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk6 = ITEMS.register("x225_cobblestone_generator_mk6", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK6.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk7 = ITEMS.register("x225_cobblestone_generator_mk7", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK7.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk8 = ITEMS.register("x225_cobblestone_generator_mk8", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK8.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk1 = ITEMS.register("x38025_cobblestone_generator_mk1", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK1.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk2 = ITEMS.register("x38025_cobblestone_generator_mk2", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK2.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk3 = ITEMS.register("x38025_cobblestone_generator_mk3", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK3.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk4 = ITEMS.register("x38025_cobblestone_generator_mk4", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK4.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk5 = ITEMS.register("x38025_cobblestone_generator_mk5", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK5.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk6 = ITEMS.register("x38025_cobblestone_generator_mk6", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK6.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk7 = ITEMS.register("x38025_cobblestone_generator_mk7", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK7.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk8 = ITEMS.register("x38025_cobblestone_generator_mk8", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK8.get(), new Item.Properties().rarity(Rarity.EPIC)));
+
+    public static final RegistryObject<Item> T1_PANAKEIA_INGOT_X81_COMPRESSED_PLATE = ITEMS.register("t1_panakeia_ingot_x81_compressed_plate",CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> T2_PANAKEIA_INGOT_X81_COMPRESSED_PLATE = ITEMS.register("t2_panakeia_ingot_x81_compressed_plate",CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> T3_PANAKEIA_INGOT_X81_COMPRESSED_PLATE = ITEMS.register("t3_panakeia_ingot_x81_compressed_plate",CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> T4_PANAKEIA_GEM_X81_COMPRESSED_PLATE = ITEMS.register("t4_panakeia_gem_x81_compressed_plate",UncommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> T5_PANAKEIA_GEM_X81_COMPRESSED_PLATE = ITEMS.register("t5_panakeia_gem_x81_compressed_plate",UncommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> T6_PANAKEIA_INGOT_X81_COMPRESSED_PLATE = ITEMS.register("t6_panakeia_ingot_x81_compressed_plate",RareAlchemyMaterial::new);
+    public static final RegistryObject<Item> UNITE_ALLOY_X81_COMPRESSED_PLATE = ITEMS.register("unite_alloy_x81_compressed_plate",EpicAlchemyMaterial::new);
+    public static final RegistryObject<Item> T1_PANAKEIA_INGOT_X2025_COMPRESSED_PLATE = ITEMS.register("t1_panakeia_ingot_x2025_compressed_plate",CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> T2_PANAKEIA_INGOT_X2025_COMPRESSED_PLATE = ITEMS.register("t2_panakeia_ingot_x2025_compressed_plate",CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> T3_PANAKEIA_INGOT_X2025_COMPRESSED_PLATE = ITEMS.register("t3_panakeia_ingot_x2025_compressed_plate",CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> T4_PANAKEIA_GEM_X2025_COMPRESSED_PLATE = ITEMS.register("t4_panakeia_gem_x2025_compressed_plate",UncommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> T5_PANAKEIA_GEM_X2025_COMPRESSED_PLATE = ITEMS.register("t5_panakeia_gem_x2025_compressed_plate",UncommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> T6_PANAKEIA_INGOT_X2025_COMPRESSED_PLATE = ITEMS.register("t6_panakeia_ingot_x2025_compressed_plate",RareAlchemyMaterial::new);
+    public static final RegistryObject<Item> UNITE_ALLOY_X2025_COMPRESSED_PLATE = ITEMS.register("unite_alloy_x2025_compressed_plate",EpicAlchemyMaterial::new);
+    public static final RegistryObject<Item> WISDOM_CRYSTAL_PLATE = ITEMS.register("wisdom_crystal_plate",EpicAlchemyMaterial::new);
+    public static final RegistryObject<Item> COURAGE_CRYSTAL_PLATE = ITEMS.register("courage_crystal_plate",EpicAlchemyMaterial::new);
+    public static final RegistryObject<Item> JUSTICE_CRYSTAL_PLATE = ITEMS.register("justice_crystal_plate",EpicAlchemyMaterial::new);
+    public static final RegistryObject<Item> LOVE_CRYSTAL_PLATE = ITEMS.register("love_crystal_plate",EpicAlchemyMaterial::new);
+    public static final RegistryObject<Item> HOPE_CRYSTAL_PLATE = ITEMS.register("hope_crystal_plate",EpicAlchemyMaterial::new);
+    public static final RegistryObject<Item> TEMPERANCE_CRYSTAL_PLATE = ITEMS.register("temperance_crystal_plate",EpicAlchemyMaterial::new);
+    public static final RegistryObject<Item> FAITH_CRYSTAL_PLATE = ITEMS.register("faith_crystal_plate",EpicAlchemyMaterial::new);
+
+
+
+
+
+
+    //食材系アイテム（材料系）
+    public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> CABBAGE = ITEMS.register("cabbage",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> ONION = ITEMS.register("onion",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> RAW_PASTA = ITEMS.register("raw_pasta",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> DOUGH = ITEMS.register("dough",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> FLOUR = ITEMS.register("flour",CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> RICE = ITEMS.register("rice",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> SLICED_APPLE = ITEMS.register("sliced_apple",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> CHOPPED_SEAWEED = ITEMS.register("chopped_seaweed",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> NORI = ITEMS.register("nori",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> LEMON = ITEMS.register("lemon",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> SALT = ITEMS.register("salt",CommonAlchemyMaterial::new );
+    public static final RegistryObject<Item> VINEGAR = ITEMS.register("vinegar",CommonAlchemyMaterial::new );
+    public static final RegistryObject<Item> COOKING_OIL = ITEMS.register("cooking_oil",CommonAlchemyMaterial::new );
+    public static final RegistryObject<Item> BUTTER = ITEMS.register("butter",CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> COD_ROE = ITEMS.register("cod_roe",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> SALMON_ROE = ITEMS.register("salmon_roe",() -> new BaseFoodItem(64,2,0.6F));
+
+    //食材系アイテム（飲料・ジャム系）
+    public static final RegistryObject<Item> SWEET_BERRY_JAM = ITEMS.register("sweet_berry_jam",() -> new BaseDrinkItem(64,3,0.6F));
+    public static final RegistryObject<Item> TOMATO_JAM = ITEMS.register("tomato_jam",() -> new BaseDrinkItem(64,3,0.6F));
+    public static final RegistryObject<Item> GLOW_BERRY_JAM = ITEMS.register("glow_berry_jam",() -> new BaseDrinkItem(64,3,0.3F));
+    public static final RegistryObject<Item> CHORUS_FRUIT_JAM = ITEMS.register("chorus_fruit_jam",() -> new BaseDrinkItem(64,4,0.6F));
+    public static final RegistryObject<Item> APPLE_JAM = ITEMS.register("apple_jam",() -> new BaseDrinkItem(64,4,0.6F));
+    public static final RegistryObject<Item> LEMON_JAM = ITEMS.register("lemon_jam",() -> new BaseDrinkItem(64,3,0.4F));
+    public static final RegistryObject<Item> MELON_JAM = ITEMS.register("melon_jam",() -> new BaseDrinkItem(64,3,0.5F));
+    public static final RegistryObject<Item> MILK_BOTTLE = ITEMS.register("milk_bottle",() -> new BaseDrinkItem(64,2,0.3F));
+    public static final RegistryObject<Item> APPLE_JUICE = ITEMS.register("apple_juice",() -> new BaseDrinkItem(64,4,0.4F));
+    public static final RegistryObject<Item> LEMON_JUICE = ITEMS.register("lemon_juice",() -> new BaseDrinkItem(64,3,0.4F));
+    public static final RegistryObject<Item> TOMATO_JUICE = ITEMS.register("tomato_juice",() -> new BaseDrinkItem(64,4,0.4F));
+    public static final RegistryObject<Item> CARROT_JUICE = ITEMS.register("carrot_juice",() -> new BaseDrinkItem(64,4,1.0F));
+    public static final RegistryObject<Item> WHEAT_JUICE = ITEMS.register("wheat_juice",() -> new BaseDrinkItem(64,3,0.6F));
+    public static final RegistryObject<Item> MELON_JUICE = ITEMS.register("melon_juice",() -> new BaseDrinkItem(64,3,0.6F));
+    public static final RegistryObject<Item> SWEET_BERRY_JUICE = ITEMS.register("sweet_berry_juice",() -> new BaseDrinkItem(64,3,0.6F));
+    public static final RegistryObject<Item> GLOW_BERRY_JUICE = ITEMS.register("glow_berry_juice",() -> new BaseDrinkItem(64,3,0.6F));
+    public static final RegistryObject<Item> CHORUS_FRUIT_JUICE = ITEMS.register("chorus_fruit_juice",() -> new BaseDrinkItem(64,3,0.6F));
+    public static final RegistryObject<Item> HONEY_LEMON_JUICE = ITEMS.register("honey_lemon_juice",() -> new BaseDrinkItem(64,7,0.6F));
+    public static final RegistryObject<Item> PUMPKIN_JUICE = ITEMS.register("pumpkin_juice",() -> new BaseDrinkItem(64,3,0.6F));
+    public static final RegistryObject<Item> PUMPKIN_JAM = ITEMS.register("pumpkin_jam",() -> new BaseDrinkItem(64,3,0.6F));
+
+    //食材系アイテム（ソース系）
+    public static final RegistryObject<Item> TOMATO_SAUCE = ITEMS.register("tomato_sauce",CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> CHEESE_SAUCE = ITEMS.register("cheese_sauce",CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> VINAIGRETTE_SAUCE = ITEMS.register("vinaigrette_sauce",CommonAlchemyMaterial::new);
+    public static final RegistryObject<Item> CREAM_SAUCE = ITEMS.register("cream_sauce",CommonAlchemyMaterial::new);
+
+    //食材系アイテム（スープ系）
+    public static final RegistryObject<Item> TOMATO_SOUP = ITEMS.register("tomato_soup",() -> new BaseDrinkItem(16,6,0.6F));
+    public static final RegistryObject<Item> CABBAGE_AND_EGG_SOUP = ITEMS.register("cabbage_and_egg_soup",() -> new BaseDrinkItem(16,6,0.6F));
+    public static final RegistryObject<Item> ONION_SOUP = ITEMS.register("onion_soup",() -> new BaseDrinkItem(16,6,0.6F));
+    public static final RegistryObject<Item> TOMATO_CREAM_SOUP = ITEMS.register("tomato_cream_soup",() -> new BaseDrinkItem(16,7,0.6F));
+    public static final RegistryObject<Item> CHICKEN_NOODLE_SOUP = ITEMS.register("chicken_noodle_soup",() -> new BaseDrinkItem(16,12,1.6F));
+    public static final RegistryObject<Item> BEEF_STEW = ITEMS.register("beef_stew",() -> new BaseDrinkItem(16,16,1.6F));
+    public static final RegistryObject<Item> SEAFOOD_CHOWDER = ITEMS.register("seafood_chowder",() -> new BaseDrinkItem(16,14,1.6F));
+    public static final RegistryObject<Item> PUMPKIN_THICK_SOUP = ITEMS.register("pumpkin_thick_soup",() -> new BaseDrinkItem(16,6,1.2F));
+    public static final RegistryObject<Item> POTATO_THICK_SOUP = ITEMS.register("potato_thick_soup",() -> new BaseDrinkItem(16,6,1.2F));
+
+
+    //食材系アイテム（パスタ・ご飯系）
+    public static final RegistryObject<Item> MEAT_SAUCE_PASTA = ITEMS.register("meat_sauce_pasta",() -> new BaseFoodItem(8,14,1.2F));
+    public static final RegistryObject<Item> CREAM_PASTA = ITEMS.register("cream_pasta",() -> new BaseFoodItem(8,12,1.2F));
+    public static final RegistryObject<Item> MUSHROOM_RISOTTO = ITEMS.register("mushroom_risotto",() -> new BaseFoodItem(8,13,1.4F));
+    public static final RegistryObject<Item> CHEESE_RISOTTO = ITEMS.register("cheese_risotto",() -> new BaseFoodItem(8,13,1.4F));
+    public static final RegistryObject<Item> TOMATO_RISOTTO = ITEMS.register("tomato_risotto",() -> new BaseFoodItem(8,13,1.4F));
+    public static final RegistryObject<Item> FRIED_RICE = ITEMS.register("fried_rice",() -> new BaseFoodItem(8,13,1.4F));
+    public static final RegistryObject<Item> OMELETTE_RICE = ITEMS.register("omelette_rice",() -> new BaseFoodItem(8,16,1.4F));
+    public static final RegistryObject<Item> RICE_BALL = ITEMS.register("rice_ball",() -> new BaseFoodItem(16,6,1.2F));
+    public static final RegistryObject<Item> SALMON_SUSHI = ITEMS.register("salmon_sushi",() -> new BaseFoodItem(16,7,1.4F));
+    public static final RegistryObject<Item> KOMBUJIME_COD_SUSHI = ITEMS.register("konbujime_cod_sushi",() -> new BaseFoodItem(16,7,1.2F));
+    public static final RegistryObject<Item> SUSHI_ROLLS = ITEMS.register("sushi_rolls",() -> new BaseFoodItem(16,8,1.4F));
+
+    //食材系アイテム（パン・焼き菓子系）
+    public static final RegistryObject<Item> CHEESE_BREAD = ITEMS.register("cheese_bread",() -> new BaseFoodItem(16,8,1.2F));
+    public static final RegistryObject<Item> ONION_BREAD = ITEMS.register("onion_bread",() -> new BaseFoodItem(16,8,1.2F));
+    public static final RegistryObject<Item> TOMATO_FOCACCIA = ITEMS.register("tomato_focaccia",() -> new BaseFoodItem(16,8,1.2F));
+    public static final RegistryObject<Item> PIZZA_DOUGH = ITEMS.register("pizza_dough",() -> new BaseFoodItem(64,2,0.6F));
+    public static final RegistryObject<Item> PIZZA_BEFORE_BAKING = ITEMS.register("pizza_before_baking",() -> new BaseFoodItem(16,5,0.6F));
+    public static final RegistryObject<Item> PIZZA = ITEMS.register("pizza",() -> new BaseFoodItem(8,16,1.8F));
+    public static final RegistryObject<Item> CALZONE_BEFORE_BAKING = ITEMS.register("calzone_before_baking",() -> new BaseFoodItem(16,5,0.6F));
+    public static final RegistryObject<Item> CALZONE = ITEMS.register("calzone",() -> new BaseFoodItem(16,12,1.2F));
+    public static final RegistryObject<Item> CHEESE_CRACKER = ITEMS.register("cheese_cracker",() -> new BaseFoodItem(64,6,0.8F));
+    public static final RegistryObject<Item> CHEESE_CAKE = ITEMS.register("cheese_cake",() -> new BaseFoodItem(16,4,0.4F));
+    public static final RegistryObject<Item> CHOCOLATE_CAKE = ITEMS.register("chocolate_cake",() -> new BaseFoodItem(16,4,0.4F));
+    public static final RegistryObject<Item> LEMON_CAKE = ITEMS.register("lemon_cake",() -> new BaseFoodItem(16,4,0.4F));
+    public static final RegistryObject<Item> APPLE_PIE = ITEMS.register("apple_pie",() -> new BaseFoodItem(16,4,0.4F));
+
+    //食材系アイテム(野菜系）
+    public static final RegistryObject<Item> COLESLAW = ITEMS.register("coleslaw",() -> new BaseFoodItem(16,6,0.4F));
+    public static final RegistryObject<Item> CHEESE_BAKED_POTATO = ITEMS.register("cheese_baked_potato",() -> new BaseFoodItem(16,6,1.2F));
+    public static final RegistryObject<Item> ONION_RING = ITEMS.register("onion_ring",() -> new BaseFoodItem(16,4,0.4f));
+    public static final RegistryObject<Item> GRILLED_TOMATO_AND_CHEESE = ITEMS.register("grilled_tomato_and_cheese",() -> new BaseFoodItem(16,5,0.6f));
+    public static final RegistryObject<Item> CABBAGE_ROLL = ITEMS.register("cabbage_roll",() -> new BaseFoodItem(16,8,0.8f));
+    public static final RegistryObject<Item> FRIED_POTATO = ITEMS.register("fried_potato",() -> new BaseFoodItem(16,5,1.4f));
+    public static final RegistryObject<Item> GREEN_SALAD = ITEMS.register("green_salad",() -> new BaseFoodItem(16,8,0.4f));
+    public static final RegistryObject<Item> POTATO_SALAD = ITEMS.register("potato_salad",() -> new BaseFoodItem(16,8,0.6f));
+
+    //食材系アイテム（肉系）
+    public static final RegistryObject<Item> FRIED_CHICKEN = ITEMS.register("fried_chicken",() -> new BaseFoodItem(8,9,1.2F));
+    public static final RegistryObject<Item> FRIED_FISH = ITEMS.register("fried_fish",() -> new BaseFoodItem(8,8,1.2F));
+    public static final RegistryObject<Item> HAMBURG_STEAK = ITEMS.register("hamburg_steak",() -> new BaseFoodItem(16,8,1.6F));
+    public static final RegistryObject<Item> HAMBURGER = ITEMS.register("hamburger",() -> new BaseFoodItem(8,14,1.6F));
+    public static final RegistryObject<Item> STEVES_LAVA_CHICKEN = ITEMS.register("steves_lava_chicken", Steaves_Lava_Chicken::new);
+
+    //食材系アイテム（デザート・スナック系）
+    public static final RegistryObject<Item> ICE_CREAM = ITEMS.register("ice_cream",() -> new BaseFoodItem(16,5,0.4F));
+    public static final RegistryObject<Item> CHOCOLATE_ICE_CREAM = ITEMS.register("chocolate_ice_cream",() -> new BaseFoodItem(16,6,0.5F));
+    public static final RegistryObject<Item> LEMON_ICE_CREAM = ITEMS.register("lemon_ice_cream",() -> new BaseFoodItem(16,5,0.3F));
+    public static final RegistryObject<Item> APPLE_ICE_CREAM = ITEMS.register("apple_ice_cream",() -> new BaseFoodItem(16,6,0.4F));
+    public static final RegistryObject<Item> SWEET_BERRY_SMOOTHIE = ITEMS.register("sweet_berry_smoothie",() -> new BaseDrinkItem(64,4,0.5F));
+    public static final RegistryObject<Item> GLOW_BERRY_SMOOTHIE = ITEMS.register("glow_berry_smoothie",() -> new BaseDrinkItem(64,4,0.6F));
+    public static final RegistryObject<Item> RICE_PUDDING = ITEMS.register("rice_pudding",() -> new BaseFoodItem(16,6,1.2F));
+    public static final RegistryObject<Item> JAM_BUN = ITEMS.register("jam_bun",() -> new BaseFoodItem(16,9,1.2F));
+
+    //完全食
+    public static final RegistryObject<Item> OMG_STEW = ITEMS.register("omg_stew", OMG_Stew::new);
+
+
+
+
 
     //アイテムリストの登録用
     public static void register(IEventBus eventBus){

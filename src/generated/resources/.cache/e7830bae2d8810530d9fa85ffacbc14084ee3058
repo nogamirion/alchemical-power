@@ -1,5 +1,5 @@
-// 1.20.1	2025-04-23T13:39:47.1360815	Tags for minecraft:block mod id alchemical_power
-1797812c9cb98c7c2a7646389b3c450f221905c6 data/minecraft/tags/blocks/mineable/pickaxe.json
+// 1.20.1	2025-05-27T23:55:01.8425197	Tags for minecraft:block mod id alchemical_power
+c212d8e9d76104db0331bb3f9f76c1658f00480c data/minecraft/tags/blocks/mineable/pickaxe.json
 1fe65061fada2078ee6d1acd47aa7425fa9a0f28 data/minecraft/tags/blocks/needs_diamond_tool.json
 2333f5b1c56b19e7b9fffafeb25f525bc9f38e92 data/minecraft/tags/blocks/needs_iron_tool.json
 b2ad78236af5684bc01a4512313c7b7ed9faa0b8 data/minecraft/tags/blocks/needs_stone_tool.json

@@ -2,6 +2,7 @@ package jp.nogami_rion.alchemical_power.block.entity;
 
 import jp.nogami_rion.alchemical_power.recipe.Alchemical_Engraver_Recipe;
 import jp.nogami_rion.alchemical_power.screen.Alchemical_Engraver_Menu;
+import jp.nogami_rion.alchemical_power.util.ConfigurableItemHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
@@ -28,9 +29,11 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.Optional;
+import java.util.Set;
 
 public class Alchemical_Engraver_Entity extends BlockEntity implements MenuProvider {
-    private final ItemStackHandler itemHandler = new ItemStackHandler(4);
+    private final ConfigurableItemHandler itemHandler = new ConfigurableItemHandler(4,
+            Set.of(0, 1, 2), Set.of(3));
 
     private static final int INPUT_SLOT = 0;
     private static final int INPUT_SLOT2 = 1;

@@ -3,6 +3,7 @@ package jp.nogami_rion.alchemical_power.block.entity;
 import jp.nogami_rion.alchemical_power.init.itemlist;
 import jp.nogami_rion.alchemical_power.recipe.Alchemy_Table_Recipe;
 import jp.nogami_rion.alchemical_power.screen.Alchemy_Table_Menu;
+import jp.nogami_rion.alchemical_power.util.ConfigurableItemHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
@@ -29,9 +30,11 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.Optional;
+import java.util.Set;
 
 public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
-    private final ItemStackHandler itemHandler = new ItemStackHandler(11);
+    private final ConfigurableItemHandler itemHandler = new ConfigurableItemHandler(11,
+            Set.of(0, 1, 2, 3, 4, 5, 6, 7, 8, 9), Set.of(10));
 
     private static final int INPUT_SLOT = 0;
     private static final int INPUT_SLOT2 = 1;
@@ -77,7 +80,12 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
             public int getCount() {
                 return 2;
             }
+
+
+
         };
+
+
 
 
     }
@@ -223,5 +231,6 @@ public class Alchemy_Table_Entity  extends BlockEntity implements MenuProvider {
     private void increaseCraftingProgress() {
         progress++;
     }
+
 
 }

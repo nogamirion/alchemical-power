@@ -20,10 +20,6 @@ public class Angel_Ring extends MobEffect {
             player.getAbilities().mayfly = true; // 飛行を有効化
             player.onUpdateAbilities();
 
-            // 耐性と自然回復の効果を付与
-            player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 10, 1, false, false, false));
-            player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 11, 0, false, false, false));
-
         }
     }
 

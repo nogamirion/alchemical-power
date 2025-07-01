@@ -7,7 +7,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -118,6 +118,114 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .addOptionalTag(new ResourceLocation("forge", "ingots/awakened_supremium"))
                 .addOptionalTag(new ResourceLocation("forge", "ingots/neutronium"))
                 .addOptionalTag(new ResourceLocation("forge", "ingots/allthemodium"));
+
+        this.tag(ModTags.Items.COLLECTED_DOUBLING_COPPER)
+                .add(itemlist.COLLECTED_CRUSHED_RAW_COPPER.get())
+                .add(itemlist.COLLECTED_GRANULATED_COPPER.get())
+                .add(itemlist.COLLECTED_SOFTENED_COPPER.get())
+                .add(itemlist.COLLECTED_PURIFIED_COPPER.get());
+
+        this.tag(ModTags.Items.COLLECTED_DOUBLING_IRON)
+                .add(itemlist.COLLECTED_CRUSHED_RAW_IRON.get())
+                .add(itemlist.COLLECTED_GRANULATED_IRON.get())
+                .add(itemlist.COLLECTED_SOFTENED_IRON.get())
+                .add(itemlist.COLLECTED_PURIFIED_IRON.get());
+
+        this.tag(ModTags.Items.COLLECTED_DOUBLING_GOLD)
+                .add(itemlist.COLLECTED_CRUSHED_RAW_GOLD.get())
+                .add(itemlist.COLLECTED_GRANULATED_GOLD.get())
+                .add(itemlist.COLLECTED_SOFTENED_GOLD.get())
+                .add(itemlist.COLLECTED_PURIFIED_GOLD.get());
+
+        this.tag(ModTags.Items.COLLECTED_DOUBLING_DIAMOND)
+                .add(itemlist.COLLECTED_CRUSHED_DIAMOND_ORE.get())
+                .add(itemlist.COLLECTED_GRANULATED_DIAMOND.get())
+                .add(itemlist.COLLECTED_SOFTENED_DIAMOND.get())
+                .add(itemlist.COLLECTED_PURIFIED_DIAMOND.get());
+
+        this.tag(ModTags.Items.COLLECTED_DOUBLING_EMERALD)
+                .add(itemlist.COLLECTED_CRUSHED_EMERALD_ORE.get())
+                .add(itemlist.COLLECTED_GRANULATED_EMERALD.get())
+                .add(itemlist.COLLECTED_SOFTENED_EMERALD.get())
+                .add(itemlist.COLLECTED_PURIFIED_EMERALD.get());
+
+        this.tag(ModTags.Items.COLLECTED_DOUBLING_ANCIENT_DEBRIS)
+                .add(itemlist.COLLECTED_CRUSHED_ANCIENT_DEBRIS.get())
+                .add(itemlist.COLLECTED_GRANULATED_ANCIENT_DEBRIS.get())
+                .add(itemlist.COLLECTED_SOFTENED_ANCIENT_DEBRIS.get())
+                .add(itemlist.COLLECTED_PURIFIED_ANCIENT_DEBRIS.get());
+
+        this.tag(ModTags.Items.PACKAGED_DOUBLING_COPPER)
+                .add(itemlist.PACKAGED_CRUSHED_RAW_COPPER.get())
+                .add(itemlist.PACKAGED_GRANULATED_COPPER.get())
+                .add(itemlist.PACKAGED_SOFTENED_COPPER.get())
+                .add(itemlist.PACKAGED_PURIFIED_COPPER.get());
+
+        this.tag(ModTags.Items.PACKAGED_DOUBLING_IRON)
+                .add(itemlist.PACKAGED_CRUSHED_RAW_IRON.get())
+                .add(itemlist.PACKAGED_GRANULATED_IRON.get())
+                .add(itemlist.PACKAGED_SOFTENED_IRON.get())
+                .add(itemlist.PACKAGED_PURIFIED_IRON.get());
+
+        this.tag(ModTags.Items.PACKAGED_DOUBLING_GOLD)
+                .add(itemlist.PACKAGED_CRUSHED_RAW_GOLD.get())
+                .add(itemlist.PACKAGED_GRANULATED_GOLD.get())
+                .add(itemlist.PACKAGED_SOFTENED_GOLD.get())
+                .add(itemlist.PACKAGED_PURIFIED_GOLD.get());
+
+        this.tag(ModTags.Items.PACKAGED_DOUBLING_DIAMOND)
+                .add(itemlist.PACKAGED_CRUSHED_DIAMOND_ORE.get())
+                .add(itemlist.PACKAGED_GRANULATED_DIAMOND.get())
+                .add(itemlist.PACKAGED_SOFTENED_DIAMOND.get())
+                .add(itemlist.PACKAGED_PURIFIED_DIAMOND.get());
+
+        this.tag(ModTags.Items.PACKAGED_DOUBLING_EMERALD)
+                .add(itemlist.PACKAGED_CRUSHED_EMERALD_ORE.get())
+                .add(itemlist.PACKAGED_GRANULATED_EMERALD.get())
+                .add(itemlist.PACKAGED_SOFTENED_EMERALD.get())
+                .add(itemlist.PACKAGED_PURIFIED_EMERALD.get());
+
+        this.tag(ModTags.Items.PACKAGED_DOUBLING_ANCIENT_DEBRIS)
+                .add(itemlist.PACKAGED_CRUSHED_ANCIENT_DEBRIS.get())
+                .add(itemlist.PACKAGED_GRANULATED_ANCIENT_DEBRIS.get())
+                .add(itemlist.PACKAGED_SOFTENED_ANCIENT_DEBRIS.get())
+                .add(itemlist.PACKAGED_PURIFIED_ANCIENT_DEBRIS.get());
+
+        this.tag(ModTags.Items.JAMS)
+                .add(itemlist.SWEET_BERRY_JAM.get())
+                .add(itemlist.GLOW_BERRY_JAM.get())
+                .add(itemlist.PUMPKIN_JAM.get())
+                .add(itemlist.MELON_JAM.get())
+                .add(itemlist.APPLE_JAM.get())
+                .add(itemlist.CHORUS_FRUIT_JAM.get())
+                .add(itemlist.TOMATO_JAM.get())
+                .add(itemlist.LEMON_JAM.get());
+
+        this.tag(ModTags.Items.BEEF_OR_PORK)
+                .add(Items.BEEF)
+                .add(Items.PORKCHOP);
+
+        this.tag(ModTags.Items.NETHERITE_UPGRADE_TEMPLATE_MATERIALS)
+                .add(Items.COAST_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.DUNE_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.EYE_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.HOST_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.RAISER_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.RIB_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.TIDE_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.VEX_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.WARD_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE)
+                .add(Items.WILD_ARMOR_TRIM_SMITHING_TEMPLATE);
+
+
+
+
 
     }
 }

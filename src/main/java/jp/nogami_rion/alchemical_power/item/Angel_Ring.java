@@ -22,14 +22,29 @@ public class Angel_Ring extends ArmorItem {
             if (player.getItemBySlot(EquipmentSlot.HEAD).getItem() == this) {
                 player.addEffect(new MobEffectInstance(effectlist.ANGEL_RING.get(), 9, 0, false, false, false));
             }
+            // 再生能力3の持続（必要に応じて調整）
+            MobEffectInstance regen = player.getEffect(MobEffects.REGENERATION);
+            if (regen == null || regen.getAmplifier() < 2 || regen.getDuration() < 40) {
+                player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 2, false, false, false));
+            }
+            // 耐性2も同様
+            MobEffectInstance resistance = player.getEffect(MobEffects.DAMAGE_RESISTANCE);
+            if (resistance == null || resistance.getAmplifier() < 1 || resistance.getDuration() < 40) {
+                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 100, 1, false, false, false));
+            }
         }
 
 
     }
 
     @Override
+    public boolean isDamageable(ItemStack stack) {
+        // 耐久を無限にする
+        return false;
+    }
+
+    @Override
     public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-        String layer = slot == net.minecraft.world.entity.EquipmentSlot.LEGS ? "2" : "1";
         return "alchemical_power:models/armor/angel_ring.png";
     }
 }

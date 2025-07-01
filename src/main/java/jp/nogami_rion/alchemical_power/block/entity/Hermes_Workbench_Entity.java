@@ -3,6 +3,7 @@ package jp.nogami_rion.alchemical_power.block.entity;
 import jp.nogami_rion.alchemical_power.init.itemlist;
 import jp.nogami_rion.alchemical_power.recipe.Hermes_Workbench_Recipe;
 import jp.nogami_rion.alchemical_power.screen.Hermes_Workbench_Menu;
+import jp.nogami_rion.alchemical_power.util.ConfigurableItemHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
@@ -31,9 +32,13 @@ import org.jetbrains.annotations.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Hermes_Workbench_Entity extends BlockEntity implements MenuProvider {
-    private final ItemStackHandler itemHandler = new ItemStackHandler(27);
+    private final ConfigurableItemHandler itemHandler = new ConfigurableItemHandler(27,
+            IntStream.rangeClosed(0,25).boxed().collect(Collectors.toSet()), Set.of(26));
 
     private static final List<Integer> INPUT_SLOT  = new ArrayList<>();;
     private static int OUTPUT_SLOT;
