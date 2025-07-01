@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:collected_crushed_raw_gold"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_raw_gold"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_raw_gold"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_raw_gold"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_raw_gold"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_raw_gold"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_raw_gold"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_raw_gold"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:packaged_crushed_raw_gold"
+  }
+}

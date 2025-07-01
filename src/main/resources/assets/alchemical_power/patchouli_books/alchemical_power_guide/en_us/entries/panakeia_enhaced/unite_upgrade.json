@@ -1,0 +1,16 @@
+{
+  "name": "06.Unite Alloy Upgrade",
+  "icon": "alchemical_power:unite_alloy_smithing_template",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Unite alloys can be used to enhance T6 Panakeia tools and armor. It is strengthened using a Smithing Template, like neatherite."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"minecraft:unite_alloy_upgrade_smithing_template_crafting",
+      "recipe2": "minecraft:unite_alloy_upgrade_smithing_template_increase"
+    }
+  ]
+}

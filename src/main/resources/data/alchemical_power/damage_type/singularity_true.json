@@ -1,0 +1,9 @@
+{
+  "message_id": "singularity_true",
+  "scaling": "never",
+  "exhaustion": 0.0,
+  "bypasses_armor": true,
+  "bypasses_magic": true,
+  "bypasses_enchantments": true,
+  "bypasses_invulnerability": true
+}

@@ -1,0 +1,23 @@
+{
+  "name": "01.基礎となるルーン",
+  "icon": "alchemical_power:blank_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "多くのルーンは基礎となるルーンに刻印することで作成できる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:blank_rune"},
+      "title": "空白のルーン",
+      "text": "基本となるルーン。 $(br)発展のルーンまではこのルーンを基礎とする。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:void_rune"},
+      "title": "虚無のルーン",
+      "text": "より力を持つルーンの材料。 $(br)精鋭のルーン以降はこちらを材料にする必要がある。"
+    }
+  ]
+}

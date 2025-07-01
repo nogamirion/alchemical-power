@@ -1,0 +1,31 @@
+{
+  "name": "05.軟化のルーン",
+  "icon": "alchemical_power:basic_softening_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "粒化した鉱石・宝石をさらに加工するルーン。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:basic_softening_rune"},
+      "text": "2個に軟化する。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:advanced_softening_rune"},
+      "text": "4個に軟化する。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:elite_softening_rune"},
+      "text": "6個に軟化する。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:ultimate_softening_rune"},
+      "text": "8個に軟化する。"
+    }
+  ]
+}

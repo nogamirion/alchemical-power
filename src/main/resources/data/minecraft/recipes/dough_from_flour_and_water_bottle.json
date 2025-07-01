@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt":{"Potion":"minecraft:water"}
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:dough"
+  }
+}

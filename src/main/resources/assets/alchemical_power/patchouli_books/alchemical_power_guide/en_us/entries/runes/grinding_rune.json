@@ -1,0 +1,35 @@
+{
+  "name": "03.Grinding Rune",
+  "icon": "alchemical_power:basic_grinding_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "These are runes that grind the ore. $(br)It can also crush amethyst and quartz blocks and obtain Echo Shard from the Sculk Catalyst."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:basic_grinding_rune"},
+      "title": "Basic Grinding Rune",
+      "text": "Grind into 2 pieces."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:advanced_grinding_rune"},
+      "title": "Advanced Grinding Rune",
+      "text": "Grind into 4 pieces."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:elite_grinding_rune"},
+      "title": "Elite Grinding Rune",
+      "text": "Grind into 6 pieces."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:ultimate_grinding_rune"},
+      "title": "Ultimate Grinding Rune",
+      "text": "Grind into 8 pieces."
+    }
+  ]
+}

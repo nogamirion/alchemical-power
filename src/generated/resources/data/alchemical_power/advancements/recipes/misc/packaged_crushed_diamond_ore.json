@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_collected_crushed_diamond_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:collected_crushed_diamond_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alchemical_power:packaged_crushed_diamond_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_collected_crushed_diamond_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alchemical_power:packaged_crushed_diamond_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "tag": "forge:tomatoes"
+    },
+    {
+      "tag": "forge:onions"
+    },
+    {
+      "tag": "forge:butters"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "tag": "forge:rice"
+    },
+    {
+      "tag": "forge:cheeses"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt":{"Potion":"minecraft:water"}
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:tomato_risotto"
+  }
+}

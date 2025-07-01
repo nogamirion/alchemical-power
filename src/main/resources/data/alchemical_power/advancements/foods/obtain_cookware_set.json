@@ -1,0 +1,22 @@
+{
+  "parent": "alchemical_power:root",
+  "display": {
+    "icon": { "item": "alchemical_power:cookware_set" },
+    "title": { "translate": "advancements.alchemical_power.obtain_cookware_set.title" },
+    "description": { "translate": "advancements.alchemical_power.obtain_cookware_set.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["alchemical_power:cookware_set"] }
+        ]
+      }
+    }
+  }
+}

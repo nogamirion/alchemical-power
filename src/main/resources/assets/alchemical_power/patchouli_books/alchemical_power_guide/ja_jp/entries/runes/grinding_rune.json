@@ -1,0 +1,35 @@
+{
+  "name": "03.粉砕のルーン",
+  "icon": "alchemical_power:basic_grinding_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "鉱石を粉砕するルーンです。 $(br)また、アメジストブロックやクォーツブロックを粉砕したり、スカルクカタリストから残響の欠片を得ることも出来ます。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:basic_grinding_rune"},
+      "title": "基本粉砕のルーン",
+      "text": "2倍に砕きます"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:advanced_grinding_rune"},
+      "title": "発展粉砕のルーン",
+      "text": "4倍に砕きます"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:elite_grinding_rune"},
+      "title": "精鋭粉砕のルーン",
+      "text": "6倍に砕きます"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:ultimate_grinding_rune"},
+      "title": "究極粉砕のルーン",
+      "text": "8倍に砕きます"
+    }
+  ]
+}

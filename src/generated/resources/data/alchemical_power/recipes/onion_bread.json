@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "tag": "forge:onions"
+    },
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "tag": "forge:salt"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:onion_bread"
+  }
+}

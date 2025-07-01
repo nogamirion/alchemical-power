@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alchemical_power:item/march_of_the_ruler"
+  }
+}

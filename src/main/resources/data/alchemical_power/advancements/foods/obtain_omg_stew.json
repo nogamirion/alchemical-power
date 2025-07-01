@@ -1,0 +1,22 @@
+{
+  "parent": "alchemical_power:foods/obtain_cookware_set",
+  "display": {
+    "icon": { "item": "alchemical_power:omg_stew" },
+    "title": { "translate": "advancements.alchemical_power.obtain_omg_stew.title" },
+    "description": { "translate": "advancements.alchemical_power.obtain_omg_stew.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["alchemical_power:omg_stew"] }
+        ]
+      }
+    }
+  }
+}

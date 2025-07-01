@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "alchemical_power:unite_alloy"
+  },
+  "base": {
+    "item": "alchemical_power:t6_panakeia_sword"
+  },
+  "result": {
+    "item": "alchemical_power:unite_alloy_sword"
+  },
+  "template": {
+    "item": "alchemical_power:unite_alloy_smithing_template"
+  }
+}

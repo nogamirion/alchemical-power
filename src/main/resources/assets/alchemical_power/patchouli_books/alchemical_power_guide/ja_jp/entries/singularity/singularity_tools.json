@@ -1,0 +1,36 @@
+{
+  "name": "05.特異点ツール",
+  "icon": "alchemical_power:seven_swords_of_terminus",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "特異点で強化された武器・防具。 $(br)防具を一式で装備すると全てのダメージを無効化できる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:seven_swords_of_terminus"},
+      "text": "強化された英傑の剣 $(br)7回攻撃された敵を即死させる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:crown_of_the_seraph"},
+      "text": "強化された天使の輪 $(br)元々の効果が強化され、更に落下・窒息・奈落ダメージを無効にする。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:judicial_carapace"},
+      "text": "強化された赫鋼の胸殻 $(br)反射ダメージが特殊な確定ダメージになり、ダメージも倍になる。さらに物理ダメージを無効にする。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:gait_of_insight"},
+      "text": "強化された賢者の脚甲 $(br)元々の効果に加えて魔法やウィザー・飛び道具のダメージを無効にする。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:boots_of_aetherlight"},
+      "text": "強化された律者の行進 $(br)移動速度が増加し、全てのデバフを無効にする。さらに火や地形から受けるダメージを無効にする。"
+    }
+  ]
+}

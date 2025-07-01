@@ -1,0 +1,53 @@
+{
+  "name": "01.Enhanced Material",
+  "icon": "alchemical_power:t1_panakeia_ingot",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "These are materials enhanced by Panakeia. These can be used to create tools and armor."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t1_panakeia_ingot"},
+      "title": "T1 Panakeia Ingot",
+      "text": "Ingots enhanced with T1 Panakeia. Its characteristics as a tool will be as follows. $(br)Mining level:2 $(br)Tool durability:270 $(br)Basic attack speed:5.0 $(br)Basic damage:1.0 $(br)Basic armor durability:6 $(br)Defense:2/5/4/2 $(br)Armor strength:0 $(br)Knockback resistance:0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t2_panakeia_ingot"},
+      "title": "T2 Panakeia Ingot",
+      "text": "Ingots enhanced with T2 Panakeia. Its characteristics as a tool will be as follows. $(br)Mining level:2 $(br)Tool durability:375 $(br)Basic attack speed:6.0 $(br)Basic damage:2.5 $(br)Basic armor durability:8 $(br)Defense:2/6/5/2 $(br)Armor strength:0.5 $(br)Knockback resistance:0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t3_panakeia_ingot"},
+      "title": "T3 Panakeia Ingot",
+      "text": "Ingots enhanced with T3 Panakeia. Its characteristics as a tool will be as follows. $(br)Mining level:2 $(br)Tool durability:425 $(br)Basic attack speed:7.0 $(br)Basic damage:3.0 $(br)Basic armor durability:9 $(br)Defense:2/6/6/3 $(br)Armor strength:1.0 $(br)Knockback resistance:0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t4_panakeia_gem"},
+      "title": "T4 Panakeia Gem",
+      "text": "Gems or ingots enhanced with T4 Panakeia. Its characteristics as a tool will be as follows. $(br)Mining level:3 $(br)Tool durability:2341 $(br)Basic attack speed:8.5 $(br)Basic damage:3.5 $(br)Basic armor durability:50 $(br)Defense:3/8/6/3 $(br)Armor strength:2.5 $(br)Knockback resistance:0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t5_panakeia_gem"},
+      "title": "T5 Panakeia Gem",
+      "text": "Gems or ingots enhanced with T5 Panakeia. Its characteristics as a tool will be as follows. $(br)Mining level:3 $(br)Tool durability:2716 $(br)Basic attack speed:9.0 $(br)Basic damage:4.0 $(br)Basic armor durability:58 $(br)Defense:3/8/6/3 $(br)Armor strength:2.5 $(br)Knockback resistance:0.1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t6_panakeia_ingot"},
+      "title": "T6 Panakeia Ingot",
+      "text": "Ingots enhanced with T6 Panakeia. Its characteristics as a tool will be as follows. $(br)Mining level:4 $(br)Tool durability:3047 $(br)Basic attack speed:9.5 $(br)Basic damage:9.5 $(br)Basic armor durability:65 $(br)Defense:3/8/6/3 $(br)Armor strength:3.5 $(br)Knockback resistance:0.1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:unite_alloy"},
+      "title": "Unite Alloy",
+      "text": "Alloys created using T7 Panakeia. Its characteristics as a tool will be as follows. $(br)Mining level:6 $(br)Tool durability:8192 $(br)Basic attack speed:11.0 $(br)Basic damage:11.0 $(br)Basic armor durability:175 $(br)Defense:5/10/8/5 $(br)Armor strength:5.0 $(br)Knockback resistance:0.3"
+    }
+  ]
+}

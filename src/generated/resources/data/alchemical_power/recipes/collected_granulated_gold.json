@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:granulated_gold"
+    },
+    {
+      "item": "alchemical_power:granulated_gold"
+    },
+    {
+      "item": "alchemical_power:granulated_gold"
+    },
+    {
+      "item": "alchemical_power:granulated_gold"
+    },
+    {
+      "item": "alchemical_power:granulated_gold"
+    },
+    {
+      "item": "alchemical_power:granulated_gold"
+    },
+    {
+      "item": "alchemical_power:granulated_gold"
+    },
+    {
+      "item": "alchemical_power:granulated_gold"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:collected_granulated_gold"
+  }
+}

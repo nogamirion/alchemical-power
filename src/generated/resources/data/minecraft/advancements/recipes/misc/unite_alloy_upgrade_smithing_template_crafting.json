@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:unite_alloy_upgrade_smithing_template_crafting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_unite_alloy_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:unite_alloy_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_unite_alloy_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:unite_alloy_upgrade_smithing_template_crafting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

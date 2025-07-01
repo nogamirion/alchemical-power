@@ -1,0 +1,21 @@
+{
+  "name": "05.バニラ防具",
+  "icon": "alchemical_power:t1_panakeia_chestplate",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "強化された素材で作成できるバニラの防具類。特殊な機能はなく純粋に各種数値が強化されている。例として下級パナケイアインゴットの防具レシピを記載しています。他の強化インゴットも同様のレシピで作成可能。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_panakeia_helmet",
+      "recipe2": "alchemical_power:t1_panakeia_chestplate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_panakeia_leggings",
+      "recipe2": "alchemical_power:t1_panakeia_boots"
+    }
+  ]
+}

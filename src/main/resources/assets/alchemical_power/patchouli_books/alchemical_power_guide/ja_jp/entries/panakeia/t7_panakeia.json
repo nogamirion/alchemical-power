@@ -1,0 +1,11 @@
+{
+  "name": "08.混沌のパナケイア",
+  "icon": "alchemical_power:t7_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "minecraftにおける強大な力を全て取り込んだ混沌のパナケイアです。錬金術の極地にたどり着くための最後のパーツとなるユナイト合金の材料となります。"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "baking_calzone",
+  "ingredient": {
+    "item": "alchemical_power:calzone_before_baking"
+  },
+  "result": "alchemical_power:calzone"
+}

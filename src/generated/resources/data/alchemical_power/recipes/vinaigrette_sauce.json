@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "item": "alchemical_power:vinegar"
+    },
+    {
+      "item": "alchemical_power:cooking_oil"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "tag": "forge:lemons"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:vinaigrette_sauce"
+  }
+}

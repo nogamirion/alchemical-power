@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alchemical_power:block/x225_cobblestone_generator_mk6"
+    },
+    "facing=east": {
+      "model": "alchemical_power:block/x225_cobblestone_generator_mk6",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alchemical_power:block/x225_cobblestone_generator_mk6",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alchemical_power:block/x225_cobblestone_generator_mk6",
+      "y": 270
+    }
+  }
+}

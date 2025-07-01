@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:collected_purified_ancient_debris"
+    },
+    {
+      "item": "alchemical_power:collected_purified_ancient_debris"
+    },
+    {
+      "item": "alchemical_power:collected_purified_ancient_debris"
+    },
+    {
+      "item": "alchemical_power:collected_purified_ancient_debris"
+    },
+    {
+      "item": "alchemical_power:collected_purified_ancient_debris"
+    },
+    {
+      "item": "alchemical_power:collected_purified_ancient_debris"
+    },
+    {
+      "item": "alchemical_power:collected_purified_ancient_debris"
+    },
+    {
+      "item": "alchemical_power:collected_purified_ancient_debris"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:packaged_purified_ancient_debris"
+  }
+}

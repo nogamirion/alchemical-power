@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/cobblestone",
+    "up": "alchemical_power:block/cobblestonegenerator_top",
+    "north": "alchemical_power:block/t1_panakeia_ingot_block",
+    "east": "alchemical_power:block/cobblestonegenerator_side2",
+    "south": "alchemical_power:block/t1_panakeia_ingot_block",
+    "west": "alchemical_power:block/cobblestonegenerator_side1",
+    "particle": "minecraft:block/cobblestone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "07.Combustion Rune",
+  "icon": "alchemical_power:t1_combustion_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Rune with increased combustion efficiency by imprinting coal and charcoal with panakeia."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t1_combustion_rune"},
+      "text": "Burning time:2400ticks (120 seconds)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t2_combustion_rune"},
+      "text": "Burning time:3600ticks (180 seconds)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t3_combustion_rune"},
+      "text": "Burning time:5400ticks (300 seconds)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t4_combustion_rune"},
+      "text": "Burning time:8100ticks (450 seconds)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t5_combustion_rune"},
+      "text": "Burning time:12150ticks (675 seconds)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t6_combustion_rune"},
+      "text": "Burning time:18225ticks (1012.5 seconds)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Rune of combustion can be blocked just like coal."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_combustion_rune_block",
+      "recipe2": "alchemical_power:t2_combustion_rune_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t3_combustion_rune_block",
+      "recipe2": "alchemical_power:t4_combustion_rune_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t5_combustion_rune_block",
+      "recipe2": "alchemical_power:t6_combustion_rune_block"
+    }
+
+  ]
+}

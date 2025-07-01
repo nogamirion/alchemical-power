@@ -1,0 +1,46 @@
+{
+  "name": "02.High-density Compression",
+  "icon": "alchemical_power:high_density_t1_panakeia_ingot",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "It can be created by making a block of ingots/gemstones enhanced with Panakeia and then arranging them on a further Transcendental Table."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t1_panakeia_ingot"},
+      "title": "High Density T1 Panakeia Ingot"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t2_panakeia_ingot"},
+      "title": "High Density T2 Panakeia Ingot"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t3_panakeia_ingot"},
+      "title": "High Density T3 Panakeia Ingot"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t4_panakeia_gem"},
+      "title": "High Density T4 Panakeia Gem"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t5_panakeia_gem"},
+      "title": "High Density T5 Panakeia Gem"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t6_panakeia_ingot"},
+      "title": "High Density T6 Panakeia Ingot"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_unite_alloy"},
+      "title": "High Density Unite Alloy"
+    }
+  ]
+}

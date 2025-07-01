@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:collected_granulated_iron"
+    },
+    {
+      "item": "alchemical_power:collected_granulated_iron"
+    },
+    {
+      "item": "alchemical_power:collected_granulated_iron"
+    },
+    {
+      "item": "alchemical_power:collected_granulated_iron"
+    },
+    {
+      "item": "alchemical_power:collected_granulated_iron"
+    },
+    {
+      "item": "alchemical_power:collected_granulated_iron"
+    },
+    {
+      "item": "alchemical_power:collected_granulated_iron"
+    },
+    {
+      "item": "alchemical_power:collected_granulated_iron"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:packaged_granulated_iron"
+  }
+}

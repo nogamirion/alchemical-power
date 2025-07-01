@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "tag": "forge:tomatoes"
+    },
+    {
+      "tag": "forge:cheeses"
+    },
+    {
+      "tag": "forge:salt"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:grilled_tomato_and_cheese"
+  }
+}

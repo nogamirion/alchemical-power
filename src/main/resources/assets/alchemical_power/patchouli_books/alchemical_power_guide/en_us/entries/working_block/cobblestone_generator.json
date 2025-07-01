@@ -1,0 +1,51 @@
+{
+  "name": "04.Cobblestone Generator",
+  "icon": "alchemical_power:alchemical_engraver",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Blocks to produce Cobblestone. $(br)Right-click with bare hands to take out one stack, and shift+right-click to see how many are inside."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk1",
+      "text": "The most basic cobblestone generator. $(br)It produces Cobblestone at a rate of 1 per second."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk2",
+      "text": "Reinforcing increases the amount of production. $(br)Strengthening it by one level quadruples its production capacity."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk3",
+      "recipe2": "alchemical_power:cobblestone_generator_mk4"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk5",
+      "recipe2": "alchemical_power:cobblestone_generator_mk6"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk7",
+      "recipe2": "alchemical_power:cobblestone_generator_mk8"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:x9_cobblestone_generator_mk1"},
+      "text": "Various cobblestone generator become cobblestone generator that produce x9 Cobblestone by solidifying 9 pieces at the Alchemy Table."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:x225_cobblestone_generator_mk1"},
+      "text": "Similarly, 25 x9 cobblestone generator in a row at the Hermes's workbench make a manufacturing machine that produces x225 cobblestone."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:x38025_cobblestone_generator_mk1"},
+      "text": "Similarly, 169 x225 cobblestone generator in a row at the transcendental table make a manufacturing machine that produces x38025 cobblestone."
+    }
+  ]
+}

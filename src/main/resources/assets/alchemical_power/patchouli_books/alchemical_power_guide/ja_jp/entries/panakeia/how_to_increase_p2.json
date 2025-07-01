@@ -1,0 +1,11 @@
+{
+  "name": "10.パナケイアの増やし方②",
+  "icon": "alchemical_power:panakeia_reed_t0",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "パナケイアはサトウキビと組み合わせることで、パナケイア黍となり、砂糖のように栽培して増やすことも可能です。作成するには錬金作業台で一つ下位のパナケイア黍1つをパナケイアで囲う必要があります。(T0パナケイアの場合は普通のサトウキビ）"
+    }
+  ]
+}

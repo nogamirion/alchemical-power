@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "minecraft:seagrass"
+    },
+    {
+      "tag": "forge:rice"
+    },
+    {
+      "item": "alchemical_power:vinegar"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "alchemical_power:konbujime_cod_sushi"
+  }
+}

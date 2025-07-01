@@ -1,0 +1,31 @@
+{
+  "name": "06.純化のルーン",
+  "icon": "alchemical_power:basic_purification_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "軟化した鉱石・宝石を純化するルーン。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:basic_purification_rune"},
+      "text": "2個に純化します。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:advanced_purification_rune"},
+      "text": "4個に純化します。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:elite_purification_rune"},
+      "text": "6個に純化します。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:ultimate_purification_rune"},
+      "text": "8個に純化します。"
+    }
+  ]
+}

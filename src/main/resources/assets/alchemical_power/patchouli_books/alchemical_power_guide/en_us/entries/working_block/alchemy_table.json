@@ -1,0 +1,29 @@
+{
+  "name": "01.Alchemy Table",
+  "icon": "alchemical_power:alchemy_table",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Workbench for creating unique items."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:alchemy_table"},
+      "title": "Alchemy Table",
+      "text": "A workbench for the most basic alchemy operations. $(br)When materials are laid out, it takes one second to create an item."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:hermes_workbench"},
+      "title": "Hermes's Workbench",
+      "text": "Developmental workbench for 5x5 work. $(br)When the materials are ready, it takes 2 seconds to create an item."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:transcendental_table"},
+      "title": "Transcendental Table",
+      "text": "A workbench that allows crafts of a huge size, 13 x 13. $(br)When the materials are ready, the item is created over a period of 3 seconds."
+    }
+  ]
+}

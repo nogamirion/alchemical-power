@@ -1,0 +1,26 @@
+{
+  "name": "02.Origin Tools",
+  "icon": "alchemical_power:the_destroyer_of_the_rial",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Tools created using the Philosopher's Stone and Origin."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:blade_of_valor"},
+      "text": "A weapon that can be created with the Origin of Courage. $(br)When you take damage while holding it, you receive a buff and can perform a ranged attack that deals special, definite damage."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:the_destroyer_of_the_rial"},
+      "text": "A pickaxe that can be created with the Origin of Hope. $(br)Right-click to remove a bedrock, shift+right-click to place a bedrock."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:eternal_fuel"},
+      "text": "Fuel that can be created with the Origin of Love.  $(br)It literally burns forever."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "04.美徳の根源",
+  "icon": "alchemical_power:origin_of_wisdom",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "美徳の結晶を圧縮し根源に至るための素材。特異点や強力なアイテムの材料となる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_wisdom"},
+      "title": "知恵の根源"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_courage"},
+      "title": "勇気の根源"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_justice"},
+      "title": "正義の根源"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_love"},
+      "title": "愛の根源"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_hope"},
+      "title": "希望の根源"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_temperance"},
+      "title": "節制の根源"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_faith"},
+      "title": "信仰の根源"
+    }
+  ]
+}

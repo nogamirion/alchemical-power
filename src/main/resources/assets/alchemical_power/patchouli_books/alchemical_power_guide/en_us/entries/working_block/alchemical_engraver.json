@@ -1,0 +1,11 @@
+{
+  "name": "02.Alchemical Engraver",
+  "icon": "alchemical_power:alchemical_engraver",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Workbench for creating runes and special items. $(br)Items to be used as materials are placed on top, items to be imprinted on the bottom, and ink is placed in the upper left corner if necessary."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:rice"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "alchemical_power:vinegar"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "alchemical_power:vinegar"
+  }
+}

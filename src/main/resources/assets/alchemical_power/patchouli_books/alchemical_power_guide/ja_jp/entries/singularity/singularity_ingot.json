@@ -1,0 +1,21 @@
+{
+  "name": "04.特異点インゴット",
+  "icon": "alchemical_power:singularity_ingot",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "根源ツールや防具を更に強化できるインゴット。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:singularity_ingot",
+      "text": "特異点ナゲットは錬金作業台で特異点を模倣岩盤で囲うことで作成できる。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"minecraft:singularity_ingot_upgrade_smithing_template_crafting",
+      "text": "強化にはネザライトやユナイト合金のように鍛冶型を使う必要がある。"
+    }
+  ]
+}

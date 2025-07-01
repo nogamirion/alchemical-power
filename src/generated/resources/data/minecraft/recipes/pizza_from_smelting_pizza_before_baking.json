@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "baking_pizza",
+  "ingredient": {
+    "item": "alchemical_power:pizza_before_baking"
+  },
+  "result": "alchemical_power:pizza"
+}

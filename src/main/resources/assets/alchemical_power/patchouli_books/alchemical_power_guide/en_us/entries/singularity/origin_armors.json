@@ -1,0 +1,31 @@
+{
+  "name": "03.Origin Armors",
+  "icon": "alchemical_power:crimson_plate_of_justice",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Armors created using the Philosopher's Stone and Origin."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:angel_ring"},
+      "text": "Head armor that can be created with the Origin of Faith. $(br)In addition to the buff that allows creative flight, it grants regeneration 3 and resistance 2."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:crimson_plate_of_justice"},
+      "text": "Body armor that can be created with the Origin of Justice. $(br)Reflects 100% of the damage it would normally take and provides knockback and fire."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:leggings_of_saga"},
+      "text": "Leg armor that can be created with the Origin of Wisdom. $(br)It reduces movement speed due to blocking, nullifies slow debuffs, and reduces the reduction of satiety."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:march_of_the_ruler"},
+      "text": "Boots that can be created with the Origin of Temperance. $(br)It nullifies fall damage and halves the duration of all debuffs."
+    }
+  ]
+}

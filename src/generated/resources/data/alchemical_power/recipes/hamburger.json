@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "item": "alchemical_power:hamburg_steak"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "tag": "forge:onions"
+    },
+    {
+      "tag": "forge:cabbage"
+    },
+    {
+      "tag": "forge:tomatoes"
+    },
+    {
+      "tag": "forge:cheeses"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:hamburger"
+  }
+}

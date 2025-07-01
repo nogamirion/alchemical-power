@@ -1,0 +1,6 @@
+{
+  "name": "07.特異点",
+  "description": "特異点、その使い方。",
+  "advancement": "alchemical_power:singularity/crafted_singularity",
+  "icon": "alchemical_power:singularity"
+}

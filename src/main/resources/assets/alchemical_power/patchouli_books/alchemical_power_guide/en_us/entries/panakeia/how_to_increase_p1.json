@@ -1,0 +1,11 @@
+{
+  "name": "09.Increase Panakeia Part 1",
+  "icon": "alchemical_power:alchemy_table",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Panakeia can be increased by surrounding it with one lower panakeia using the alchemy table."
+    }
+  ]
+}

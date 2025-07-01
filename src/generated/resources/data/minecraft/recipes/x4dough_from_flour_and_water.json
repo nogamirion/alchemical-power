@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:flour"
+    },
+    {
+      "item": "alchemical_power:flour"
+    },
+    {
+      "item": "alchemical_power:flour"
+    },
+    {
+      "item": "alchemical_power:flour"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "alchemical_power:dough"
+  }
+}

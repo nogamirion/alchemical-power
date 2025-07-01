@@ -1,0 +1,11 @@
+{
+  "name": "08.等価のルーン",
+  "icon": "alchemical_power:rune_of_equivalent",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "苗木を別な苗木に変換したり、焼いた食べ物を焼く前に戻したり、レアなアイテムを別なレアなアイテムに変換したりすることが出来る。（バニラアイテムに限る）"
+    }
+  ]
+}

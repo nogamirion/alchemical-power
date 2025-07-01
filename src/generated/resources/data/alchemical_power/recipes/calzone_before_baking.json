@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "item": "alchemical_power:pizza_dough"
+    },
+    {
+      "item": "alchemical_power:pizza_before_baking"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:calzone_before_baking"
+  }
+}

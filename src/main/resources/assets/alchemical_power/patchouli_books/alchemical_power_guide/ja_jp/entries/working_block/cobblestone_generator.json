@@ -1,0 +1,51 @@
+{
+  "name": "04.丸石製造機",
+  "icon": "alchemical_power:alchemical_engraver",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "丸石を製造するブロック。 $(br)素手で右クリックすることで1スタック取り出し、シフト+右クリックで中にいくつ入っているかを確認できる。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk1",
+      "text": "最も基本的な丸石製造機。 $(br)1秒に1個の丸石を製造する。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk2",
+      "text": "強化することで丸石の生産量を増やせる。 $(br)1段階強化する事に生産力が4倍になる。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk3",
+      "recipe2": "alchemical_power:cobblestone_generator_mk4"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk5",
+      "recipe2": "alchemical_power:cobblestone_generator_mk6"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk7",
+      "recipe2": "alchemical_power:cobblestone_generator_mk8"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:x9_cobblestone_generator_mk1"},
+      "text": "各種丸石製造機は、錬金作業台で9個固めることで9倍圧縮丸石を生産する9倍圧縮丸石製造機になる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:x225_cobblestone_generator_mk1"},
+      "text": "同様に、9倍圧縮丸石製造機をヘルメスの作業台で25個並べることで、225倍圧縮丸石を生産する製造機になる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:x38025_cobblestone_generator_mk1"},
+      "text": "同様に、225倍圧縮丸石製造機を超超越論的錬金作業台で169個並べることで、38025倍圧縮丸石を生産する製造機になる。"
+    }
+  ]
+}

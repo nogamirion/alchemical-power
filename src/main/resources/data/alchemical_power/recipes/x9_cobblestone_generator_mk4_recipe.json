@@ -1,0 +1,22 @@
+{
+  "type": "alchemical_power:alchemy_table_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:cobblestone_generator_mk4"},
+    {"item": "alchemical_power:cobblestone_generator_mk4"},
+    {"item": "alchemical_power:cobblestone_generator_mk4"},
+
+    {"item": "alchemical_power:cobblestone_generator_mk4"},
+    {"item": "alchemical_power:cobblestone_generator_mk4"},
+    {"item": "alchemical_power:cobblestone_generator_mk4"},
+
+    {"item": "alchemical_power:cobblestone_generator_mk4"},
+    {"item": "alchemical_power:cobblestone_generator_mk4"},
+    {"item": "alchemical_power:cobblestone_generator_mk4"},
+
+    {"tag": "alchemical_power:alchemy_kit_tier2"}
+  ],
+  "output": {
+    "count": 1,
+    "item": "alchemical_power:x9_cobblestone_generator_mk4"
+  }
+}

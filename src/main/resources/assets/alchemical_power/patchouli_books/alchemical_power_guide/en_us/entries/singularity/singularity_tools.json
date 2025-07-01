@@ -1,0 +1,36 @@
+{
+  "name": "05.Singularity Tools",
+  "icon": "alchemical_power:seven_swords_of_terminus",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Singularity-enhanced weapons and armor. $(br)A full set of armor can nullify all damage."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:seven_swords_of_terminus"},
+      "text": "Enhanced Blade of Valor. $(br)Instantly kills enemies attacked 7 times."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:crown_of_the_seraph"},
+      "text": "Enhanced Angel Ring. $(br)Enhances the original effect and further nullifies falling, choking, and void damage."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:judicial_carapace"},
+      "text": "Enhanced Crimson plate of Justice. $(br)Reflected damage becomes a special fixed damage, and the damage dealt is doubled. It also nullifies physical damage."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:gait_of_insight"},
+      "text": "Enhanced Leggings of Saga. $(br)In addition to the original effect, it also nullifies magic, wither, and flying damage."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:boots_of_aetherlight"},
+      "text": "Enhanced March of the Ruler. $(br)Increases movement speed and nullifies all debuffs. It also negates fire and terrain damage."
+    }
+  ]
+}

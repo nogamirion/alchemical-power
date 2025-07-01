@@ -1,0 +1,8 @@
+{
+  "type": "patchouli:shapeless_book_recipe",
+  "ingredients": [
+    { "item": "minecraft:book" },
+    { "item": "alchemical_power:t0_panakeia" }
+  ],
+  "book": "alchemical_power:alchemical_power_guide"
+}

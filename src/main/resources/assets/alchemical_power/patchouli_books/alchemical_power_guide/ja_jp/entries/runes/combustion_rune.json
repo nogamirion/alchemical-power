@@ -1,0 +1,61 @@
+{
+  "name": "07.燃焼のルーン",
+  "icon": "alchemical_power:t1_combustion_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "石炭・木炭をパナケイアで刻印することで燃焼効率を上げたルーンになる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t1_combustion_rune"},
+      "text": "燃焼時間:2400ticks (120秒)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t2_combustion_rune"},
+      "text": "燃焼時間:3600ticks (180秒)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t3_combustion_rune"},
+      "text": "燃焼時間:5400ticks (300秒)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t4_combustion_rune"},
+      "text": "燃焼時間:8100ticks (450秒)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t5_combustion_rune"},
+      "text": "燃焼時間:12150ticks (675秒)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t6_combustion_rune"},
+      "text": "燃焼時間:18225ticks (1012.5秒)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "燃焼のルーンは石炭と同じようにブロック化が可能。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_combustion_rune_block",
+      "recipe2": "alchemical_power:t2_combustion_rune_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t3_combustion_rune_block",
+      "recipe2": "alchemical_power:t4_combustion_rune_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t5_combustion_rune_block",
+      "recipe2": "alchemical_power:t6_combustion_rune_block"
+    }
+
+  ]
+}

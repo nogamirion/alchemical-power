@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "tag": "forge:rice"
+    },
+    {
+      "tag": "forge:onions"
+    },
+    {
+      "item": "alchemical_power:cooking_oil"
+    },
+    {
+      "tag": "forge:salt"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:fried_rice"
+  }
+}

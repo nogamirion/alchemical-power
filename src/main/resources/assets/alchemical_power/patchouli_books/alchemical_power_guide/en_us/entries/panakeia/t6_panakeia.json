@@ -1,0 +1,17 @@
+{
+  "name": "07.T6 Panakeia",
+  "icon": "alchemical_power:t6_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "It is a Panakeia that has gained sanctity by being imbued with the power of the stars. It can be used to strengthen ultra-rare metals such as neatherite, in addition to being a material for the highest level of alchemy kits."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t6_ingot_material"},
+      "title": "T6 Panakeia Material",
+      "text": "T6 Panakeia can strengthens these metals into T6 Panakeia ingots."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:collected_crushed_diamond_ore"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_diamond_ore"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_diamond_ore"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_diamond_ore"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_diamond_ore"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_diamond_ore"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_diamond_ore"
+    },
+    {
+      "item": "alchemical_power:collected_crushed_diamond_ore"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:packaged_crushed_diamond_ore"
+  }
+}

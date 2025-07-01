@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": { "item": "alchemical_power:philosophers_stone" },
+    "title": { "translate": "advancements.alchemical_power.root.title" },
+    "description": { "translate": "advancements.alchemical_power.root.description" },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "auto_unlock": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

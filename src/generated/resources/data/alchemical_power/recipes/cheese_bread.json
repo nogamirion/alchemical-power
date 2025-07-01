@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "tag": "forge:cheeses"
+    },
+    {
+      "tag": "forge:dough/wheat"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:cheese_bread"
+  }
+}

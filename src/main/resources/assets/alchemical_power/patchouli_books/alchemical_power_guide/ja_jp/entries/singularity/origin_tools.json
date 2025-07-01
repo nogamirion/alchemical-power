@@ -1,0 +1,26 @@
+{
+  "name": "02.根源ツール",
+  "icon": "alchemical_power:the_destroyer_of_the_rial",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "賢者の石と根源を用いて作成するツール。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:blade_of_valor"},
+      "text": "勇気の根源で作成できる武器。 $(br)持っている状態でダメージを受けるとバフを受け、特殊な確定ダメージを与える範囲攻撃ができる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:the_destroyer_of_the_rial"},
+      "text": "希望の根源で作成できるツルハシ。 $(br)右クリックで岩盤を撤去でき、シフト+右クリックで岩盤を設置できる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:eternal_fuel"},
+      "text": "愛の根源で作成できる燃料  $(br)文字通り永久に燃え続ける。"
+    }
+  ]
+}

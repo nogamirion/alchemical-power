@@ -1,0 +1,35 @@
+{
+  "name": "04.Granulating Rune",
+  "icon": "alchemical_power:basic_granulating_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Rune to granulate crushed ores and gemstones."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:basic_granulating_rune"},
+      "title": "Basic Granulating Rune",
+      "text": "Granulate into 2 pieces."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:advanced_granulating_rune"},
+      "title": "Advanced Granulating Rune",
+      "text": "Granulate into 4 pieces."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:elite_granulating_rune"},
+      "title": "Elite Granulating Rune",
+      "text": "Granulate into 6 pieces."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:ultimate_granulating_rune"},
+      "title": "Ultimate Granulating Rune",
+      "text": "Granulate into 8 pieces."
+    }
+  ]
+}

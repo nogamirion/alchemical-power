@@ -1,0 +1,35 @@
+{
+  "name": "04.粒化のルーン",
+  "icon": "alchemical_power:basic_granulating_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "粉砕された鉱石・宝石を粒化するルーンです。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:basic_granulating_rune"},
+      "title": "基本粒化のルーン",
+      "text": "2倍に粒化します"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:advanced_granulating_rune"},
+      "title": "発展粒化のルーン",
+      "text": "4倍に粒化します"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:elite_granulating_rune"},
+      "title": "精鋭粒化のルーン",
+      "text": "6倍に粒化します"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:ultimate_granulating_rune"},
+      "title": "究極粒化のルーン",
+      "text": "8倍に粒化します"
+    }
+  ]
+}

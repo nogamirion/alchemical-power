@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:collected_softened_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_softened_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_softened_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_softened_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_softened_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_softened_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_softened_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_softened_diamond"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:packaged_softened_diamond"
+  }
+}

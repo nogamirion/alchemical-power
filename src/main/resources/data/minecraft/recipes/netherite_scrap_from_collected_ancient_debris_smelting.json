@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "group": "netherite_scrap",
+  "ingredient": {
+    "tag": "alchemical_power:collected_doubling_ancient_debris"
+  },
+  "result": {
+    "count": 8,
+    "item": "minecraft:netherite_scrap"
+  }
+}

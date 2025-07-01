@@ -1,0 +1,31 @@
+{
+  "name": "03.根源防具",
+  "icon": "alchemical_power:crimson_plate_of_justice",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "賢者の石と根源を用いて作成する防具。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:angel_ring"},
+      "text": "信仰の根源で作成できる頭防具。 $(br)クリエイティブ飛行が可能になるバフに加えて再生3と耐性2を付与する。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:crimson_plate_of_justice"},
+      "text": "正義の根源で作成できる胴防具。 $(br)本来受けるダメージの100％反射し、ノックバックと炎上を与える。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:leggings_of_saga"},
+      "text": "知恵の根源で作成できる脚防具。 $(br)ブロックによる移動速度の低下を軽減し、スロー系のデバフを無効化し、満腹度の減少を軽減する。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:march_of_the_ruler"},
+      "text": "節制の根源で作成できるブーツ。 $(br)落下ダメージを無効にし、全てのデバフの効果時間を半分にする。"
+    }
+  ]
+}

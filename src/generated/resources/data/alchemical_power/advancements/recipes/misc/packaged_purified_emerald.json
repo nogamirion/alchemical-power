@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_collected_purified_emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:collected_purified_emerald"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alchemical_power:packaged_purified_emerald"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_collected_purified_emerald",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alchemical_power:packaged_purified_emerald"
+    ]
+  },
+  "sends_telemetry_event": false
+}

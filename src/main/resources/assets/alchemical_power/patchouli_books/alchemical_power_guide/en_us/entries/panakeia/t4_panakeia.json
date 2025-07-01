@@ -1,0 +1,17 @@
+{
+  "name": "05.T4 Panakeia",
+  "icon": "alchemical_power:t4_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This is Panakeia, which gained more power by putting the Wither Curse into it. It can be used to enhance diamonds and other gems and rare metals. By right-clicking on the dragon's head, you will get the T5 Panakeia."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t4_ingot_material"},
+      "title": "T4 Panakeia Material",
+      "text": "T4 Panakeia can strengthens these metals into T4 Panakeia gems."
+    }
+  ]
+}

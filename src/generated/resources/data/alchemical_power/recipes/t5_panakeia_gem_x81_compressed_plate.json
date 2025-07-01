@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:t5_panakeia_gem_block"
+    },
+    {
+      "item": "alchemical_power:t5_panakeia_gem_block"
+    },
+    {
+      "item": "alchemical_power:t5_panakeia_gem_block"
+    },
+    {
+      "item": "alchemical_power:t5_panakeia_gem_block"
+    },
+    {
+      "item": "alchemical_power:t5_panakeia_gem_block"
+    },
+    {
+      "item": "alchemical_power:t5_panakeia_gem_block"
+    },
+    {
+      "item": "alchemical_power:t5_panakeia_gem_block"
+    },
+    {
+      "item": "alchemical_power:t5_panakeia_gem_block"
+    },
+    {
+      "item": "alchemical_power:t5_panakeia_gem_block"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:t5_panakeia_gem_x81_compressed_plate"
+  }
+}

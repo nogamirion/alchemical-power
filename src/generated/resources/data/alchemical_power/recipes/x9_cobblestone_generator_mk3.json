@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "a": {
+      "item": "alchemical_power:x9_cobblestone_generator_mk2"
+    },
+    "b": {
+      "item": "minecraft:water_bucket"
+    },
+    "c": {
+      "item": "minecraft:lava_bucket"
+    },
+    "d": {
+      "item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"
+    }
+  },
+  "pattern": [
+    "ada",
+    "bdc",
+    "ada"
+  ],
+  "result": {
+    "item": "alchemical_power:x9_cobblestone_generator_mk3"
+  },
+  "show_notification": true
+}

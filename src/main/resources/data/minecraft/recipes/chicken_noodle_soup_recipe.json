@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "item": "minecraft:cooked_chicken"
+    },
+    {
+      "tag": "forge:pasta/raw_pasta"
+    },
+    {
+      "tag": "forge:onions"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt":{"Potion":"minecraft:water"}
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:chicken_noodle_soup"
+  }
+}

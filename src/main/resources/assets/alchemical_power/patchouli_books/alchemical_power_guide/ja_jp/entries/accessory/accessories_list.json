@@ -1,0 +1,26 @@
+{
+  "name": "02.アクセサリー一覧",
+  "icon": "minecraft:writable_book",
+  "category": "alchemical_power:accessory",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Alchemical Powerで追加されるアクセサリーの一覧"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:alchemists_ring"},
+      "text": "攻撃力と防御力が上昇する。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:greed_ring"},
+      "text": "アイテムを拾うと体力が回復し、一定時間採掘速度が上昇する。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:gluttonys_ring"},
+      "text": "最大体力が大幅に上昇し、満腹度が回復することで複数のバフを得る。"
+    }
+  ]
+}

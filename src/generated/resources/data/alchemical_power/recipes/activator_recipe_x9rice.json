@@ -1,0 +1,15 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {
+      "item": "alchemical_power:rune_of_fruits"
+    },
+    {
+      "item": "minecraft:hay_block"
+    }
+  ],
+  "output": {
+    "count": 9,
+    "item": "alchemical_power:rice"
+  }
+}

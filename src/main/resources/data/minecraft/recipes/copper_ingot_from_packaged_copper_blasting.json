@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 16.0,
+  "group": "copper_ingot",
+  "ingredient": {
+    "tag": "alchemical_power:packaged_doubling_copper"
+  },
+  "result":{
+    "count": 64,
+    "item": "minecraft:copper_ingot"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:advanced_granulating_rune"},
+    {"item": "alchemical_power:collected_crushed_diamond_ore"}
+  ],
+  "output":{
+    "count":4,
+    "item":"alchemical_power:collected_granulated_diamond"
+  }
+}

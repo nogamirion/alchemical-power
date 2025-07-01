@@ -1,0 +1,17 @@
+{
+  "name": "01.パナケイア含有粉末",
+  "icon": "alchemical_power:t0_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "地下に生成されるパナケイア含有石を採掘または精錬することで入手できる、純度の低いパナケイアです。水の入った大釜に右クリックすることで、下級パナケイアとなります。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["alchemical_power:textures/gui/entries/panakeia_bearing_stone.png"],
+      "title": "パナケイア含有石",
+      "text": "地下で生成される石で、つるはしで採掘が可能"
+    }
+  ]
+}

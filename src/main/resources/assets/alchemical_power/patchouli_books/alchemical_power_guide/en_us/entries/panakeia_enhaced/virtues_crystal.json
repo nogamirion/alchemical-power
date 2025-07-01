@@ -1,0 +1,46 @@
+{
+  "name": "03.Virtues Crystal",
+  "icon": "alchemical_power:wisdom_crystal",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The crystallization of virtues according to the seven types of panakeia."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:wisdom_crystal"},
+      "title": "Wisdom Crystal"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:courage_crystal"},
+      "title": "Courage Crystal"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:justice_crystal"},
+      "title": "Justice Crystal"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:love_crystal"},
+      "title": "Love Crystal"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:hope_crystal"},
+      "title": "Hope Crystal"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:temperance_crystal"},
+      "title": "Temperance Crystal"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:faith_crystal"},
+      "title": "Faith Crystal"
+    }
+  ]
+}

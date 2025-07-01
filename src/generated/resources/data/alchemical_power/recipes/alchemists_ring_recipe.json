@@ -1,0 +1,18 @@
+{
+  "type": "alchemical_power:alchemical_engraver_recipe",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "alchemical_power:foundation_of_ring"
+    },
+    {
+      "tag": "alchemical_power:jei_empty_tag"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "alchemical_power:alchemists_ring"
+  }
+}

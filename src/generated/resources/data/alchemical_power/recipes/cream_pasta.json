@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "alchemical_power:cream_sauce"
+    },
+    {
+      "tag": "forge:pasta/raw_pasta"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:cream_pasta"
+  }
+}

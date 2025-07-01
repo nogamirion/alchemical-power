@@ -1,0 +1,11 @@
+{
+  "name": "01.記載内容に関して",
+  "icon": "minecraft:writable_book",
+  "category": "alchemical_power:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "本ガイドの英語訳は、日本語話者が翻訳ツールおよびチャットAIを利用して作成しています。そのため、一部に不自然な表現や、意図と異なる訳語が含まれる可能性があります。"
+    }
+  ]
+}

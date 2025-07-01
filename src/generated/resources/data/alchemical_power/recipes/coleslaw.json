@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "tag": "forge:cabbage"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "alchemical_power:vinaigrette_sauce"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:coleslaw"
+  }
+}

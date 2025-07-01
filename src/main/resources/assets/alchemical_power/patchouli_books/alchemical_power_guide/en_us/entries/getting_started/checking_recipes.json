@@ -1,0 +1,11 @@
+{
+  "name": "02.Checking recipes",
+  "icon": "minecraft:book",
+  "category": "alchemical_power:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Since our mod adds many items and recipes, we recommend installing recipe mods like JEI and REI to check them.Also, the contents of this guidebook may include descriptions based on the assumption that these mods have been installed."
+    }
+  ]
+}

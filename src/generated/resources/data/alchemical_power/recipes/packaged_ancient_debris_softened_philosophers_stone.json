@@ -1,0 +1,15 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {
+      "item": "alchemical_power:philosophers_stone"
+    },
+    {
+      "item": "alchemical_power:packaged_granulated_ancient_debris"
+    }
+  ],
+  "output": {
+    "count": 64,
+    "item": "alchemical_power:packaged_softened_ancient_debris"
+  }
+}

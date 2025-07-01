@@ -1,0 +1,9 @@
+{
+  "name": "Alchemical Power Guide",
+  "landing_text": "patchouli.alchemical_power_guide_landing_text",
+  "version": 1,
+  "creative_tab": "minecraft:tools_and_utilities",
+  "use_resource_pack": true,
+  "model": "patchouli:book_red",
+  "i18n": false
+}

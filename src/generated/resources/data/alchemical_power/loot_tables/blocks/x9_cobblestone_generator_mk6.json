@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "alchemical_power:x9_cobblestone_generator_mk6"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "alchemical_power:blocks/x9_cobblestone_generator_mk6"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:ultimate_granulating_rune"},
+    {"item": "alchemical_power:collected_crushed_raw_gold"}
+  ],
+  "output":{
+    "count":8,
+    "item":"alchemical_power:collected_granulated_gold"
+  }
+}

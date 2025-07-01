@@ -1,0 +1,11 @@
+{
+  "name": "09.Rune of Fruits",
+  "icon": "alchemical_power:rune_of_fruits",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vanilla ingredients can be converted to ingredients added by Alchemical Power."
+    }
+  ]
+}

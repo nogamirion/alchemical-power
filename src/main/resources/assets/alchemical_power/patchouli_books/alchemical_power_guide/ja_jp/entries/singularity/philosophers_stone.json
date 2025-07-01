@@ -1,0 +1,11 @@
+{
+  "name": "01.賢者の石",
+  "icon": "alchemical_power:philosophers_stone",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "このMODにおける最大の目標。 $(br)耐久値無限の錬金ツールとして使用でき、これでしか作成できないアイテムも存在する。 $(br)また、鉱石の倍化のためのルーンと同じように使用でき、その際には64倍に加工する。"
+    }
+  ]
+}

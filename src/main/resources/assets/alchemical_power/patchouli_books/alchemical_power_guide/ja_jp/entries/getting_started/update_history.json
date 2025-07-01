@@ -1,0 +1,16 @@
+{
+  "name": "03.アップデート履歴",
+  "icon": "minecraft:writable_book",
+  "category": "alchemical_power:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "このModのアップデート履歴を記載しています。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ver.1.0.0",
+      "text": "当初予定していた要素はすべて実装したためリリースを行う。$(br)最初期のバージョン。"
+    }
+  ]
+}

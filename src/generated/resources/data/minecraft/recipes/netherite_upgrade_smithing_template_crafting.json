@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "alchemical_power:netherite_upgrade_template_materials"
+    },
+    "b": {
+      "item": "minecraft:netherite_block"
+    },
+    "c": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "pattern": [
+    "cbc",
+    "bab",
+    "cbc"
+  ],
+  "result": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "show_notification": true
+}

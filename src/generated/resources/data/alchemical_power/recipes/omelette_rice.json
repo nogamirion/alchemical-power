@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "forge:rice"
+    },
+    {
+      "tag": "forge:onions"
+    },
+    {
+      "tag": "forge:tomatoes"
+    },
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "alchemical_power:cooking_oil"
+    },
+    {
+      "tag": "forge:salt"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:omelette_rice"
+  }
+}

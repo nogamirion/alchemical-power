@@ -1,0 +1,11 @@
+{
+  "name": "03.ルーン活性装置",
+  "icon": "alchemical_power:rune_activator",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ルーンを使用するための装置。 $(br)左にルーン、右に対応したアイテムを入れることで、一定時間後に中央にアイテムが出てくる。"
+    }
+  ]
+}

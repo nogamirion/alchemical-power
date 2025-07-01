@@ -1,0 +1,15 @@
+{
+  "name": "01.調理器具セット",
+  "icon": "alchemical_power:cookware_set",
+  "category": "alchemical_power:cooking",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Alchemical Powerで追加された料理を作るには、基本的にこのツールを使う必要がある。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cookware_set"
+    }
+  ]
+}

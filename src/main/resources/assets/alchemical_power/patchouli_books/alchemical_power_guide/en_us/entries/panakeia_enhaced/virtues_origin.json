@@ -1,0 +1,46 @@
+{
+  "name": "04.Virtues Origin",
+  "icon": "alchemical_power:origin_of_wisdom",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Material for compressing the crystals of virtue and reaching the root. Material for singularities and powerful items."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_wisdom"},
+      "title": "Origin of Wisdom"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_courage"},
+      "title": "Origin of Courage"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_justice"},
+      "title": "Origin of Justice"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_love"},
+      "title": "Origin of Love"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_hope"},
+      "title": "Origin of Hope"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_temperance"},
+      "title": "Origin of Temperance"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_faith"},
+      "title": "Origin of Faith"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 64,
+  "ingredient": {
+    "tag": "alchemical_power:packaged_doubling_emerald"
+  },
+  "result":"minecraft:emerald"
+  }

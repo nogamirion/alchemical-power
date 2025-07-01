@@ -1,0 +1,17 @@
+{
+  "name": "03.T2 Panakeia",
+  "icon": "alchemical_power:t2_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "It is a medium panacea that has gained heat due to high temperatures. It can strengthen metals such as iron. By right-clicking on the glowstone, it becomes T3 panakeia."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t2_ingot_material"},
+      "title": "T2 Panakeia Material",
+      "text": "T2 Panakeia can strengthens these metals into T2 Panakeia ingots."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "10.[C]複製のルーン",
+  "icon": "alchemical_power:rune_of_reproduction",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "クリエイティブモード専用アイテム。 $(br)任意のアイテムをNBTタグごと複製することができる。"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "alchemical_power:tomato_sauce"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt":{"Potion":"minecraft:water"}
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:beef_stew"
+  }
+}

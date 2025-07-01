@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "tag": "forge:onions"
+    },
+    {
+      "tag": "forge:butters"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "tag": "forge:cheeses"
+    },
+    {
+      "tag": "forge:rice"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt":{"Potion":"minecraft:water"}
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:cheese_risotto"
+  }
+}

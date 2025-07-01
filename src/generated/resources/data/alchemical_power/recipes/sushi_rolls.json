@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "alchemical_power:nori"
+    },
+    {
+      "tag": "forge:rice"
+    },
+    {
+      "item": "alchemical_power:vinegar"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "alchemical_power:sushi_rolls"
+  }
+}

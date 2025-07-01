@@ -1,0 +1,17 @@
+{
+  "name": "02.T1 Panakeia",
+  "icon": "alchemical_power:t1_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "It is the most basic panakeia that has been washed to increase its purity. It is the material for the very first alchemy kit and also strengthens copper and other metals. By right-clicking on the cauldron containing the lava, it becomes T2 panakeia."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t1_ingot_material"},
+      "title": "T1 Panakeia Material",
+      "text": "T1 Panakeia can strengthens these metals into T1 Panakeia ingots."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "alchemical_power:singularity/root",
+  "display": {
+    "icon": { "item": "alchemical_power:singularity" },
+    "title": { "translate": "advancements.alchemical_power.crafted_singularity.title" },
+    "description": { "translate": "advancements.alchemical_power.crafted_singularity.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["alchemical_power:singularity"] }
+        ]
+      }
+    }
+  }
+}

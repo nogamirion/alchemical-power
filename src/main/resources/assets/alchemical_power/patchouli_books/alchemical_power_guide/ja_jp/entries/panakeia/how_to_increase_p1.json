@@ -1,0 +1,11 @@
+{
+  "name": "09.パナケイアの増やし方①",
+  "icon": "alchemical_power:alchemy_table",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "パナケイアは錬金作業台を用いて一つ下位のパナケイアで囲むことで増やすことが出来ます。"
+    }
+  ]
+}

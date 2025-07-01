@@ -1,0 +1,22 @@
+{
+  "parent": "alchemical_power:singularity/crafted_singularity",
+  "display": {
+    "icon": { "item": "alchemical_power:philosophers_stone" },
+    "title": { "translate": "advancements.alchemical_power.crafted_philosophers_stone.title" },
+    "description": { "translate": "advancements.alchemical_power.crafted_philosophers_stone.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["alchemical_power:philosophers_stone"] }
+        ]
+      }
+    }
+  }
+}

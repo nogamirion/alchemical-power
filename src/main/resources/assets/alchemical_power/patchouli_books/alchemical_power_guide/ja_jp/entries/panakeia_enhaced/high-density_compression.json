@@ -1,0 +1,46 @@
+{
+  "name": "02.高密度圧縮素材",
+  "icon": "alchemical_power:high_density_t1_panakeia_ingot",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "各種パナケイアで強化したインゴット/ジェムをブロックにしたものを、更に超越論的錬金作業台に並べることで作ることができる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t1_panakeia_ingot"},
+      "title": "高密度圧縮下級パナケイアインゴット"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t2_panakeia_ingot"},
+      "title": "高密度圧縮中級パナケイアインゴット"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t3_panakeia_ingot"},
+      "title": "高密度圧縮上級パナケイアインゴット"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t4_panakeia_gem"},
+      "title": "高密度圧縮叡智のパナケイアジェム"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t5_panakeia_gem"},
+      "title": "高密度圧縮究極のパナケイアジェム"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t6_panakeia_ingot"},
+      "title": "高密度圧縮神聖なるパナケイアインゴット"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_unite_alloy"},
+      "title": "高密度圧縮ユナイト合金"
+    }
+  ]
+}

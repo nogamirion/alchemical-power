@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "item": "alchemical_power:cooking_oil"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:fried_chicken"
+  }
+}

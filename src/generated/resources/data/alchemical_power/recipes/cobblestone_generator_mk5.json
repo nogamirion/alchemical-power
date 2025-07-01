@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "a": {
+      "item": "alchemical_power:cobblestone_generator_mk4"
+    },
+    "b": {
+      "item": "minecraft:water_bucket"
+    },
+    "c": {
+      "item": "minecraft:lava_bucket"
+    },
+    "d": {
+      "item": "alchemical_power:t4_panakeia_gem_block"
+    }
+  },
+  "pattern": [
+    "ada",
+    "bdc",
+    "ada"
+  ],
+  "result": {
+    "item": "alchemical_power:cobblestone_generator_mk5"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "tag": "alchemical_power:beef_or_pork"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:cooking_oil"
+  }
+}

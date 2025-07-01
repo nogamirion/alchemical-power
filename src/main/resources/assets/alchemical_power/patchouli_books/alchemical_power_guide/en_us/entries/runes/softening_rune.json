@@ -1,0 +1,31 @@
+{
+  "name": "05.Softening Rune",
+  "icon": "alchemical_power:basic_softening_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Rune to further process granulated ores and gemstones."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:basic_softening_rune"},
+      "text": "Softening into 2 pieces."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:advanced_softening_rune"},
+      "text": "Softening into 4 pieces."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:elite_softening_rune"},
+      "text": "Softening into 6 pieces."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:ultimate_softening_rune"},
+      "text": "Softening into 8 pieces."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:singularity_nugget"
+    },
+    {
+      "item": "alchemical_power:singularity_nugget"
+    },
+    {
+      "item": "alchemical_power:singularity_nugget"
+    },
+    {
+      "item": "alchemical_power:singularity_nugget"
+    },
+    {
+      "item": "alchemical_power:singularity_nugget"
+    },
+    {
+      "item": "alchemical_power:singularity_nugget"
+    },
+    {
+      "item": "alchemical_power:singularity_nugget"
+    },
+    {
+      "item": "alchemical_power:singularity_nugget"
+    },
+    {
+      "item": "alchemical_power:singularity_nugget"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:singularity_ingot"
+  }
+}

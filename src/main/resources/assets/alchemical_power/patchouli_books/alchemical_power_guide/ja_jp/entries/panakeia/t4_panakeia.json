@@ -1,0 +1,17 @@
+{
+  "name": "05.叡智のパナケイア",
+  "icon": "alchemical_power:t4_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ウィザーの呪いを込めることでより力を得たパナケイアです。ダイヤモンドなどの宝石や希少な金属の強化に使えます。ドラゴンの頭に右クリックすることで究極のパナケイアになります。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t4_ingot_material"},
+      "title": "叡智のパナケイア素材",
+      "text": "叡智のパナケイアはこれらの宝石・金属を強化して、叡智のパナケイアジェムにできます。"
+    }
+  ]
+}

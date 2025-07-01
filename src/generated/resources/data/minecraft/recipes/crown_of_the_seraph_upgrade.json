@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "alchemical_power:singularity_ingot"
+  },
+  "base": {
+    "item": "alchemical_power:angel_ring"
+  },
+  "result": {
+    "item": "alchemical_power:crown_of_the_seraph"
+  },
+  "template": {
+    "item": "alchemical_power:singularity_ingot_smithing_template"
+  }
+}

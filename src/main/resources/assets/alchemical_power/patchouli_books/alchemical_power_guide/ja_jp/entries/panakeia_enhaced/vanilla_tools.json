@@ -1,0 +1,27 @@
+{
+  "name": "05.バニラツール",
+  "icon": "alchemical_power:t1_panakeia_pickaxe",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "強化された素材で作成できるバニラのツール類。特殊な機能はなく純粋に各種数値が強化されている。 &(br)例として下級パナケイアインゴットのツールレシピを記載しています。他の強化インゴットも同様のレシピで作成可能。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_panakeia_sword",
+      "recipe2": "alchemical_power:t1_panakeia_pickaxe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_panakeia_axe",
+      "recipe2": "alchemical_power:t1_panakeia_shovel"
+    }
+  ,
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_panakeia_hoe",
+      "text": "鍬もちゃんとあります"
+    }
+  ]
+}

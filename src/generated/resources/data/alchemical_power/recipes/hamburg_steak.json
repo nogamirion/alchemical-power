@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "tag": "forge:onions"
+    },
+    {
+      "tag": "forge:salt"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "alchemical_power:hamburg_steak"
+  }
+}

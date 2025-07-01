@@ -1,0 +1,22 @@
+{
+  "parent": "alchemical_power:crafters/placed_alchemy_table",
+  "display": {
+    "icon": { "item": "alchemical_power:alchemical_engraver" },
+    "title": { "translate": "advancements.alchemical_power.placed_alchemical_engraver.title" },
+    "description": { "translate": "advancements.alchemical_power.placed_alchemical_engraver.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["alchemical_power:alchemical_engraver"] }
+        ]
+      }
+    }
+  }
+}

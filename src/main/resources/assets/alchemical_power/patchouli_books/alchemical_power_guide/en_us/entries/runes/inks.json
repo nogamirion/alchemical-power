@@ -1,0 +1,21 @@
+{
+  "name": "02.Inks",
+  "icon": "alchemical_power:basic_engraving_ink",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Many runes require ink for engraving. $(br)The higher the ink, the more effective the engraving."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:basic_engraving_ink",
+      "recipe2": "alchemical_power:advanced_engraving_ink"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:elite_engraving_ink",
+      "recipe2": "alchemical_power:ultimate_engraving_ink"
+    }
+  ]
+}

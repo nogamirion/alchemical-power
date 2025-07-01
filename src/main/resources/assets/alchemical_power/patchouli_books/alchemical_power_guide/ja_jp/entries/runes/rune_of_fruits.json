@@ -1,0 +1,11 @@
+{
+  "name": "09.実りのルーン",
+  "icon": "alchemical_power:rune_of_fruits",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "バニラの食材をAlchemical Powerで追加された食材に変換することができる。"
+    }
+  ]
+}

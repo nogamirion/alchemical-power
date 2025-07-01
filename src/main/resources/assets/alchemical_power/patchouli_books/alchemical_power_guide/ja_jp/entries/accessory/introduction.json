@@ -1,0 +1,11 @@
+{
+  "name": "01.はじめに",
+  "icon": "minecraft:writable_book",
+  "category": "alchemical_power:accessory",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Alchemical Powerで追加されるアクセサリーは専用のスロットである「実用指輪」に装備可能です。 $(br)将来的に汎用的なスロットに装備するように変更される可能性があります。"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "02.Foodstuff",
+  "icon": "alchemical_power:tomato",
+  "category": "alchemical_power:cooking",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Alchemical Power by itself requires the use of rune of fruit to prepare the ingredients. $(br)Alchemical Power vegetables cannot be grown. $(br)It is compatible with materials added by other farming mods."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:purified_emerald"
+    },
+    {
+      "item": "alchemical_power:purified_emerald"
+    },
+    {
+      "item": "alchemical_power:purified_emerald"
+    },
+    {
+      "item": "alchemical_power:purified_emerald"
+    },
+    {
+      "item": "alchemical_power:purified_emerald"
+    },
+    {
+      "item": "alchemical_power:purified_emerald"
+    },
+    {
+      "item": "alchemical_power:purified_emerald"
+    },
+    {
+      "item": "alchemical_power:purified_emerald"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:collected_purified_emerald"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "08.T7 Panakeia",
+  "icon": "alchemical_power:t7_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "It is a panacea of chaos that incorporates all the mighty forces in MINECRAFT. It is the material for the unite alloy that is the last part to reach the extremes of alchemy."
+    }
+  ]
+}

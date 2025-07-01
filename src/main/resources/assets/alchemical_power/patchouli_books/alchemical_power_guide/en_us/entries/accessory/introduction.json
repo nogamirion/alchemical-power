@@ -1,0 +1,11 @@
+{
+  "name": "01.Introduction",
+  "icon": "minecraft:writable_book",
+  "category": "alchemical_power:accessory",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Accessories added with Alchemical Power can be equipped in the \"Utility Ring\", a dedicated slot. $(br)It may be changed in the future to be equipped in a general-purpose slot."
+    }
+  ]
+}

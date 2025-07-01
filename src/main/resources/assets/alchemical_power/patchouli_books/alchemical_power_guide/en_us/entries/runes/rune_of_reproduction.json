@@ -1,0 +1,11 @@
+{
+  "name": "10.[C]Rune of Reproduction",
+  "icon": "alchemical_power:rune_of_reproduction",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Creative mode exclusive item. $(br)Any item can be duplicated with the entire NBT tag."
+    }
+  ]
+}

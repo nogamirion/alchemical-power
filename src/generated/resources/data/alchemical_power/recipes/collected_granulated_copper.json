@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:granulated_copper"
+    },
+    {
+      "item": "alchemical_power:granulated_copper"
+    },
+    {
+      "item": "alchemical_power:granulated_copper"
+    },
+    {
+      "item": "alchemical_power:granulated_copper"
+    },
+    {
+      "item": "alchemical_power:granulated_copper"
+    },
+    {
+      "item": "alchemical_power:granulated_copper"
+    },
+    {
+      "item": "alchemical_power:granulated_copper"
+    },
+    {
+      "item": "alchemical_power:granulated_copper"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:collected_granulated_copper"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "01.T0 Panakeia",
+  "icon": "alchemical_power:t0_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "It is a low-purity panakeia obtained by mining or refining Panakeia Bearing Stone that are produced underground.  By right-clicking on a cauldron filled with water, it becomes T1 panakeia."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["alchemical_power:textures/gui/entries/panakeia_bearing_stone.png"],
+      "title": "Panakeia Bearing Stone",
+      "text": "It is a stone that produces underground.  It can be mined with a pickaxe."
+    }
+  ]
+}

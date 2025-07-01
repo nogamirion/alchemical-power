@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 16.0,
+  "group": "netherite_scrap",
+  "ingredient": {
+    "tag": "alchemical_power:packaged_doubling_ancient_debris"
+  },
+  "result": {
+    "count": 64,
+    "item": "minecraft:netherite_scrap"
+  }
+}

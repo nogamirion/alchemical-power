@@ -1,0 +1,22 @@
+{
+  "parent": "alchemical_power:tools/crafted_beginner_kit",
+  "display": {
+    "icon": { "item": "alchemical_power:alchemy_intermediate_kit" },
+    "title": { "translate": "advancements.alchemical_power.crafted_intermediate_kit.title" },
+    "description": { "translate": "advancements.alchemical_power.crafted_intermediate_kit.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["alchemical_power:alchemy_intermediate_kit"] }
+        ]
+      }
+    }
+  }
+}

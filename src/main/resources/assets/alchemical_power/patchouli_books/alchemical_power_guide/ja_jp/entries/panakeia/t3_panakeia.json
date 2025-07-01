@@ -1,0 +1,17 @@
+{
+  "name": "04.上級パナケイア",
+  "icon": "alchemical_power:t3_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ネザーの光を取り込むことで昇華した上位のパナケイアです。より発展した錬金キットの素材となるほか、ルーンを刻むための最初のインクの材料や、金などの金属の強化に使えます。ウィザースケルトンの頭に右クリックすることで、叡智のパナケイアになります。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t3_ingot_material"},
+      "title": "上級パナケイア素材",
+      "text": "上級パナケイアはこれらの金属を強化して、上級パナケイアインゴットにできます。"
+    }
+  ]
+}

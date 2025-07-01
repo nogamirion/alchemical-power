@@ -1,0 +1,11 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:basic_softening_rune"},
+    {"item": "alchemical_power:collected_granulated_iron"}
+  ],
+  "output":{
+    "count":2,
+    "item":"alchemical_power:collected_softened_iron"
+  }
+}

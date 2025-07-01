@@ -1,0 +1,22 @@
+{
+  "type": "alchemical_power:alchemy_table_recipe",
+  "ingredients": [
+    {"item": "minecraft:amethyst_shard"},
+    {"item": "minecraft:iron_ingot"},
+    {"tag": "alchemical_power:jei_empty_tag"},
+
+    {"item": "minecraft:iron_ingot"},
+    {"tag": "alchemical_power:jei_empty_tag"},
+    {"item": "minecraft:iron_ingot"},
+
+    {"tag": "alchemical_power:jei_empty_tag"},
+    {"item": "minecraft:iron_ingot"},
+    {"tag": "alchemical_power:jei_empty_tag"},
+
+    {"tag": "alchemical_power:alchemy_kit_tier2"}
+  ],
+  "output": {
+    "count": 1,
+    "item": "alchemical_power:foundation_of_ring"
+  }
+}

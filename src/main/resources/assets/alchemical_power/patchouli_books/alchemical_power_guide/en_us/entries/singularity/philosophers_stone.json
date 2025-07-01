@@ -1,0 +1,11 @@
+{
+  "name": "01.Philosopher's Stone",
+  "icon": "alchemical_power:philosophers_stone",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The main goal in this mod. $(br)It can be used as an alchemy tool with infinite durability value, and some items can only be created with it. $(br)It can also be used like a rune for ore doubling, in which case it is processed 64 times."
+    }
+  ]
+}

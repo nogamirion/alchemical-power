@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pizza_before_baking": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:pizza_before_baking"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:pizza_from_smelting_pizza_before_baking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_pizza_before_baking",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pizza_from_smelting_pizza_before_baking"
+    ]
+  },
+  "sends_telemetry_event": false
+}

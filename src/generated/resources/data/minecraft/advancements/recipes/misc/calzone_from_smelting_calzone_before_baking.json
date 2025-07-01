@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_calzone_before_baking": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:calzone_before_baking"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:calzone_from_smelting_calzone_before_baking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_calzone_before_baking",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:calzone_from_smelting_calzone_before_baking"
+    ]
+  },
+  "sends_telemetry_event": false
+}

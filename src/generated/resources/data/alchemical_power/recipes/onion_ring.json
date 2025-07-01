@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "tag": "forge:onions"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "item": "alchemical_power:cooking_oil"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:onion_ring"
+  }
+}

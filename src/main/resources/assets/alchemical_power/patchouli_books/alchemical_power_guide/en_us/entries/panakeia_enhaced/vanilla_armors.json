@@ -1,0 +1,21 @@
+{
+  "name": "05.Vanilla Armor",
+  "icon": "alchemical_power:t1_panakeia_chestplate",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vanilla armor that can be created with enhanced materials.There are no special functions, but purely various numerical values are enhanced. &(br)Armor recipe for T1 Panakeia ingot is included as an example. Ingots of other Tier can be created with similar recipes."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_panakeia_helmet",
+      "recipe2": "alchemical_power:t1_panakeia_chestplate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_panakeia_leggings",
+      "recipe2": "alchemical_power:t1_panakeia_boots"
+    }
+  ]
+}

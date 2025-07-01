@@ -1,0 +1,21 @@
+{
+  "name": "02.インク",
+  "icon": "alchemical_power:basic_engraving_ink",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "多くのルーンは刻印のためにインクが必要。 $(br)高位のインクほど刻んだルーンの効果が増す。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:basic_engraving_ink",
+      "recipe2": "alchemical_power:advanced_engraving_ink"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:elite_engraving_ink",
+      "recipe2": "alchemical_power:ultimate_engraving_ink"
+    }
+  ]
+}

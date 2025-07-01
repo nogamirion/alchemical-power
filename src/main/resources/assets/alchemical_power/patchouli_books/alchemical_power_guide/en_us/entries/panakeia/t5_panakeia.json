@@ -1,0 +1,17 @@
+{
+  "name": "06.T5 Panakeia",
+  "icon": "alchemical_power:t5_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "It is a Panakeia that approaches the ultimate by incorporating the power of the Ender Dragon. It can be used as an ingredient in powerful alchemy kits and to enhance rare gems and metals such as emeralds. Right-click on the beacon to turn it into a T6 Panakeia."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t5_ingot_material"},
+      "title": "T5 Panakeia Material",
+      "text": "T5 Panakeia can strengthens these metals into T5 Panakeia gems."
+    }
+  ]
+}

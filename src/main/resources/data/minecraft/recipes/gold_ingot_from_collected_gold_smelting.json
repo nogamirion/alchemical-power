@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "group": "copper_ingot",
+  "ingredient": {
+    "tag": "alchemical_power:collected_doubling_gold"
+  },
+  "result":{
+    "count": 8,
+    "item": "minecraft:gold_ingot"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "04.Singularity Ingot",
+  "icon": "alchemical_power:singularity_ingot",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ingots that can further enhance Origin tools and armor."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:singularity_ingot",
+      "text": "Singularity nuggets can be created by surrounding the singularity with imitated bedrock at the alchemy table."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"minecraft:singularity_ingot_upgrade_smithing_template_crafting",
+      "text": "Strengthening requires the use of blacksmithing dies, as in the case of neatherite and unite alloys."
+    }
+  ]
+}

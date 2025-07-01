@@ -1,0 +1,11 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:ultimate_purification_rune"},
+    {"item": "alchemical_power:collected_softened_gold"}
+  ],
+  "output":{
+    "count":8,
+    "item":"alchemical_power:collected_purified_gold"
+  }
+}

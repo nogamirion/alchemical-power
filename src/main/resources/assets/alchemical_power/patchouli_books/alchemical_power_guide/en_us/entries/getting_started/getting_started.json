@@ -1,0 +1,11 @@
+{
+  "name": "01.Notes on description",
+  "icon": "minecraft:writable_book",
+  "category": "alchemical_power:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This English translation was created by a native Japanese speaker using translation tools and AI assistance. Some expressions may be unnatural or slightly differ in meaning from the original intent."
+    }
+  ]
+}

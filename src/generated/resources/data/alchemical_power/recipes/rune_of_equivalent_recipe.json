@@ -1,0 +1,18 @@
+{
+  "type": "alchemical_power:alchemical_engraver_recipe",
+  "ingredients": [
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "alchemical_power:blank_rune"
+    },
+    {
+      "item": "alchemical_power:basic_engraving_ink"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "alchemical_power:rune_of_equivalent"
+  }
+}

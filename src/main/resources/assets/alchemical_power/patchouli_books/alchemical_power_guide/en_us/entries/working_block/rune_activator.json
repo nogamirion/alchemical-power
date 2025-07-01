@@ -1,0 +1,11 @@
+{
+  "name": "03.Rune Activator",
+  "icon": "alchemical_power:rune_activator",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A device for using runes. $(br)By inserting a rune on the left and the corresponding item on the right, the item will appear in the center after a certain period of time."
+    }
+  ]
+}

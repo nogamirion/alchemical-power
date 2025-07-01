@@ -1,0 +1,46 @@
+{
+  "name": "03.美徳の結晶",
+  "icon": "alchemical_power:wisdom_crystal",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "7種のパナケイアに応じた美徳の結晶。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:wisdom_crystal"},
+      "title": "知恵の結晶"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:courage_crystal"},
+      "title": "勇気の結晶"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:justice_crystal"},
+      "title": "正義の結晶"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:love_crystal"},
+      "title": "愛の結晶"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:hope_crystal"},
+      "title": "希望の結晶"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:temperance_crystal"},
+      "title": "節制の結晶"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:faith_crystal"},
+      "title": "信仰の結晶"
+    }
+  ]
+}

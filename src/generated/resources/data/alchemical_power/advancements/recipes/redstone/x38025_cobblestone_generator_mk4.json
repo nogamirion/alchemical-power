@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alchemical_power:x38025_cobblestone_generator_mk4"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_x38025_cobblestone_generator_mk3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:x38025_cobblestone_generator_mk3"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_x38025_cobblestone_generator_mk3",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alchemical_power:x38025_cobblestone_generator_mk4"
+    ]
+  },
+  "sends_telemetry_event": false
+}

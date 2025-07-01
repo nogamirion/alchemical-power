@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "alchemical_power:singularity_ingot"
+  },
+  "base": {
+    "item": "alchemical_power:leggings_of_saga"
+  },
+  "result": {
+    "item": "alchemical_power:gait_of_insight"
+  },
+  "template": {
+    "item": "alchemical_power:singularity_ingot_smithing_template"
+  }
+}

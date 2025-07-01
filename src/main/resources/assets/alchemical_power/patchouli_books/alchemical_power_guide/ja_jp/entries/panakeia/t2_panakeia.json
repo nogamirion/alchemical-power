@@ -1,0 +1,17 @@
+{
+  "name": "03.中級パナケイア",
+  "icon": "alchemical_power:t2_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "高温により熱を得た中位のパナケイアです。鉄などの金属を強化することができます。グロウストーンに右クリックすることで上級パナケイアになります。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t2_ingot_material"},
+      "title": "中級パナケイア素材",
+      "text": "中級パナケイアはこれらの金属を強化して、中級パナケイアインゴットにできます。"
+    }
+  ]
+}

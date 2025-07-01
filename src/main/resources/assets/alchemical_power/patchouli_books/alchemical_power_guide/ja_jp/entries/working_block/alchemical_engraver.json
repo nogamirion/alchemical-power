@@ -1,0 +1,11 @@
+{
+  "name": "02.錬金刻印台",
+  "icon": "alchemical_power:alchemical_engraver",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ルーンを作成したり、特殊なアイテムを作成するための作業台。 $(br)上に素材となるアイテム、下に刻印されるアイテムを入れ、必要に応じて左上にインクを入れることで刻印が行われる。"
+    }
+  ]
+}

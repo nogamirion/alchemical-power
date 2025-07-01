@@ -1,0 +1,11 @@
+{
+  "name": "02.食材",
+  "icon": "alchemical_power:tomato",
+  "category": "alchemical_power:cooking",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Alchemical Power単体では実りのルーンを用いて材料を用意する必要がある。 $(br)Alchemical Powerの野菜は栽培できない。 $(br)他の農業系MODで追加される材料と互換性を持つ。"
+    }
+  ]
+}

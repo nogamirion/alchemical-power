@@ -1,0 +1,26 @@
+{
+  "name": "01.錬金作業台",
+  "icon": "alchemical_power:alchemy_table",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "MOD独自のアイテムを作成するための作業台"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:alchemy_table"},
+      "text": "基本的な錬金作業のための作業台。 $(br)素材を並べると1秒掛けてアイテムを作成できる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:hermes_workbench"},
+      "text": "5×5のグリッドを持つ発展型の作業台。 $(br)素材を並べると2秒掛けてアイテムを作成できる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:transcendental_table"},
+      "text": "13×13という巨大なグリッドを持つ作業台。 $(br)素材を並べると3秒掛けてアイテムを作成できる。"
+    }
+  ]
+}

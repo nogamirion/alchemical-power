@@ -1,0 +1,16 @@
+{
+  "name": "03.Update History",
+  "icon": "minecraft:writable_book",
+  "category": "alchemical_power:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The update history of this mod is described."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ver.1.0.0",
+      "text": "The initially planned elements are all implemented. $(br)First release."
+    }
+  ]
+}

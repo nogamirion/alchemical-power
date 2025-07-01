@@ -1,0 +1,22 @@
+{
+  "parent": "alchemical_power:materials/obtain_t2_panakeia",
+  "display": {
+    "icon": { "item": "alchemical_power:t2_panakeia_ingot" },
+    "title": { "translate": "advancements.alchemical_power.obtain_t2_panakeia_ingot.title" },
+    "description": { "translate": "advancements.alchemical_power.obtain_t2_panakeia_ingot.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["alchemical_power:t2_panakeia_ingot"] }
+        ]
+      }
+    }
+  }
+}

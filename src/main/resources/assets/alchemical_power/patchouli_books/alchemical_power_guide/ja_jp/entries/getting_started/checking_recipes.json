@@ -1,0 +1,11 @@
+{
+  "name": "02.レシピの確認",
+  "icon": "minecraft:book",
+  "category": "alchemical_power:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "当MODは多くのアイテムの追加やレシピの追加があるため、それらの確認のためにJEIやREIのようなレシピMODの導入を推奨しています。また、ガイドブックの内容もそれらの導入を前提とした記述を含むことがあります。"
+    }
+  ]
+}

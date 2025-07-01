@@ -1,0 +1,53 @@
+{
+  "name": "01.強化素材",
+  "icon": "alchemical_power:t1_panakeia_ingot",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "パナケイアにより強化された素材です。これらを用いてツールや防具の作成が可能です。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t1_panakeia_ingot"},
+      "title": "下級パナケイアインゴット",
+      "text": "下級パナケイアを用いて強化されたインゴット。ツールとしての特性は以下の通りとなる。$(br)採掘レベル:2 $(br)ツール耐久力:270 $(br)基礎攻撃速度:5.0 $(br)基礎ダメージ:1.0 $(br)防具基礎耐久力:6 $(br)防御力:2/5/4/2 $(br)防具強度:0 $(br)ノックバック耐性:0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t2_panakeia_ingot"},
+      "title": "中級パナケイアインゴット",
+      "text": "中級パナケイアを用いて強化されたインゴット。ツールとしての特性は以下の通りとなる。$(br)採掘レベル:2 $(br)ツール耐久力:375 $(br)基礎攻撃速度:6.0 $(br)基礎ダメージ:2.5 $(br)防具基礎耐久力:8 $(br)防御力:2/6/5/2 $(br)防具強度:0.5 $(br)ノックバック耐性:0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t3_panakeia_ingot"},
+      "title": "上級パナケイアインゴット",
+      "text": "上級パナケイアを用いて強化されたインゴット。ツールとしての特性は以下の通りとなる。$(br)採掘レベル:2 $(br)ツール耐久力:425 $(br)基礎攻撃速度:7.0 $(br)基礎ダメージ:3.0 $(br)防具基礎耐久力:9 $(br)防御力:2/6/6/3 $(br)防具強度:1.0 $(br)ノックバック耐性:0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t4_panakeia_gem"},
+      "title": "叡智のパナケイアジェム",
+      "text": "叡智のパナケイアを用いて強化された宝石またはインゴット。ツールとしての特性は以下の通りとなる。$(br)採掘レベル:3 $(br)ツール耐久力:2341 $(br)基礎攻撃速度:8.5 $(br)基礎ダメージ:3.5 $(br)防具基礎耐久力:50 $(br)防御力:3/8/6/3 $(br)防具強度:2.5 $(br)ノックバック耐性:0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t5_panakeia_gem"},
+      "title": "究極のパナケイアジェム",
+      "text": "究極のパナケイアを用いて強化された宝石またはインゴット。ツールとしての特性は以下の通りとなる。$(br)採掘レベル:3 $(br)ツール耐久力:2716 $(br)基礎攻撃速度:9.0 $(br)基礎ダメージ:4.0 $(br)防具基礎耐久力:58 $(br)防御力:3/8/6/3 $(br)防具強度:2.5 $(br)ノックバック耐性:0.1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t6_panakeia_ingot"},
+      "title": "神聖なるパナケイアインゴット",
+      "text": "神聖なるパナケイアを用いて強化されたインゴット。ツールとしての特性は以下の通りとなる。$(br)採掘レベル:4 $(br)ツール耐久力:3047 $(br)基礎攻撃速度:9.5 $(br)基礎ダメージ:9.5 $(br)防具基礎耐久力:65 $(br)防御力:3/8/6/3 $(br)防具強度:3.5 $(br)ノックバック耐性:0.1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:unite_alloy"},
+      "title": "ユナイト合金",
+      "text": "混沌のパナケイアを用いて作成された合金。ツールとしての特性は以下の通りとなる。$(br)採掘レベル:6 $(br)ツール耐久力:8192 $(br)基礎攻撃速度:11.0 $(br)基礎ダメージ:11.0 $(br)防具基礎耐久力:175 $(br)防御力:5/10/8/5 $(br)防具強度:5.0 $(br)ノックバック耐性:0.3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "alchemical_power:singularity_ingot"
+  },
+  "base": {
+    "item": "alchemical_power:march_of_the_ruler"
+  },
+  "result": {
+    "item": "alchemical_power:boots_of_aetherlight"
+  },
+  "template": {
+    "item": "alchemical_power:singularity_ingot_smithing_template"
+  }
+}

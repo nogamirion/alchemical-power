@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alchemical_power:item/unite_alloy_x2025_compressed_plate",
+    "layer1": "alchemical_power:item/faith_crystal"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "alchemical_power:alchemy_table_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:wisdom_crystal"},
+    {"item": "alchemical_power:wisdom_crystal"},
+    {"item": "alchemical_power:wisdom_crystal"},
+
+    {"item": "alchemical_power:wisdom_crystal"},
+    {"item": "alchemical_power:wisdom_crystal"},
+    {"item": "alchemical_power:wisdom_crystal"},
+
+    {"item": "alchemical_power:wisdom_crystal"},
+    {"item": "alchemical_power:wisdom_crystal"},
+    {"item": "alchemical_power:wisdom_crystal"},
+
+    {"item": "alchemical_power:t1_panakeia_ingot_x2025_compressed_plate"}
+  ],
+  "output": {
+    "count": 1,
+    "item": "alchemical_power:wisdom_crystal_plate"
+  }
+}

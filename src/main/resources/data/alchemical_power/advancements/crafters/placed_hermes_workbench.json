@@ -1,0 +1,22 @@
+{
+  "parent": "alchemical_power:crafters/placed_alchemy_table",
+  "display": {
+    "icon": { "item": "alchemical_power:hermes_workbench" },
+    "title": { "translate": "advancements.alchemical_power.placed_hermes_workbench.title" },
+    "description": { "translate": "advancements.alchemical_power.placed_hermes_workbench.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["alchemical_power:hermes_workbench"] }
+        ]
+      }
+    }
+  }
+}

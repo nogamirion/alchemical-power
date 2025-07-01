@@ -1,0 +1,6 @@
+{
+  "name": "07.Singularity",
+  "description": "Singularity, its use.",
+  "advancement": "alchemical_power:singularity/crafted_singularity",
+  "icon": "alchemical_power:singularity"
+}

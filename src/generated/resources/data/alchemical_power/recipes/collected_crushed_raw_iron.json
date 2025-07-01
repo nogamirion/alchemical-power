@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:crushed_raw_iron"
+    },
+    {
+      "item": "alchemical_power:crushed_raw_iron"
+    },
+    {
+      "item": "alchemical_power:crushed_raw_iron"
+    },
+    {
+      "item": "alchemical_power:crushed_raw_iron"
+    },
+    {
+      "item": "alchemical_power:crushed_raw_iron"
+    },
+    {
+      "item": "alchemical_power:crushed_raw_iron"
+    },
+    {
+      "item": "alchemical_power:crushed_raw_iron"
+    },
+    {
+      "item": "alchemical_power:crushed_raw_iron"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:collected_crushed_raw_iron"
+  }
+}

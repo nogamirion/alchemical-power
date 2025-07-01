@@ -1,0 +1,15 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {
+      "item": "alchemical_power:ultimate_grinding_rune"
+    },
+    {
+      "item": "minecraft:deepslate_coal_ore"
+    }
+  ],
+  "output": {
+    "count": 32,
+    "item": "minecraft:coal"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "04.T3 Panakeia",
+  "icon": "alchemical_power:t3_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "It is a higher level panakeia sublimated by capturing the light of the nether. It can be used as a material for more advanced alchemy kits, for the first ink for engraving runes, and for strengthening metals such as gold. By right clicking on the head of a wither skeleton, it becomes a T4 panakeia."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t3_ingot_material"},
+      "title": "T3 Panakeia Material",
+      "text": "T3 Panakeia can strengthens these metals into T3 Panakeia ingots."
+    }
+  ]
+}

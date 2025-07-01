@@ -1,0 +1,40 @@
+{
+  "type": "alchemical_power:hermes_workbench_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+    {"item": "alchemical_power:t2_panakeia_ingot_x81_compressed_plate"},
+
+    {"tag": "alchemical_power:alchemy_kit_tier2"}
+  ],
+  "output":{
+    "count":1,
+    "item":"alchemical_power:t2_panakeia_ingot_x2025_compressed_plate"
+  }
+}

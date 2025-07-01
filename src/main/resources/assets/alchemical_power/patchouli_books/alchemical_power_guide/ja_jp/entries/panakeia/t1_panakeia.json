@@ -1,0 +1,17 @@
+{
+  "name": "02.下級パナケイア",
+  "icon": "alchemical_power:t1_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "洗浄されたことで純度を上げた、最も基本となるパナケイアです。一番最初の錬金キットの材料となるほか、銅などの金属を強化します。溶岩の入った大釜に右クリックすることで、中級パナケイアになります。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t1_ingot_material"},
+      "title": "下級パナケイア素材",
+      "text": "下級パナケイアはこれらの金属を強化して、下級パナケイアインゴットにできます。"
+    }
+  ]
+}

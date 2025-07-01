@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:collected_purified_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_purified_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_purified_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_purified_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_purified_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_purified_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_purified_diamond"
+    },
+    {
+      "item": "alchemical_power:collected_purified_diamond"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:packaged_purified_diamond"
+  }
+}

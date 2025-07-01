@@ -1,0 +1,16 @@
+{
+  "name": "06.ユナイト合金強化",
+  "icon": "alchemical_power:unite_alloy_smithing_template",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ユナイト合金は神聖なるパナケイアインゴットツールや防具の強化に使用できます。強化する際にはネザライトのように鍛冶型を用います。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"minecraft:unite_alloy_upgrade_smithing_template_crafting",
+      "recipe2": "minecraft:unite_alloy_upgrade_smithing_template_increase"
+    }
+  ]
+}

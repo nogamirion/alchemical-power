@@ -1,0 +1,23 @@
+{
+  "name": "01.Base Rune",
+  "icon": "alchemical_power:blank_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Many runes can be created by imprinting on the underlying rune."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:blank_rune"},
+      "title": "Blank Rune",
+      "text": "The basic rune. $(br)This rune is the foundation until the developmental type."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:void_rune"},
+      "title": "Void Rune",
+      "text": "Material of runes with more power. $(br)After the elite type, it is necessary to use this material."
+    }
+  ]
+}

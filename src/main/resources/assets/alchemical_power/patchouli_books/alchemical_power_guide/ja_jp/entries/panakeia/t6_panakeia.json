@@ -1,0 +1,17 @@
+{
+  "name": "07.神聖なるパナケイア",
+  "icon": "alchemical_power:t6_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "星の力を宿したことで神聖を得たパナケイアです。最高位の錬金キットの材料となるほか、ネザライトなどの超希少金属の強化に利用できます。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t6_ingot_material"},
+      "title": "神聖なるパナケイア素材",
+      "text": "神聖なるパナケイアはこれらの金属を強化して、神聖なるパナケイアインゴットにできます。"
+    }
+  ]
+}

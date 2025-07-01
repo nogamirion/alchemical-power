@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:t6_panakeia_ingot_block"
+    },
+    {
+      "item": "alchemical_power:t6_panakeia_ingot_block"
+    },
+    {
+      "item": "alchemical_power:t6_panakeia_ingot_block"
+    },
+    {
+      "item": "alchemical_power:t6_panakeia_ingot_block"
+    },
+    {
+      "item": "alchemical_power:t6_panakeia_ingot_block"
+    },
+    {
+      "item": "alchemical_power:t6_panakeia_ingot_block"
+    },
+    {
+      "item": "alchemical_power:t6_panakeia_ingot_block"
+    },
+    {
+      "item": "alchemical_power:t6_panakeia_ingot_block"
+    },
+    {
+      "item": "alchemical_power:t6_panakeia_ingot_block"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:t6_panakeia_ingot_x81_compressed_plate"
+  }
+}

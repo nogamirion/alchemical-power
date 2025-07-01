@@ -1,0 +1,15 @@
+{
+  "name": "01.Cookware Set",
+  "icon": "alchemical_power:cookware_set",
+  "category": "alchemical_power:cooking",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Alchemical Power's additional dishes basically need to be made using this tool."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cookware_set"
+    }
+  ]
+}

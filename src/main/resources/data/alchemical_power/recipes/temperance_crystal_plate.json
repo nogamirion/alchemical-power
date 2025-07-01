@@ -1,0 +1,22 @@
+{
+  "type": "alchemical_power:alchemy_table_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:temperance_crystal"},
+    {"item": "alchemical_power:temperance_crystal"},
+    {"item": "alchemical_power:temperance_crystal"},
+
+    {"item": "alchemical_power:temperance_crystal"},
+    {"item": "alchemical_power:temperance_crystal"},
+    {"item": "alchemical_power:temperance_crystal"},
+
+    {"item": "alchemical_power:temperance_crystal"},
+    {"item": "alchemical_power:temperance_crystal"},
+    {"item": "alchemical_power:temperance_crystal"},
+
+    {"item": "alchemical_power:t6_panakeia_ingot_x2025_compressed_plate"}
+  ],
+  "output": {
+    "count": 1,
+    "item": "alchemical_power:temperance_crystal_plate"
+  }
+}

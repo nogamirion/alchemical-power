@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "alchemical_power:unite_alloy_smithing_template"
+    },
+    "b": {
+      "item": "alchemical_power:unite_alloy"
+    },
+    "c": {
+      "item": "alchemical_power:t6_panakeia_ingot"
+    }
+  },
+  "pattern": [
+    "cac",
+    "cbc",
+    "ccc"
+  ],
+  "result": {
+    "count": 2,
+    "item": "alchemical_power:unite_alloy_smithing_template"
+  },
+  "show_notification": true
+}
