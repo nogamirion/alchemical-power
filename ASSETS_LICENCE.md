@@ -37,7 +37,8 @@ https://github.com/Mr-Best-creator/AlchemicalPower-PartialAssets-MrBest
 （訳）以下のアセットは Mr.Best によって作成されたものであり、Free and Traceable Licenseに基づいて提供されます。<br>
 アセット及びライセンスに関する詳細は Mr.Best のGithubリンクをご確認ください。
 
-以下はライセンスに基づく記載です
+The following statements are based on the license.<br>
+(訳)以下はライセンスに基づく記載です
 
 **適用作品:** AlchemicalPower-PartialAssets-MrBest<br>
 **著作者:** Mr.Best<br>
