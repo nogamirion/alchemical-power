@@ -37,8 +37,8 @@ https://github.com/Mr-Best-creator/AlchemicalPower-PartialAssets-MrBest
 （訳）以下のアセットは Mr.Best によって作成されたものであり、Free and Traceable Licenseに基づいて提供されます。<br>
 アセット及びライセンスに関する詳細は Mr.Best のGithubリンクをご確認ください。
 
-The following statements are based on the license.<br>
-(訳)以下はライセンスに基づく記載です
+The following statements are based on the license(full FTL).<br>
+(訳)以下はライセンスに基づくライセンス全文の記載です
 
 **Free and Traceable License (FTL) v1.3**<Br>
 Created by Mr.Best on 2025/05/16<br>
