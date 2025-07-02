@@ -37,6 +37,20 @@ https://github.com/Mr-Best-creator/AlchemicalPower-PartialAssets-MrBest
 （訳）以下のアセットは Mr.Best によって作成されたものであり、Free and Traceable Licenseに基づいて提供されます。<br>
 アセット及びライセンスに関する詳細は Mr.Best のGithubリンクをご確認ください。
 
+以下はライセンスに基づく記載です
+
+**適用作品:** AlchemicalPower-PartialAssets-MrBest
+**著作者:** Mr.Best
+**配布URL:** https://github.com/Mr-Best-creator/AlchemicalPower-PartialAssets-MrBest
+**適用開始日:** 2025/05/18
+
+
+**再配布者数:** 1
+**再配布者名:** nogami_rion
+**配布URL:** https://www.curseforge.com/minecraft/mc-mods/alchemical-power
+**公開日:** 2025/7/1
+
+
 ---
 
 ## 🔒 Future or third-party assets
