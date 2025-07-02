@@ -40,19 +40,19 @@ https://github.com/Mr-Best-creator/AlchemicalPower-PartialAssets-MrBest
 The following statements are based on the license.<br>
 (訳)以下はライセンスに基づく記載です
 
-**Free and Traceable License (FTL) v1.3**
-Created by Mr.Best on 2025/05/16
+**Free and Traceable License (FTL) v1.3**<Br>
+Created by Mr.Best on 2025/05/16<br>
 https://github.com/Mr-Best-creator/Free-and-Traceable-License-FTL-/blob/main/Free_and_Traceable_License(FTL)v1.3/LICENSE.txt
 
-**適用作品:** AlchemicalPower-PartialAssets-MrBest
-**著作者:** Mr.Best
-**配布URL:** https://github.com/Mr-Best-creator/AlchemicalPower-PartialAssets-MrBest
+**適用作品:** AlchemicalPower-PartialAssets-MrBest<br>
+**著作者:** Mr.Best<br>
+**配布URL:** https://github.com/Mr-Best-creator/AlchemicalPower-PartialAssets-MrBest<br>
 **適用開始日:** 2025/05/18
 
 
-**再配布者数:** 1
-**再配布者名:** nogami_rion
-**配布URL:** https://www.curseforge.com/minecraft/mc-mods/alchemical-power
+**再配布者数:** 1<br>
+**再配布者名:** nogami_rion<br>
+**配布URL:** https://www.curseforge.com/minecraft/mc-mods/alchemical-power<br>
 **公開日:** 2025/7/1
 
 
@@ -172,20 +172,6 @@ https://github.com/Mr-Best-creator/Free-and-Traceable-License-FTL-/blob/main/Fre
 
 **第8条（準拠法）**
 本ライセンスは、日本法に準拠し、日本法に従って解釈されるものとします。
-
---- end of LICENSE.TXT ---
-
-**補足：README等への記載例（参考情報）**
-
-このライセンスを適用した作品を配布・紹介する際には、READMEや作品ページに以下のように簡潔に記載することを推奨します（英語例と日本語例を併記）。
-
-```
-本作品は Free and Traceable License (FTL) v1.3 のもとで公開されています。  
-詳しくは「LICENSE.txt」および「FTL-CHANGELOG.txt」をご確認ください。
-
-This work is licensed under the Free and Traceable License (FTL) v1.3.  
-See `LICENSE.txt` and `FTL-CHANGELOG.txt` for details.
-```
 
 ---
 
