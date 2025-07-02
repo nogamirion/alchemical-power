@@ -5,6 +5,9 @@
   ---
 
 再配布者数: 1
+
+  ---
+
 再配布者名: nogami_rion
 配布URL: https://www.curseforge.com/minecraft/mc-mods/alchemical-power
 公開日: 2025/7/1
