@@ -123,6 +123,8 @@ public class creativetab {
                     output.accept(itemlist.ELITE_PURIFICATION_RUNE.get());
                     output.accept(itemlist.ULTIMATE_PURIFICATION_RUNE.get());
                     output.accept(itemlist.RUNE_OF_FRUITS.get());
+                    output.accept(itemlist.RUNE_OF_EQUIVALENT.get());
+                    output.accept(itemlist.RUNE_OF_REPRODUCTION.get());
                     output.accept(itemlist.T1_COMBUSTION_RUNE.get());
                     output.accept(itemlist.T2_COMBUSTION_RUNE.get());
                     output.accept(itemlist.T3_COMBUSTION_RUNE.get());
@@ -272,6 +274,10 @@ public class creativetab {
                     output.accept(itemlist.UNITE_ALLOY_CHESTPLATE.get());
                     output.accept(itemlist.UNITE_ALLOY_LEGGINGS.get());
                     output.accept(itemlist.UNITE_ALLOY_BOOTS.get());
+                    output.accept(itemlist.FOUNDATION_OF_RING.get());
+                    output.accept(itemlist.ALCHEMISTS_RING.get());
+                    output.accept(itemlist.GLUTTONYS_RING.get());
+                    output.accept(itemlist.GREED_RING.get());
                     output.accept(itemlist.LEGGINGS_OF_SAGA.get());
                     output.accept(itemlist.BLADE_OF_VALOR.get());
                     output.accept(itemlist.CRIMSON_PLATE_OF_JUSTICE.get());
@@ -311,19 +317,13 @@ public class creativetab {
                     output.accept(itemlist.X38025_COBBLESTONE_GENERATOR_Mk6.get());
                     output.accept(itemlist.X38025_COBBLESTONE_GENERATOR_Mk7.get());
                     output.accept(itemlist.X38025_COBBLESTONE_GENERATOR_Mk8.get());
+                    output.accept(itemlist.SINGULARITY_NUGGET.get());
+                    output.accept(itemlist.SINGULARITY_INGOT.get());
                     output.accept(itemlist.CROWN_OF_THE_SERAPH.get());
                     output.accept(itemlist.JUDICIAL_CARAPACE.get());
                     output.accept(itemlist.GAIT_OF_INSIGHT.get());
                     output.accept(itemlist.BOOTS_OF_AETHERLIGHT.get());
                     output.accept(itemlist.SEVEN_SWORDS_OF_TERMINUS.get());
-                    output.accept(itemlist.SINGULARITY_NUGGET.get());
-                    output.accept(itemlist.SINGULARITY_INGOT.get());
-                    output.accept(itemlist.RUNE_OF_REPRODUCTION.get());
-                    output.accept(itemlist.FOUNDATION_OF_RING.get());
-                    output.accept(itemlist.ALCHEMISTS_RING.get());
-                    output.accept(itemlist.GLUTTONYS_RING.get());
-                    output.accept(itemlist.GREED_RING.get());
-                    output.accept(itemlist.RUNE_OF_EQUIVALENT.get());
 
 
                 })

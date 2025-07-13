@@ -6,6 +6,22 @@
       "condition": "minecraft:block_state_property"
     },
     {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "enchantments": [
+            {
+              "enchantment": "minecraft:silk_touch",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
       "chance": 1.0,
       "condition": "minecraft:random_chance"
     }

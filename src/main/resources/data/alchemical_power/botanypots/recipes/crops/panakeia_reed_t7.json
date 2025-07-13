@@ -1,0 +1,17 @@
+{
+  "type": "botanypots:crop",
+  "seed": "alchemical_power:panakeia_reed_t7",
+  "categories": ["dirt"],
+  "growthTicks": 6000,
+  "display": {
+    "block": "alchemical_power:panakeia_reed_t7"
+  },
+  "drops": [
+    {
+      "item": "alchemical_power:panakeia_reed_t7",
+      "chance": 1.0,
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

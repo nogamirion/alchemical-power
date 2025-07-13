@@ -9,6 +9,16 @@
     },
     {
       "type": "patchouli:text",
+      "title": "Ver.1.0.1 Page1",
+      "text": "1.Fixed Infinite Duplication Glitch $(br) Addressed an issue where crushed Diamond and Emerald ores could be infinitely duplicated using Silk Touch. $(br) 2.Adjusted Item Sorting $(br) Resolved an issue where some items were incorrectly sorted in creative tabs."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ver.1.0.1 Page2",
+      "text": "3.Added Item Tags to Some Items $(br) Common item tags have been added to certain items to improve cross-mod compatibility."
+    },
+    {
+      "type": "patchouli:text",
       "title": "Ver.1.0.0",
       "text": "The initially planned elements are all implemented. $(br)First release."
     }
