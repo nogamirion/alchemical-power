@@ -94,6 +94,46 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(blocklist.IMITATED_BEDROCK.get())
                 ;
 
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(blocklist.ALCHETREE_LOG.get())
+                .add(blocklist.ALCHETREE_WOOD.get())
+                .add(blocklist.STRIPPED_ALCHETREE_LOG.get())
+                .add(blocklist.STRIPPED_ALCHETREE_WOOD.get())
+        ;
+
+        this.tag(BlockTags.LEAVES)
+                .add(blocklist.ALCHETREE_LEAVES[0].get())
+                .add(blocklist.ALCHETREE_LEAVES[1].get())
+                .add(blocklist.ALCHETREE_LEAVES[2].get())
+                .add(blocklist.ALCHETREE_LEAVES[3].get())
+                .add(blocklist.ALCHETREE_LEAVES[4].get())
+                .add(blocklist.ALCHETREE_LEAVES[5].get())
+                .add(blocklist.ALCHETREE_LEAVES[6].get())
+                .add(blocklist.ALCHETREE_LEAVES[7].get())
+                ;
+
+        this.tag(BlockTags.PLANKS)
+                .add(blocklist.ALCHETREE_PLANKS.get());
+
+        this.tag(BlockTags.WOODEN_FENCES)
+                .add(blocklist.ALCHETREE_FENCE.get());
+        this.tag(BlockTags.FENCE_GATES)
+                .add(blocklist.ALCHETREE_FENCE_GATE.get());
+        this.tag(BlockTags.WALLS)
+                .add(blocklist.ALCHETREE_WALL.get());
+        this.tag(BlockTags.WOODEN_SLABS)
+                .add(blocklist.ALCHETREE_SLAB.get());
+        this.tag(BlockTags.WOODEN_STAIRS)
+                .add(blocklist.ALCHETREE_STAIRS.get());
+        this.tag(BlockTags.WOODEN_DOORS)
+                .add(blocklist.ALCHETREE_DOOR.get());
+        this.tag(BlockTags.WOODEN_TRAPDOORS)
+                .add(blocklist.ALCHETREE_TRAPDOOR.get());
+        this.tag(BlockTags.WOODEN_PRESSURE_PLATES)
+                .add(blocklist.ALCHETREE_PRESSURE_PLATE.get());
+        this.tag(BlockTags.WOODEN_BUTTONS)
+                .add(blocklist.ALCHETREE_BUTTON.get());
+
 
 
 

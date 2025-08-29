@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "alchemical_power:block/alchetree_door_bottom",
+    "top": "alchemical_power:block/alchetree_door_top"
+  }
+}

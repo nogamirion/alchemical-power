@@ -5,9 +5,11 @@ import jp.nogami_rion.alchemical_power.init.itemlist;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItemModelProvider extends ItemModelProvider {
@@ -375,9 +377,25 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(itemlist.OMG_STEW);
 
+        simpleItem(itemlist.ALCHETREE_DOOR);
 
+        fenceItem(itemlist.ALCHETREE_FENCE,itemlist.ALCHETREE_PLANKS);
+        buttonItem(itemlist.ALCHETREE_BUTTON,itemlist.ALCHETREE_PLANKS);
+        wallItem(itemlist.ALCHETREE_WALL,itemlist.ALCHETREE_PLANKS);
+        trapdoorItem(itemlist.ALCHETREE_TRAPDOOR);
+        evenSimplerBlockItem(itemlist.ALCHETREE_STAIRS);
+        evenSimplerBlockItem(itemlist.ALCHETREE_SLAB);
+        evenSimplerBlockItem(itemlist.ALCHETREE_PRESSURE_PLATE);
+        evenSimplerBlockItem(itemlist.ALCHETREE_FENCE_GATE);
 
-
+        saplingItem(itemlist.ALCHETREE_SAPLINGS_T0);
+        saplingItem(itemlist.ALCHETREE_SAPLINGS_T1);
+        saplingItem(itemlist.ALCHETREE_SAPLINGS_T2);
+        saplingItem(itemlist.ALCHETREE_SAPLINGS_T3);
+        saplingItem(itemlist.ALCHETREE_SAPLINGS_T4);
+        saplingItem(itemlist.ALCHETREE_SAPLINGS_T5);
+        saplingItem(itemlist.ALCHETREE_SAPLINGS_T6);
+        saplingItem(itemlist.ALCHETREE_SAPLINGS_T7);
 
 
 
@@ -389,5 +407,36 @@ public class ModItemModelProvider extends ItemModelProvider {
                 new ResourceLocation(Alchemical_power.MODID,"item/" + item.getId().getPath()));
 
     }
+    public void evenSimplerBlockItem(RegistryObject<Item> block) {
+        this.withExistingParent(Alchemical_power.MODID + ":" + ForgeRegistries.ITEMS.getKey(block.get()).getPath(),
+                modLoc("block/" + ForgeRegistries.ITEMS.getKey(block.get()).getPath()));
+    }
+
+    public void trapdoorItem(RegistryObject<Item> block) {
+        this.withExistingParent(ForgeRegistries.ITEMS.getKey(block.get()).getPath(),
+                modLoc("block/" + ForgeRegistries.ITEMS.getKey(block.get()).getPath() + "_bottom"));
+    }
+
+    public void fenceItem(RegistryObject<Item> block, RegistryObject<Item> baseBlock) {
+        this.withExistingParent(ForgeRegistries.ITEMS.getKey(block.get()).getPath(), mcLoc("block/fence_inventory"))
+                .texture("texture",  new ResourceLocation(Alchemical_power.MODID, "block/" + ForgeRegistries.ITEMS.getKey(baseBlock.get()).getPath()));
+    }
+
+    public void buttonItem(RegistryObject<Item> block, RegistryObject<Item> baseBlock) {
+        this.withExistingParent(ForgeRegistries.ITEMS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
+                .texture("texture",  new ResourceLocation(Alchemical_power.MODID, "block/" + ForgeRegistries.ITEMS.getKey(baseBlock.get()).getPath()));
+    }
+
+    public void wallItem(RegistryObject<Item> block, RegistryObject<Item> baseBlock) {
+        this.withExistingParent(ForgeRegistries.ITEMS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
+                .texture("wall",  new ResourceLocation(Alchemical_power.MODID, "block/" + ForgeRegistries.ITEMS.getKey(baseBlock.get()).getPath()));
+    }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(Alchemical_power.MODID,"block/" + item.getId().getPath()));
+    }
+
 
 }

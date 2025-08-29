@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "alchemical_power:block/alchetree_leaves_t0"
+  }
+}

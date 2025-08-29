@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "alchemical_power:alchetree_planks"
+    }
+  },
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "result": {
+    "count": 3,
+    "item": "alchemical_power:alchetree_door"
+  },
+  "show_notification": true
+}

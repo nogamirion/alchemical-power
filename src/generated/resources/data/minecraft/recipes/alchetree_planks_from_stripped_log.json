@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:stripped_alchetree_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "alchemical_power:alchetree_planks"
+  }
+}

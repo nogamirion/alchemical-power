@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "alchemical_power:block/alchetree_log_top",
+    "side": "alchemical_power:block/alchetree_log"
+  }
+}

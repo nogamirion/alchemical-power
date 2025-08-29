@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "alchemical_power:block/alchetree_planks"
+  }
+}

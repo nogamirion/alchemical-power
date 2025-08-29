@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "a": {
+      "item": "alchemical_power:alchetree_planks"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "result": {
+    "count": 3,
+    "item": "alchemical_power:alchetree_fence"
+  },
+  "show_notification": true
+}

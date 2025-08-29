@@ -2,7 +2,7 @@
   "type": "alchemical_power:rune_activator_recipe",
   "ingredients": [
     {
-      "item": "alchemical_power:advanced_grinding_rune"
+      "item": "alchemical_power:advanced_granulating_rune"
     },
     {
       "item": "alchemical_power:packaged_crushed_raw_iron"

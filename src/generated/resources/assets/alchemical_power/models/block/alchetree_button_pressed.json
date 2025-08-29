@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "alchemical_power:block/alchetree_planks"
+  }
+}

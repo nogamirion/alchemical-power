@@ -1,0 +1,5 @@
+{
+  "texture": "alchemical_power:block/t1_panakeia_ingot_block",
+  "color": "#CCFFFF",
+  "fallbacks": ["metal_iron"]
+}

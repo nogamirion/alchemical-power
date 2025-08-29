@@ -1,0 +1,22 @@
+{
+  "type": "alchemical_power:alchemy_table_recipe",
+  "ingredients": [
+    {"item": "alchemical_power:t6_panakeia_cube"},
+    {"item": "alchemical_power:t6_panakeia_cube"},
+    {"item": "alchemical_power:t6_panakeia_cube"},
+
+    {"item": "alchemical_power:t6_panakeia_cube"},
+    {"item": "alchemical_power:alchetree_sapling_t5"},
+    {"item": "alchemical_power:t6_panakeia_cube"},
+
+    {"item": "alchemical_power:t6_panakeia_cube"},
+    {"item": "alchemical_power:t6_panakeia_cube"},
+    {"item": "alchemical_power:t6_panakeia_cube"},
+
+    {"tag": "alchemical_power:alchemy_kit_tier4"}
+  ],
+  "output": {
+    "count": 1,
+    "item": "alchemical_power:alchetree_sapling_t6"
+  }
+}

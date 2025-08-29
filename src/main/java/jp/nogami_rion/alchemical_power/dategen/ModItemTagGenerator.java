@@ -1,12 +1,14 @@
 package jp.nogami_rion.alchemical_power.dategen;
 
 import jp.nogami_rion.alchemical_power.Alchemical_power;
+import jp.nogami_rion.alchemical_power.init.blocklist;
 import jp.nogami_rion.alchemical_power.init.itemlist;
 import jp.nogami_rion.alchemical_power.item.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -222,6 +224,16 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(Items.WARD_ARMOR_TRIM_SMITHING_TEMPLATE)
                 .add(Items.WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE)
                 .add(Items.WILD_ARMOR_TRIM_SMITHING_TEMPLATE);
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(blocklist.ALCHETREE_LOG.get().asItem())
+                .add(blocklist.ALCHETREE_WOOD.get().asItem())
+                .add(blocklist.STRIPPED_ALCHETREE_LOG.get().asItem())
+                .add(blocklist.STRIPPED_ALCHETREE_WOOD.get().asItem())
+        ;
+
+        this.tag(ItemTags.PLANKS)
+                .add(blocklist.ALCHETREE_PLANKS.get().asItem());
 
 
 

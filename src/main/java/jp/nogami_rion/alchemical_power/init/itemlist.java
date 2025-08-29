@@ -2,6 +2,7 @@ package jp.nogami_rion.alchemical_power.init;
 
 
 import jp.nogami_rion.alchemical_power.Alchemical_power;
+import jp.nogami_rion.alchemical_power.block.custom.ModLeavesBlock;
 import jp.nogami_rion.alchemical_power.item.*;
 import jp.nogami_rion.alchemical_power.item.accessory.Alchemists_ring;
 import jp.nogami_rion.alchemical_power.item.accessory.Gluttonys_ring;
@@ -12,6 +13,8 @@ import jp.nogami_rion.alchemical_power.item.food.Steaves_Lava_Chicken;
 import jp.nogami_rion.alchemical_power.item.materials.*;
 import jp.nogami_rion.alchemical_power.item.rune.*;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -328,6 +331,37 @@ public class itemlist {
     public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk7 = ITEMS.register("x38025_cobblestone_generator_mk7", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK7.get(), new Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk8 = ITEMS.register("x38025_cobblestone_generator_mk8", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK8.get(), new Item.Properties().rarity(Rarity.EPIC)));
 
+    public static final RegistryObject<Item> ALCHETREE_LOG = ITEMS.register("alchetree_log", () -> new BlockItem(blocklist.ALCHETREE_LOG.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_WOOD = ITEMS.register("alchetree_wood", () -> new BlockItem(blocklist.ALCHETREE_WOOD.get(), new Item.Properties()));
+    public static final RegistryObject<Item> STRIPPED_ALCHETREE_LOG = ITEMS.register("stripped_alchetree_log", () -> new BlockItem(blocklist.STRIPPED_ALCHETREE_LOG.get(), new Item.Properties()));
+    public static final RegistryObject<Item> STRIPPED_ALCHETREE_WOOD = ITEMS.register("stripped_alchetree_wood", () -> new BlockItem(blocklist.STRIPPED_ALCHETREE_WOOD.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_PLANKS = ITEMS.register("alchetree_planks", () -> new BlockItem(blocklist.ALCHETREE_PLANKS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_SAPLINGS_T0 = ITEMS.register("alchetree_sapling_t0",() -> new BlockItem(blocklist.ALCHETREE_SAPLINGS_T0.get(),new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_SAPLINGS_T1 = ITEMS.register("alchetree_sapling_t1",() -> new BlockItem(blocklist.ALCHETREE_SAPLINGS_T1.get(),new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_SAPLINGS_T2 = ITEMS.register("alchetree_sapling_t2",() -> new BlockItem(blocklist.ALCHETREE_SAPLINGS_T2.get(),new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_SAPLINGS_T3 = ITEMS.register("alchetree_sapling_t3",() -> new BlockItem(blocklist.ALCHETREE_SAPLINGS_T3.get(),new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_SAPLINGS_T4 = ITEMS.register("alchetree_sapling_t4",() -> new BlockItem(blocklist.ALCHETREE_SAPLINGS_T4.get(),new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_SAPLINGS_T5 = ITEMS.register("alchetree_sapling_t5",() -> new BlockItem(blocklist.ALCHETREE_SAPLINGS_T5.get(),new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_SAPLINGS_T6 = ITEMS.register("alchetree_sapling_t6",() -> new BlockItem(blocklist.ALCHETREE_SAPLINGS_T6.get(),new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_SAPLINGS_T7 = ITEMS.register("alchetree_sapling_t7",() -> new BlockItem(blocklist.ALCHETREE_SAPLINGS_T7.get(),new Item.Properties()));
+    public static final RegistryObject<Item>[] ALCHETREE_LEAVES = new RegistryObject[8];
+    static {
+        for (int tier = 0; tier <8 ; tier++){
+            int finalTier = tier;
+            ALCHETREE_LEAVES[tier] = ITEMS.register("alchetree_leaves_t"+tier,() -> new BlockItem(blocklist.ALCHETREE_LEAVES[finalTier].get(),new Item.Properties()));
+        }
+    }
+    public static final RegistryObject<Item> ALCHETREE_STAIRS = ITEMS.register("alchetree_stairs", () -> new BlockItem(blocklist.ALCHETREE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_SLAB = ITEMS.register("alchetree_slab", () -> new BlockItem(blocklist.ALCHETREE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_FENCE = ITEMS.register("alchetree_fence", () -> new BlockItem(blocklist.ALCHETREE_FENCE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_FENCE_GATE = ITEMS.register("alchetree_fence_gate", () -> new BlockItem(blocklist.ALCHETREE_FENCE_GATE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_WALL = ITEMS.register("alchetree_wall", () -> new BlockItem(blocklist.ALCHETREE_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_PRESSURE_PLATE = ITEMS.register("alchetree_pressure_plate", () -> new BlockItem(blocklist.ALCHETREE_PRESSURE_PLATE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_BUTTON = ITEMS.register("alchetree_button", () -> new BlockItem(blocklist.ALCHETREE_BUTTON.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_TRAPDOOR = ITEMS.register("alchetree_trapdoor", () -> new BlockItem(blocklist.ALCHETREE_TRAPDOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ALCHETREE_DOOR = ITEMS.register("alchetree_door", () -> new BlockItem(blocklist.ALCHETREE_DOOR.get(), new Item.Properties()));
+
+
     public static final RegistryObject<Item> T1_PANAKEIA_INGOT_X81_COMPRESSED_PLATE = ITEMS.register("t1_panakeia_ingot_x81_compressed_plate",CommonAlchemyMaterial::new);
     public static final RegistryObject<Item> T2_PANAKEIA_INGOT_X81_COMPRESSED_PLATE = ITEMS.register("t2_panakeia_ingot_x81_compressed_plate",CommonAlchemyMaterial::new);
     public static final RegistryObject<Item> T3_PANAKEIA_INGOT_X81_COMPRESSED_PLATE = ITEMS.register("t3_panakeia_ingot_x81_compressed_plate",CommonAlchemyMaterial::new);
@@ -350,8 +384,7 @@ public class itemlist {
     public static final RegistryObject<Item> TEMPERANCE_CRYSTAL_PLATE = ITEMS.register("temperance_crystal_plate",EpicAlchemyMaterial::new);
     public static final RegistryObject<Item> FAITH_CRYSTAL_PLATE = ITEMS.register("faith_crystal_plate",EpicAlchemyMaterial::new);
 
-
-
+    public static final RegistryObject<Item> ALCHETREE_MYSTERIOUS_SCARECROW = ITEMS.register("alchetree_mysterious_scarecrow",MysteriousScarecrowItem::new);
 
 
 

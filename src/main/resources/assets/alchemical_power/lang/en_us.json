@@ -511,7 +511,42 @@
   "advancements.alchemical_power.obtain_cookware_set.title": "Cooking is practically alchemy",
   "advancements.alchemical_power.obtain_cookware_set.description": "Obtain Cookware Set.",
   "advancements.alchemical_power.obtain_omg_stew.title": "Ask for forgiveness",
-  "advancements.alchemical_power.obtain_omg_stew.description": "Mix everything."
+  "advancements.alchemical_power.obtain_omg_stew.description": "Mix everything.",
 
+  //1.1.0 version additional
 
+  "block.alchemical_power.alchetree_log": "Alchetree Log",
+  "block.alchemical_power.stripped_alchetree_log": "Stripped Alchetree Log",
+  "block.alchemical_power.alchetree_wood": "Alchetree Wood",
+  "block.alchemical_power.stripped_alchetree_wood": "Stripped Alchetree Wood",
+  "block.alchemical_power.alchetree_planks": "Alchetree Planks",
+  "block.alchemical_power.alchetree_sapling_t0": "Alchetree Sapling T0",
+  "block.alchemical_power.alchetree_sapling_t1": "Alchetree Sapling T1",
+  "block.alchemical_power.alchetree_sapling_t2": "Alchetree Sapling T2",
+  "block.alchemical_power.alchetree_sapling_t3": "Alchetree Sapling T3",
+  "block.alchemical_power.alchetree_sapling_t4": "Alchetree Sapling T4",
+  "block.alchemical_power.alchetree_sapling_t5": "Alchetree Sapling T5",
+  "block.alchemical_power.alchetree_sapling_t6": "Alchetree Sapling T6",
+  "block.alchemical_power.alchetree_sapling_t7": "Alchetree Sapling T7",
+  "block.alchemical_power.alchetree_leaves_t0": "Alchetree Leaves T0",
+  "block.alchemical_power.alchetree_leaves_t1": "Alchetree Leaves T1",
+  "block.alchemical_power.alchetree_leaves_t2": "Alchetree Leaves T2",
+  "block.alchemical_power.alchetree_leaves_t3": "Alchetree Leaves T3",
+  "block.alchemical_power.alchetree_leaves_t4": "Alchetree Leaves T4",
+  "block.alchemical_power.alchetree_leaves_t5": "Alchetree Leaves T5",
+  "block.alchemical_power.alchetree_leaves_t6": "Alchetree Leaves T6",
+  "block.alchemical_power.alchetree_leaves_t7": "Alchetree Leaves T7",
+  "block.alchemical_power.alchetree_stairs": "Alchetree Staires",
+  "block.alchemical_power.alchetree_slab": "Alchetree Slab",
+  "block.alchemical_power.alchetree_button": "Alchetree Button",
+  "block.alchemical_power.alchetree_pressure_plate": "Alchetree Pressure Plate",
+  "block.alchemical_power.alchetree_fence": "Alchetree Fence",
+  "block.alchemical_power.alchetree_fence_gate": "Alchetree Fence Gate",
+  "block.alchemical_power.alchetree_wall": "Alchetree Wall",
+  "block.alchemical_power.alchetree_door": "Alchetree Door",
+  "block.alchemical_power.alchetree_trapdoor": "Alchetree Trapdoor",
+
+  //TiC Integration　
+  "material.alchemical_power.t1_panakeia_ingot": "T1 Panakeia Ingot",
+  "material.alchemical_power.t2_panakeia_ingot": "T2 Panakeia Ingot"
 }

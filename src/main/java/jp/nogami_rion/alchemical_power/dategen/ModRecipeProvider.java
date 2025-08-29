@@ -1097,7 +1097,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         new RuneActivatorRecipeBuilder(
                 new ResourceLocation("alchemical_power","rune_activator_recipe"),
-                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(itemlist.ADVANCED_GRANULATING_RUNE.get()),
                 Ingredient.of(itemlist.COLLECTED_CRUSHED_EMERALD_ORE.get()),
                 itemlist.COLLECTED_GRANULATED_EMERALD.get(),
                 4
@@ -1137,7 +1137,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         new RuneActivatorRecipeBuilder(
                 new ResourceLocation("alchemical_power","rune_activator_recipe"),
-                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(itemlist.ADVANCED_GRANULATING_RUNE.get()),
                 Ingredient.of(itemlist.COLLECTED_CRUSHED_ANCIENT_DEBRIS.get()),
                 itemlist.COLLECTED_GRANULATED_ANCIENT_DEBRIS.get(),
                 4
@@ -1177,7 +1177,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         new RuneActivatorRecipeBuilder(
                 new ResourceLocation("alchemical_power","rune_activator_recipe"),
-                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(itemlist.ADVANCED_GRANULATING_RUNE.get()),
                 Ingredient.of(itemlist.PACKAGED_CRUSHED_RAW_COPPER.get()),
                 itemlist.PACKAGED_GRANULATED_COPPER.get(),
                 4
@@ -1217,7 +1217,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         new RuneActivatorRecipeBuilder(
                 new ResourceLocation("alchemical_power","rune_activator_recipe"),
-                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(itemlist.ADVANCED_GRANULATING_RUNE.get()),
                 Ingredient.of(itemlist.PACKAGED_CRUSHED_RAW_IRON.get()),
                 itemlist.PACKAGED_GRANULATED_IRON.get(),
                 4
@@ -1257,7 +1257,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         new RuneActivatorRecipeBuilder(
                 new ResourceLocation("alchemical_power","rune_activator_recipe"),
-                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(itemlist.ADVANCED_GRANULATING_RUNE.get()),
                 Ingredient.of(itemlist.PACKAGED_CRUSHED_RAW_GOLD.get()),
                 itemlist.PACKAGED_GRANULATED_GOLD.get(),
                 4
@@ -1297,7 +1297,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         new RuneActivatorRecipeBuilder(
                 new ResourceLocation("alchemical_power","rune_activator_recipe"),
-                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(itemlist.ADVANCED_GRANULATING_RUNE.get()),
                 Ingredient.of(itemlist.PACKAGED_CRUSHED_DIAMOND_ORE.get()),
                 itemlist.PACKAGED_GRANULATED_DIAMOND.get(),
                 4
@@ -1337,7 +1337,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         new RuneActivatorRecipeBuilder(
                 new ResourceLocation("alchemical_power","rune_activator_recipe"),
-                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(itemlist.ADVANCED_GRANULATING_RUNE.get()),
                 Ingredient.of(itemlist.PACKAGED_CRUSHED_EMERALD_ORE.get()),
                 itemlist.PACKAGED_GRANULATED_EMERALD.get(),
                 4
@@ -1377,7 +1377,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         new RuneActivatorRecipeBuilder(
                 new ResourceLocation("alchemical_power","rune_activator_recipe"),
-                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(itemlist.ADVANCED_GRANULATING_RUNE.get()),
                 Ingredient.of(itemlist.PACKAGED_CRUSHED_ANCIENT_DEBRIS.get()),
                 itemlist.PACKAGED_GRANULATED_ANCIENT_DEBRIS.get(),
                 4
@@ -4129,6 +4129,244 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 itemlist.GREED_RING.get(),
                 1
         ).save(consumer,"greed_ring_recipe");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.ROTTEN_FLESH),
+                Items.BONE,
+                1
+        ).save(consumer,"rune_of_equivalent_rotten_flesh_to_bone");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.BONE),
+                Items.GUNPOWDER,
+                1
+        ).save(consumer,"rune_of_equivalent_bone_to_gunpowder");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.GUNPOWDER),
+                Items.SPIDER_EYE,
+                1
+        ).save(consumer,"rune_of_equivalent_gunpowder_to_spider_eye");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.SPIDER_EYE),
+                Items.SLIME_BALL,
+                1
+        ).save(consumer,"rune_of_equivalent_spider_eye_to_slime_ball");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.SLIME_BALL),
+                Items.ROTTEN_FLESH,
+                1
+        ).save(consumer,"rune_of_equivalent_slime_ball_to_rotten_flesh");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,Items.SLIME_BALL,1)
+                .requires(itemlist.COOKWARE_SET.get())
+                .requires(ItemTags.create(new ResourceLocation("forge","dough")))
+                .requires(Items.GREEN_DYE)
+                .unlockedBy(getHasName(itemlist.COOKWARE_SET.get()),has(itemlist.COOKWARE_SET.get()))
+                .save(consumer);
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.FEATHER),
+                Items.RABBIT_HIDE,
+                1
+        ).save(consumer,"rune_of_equivalent_feather_to_rabbit_hide");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.RABBIT_HIDE),
+                Items.FEATHER,
+                1
+        ).save(consumer,"rune_of_equivalent_rabbit_hide_to_feather");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.LEATHER),
+                Items.RABBIT_FOOT,
+                1
+        ).save(consumer,"rune_of_equivalent_leather_to_rabbit_foot");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.RABBIT_FOOT),
+                Items.RABBIT_HIDE,
+                4
+        ).save(consumer,"rune_of_equivalent_rabbit_foot_to_rabbit_hide_x4");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.INK_SAC),
+                Items.GLOW_INK_SAC,
+                1
+        ).save(consumer,"rune_of_equivalent_ink_sac_to_glow_ink_sac");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.GLOW_INK_SAC),
+                Items.SCUTE,
+                1
+        ).save(consumer,"rune_of_equivalent_glow_ink_sac_to_scute");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.SCUTE),
+                Items.PRISMARINE_SHARD,
+                1
+        ).save(consumer,"rune_of_equivalent_scute_to_prismarine_shard");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.PRISMARINE_SHARD),
+                Items.PRISMARINE_CRYSTALS,
+                1
+        ).save(consumer,"rune_of_equivalent_prismarine_shard_to_prismarine_crystals");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.PRISMARINE_CRYSTALS),
+                Items.INK_SAC,
+                1
+        ).save(consumer,"rune_of_equivalent_prismarine_crystals_to_ink_sac");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.PHANTOM_MEMBRANE),
+                Items.ENDER_PEARL,
+                1
+        ).save(consumer,"rune_of_equivalent_phantom_membrane_to_ender_pearl");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.ENDER_PEARL),
+                Items.PHANTOM_MEMBRANE,
+                1
+        ).save(consumer,"rune_of_equivalent_ender_pearl_to_phantom_membrane");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.NAUTILUS_SHELL),
+                Items.SHULKER_SHELL,
+                1
+        ).save(consumer,"rune_of_equivalent_nautilus_shell_to_shulker_shell");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_EQUIVALENT.get()),
+                Ingredient.of(Items.SHULKER_SHELL),
+                Items.NAUTILUS_SHELL,
+                1
+        ).save(consumer,"rune_of_equivalent_shulker_shell_to_nautilus_shell");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.ALCHETREE_PLANKS.get(),4)
+                .requires(itemlist.ALCHETREE_LOG.get())
+                .unlockedBy(getHasName(itemlist.ALCHETREE_LOG.get()),has(itemlist.ALCHETREE_LOG.get()))
+                .save(consumer,"alchetree_planks_from_log");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.ALCHETREE_PLANKS.get(),4)
+                .requires(itemlist.ALCHETREE_WOOD.get())
+                .unlockedBy(getHasName(itemlist.ALCHETREE_WOOD.get()),has(itemlist.ALCHETREE_WOOD.get()))
+                .save(consumer,"alchetree_planks_from_wood");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.ALCHETREE_PLANKS.get(),4)
+                .requires(itemlist.STRIPPED_ALCHETREE_LOG.get())
+                .unlockedBy(getHasName(itemlist.STRIPPED_ALCHETREE_LOG.get()),has(itemlist.STRIPPED_ALCHETREE_LOG.get()))
+                .save(consumer,"alchetree_planks_from_stripped_log");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.ALCHETREE_PLANKS.get(),4)
+                .requires(itemlist.STRIPPED_ALCHETREE_WOOD.get())
+                .unlockedBy(getHasName(itemlist.STRIPPED_ALCHETREE_WOOD.get()),has(itemlist.STRIPPED_ALCHETREE_WOOD.get()))
+                .save(consumer,"alchetree_planks_from_stripped_wood");
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, itemlist.ALCHETREE_STAIRS.get(),4)
+                .pattern("a  ")
+                .pattern("aa ")
+                .pattern("aaa")
+                .define('a',itemlist.ALCHETREE_PLANKS.get())
+                .unlockedBy(getHasName(itemlist.ALCHETREE_PLANKS.get()),has(itemlist.ALCHETREE_PLANKS.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, itemlist.ALCHETREE_SLAB.get(),6)
+                .pattern("aaa")
+                .define('a',itemlist.ALCHETREE_PLANKS.get())
+                .unlockedBy(getHasName(itemlist.ALCHETREE_PLANKS.get()),has(itemlist.ALCHETREE_PLANKS.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, itemlist.ALCHETREE_FENCE.get(),3)
+                .pattern("aba")
+                .pattern("aba")
+                .define('a',itemlist.ALCHETREE_PLANKS.get())
+                .define('b',Items.STICK)
+                .unlockedBy(getHasName(itemlist.ALCHETREE_PLANKS.get()),has(itemlist.ALCHETREE_PLANKS.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, itemlist.ALCHETREE_FENCE_GATE.get(),1)
+                .pattern("aba")
+                .pattern("aba")
+                .define('b',itemlist.ALCHETREE_PLANKS.get())
+                .define('a',Items.STICK)
+                .unlockedBy(getHasName(itemlist.ALCHETREE_PLANKS.get()),has(itemlist.ALCHETREE_PLANKS.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, itemlist.ALCHETREE_DOOR.get(),3)
+                .pattern("aa")
+                .pattern("aa")
+                .pattern("aa")
+                .define('a',itemlist.ALCHETREE_PLANKS.get())
+                .unlockedBy(getHasName(itemlist.ALCHETREE_PLANKS.get()),has(itemlist.ALCHETREE_PLANKS.get()))
+                .save(consumer);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.REDSTONE,itemlist.ALCHETREE_BUTTON.get(),1)
+                .requires(itemlist.ALCHETREE_PLANKS.get())
+                .unlockedBy(getHasName(itemlist.ALCHETREE_PLANKS.get()),has(itemlist.ALCHETREE_PLANKS.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, itemlist.ALCHETREE_PRESSURE_PLATE.get(),1)
+                .pattern("aa")
+                .define('a',itemlist.ALCHETREE_PLANKS.get())
+                .unlockedBy(getHasName(itemlist.ALCHETREE_PLANKS.get()),has(itemlist.ALCHETREE_PLANKS.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, itemlist.ALCHETREE_TRAPDOOR.get(),2)
+                .pattern("aaa")
+                .pattern("aaa")
+                .define('a',itemlist.ALCHETREE_PLANKS.get())
+                .unlockedBy(getHasName(itemlist.ALCHETREE_PLANKS.get()),has(itemlist.ALCHETREE_PLANKS.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, itemlist.ALCHETREE_WALL.get(),3)
+                .pattern("aba")
+                .pattern("aba")
+                .define('a',itemlist.ALCHETREE_PLANKS.get())
+                .define('b',itemlist.ALCHETREE_LOG.get())
+                .unlockedBy(getHasName(itemlist.ALCHETREE_PLANKS.get()),has(itemlist.ALCHETREE_PLANKS.get()))
+                .save(consumer);
+
+
 
     }
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "alchemical_power:block/alchetree_slab"
+    },
+    "type=double": {
+      "model": "alchemical_power:block/alchetree_planks"
+    },
+    "type=top": {
+      "model": "alchemical_power:block/alchetree_slab_top"
+    }
+  }
+}

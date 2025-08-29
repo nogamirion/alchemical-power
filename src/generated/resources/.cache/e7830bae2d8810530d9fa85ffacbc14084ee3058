@@ -1,5 +1,17 @@
-// 1.20.1	2025-05-27T23:55:01.8425197	Tags for minecraft:block mod id alchemical_power
+// 1.20.1	2025-08-26T14:33:24.5902528	Tags for minecraft:block mod id alchemical_power
+0f29c01f1b470d0f914dc81107eee37a22810abb data/minecraft/tags/blocks/fence_gates.json
+053cc1fa0db0fc5d3fae5ab007387be7268357e4 data/minecraft/tags/blocks/leaves.json
+ead1f8b7139b70d605562ffa18c7f8073cbded9d data/minecraft/tags/blocks/logs_that_burn.json
 c212d8e9d76104db0331bb3f9f76c1658f00480c data/minecraft/tags/blocks/mineable/pickaxe.json
 1fe65061fada2078ee6d1acd47aa7425fa9a0f28 data/minecraft/tags/blocks/needs_diamond_tool.json
 2333f5b1c56b19e7b9fffafeb25f525bc9f38e92 data/minecraft/tags/blocks/needs_iron_tool.json
 b2ad78236af5684bc01a4512313c7b7ed9faa0b8 data/minecraft/tags/blocks/needs_stone_tool.json
+01e7bd02607d8a7c00292016b05f9f696e0c8e86 data/minecraft/tags/blocks/planks.json
+9e7db396849b69d39560d1db870c2af86d044292 data/minecraft/tags/blocks/walls.json
+5c9da4a548bcd7991f32da71f05d0e6e2d47128e data/minecraft/tags/blocks/wooden_buttons.json
+56098880673daa913ad98cc939e3202cb1e83fa2 data/minecraft/tags/blocks/wooden_doors.json
+b053fc767add73cdcf947f6e129eb496c1045571 data/minecraft/tags/blocks/wooden_fences.json
+cf006f7d11fcca7155be9b19ed5e134d47deb12a data/minecraft/tags/blocks/wooden_pressure_plates.json
+469aa5d83dbd33a87f43bd183e08e6ed179e0ed0 data/minecraft/tags/blocks/wooden_slabs.json
+39fc6b15f5c0f08952203a29c5a452b2cbcca22c data/minecraft/tags/blocks/wooden_stairs.json
+6042d0223842d7cea9c3bd6f56fd27a515f0076f data/minecraft/tags/blocks/wooden_trapdoors.json

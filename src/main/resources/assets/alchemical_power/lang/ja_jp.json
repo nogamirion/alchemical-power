@@ -511,7 +511,47 @@
   "advancements.alchemical_power.obtain_cookware_set.title": "料理は実質錬金術",
   "advancements.alchemical_power.obtain_cookware_set.description": "調理器具セットを手に入れる",
   "advancements.alchemical_power.obtain_omg_stew.title": "許しを請いなさい",
-  "advancements.alchemical_power.obtain_omg_stew.description": "全部混ぜる"
+  "advancements.alchemical_power.obtain_omg_stew.description": "全部混ぜる",
+
+
+  //1.1.0追加分
+
+  "block.alchemical_power.alchetree_log": "錬金樹の原木",
+  "block.alchemical_power.stripped_alchetree_log": "樹皮を剥いだ錬金樹の原木",
+  "block.alchemical_power.alchetree_wood": "錬金樹の木",
+  "block.alchemical_power.stripped_alchetree_wood": "樹皮を剥いだ錬金樹の木",
+  "block.alchemical_power.alchetree_planks": "錬金樹の板材",
+  "block.alchemical_power.alchetree_sapling_t0": "錬金樹の含有苗木",
+  "block.alchemical_power.alchetree_sapling_t1": "錬金樹の下級苗木",
+  "block.alchemical_power.alchetree_sapling_t2": "錬金樹の中級苗木",
+  "block.alchemical_power.alchetree_sapling_t3": "錬金樹の上級苗木",
+  "block.alchemical_power.alchetree_sapling_t4": "錬金樹の叡智苗木",
+  "block.alchemical_power.alchetree_sapling_t5": "錬金樹の究極苗木",
+  "block.alchemical_power.alchetree_sapling_t6": "錬金樹の神聖苗木",
+  "block.alchemical_power.alchetree_sapling_t7": "錬金樹の混沌苗木",
+  "block.alchemical_power.alchetree_leaves_t0": "錬金樹の含有葉",
+  "block.alchemical_power.alchetree_leaves_t1": "錬金樹の下級葉",
+  "block.alchemical_power.alchetree_leaves_t2": "錬金樹の中級葉",
+  "block.alchemical_power.alchetree_leaves_t3": "錬金樹の上級葉",
+  "block.alchemical_power.alchetree_leaves_t4": "錬金樹の叡智葉",
+  "block.alchemical_power.alchetree_leaves_t5": "錬金樹の究極葉",
+  "block.alchemical_power.alchetree_leaves_t6": "錬金樹の神聖葉",
+  "block.alchemical_power.alchetree_leaves_t7": "錬金樹の混沌葉",
+
+  "block.alchemical_power.alchetree_stairs": "錬金樹の階段",
+  "block.alchemical_power.alchetree_slab": "錬金樹のハーフブロック",
+  "block.alchemical_power.alchetree_button": "錬金樹のボタン",
+  "block.alchemical_power.alchetree_pressure_plate": "錬金樹の感圧板",
+  "block.alchemical_power.alchetree_fence": "錬金樹のフェンス",
+  "block.alchemical_power.alchetree_fence_gate": "錬金樹のフェンスゲート",
+  "block.alchemical_power.alchetree_wall": "錬金樹の塀",
+  "block.alchemical_power.alchetree_door": "錬金樹のドア",
+  "block.alchemical_power.alchetree_trapdoor": "錬金樹のトラップドア",
+
+  //TiC連携
+  "material.alchemical_power.t1_panakeia_ingot": "下級パナケイアインゴット",
+  "material.alchemical_power.t2_panakeia_ingot": "中級パナケイアインゴット"
+
 
 
 

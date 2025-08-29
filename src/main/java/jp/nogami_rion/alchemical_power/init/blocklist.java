@@ -2,11 +2,22 @@ package jp.nogami_rion.alchemical_power.init;
 
 import jp.nogami_rion.alchemical_power.Alchemical_power;
 import jp.nogami_rion.alchemical_power.block.*;
+import jp.nogami_rion.alchemical_power.block.custom.ModFlammableRotatePillarBlock;
+import jp.nogami_rion.alchemical_power.block.custom.ModLeavesBlock;
+import jp.nogami_rion.alchemical_power.block.custom.ModSaplingsBlock;
 import jp.nogami_rion.alchemical_power.item.custom.FuelBlock;
+import jp.nogami_rion.alchemical_power.worldgen.tree.*;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.grower.OakTreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -79,6 +90,55 @@ public class blocklist {
     public static final RegistryObject<Block> X38025_COBBLESTONE_GENERATOR_MK6 = BLOCKS.register("x38025_cobblestone_generator_mk6", () -> new CobblestoneGeneratorMk6(itemlist.X38025_COBBLESTONE));
     public static final RegistryObject<Block> X38025_COBBLESTONE_GENERATOR_MK7 = BLOCKS.register("x38025_cobblestone_generator_mk7", () -> new CobblestoneGeneratorMk7(itemlist.X38025_COBBLESTONE));
     public static final RegistryObject<Block> X38025_COBBLESTONE_GENERATOR_MK8 = BLOCKS.register("x38025_cobblestone_generator_mk8", () -> new CobblestoneGeneratorMk8(itemlist.X38025_COBBLESTONE));
+
+    public static final RegistryObject<Block> ALCHETREE_LOG = BLOCKS.register("alchetree_log",() -> new ModFlammableRotatePillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(3.0f)));
+    public static final RegistryObject<Block> ALCHETREE_WOOD = BLOCKS.register("alchetree_wood",() -> new ModFlammableRotatePillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(3.0f)));
+    public static final RegistryObject<Block> STRIPPED_ALCHETREE_LOG = BLOCKS.register("stripped_alchetree_log",() -> new ModFlammableRotatePillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).strength(3.0f)));
+    public static final RegistryObject<Block> STRIPPED_ALCHETREE_WOOD = BLOCKS.register("stripped_alchetree_wood",() -> new ModFlammableRotatePillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).strength(3.0f)));
+
+    public static final RegistryObject<Block> ALCHETREE_PLANKS = BLOCKS.register("alchetree_planks",() -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)){
+        @Override
+        public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return true;
+        }
+
+        @Override
+        public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 20;
+        }
+
+        @Override
+        public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+            return 5;
+        }
+    });
+    public static final RegistryObject<Block>[] ALCHETREE_LEAVES = new RegistryObject[8];
+    static {
+        for (int tier = 0; tier <8 ; tier++){
+            int finalTier = tier;
+            ALCHETREE_LEAVES[tier] = BLOCKS.register("alchetree_leaves_t"+tier,() -> new ModLeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
+        }
+    }
+
+    public static final RegistryObject<Block> ALCHETREE_SAPLINGS_T0 = BLOCKS.register("alchetree_sapling_t0",() -> new ModSaplingsBlock(new AlchetreeT0Grower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> ALCHETREE_SAPLINGS_T1 = BLOCKS.register("alchetree_sapling_t1",() -> new ModSaplingsBlock(new AlchetreeT1Grower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> ALCHETREE_SAPLINGS_T2 = BLOCKS.register("alchetree_sapling_t2",() -> new ModSaplingsBlock(new AlchetreeT2Grower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> ALCHETREE_SAPLINGS_T3 = BLOCKS.register("alchetree_sapling_t3",() -> new ModSaplingsBlock(new AlchetreeT3Grower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> ALCHETREE_SAPLINGS_T4 = BLOCKS.register("alchetree_sapling_t4",() -> new ModSaplingsBlock(new AlchetreeT4Grower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> ALCHETREE_SAPLINGS_T5 = BLOCKS.register("alchetree_sapling_t5",() -> new ModSaplingsBlock(new AlchetreeT5Grower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> ALCHETREE_SAPLINGS_T6 = BLOCKS.register("alchetree_sapling_t6",() -> new ModSaplingsBlock(new AlchetreeT6Grower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> ALCHETREE_SAPLINGS_T7 = BLOCKS.register("alchetree_sapling_t7",() -> new ModSaplingsBlock(new AlchetreeT7Grower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<Block> ALCHETREE_STAIRS = BLOCKS.register("alchetree_stairs",() -> new StairBlock( ()-> blocklist.ALCHETREE_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ALCHETREE_SLAB = BLOCKS.register("alchetree_slab",() -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ALCHETREE_BUTTON = BLOCKS.register("alchetree_button",() -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON), BlockSetType.OAK,10,true));
+    public static final RegistryObject<Block> ALCHETREE_PRESSURE_PLATE = BLOCKS.register("alchetree_pressure_plate",() -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS),BlockSetType.OAK));
+    public static final RegistryObject<Block> ALCHETREE_FENCE = BLOCKS.register("alchetree_fence",() -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ALCHETREE_FENCE_GATE = BLOCKS.register("alchetree_fence_gate",() -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS), SoundEvents.FENCE_GATE_OPEN, SoundEvents.FENCE_GATE_CLOSE));
+    public static final RegistryObject<Block> ALCHETREE_WALL = BLOCKS.register("alchetree_wall",() -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ALCHETREE_DOOR = BLOCKS.register("alchetree_door",() -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS),BlockSetType.OAK));
+    public static final RegistryObject<Block> ALCHETREE_TRAPDOOR = BLOCKS.register("alchetree_trapdoor",() -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS),BlockSetType.OAK));
+
 
     //アイテムリストの登録用
     public static void register(IEventBus eventBus){

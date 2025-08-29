@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_alchetree_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:stripped_alchetree_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:alchetree_planks_from_stripped_wood"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_alchetree_wood",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:alchetree_planks_from_stripped_wood"
+    ]
+  },
+  "sends_telemetry_event": false
+}

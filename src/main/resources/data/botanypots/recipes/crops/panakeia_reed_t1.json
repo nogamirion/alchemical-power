@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {"type": "forge:mod_loaded", "modid": "botanypots"}
+  ],
+  "type": "botanypots:crop",
+  "seed": { "item": "alchemical_power:panakeia_reed_t1" },
+  "categories": ["dirt", "farmland"],
+  "growthTicks": 1200,
+  "display": { "block": "alchemical_power:panakeia_reed_t1" },
+  "drops": [
+    { "chance": 1.0, "output": { "item": "alchemical_power:panakeia_reed_t1" }, "minRolls": 1, "maxRolls": 2 }
+  ]
+}

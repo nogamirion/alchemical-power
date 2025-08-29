@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "a": {
+      "item": "alchemical_power:alchetree_planks"
+    }
+  },
+  "pattern": [
+    "aa"
+  ],
+  "result": {
+    "item": "alchemical_power:alchetree_pressure_plate"
+  },
+  "show_notification": true
+}

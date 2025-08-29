@@ -1,0 +1,16 @@
+{
+  "conditions": [
+    { "type": "forge:mod_loaded", "modid": "botanypots" }
+  ],
+  "type": "botanypots:crop",
+  "seed": { "item": "alchemical_power:alchetree_sapling_t5" },
+  "categories": ["dirt", "farmland"],
+  "growthTicks": 1200,
+  "display": {"block": "alchemical_power:alchetree_sapling_t5"},
+  "drops": [
+    {"chance": 1.0, "output": { "item": "alchemical_power:t5_panakeia" }, "minRolls": 15, "maxRolls": 35},
+    {"chance": 1.0, "output": { "item": "alchemical_power:alchetree_log"}, "minRolls": 4, "maxRolls": 6},
+    {"chance": 0.06, "output": { "item": "alchemical_power:alchetree_sapling_t5" }
+    }
+  ]
+}

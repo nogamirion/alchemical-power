@@ -50,6 +50,28 @@ public class creativetab {
                     output.accept(itemlist.PANAKEIA_REED_T5.get());
                     output.accept(itemlist.PANAKEIA_REED_T6.get());
                     output.accept(itemlist.PANAKEIA_REED_T7.get());
+                    output.accept(itemlist.ALCHETREE_LOG.get());
+                    output.accept(itemlist.ALCHETREE_WOOD.get());
+                    output.accept(itemlist.STRIPPED_ALCHETREE_LOG.get());
+                    output.accept(itemlist.STRIPPED_ALCHETREE_WOOD.get());
+                    output.accept(itemlist.ALCHETREE_STAIRS.get());
+                    output.accept(itemlist.ALCHETREE_SLAB.get());
+                    output.accept(itemlist.ALCHETREE_FENCE.get());
+                    output.accept(itemlist.ALCHETREE_FENCE_GATE.get());
+                    output.accept(itemlist.ALCHETREE_WALL.get());
+                    output.accept(itemlist.ALCHETREE_DOOR.get());
+                    output.accept(itemlist.ALCHETREE_TRAPDOOR.get());
+                    output.accept(itemlist.ALCHETREE_BUTTON.get());
+                    output.accept(itemlist.ALCHETREE_PRESSURE_PLATE.get());
+                    output.accept(itemlist.ALCHETREE_SAPLINGS_T0.get());
+                    output.accept(itemlist.ALCHETREE_SAPLINGS_T1.get());
+                    output.accept(itemlist.ALCHETREE_SAPLINGS_T2.get());
+                    output.accept(itemlist.ALCHETREE_SAPLINGS_T3.get());
+                    output.accept(itemlist.ALCHETREE_SAPLINGS_T4.get());
+                    output.accept(itemlist.ALCHETREE_SAPLINGS_T5.get());
+                    output.accept(itemlist.ALCHETREE_SAPLINGS_T6.get());
+                    output.accept(itemlist.ALCHETREE_SAPLINGS_T7.get());
+                    output.accept(itemlist.ALCHETREE_PLANKS.get());
                     output.accept(itemlist.ALCHEMY_BEGINNERS_KIT.get());
                     output.accept(itemlist.ALCHEMY_INTERMEDIATE_KIT.get());
                     output.accept(itemlist.ALCHEMY_EXPERTS_KIT.get());
@@ -324,6 +346,8 @@ public class creativetab {
                     output.accept(itemlist.GAIT_OF_INSIGHT.get());
                     output.accept(itemlist.BOOTS_OF_AETHERLIGHT.get());
                     output.accept(itemlist.SEVEN_SWORDS_OF_TERMINUS.get());
+
+                    output.accept(itemlist.ALCHETREE_MYSTERIOUS_SCARECROW.get());
 
 
                 })

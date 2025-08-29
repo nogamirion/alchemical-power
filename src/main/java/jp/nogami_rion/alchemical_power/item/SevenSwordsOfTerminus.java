@@ -84,6 +84,7 @@ public class SevenSwordsOfTerminus extends SwordItem {
 
                 if (target.isAlive()) {
                     target.setHealth(0.0F);
+                    target.die(singularity);
                 }
 
                 DeadEndRainbowUtils.resetAttackMark(target); // スタックリセット

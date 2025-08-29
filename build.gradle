@@ -177,7 +177,7 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
     runtimeOnly fg.deobf("curse.maven:jei-238222:6075247")
-    // patchouli runData時には一時的にコメントアウトすること
+    // patchouli
     compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84.1-FORGE:api")
     runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84.1-FORGE")
     runtimeOnly fg.deobf("curse.maven:patchouli-306770:6164575")
@@ -185,8 +185,27 @@ dependencies {
     // Curios API
     // Compile against only the API artifact
     compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}:api")
-    // Use the full Curios API jar at runtime　runData時には一時的にコメントアウトすること
+    // Use the full Curios API jar at runtime
     runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
+
+    // Bookshelf (連携確認用）
+    runtimeOnly fg.deobf("curse.maven:bookshelf-228525:5423987")
+    // Botany Pots (連携確認用）
+    runtimeOnly fg.deobf("curse.maven:botany-pots-353928:6348581")
+
+    // GeckoLib（The GODの前提）
+    runtimeOnly fg.deobf("curse.maven:geckolib-388172:6920925")
+    // The GOD（殺傷力テスト用）
+    runtimeOnly fg.deobf("curse.maven:the-god-1199808:6348575")
+    // The Immortal Snail（殺傷力テスト用）
+    runtimeOnly fg.deobf("curse.maven:the-immortal-snail-by-alaincraftyt-983804:5250218")
+    // ProjectE
+    runtimeOnly fg.deobf("curse.maven:projecte-226410:4901949")
+    // Re:Avaritia
+    runtimeOnly fg.deobf("curse.maven:re-avaritia-623969:5740694")
+    // Tnkers Construct（連携チェック用）
+    runtimeOnly fg.deobf("curse.maven:mantle-74924:6819217")
+    runtimeOnly fg.deobf("curse.maven:tinkers-construct-74072:6777068")
 
 }
 

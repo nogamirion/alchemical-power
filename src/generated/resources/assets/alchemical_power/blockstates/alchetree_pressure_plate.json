@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "alchemical_power:block/alchetree_pressure_plate"
+    },
+    "powered=true": {
+      "model": "alchemical_power:block/alchetree_pressure_plate_down"
+    }
+  }
+}
