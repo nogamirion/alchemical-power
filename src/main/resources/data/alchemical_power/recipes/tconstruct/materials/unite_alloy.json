@@ -1,0 +1,6 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": { "item": "alchemical_power:unite_alloy" },
+  "material": "alchemical_power:unite_alloy",
+  "value": 1
+}

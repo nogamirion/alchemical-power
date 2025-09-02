@@ -1,0 +1,55 @@
+{
+  "default": [
+    { "name": "tconstruct:emerald", "level": 1 }
+  ],
+  "perStat": {
+    "tconstruct:head": [
+      { "name": "tconstruct:luck", "level": 1 },
+      { "name": "tconstruct:emerald", "level": 1 }
+    ],
+    "tconstruct:handle": [
+      { "name": "tconstruct:luck", "level": 1 },
+      { "name": "tconstruct:emerald", "level": 1 }
+    ],
+    "tconstruct:binding": [
+      { "name": "tconstruct:luck", "level": 1 },
+      { "name": "tconstruct:emerald", "level": 1 }
+    ],
+    "tconstruct:rod": [
+      { "name": "tconstruct:luck", "level": 1 },
+      { "name": "tconstruct:emerald", "level": 1 }
+    ],
+    "tconstruct:limb": [
+      { "name": "tconstruct:luck", "level": 1 },
+      { "name": "tconstruct:emerald", "level": 1 }
+    ],
+    "tconstruct:grip": [
+      { "name": "tconstruct:luck", "level": 1 },
+      { "name": "tconstruct:emerald", "level": 1 }
+    ],
+    "tconstruct:plating_helmet": [
+      { "name": "tconstruct:protection", "level": 1 },
+      { "name": "tconstruct:emerald", "level": 1 }
+    ],
+    "tconstruct:plating_chestplate": [
+      { "name": "tconstruct:protection", "level": 1 },
+      { "name": "tconstruct:emerald", "level": 1 }
+    ],
+    "tconstruct:plating_leggings": [
+      { "name": "tconstruct:protection", "level": 1 },
+      { "name": "tconstruct:emerald", "level": 1 }
+    ],
+    "tconstruct:plating_boots": [
+      { "name": "tconstruct:protection", "level": 1 },
+      { "name": "tconstruct:emerald", "level": 1 }
+    ],
+    "tconstruct:plating_shield": [
+      { "name": "tconstruct:protection", "level": 1 },
+      { "name": "tconstruct:emerald", "level": 1 }
+    ],
+    "tconstruct:maille": [
+      { "name": "tconstruct:protection", "level": 1 },
+      { "name": "tconstruct:emerald", "level": 1 }
+    ]
+  }
+}

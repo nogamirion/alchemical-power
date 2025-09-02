@@ -1,0 +1,7 @@
+{ "condition": {"type":"forge:mod_loaded","modid":"tconstruct"},
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "alchemical_power:t5_panakeia_gem_block" },
+  "result": { "fluid": "alchemical_power:molten_t5_panakeia_gem", "amount": 810 },
+  "temperature": 900,
+  "time": 200
+}

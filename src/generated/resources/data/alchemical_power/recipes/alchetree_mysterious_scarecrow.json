@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "alchemical_power:alchetree_log"
+    },
+    "b": {
+      "item": "minecraft:armor_stand"
+    }
+  },
+  "pattern": [
+    "aaa",
+    " a ",
+    "aba"
+  ],
+  "result": {
+    "item": "alchemical_power:alchetree_mysterious_scarecrow"
+  },
+  "show_notification": true
+}

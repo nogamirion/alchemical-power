@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_alchetree_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:alchetree_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alchemical_power:alchetree_mysterious_scarecrow"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_alchetree_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alchemical_power:alchetree_mysterious_scarecrow"
+    ]
+  },
+  "sends_telemetry_event": false
+}

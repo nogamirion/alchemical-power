@@ -1,0 +1,6 @@
+{
+  "loader": "forge:fluid_container",
+  "parent": "forge:item/bucket",
+  "fluid": "alchemical_power:molten_t1_panakeia_ingot",
+  "apply_tint": true
+}

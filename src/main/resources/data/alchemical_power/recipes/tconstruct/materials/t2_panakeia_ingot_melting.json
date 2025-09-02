@@ -1,0 +1,6 @@
+{ "condition": {"type":"forge:mod_loaded","modid":"tconstruct"},
+  "type": "tconstruct:material_melting",
+  "input": "alchemical_power:t2_panakeia_ingot",
+  "temperature": 800,
+  "result": { "fluid": "alchemical_power:molten_t2_panakeia_ingot", "amount": 90}
+}

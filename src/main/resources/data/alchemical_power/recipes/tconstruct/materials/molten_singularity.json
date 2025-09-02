@@ -1,0 +1,6 @@
+{ "condition": {"type":"forge:mod_loaded","modid":"tconstruct"},
+  "type": "tconstruct:material_fluid",
+  "fluid": { "name": "alchemical_power:molten_singularity","amount": 90},
+  "temperature": 1500,
+  "output": "alchemical_power:singularity"
+}

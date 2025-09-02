@@ -1,0 +1,7 @@
+{
+  "loader": "forge:fluid",
+  "textures": {
+    "still": "alchemical_power:fluid/base_molten_ingot_still",
+    "flow": "alchemical_power:fluid/base_molten_ingot_flowing"
+  }
+}

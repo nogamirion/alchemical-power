@@ -1,0 +1,7 @@
+{ "condition": [{"type":"forge:mod_loaded","modid":"tconstruct"}],
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "alchemical_power:singularity_nugget" },
+  "result": { "fluid": "alchemical_power:molten_singularity", "amount": 90 },
+  "temperature": 500,
+  "time": 60
+}

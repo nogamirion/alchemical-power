@@ -1,0 +1,7 @@
+{ "condition": [{"type":"forge:mod_loaded","modid":"tconstruct"}],
+  "type": "tconstruct:casting_basin",
+
+  "fluid": { "fluid": "alchemical_power:molten_t6_panakeia_ingot", "amount": 810 },
+  "result": "alchemical_power:t6_panakeia_ingot_block",
+  "cooling_time": 200
+}

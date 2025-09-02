@@ -1,0 +1,6 @@
+{ "condition": [{"type":"forge:mod_loaded","modid":"tconstruct"}],
+  "type": "tconstruct:casting_table",
+  "fluid": { "fluid": "alchemical_power:molten_singularity", "amount": 90 },
+  "result": "alchemical_power:singularity_nugget",
+  "cooling_time": 60
+}

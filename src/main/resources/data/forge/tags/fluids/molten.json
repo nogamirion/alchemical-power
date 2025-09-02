@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "alchemical_power:molten_t1_panakeia_ingot",
+    "alchemical_power:flowing_molten_t1_panakeia_ingot",
+    "alchemical_power:molten_t2_panakeia_ingot",
+    "alchemical_power:flowing_molten_t2_panakeia_ingot",
+    "alchemical_power:molten_t3_panakeia_ingot",
+    "alchemical_power:flowing_molten_t3_panakeia_ingot",
+    "alchemical_power:molten_t4_panakeia_gem",
+    "alchemical_power:flowing_molten_t4_panakeia_gem",
+    "alchemical_power:molten_t5_panakeia_gem",
+    "alchemical_power:flowing_molten_t5_panakeia_gem",
+    "alchemical_power:molten_t6_panakeia_ingot",
+    "alchemical_power:flowing_molten_t6_panakeia_ingot",
+    "alchemical_power:molten_unite_alloy",
+    "alchemical_power:flowing_molten_unite_alloy",
+    "alchemical_power:molten_singularity",
+    "alchemical_power:flowing_molten_singularity"
+  ]
+}

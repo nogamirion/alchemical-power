@@ -1,0 +1,6 @@
+{
+  "parent": "forge:item/bucket",
+  "fluid": "alchemical_power:molten_t5_panakeia_gem",
+  "loader": "forge:fluid_container",
+  "apply_tint": true
+}

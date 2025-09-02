@@ -1,0 +1,7 @@
+{ "condition": [{"type":"forge:mod_loaded","modid":"tconstruct"}],
+  "type": "tconstruct:casting_table",
+  "cast": { "tag": "tconstruct:casts/multi_use/ingot" },
+  "fluid": { "fluid": "alchemical_power:molten_t2_panakeia_ingot", "amount": 90 },
+  "result": "alchemical_power:t2_panakeia_ingot",
+  "cooling_time": 60
+}

@@ -1,0 +1,6 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": { "item": "alchemical_power:t5_panakeia_gem_block" },
+  "material": "alchemical_power:t5_panakeia_gem",
+  "value": 9
+}

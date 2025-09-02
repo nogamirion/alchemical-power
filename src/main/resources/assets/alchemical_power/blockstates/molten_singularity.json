@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": {
+      "model": "alchemical_power:block/fluid",
+      "custom": {
+        "fluid": "alchemical_power:molten_singularity"
+      }
+    }
+  }
+}

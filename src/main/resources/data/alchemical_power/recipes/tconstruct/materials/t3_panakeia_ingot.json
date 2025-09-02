@@ -1,0 +1,6 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": { "item": "alchemical_power:t3_panakeia_ingot" },
+  "material": "alchemical_power:t3_panakeia_ingot",
+  "value": 1
+}

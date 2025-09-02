@@ -1,0 +1,55 @@
+{
+  "default": [
+    { "name": "tconstruct:gilded", "level": 1 }
+  ],
+  "perStat": {
+    "tconstruct:head": [
+      { "name": "tconstruct:lightweight", "level": 2 },
+      { "name": "tconstruct:gilded", "level": 1 }
+    ],
+    "tconstruct:handle": [
+      { "name": "tconstruct:lightweight", "level": 2 },
+      { "name": "tconstruct:gilded", "level": 1 }
+    ],
+    "tconstruct:binding": [
+      { "name": "tconstruct:lightweight", "level": 2 },
+      { "name": "tconstruct:gilded", "level": 1 }
+    ],
+    "tconstruct:rod": [
+      { "name": "tconstruct:lightweight", "level": 2 },
+      { "name": "tconstruct:gilded", "level": 1 }
+    ],
+    "tconstruct:limb": [
+      { "name": "tconstruct:lightweight", "level": 2 },
+      { "name": "tconstruct:gilded", "level": 1 }
+    ],
+    "tconstruct:grip": [
+      { "name": "tconstruct:lightweight", "level": 2 },
+      { "name": "tconstruct:gilded", "level": 1 }
+    ],
+    "tconstruct:plating_helmet": [
+      { "name": "tconstruct:boundless", "level": 1 },
+      { "name": "tconstruct:gilded", "level": 1 }
+    ],
+    "tconstruct:plating_chestplate": [
+      { "name": "tconstruct:boundless", "level": 1 },
+      { "name": "tconstruct:gilded", "level": 1 }
+    ],
+    "tconstruct:plating_leggings": [
+      { "name": "tconstruct:boundless", "level": 1 },
+      { "name": "tconstruct:gilded", "level": 1 }
+    ],
+    "tconstruct:plating_boots": [
+      { "name": "tconstruct:boundless", "level": 1 },
+      { "name": "tconstruct:gilded", "level": 1 }
+    ],
+    "tconstruct:plating_shield": [
+      { "name": "tconstruct:boundless", "level": 1 },
+      { "name": "tconstruct:gilded", "level": 1 }
+    ],
+    "tconstruct:maille": [
+      { "name": "tconstruct:boundless", "level": 1 },
+      { "name": "tconstruct:gilded", "level": 1 }
+    ]
+  }
+}

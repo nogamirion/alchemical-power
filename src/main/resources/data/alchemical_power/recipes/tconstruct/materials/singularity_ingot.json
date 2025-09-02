@@ -1,0 +1,6 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": { "item": "alchemical_power:singularity_ingot" },
+  "material": "alchemical_power:singularity",
+  "value": 9
+}

@@ -1,0 +1,55 @@
+{
+  "default": [
+    { "name": "tconstruct:netherite", "level": 1 }
+  ],
+  "perStat": {
+    "tconstruct:head": [
+      { "name": "tconstruct:piercing", "level": 1 },
+      { "name": "tconstruct:netherite", "level": 1 }
+    ],
+    "tconstruct:handle": [
+      { "name": "tconstruct:piercing", "level": 1 },
+      { "name": "tconstruct:netherite", "level": 1 }
+    ],
+    "tconstruct:binding": [
+      { "name": "tconstruct:piercing", "level": 1 },
+      { "name": "tconstruct:netherite", "level": 1 }
+    ],
+    "tconstruct:rod": [
+      { "name": "tconstruct:piercing", "level": 1 },
+      { "name": "tconstruct:netherite", "level": 1 }
+    ],
+    "tconstruct:limb": [
+      { "name": "tconstruct:piercing", "level": 1 },
+      { "name": "tconstruct:netherite", "level": 1 }
+    ],
+    "tconstruct:grip": [
+      { "name": "tconstruct:piercing", "level": 1 },
+      { "name": "tconstruct:netherite", "level": 1 }
+    ],
+    "tconstruct:plating_helmet": [
+      { "name": "tconstruct:strength", "level": 1 },
+      { "name": "tconstruct:netherite", "level": 1 }
+    ],
+    "tconstruct:plating_chestplate": [
+      { "name": "tconstruct:strength", "level": 1 },
+      { "name": "tconstruct:netherite", "level": 1 }
+    ],
+    "tconstruct:plating_leggings": [
+      { "name": "tconstruct:strength", "level": 1 },
+      { "name": "tconstruct:netherite", "level": 1 }
+    ],
+    "tconstruct:plating_boots": [
+      { "name": "tconstruct:strength", "level": 1 },
+      { "name": "tconstruct:netherite", "level": 1 }
+    ],
+    "tconstruct:plating_shield": [
+      { "name": "tconstruct:strength", "level": 1 },
+      { "name": "tconstruct:netherite", "level": 1 }
+    ],
+    "tconstruct:maille": [
+      { "name": "tconstruct:strength", "level": 1 },
+      { "name": "tconstruct:netherite", "level": 1 }
+    ]
+  }
+}

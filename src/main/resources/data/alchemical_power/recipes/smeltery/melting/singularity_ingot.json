@@ -1,0 +1,7 @@
+{ "condition": {"type":"forge:mod_loaded","modid":"tconstruct"},
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "alchemical_power:singularity_ingot" },
+  "result": { "fluid": "alchemical_power:molten_singularity", "amount": 810 },
+  "temperature": 1500,
+  "time": 200
+}

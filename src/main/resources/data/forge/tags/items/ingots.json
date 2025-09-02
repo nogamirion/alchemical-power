@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "alchemical_power:t1_panakeia_ingot",
+    "alchemical_power:t2_panakeia_ingot",
+    "alchemical_power:t3_panakeia_ingot",
+    "alchemical_power:t6_panakeia_ingot",
+    "alchemical_power:unite_alloy",
+    "alchemical_power:singularity_ingot"
+  ]
+}
