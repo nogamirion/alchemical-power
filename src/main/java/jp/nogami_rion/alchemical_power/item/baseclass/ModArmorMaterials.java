@@ -12,9 +12,9 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    T1_INGOT("t1_ingot", 6, new int[]{2, 5, 4, 2}, 10, SoundEvents.ARMOR_EQUIP_CHAIN, 0.0F, 0.0F,() -> Ingredient.of(itemlist.T1_PANAKEIA_INGOT.get())),
-    T2_INGOT("t2_ingot", 8, new int[]{2, 6, 5, 2}, 15, SoundEvents.ARMOR_EQUIP_IRON, 0.5F, 0.0F, () -> Ingredient.of(itemlist.T2_PANAKEIA_INGOT.get())),
-    T3_INGOT("t3_ingot", 9, new int[]{2, 6, 6, 3}, 20, SoundEvents.ARMOR_EQUIP_GOLD, 1.0F, 0.0F, () -> Ingredient.of(itemlist.T3_PANAKEIA_INGOT.get())),
+    T1_INGOT("t1_ingot", 17, new int[]{2, 5, 4, 2}, 10, SoundEvents.ARMOR_EQUIP_CHAIN, 0.0F, 0.0F,() -> Ingredient.of(itemlist.T1_PANAKEIA_INGOT.get())),
+    T2_INGOT("t2_ingot", 23, new int[]{2, 6, 5, 2}, 15, SoundEvents.ARMOR_EQUIP_IRON, 0.5F, 0.0F, () -> Ingredient.of(itemlist.T2_PANAKEIA_INGOT.get())),
+    T3_INGOT("t3_ingot", 27, new int[]{2, 6, 6, 3}, 20, SoundEvents.ARMOR_EQUIP_GOLD, 1.0F, 0.0F, () -> Ingredient.of(itemlist.T3_PANAKEIA_INGOT.get())),
     T4_GEM("t4_gem", 50, new int[]{3, 8, 6, 3}, 14, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.5F, 0.0F, () -> Ingredient.of(itemlist.T4_PANAKEIA_GEM.get())),
     T5_GEM("t5_gem", 58, new int[]{3, 8, 6, 3}, 14, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.5F, 0.1F, () -> Ingredient.of(itemlist.T5_PANAKEIA_GEM.get())),
     T6_INGOT("t6_ingot", 65, new int[]{3, 8, 6, 3}, 16, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.5F, 0.1F, () -> Ingredient.of(itemlist.T6_PANAKEIA_INGOT.get())),

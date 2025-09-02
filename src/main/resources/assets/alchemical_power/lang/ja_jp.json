@@ -538,6 +538,9 @@
   "block.alchemical_power.alchetree_leaves_t6": "錬金樹の神聖葉",
   "block.alchemical_power.alchetree_leaves_t7": "錬金樹の混沌葉",
 
+  "entity.alchemical_power.alchetree_mysterious_scarecrow": "錬金樹の不思議な案山子",
+  "item.alchemical_power.alchetree_mysterious_scarecrow": "錬金樹の不思議な案山子",
+
   "block.alchemical_power.alchetree_stairs": "錬金樹の階段",
   "block.alchemical_power.alchetree_slab": "錬金樹のハーフブロック",
   "block.alchemical_power.alchetree_button": "錬金樹のボタン",
@@ -548,9 +551,52 @@
   "block.alchemical_power.alchetree_door": "錬金樹のドア",
   "block.alchemical_power.alchetree_trapdoor": "錬金樹のトラップドア",
 
+  "item.alchemical_power.molten_t1_panakeia_ingot_bucket": "溶融した下級パナケイアインゴット入りバケツ",
+  "item.alchemical_power.molten_t2_panakeia_ingot_bucket": "溶融した中級パナケイアインゴット入りバケツ",
+  "item.alchemical_power.molten_t3_panakeia_ingot_bucket": "溶融した上級パナケイアインゴット入りバケツ",
+  "item.alchemical_power.molten_t4_panakeia_gem_bucket": "溶融した叡智のパナケイアインゴット入りバケツ",
+  "item.alchemical_power.molten_t5_panakeia_gem_bucket": "溶融した究極のパナケイアインゴット入りバケツ",
+  "item.alchemical_power.molten_t6_panakeia_ingot_bucket": "溶融した神聖なるパナケイアインゴット入りバケツ",
+  "item.alchemical_power.molten_unite_alloy_bucket": "溶融したユナイト合金入りバケツ",
+  "item.alchemical_power.molten_singularity_bucket": "溶融した特異点入りバケツ",
+  "block.alchemical_power.molten_t1_panakeia_ingot": "溶融した下級パナケイアインゴット",
+  "block.alchemical_power.molten_t2_panakeia_ingot": "溶融した中級パナケイアインゴット",
+  "block.alchemical_power.molten_t3_panakeia_ingot": "溶融した上級パナケイアインゴット",
+  "block.alchemical_power.molten_t4_panakeia_gem": "溶融した叡智のパナケイアインゴット",
+  "block.alchemical_power.molten_t5_panakeia_gem": "溶融した究極のパナケイアインゴット",
+  "block.alchemical_power.molten_t6_panakeia_ingot": "溶融した神聖なるパナケイアインゴット",
+  "block.alchemical_power.molten_unite_alloy": "溶融したユナイト合金",
+  "block.alchemical_power.molten_singularity": "溶融した特異点",
+  "fluid_type.alchemical_power.molten_t1_panakeia_ingot": "溶融した下級パナケイアインゴット",
+  "fluid_type.alchemical_power.molten_t2_panakeia_ingot": "溶融した中級パナケイアインゴット",
+  "fluid_type.alchemical_power.molten_t3_panakeia_ingot": "溶融した上級パナケイアインゴット",
+  "fluid_type.alchemical_power.molten_t4_panakeia_gem": "溶融した叡智のパナケイアインゴット",
+  "fluid_type.alchemical_power.molten_t5_panakeia_gem": "溶融した究極のパナケイアインゴット",
+  "fluid_type.alchemical_power.molten_t6_panakeia_ingot": "溶融した神聖なるパナケイアインゴット",
+  "fluid_type.alchemical_power.molten_unite_alloy": "溶融したユナイト合金",
+  "fluid_type.alchemical_power.molten_singularity": "溶融した特異点",
+
+
   //TiC連携
   "material.alchemical_power.t1_panakeia_ingot": "下級パナケイアインゴット",
-  "material.alchemical_power.t2_panakeia_ingot": "中級パナケイアインゴット"
+  "material.alchemical_power.t1_panakeia_ingot.flavor": "錬金術で青くなった金属。基本的に銅で作れるけど別に青銅とかではない。",
+  "material.alchemical_power.t2_panakeia_ingot": "中級パナケイアインゴット",
+  "material.alchemical_power.t2_panakeia_ingot.flavor": "錬金術で黄色くなった金属。基本的に鉄から作れる。金ではない。",
+  "material.alchemical_power.t3_panakeia_ingot": "上級パナケイアインゴット",
+  "material.alchemical_power.t3_panakeia_ingot.flavor": "錬金術で赤くなった金属。基本的に金から作れる。レッドストーンとは関係ない。",
+  "material.alchemical_power.t4_panakeia_gem": "叡智のパナケイアジェム",
+  "material.alchemical_power.t4_panakeia_gem.flavor": "錬金術で紫色になった宝石。金属を元に加工しても何故か宝石になる。",
+  "material.alchemical_power.t5_panakeia_gem": "究極のパナケイアジェム",
+  "material.alchemical_power.t5_panakeia_gem.flavor": "錬金術で青くなった宝石。その謎を解明するため、我々錬金術師はアマゾンの奥地へと向かった――。",
+  "material.alchemical_power.t6_panakeia_ingot": "神聖なるパナケイアインゴット",
+  "material.alchemical_power.t6_panakeia_ingot.flavor": "錬金術で白くなった金属。ネザーの金属にも神聖を宿すのが錬金術なのだが、流石に白すぎると思う。",
+  "material.alchemical_power.unite_alloy": "ユナイト合金",
+  "material.alchemical_power.unite_alloy.flavor": "「虹の色を全て混ぜると白色になるのか？黒色になるのか？」という問題があるが、混ぜても虹色のままというのはMOD界隈ではよくあることなのだ。",
+  "material.alchemical_power.singularity": "特異点",
+  "material.alchemical_power.singularity.flavor": "JEIなどで「特異点」「シンギュラリティ」「singularity」と検索してみてください。何個出てきましたか？",
+
+  "stat.tconstruct.harvest_tier.alchemical_power.unite_alloy": "ユナイト",
+  "stat.tconstruct.harvest_tier.alchemical_power.singularity": "特異点"
 
 
 

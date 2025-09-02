@@ -396,6 +396,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         saplingItem(itemlist.ALCHETREE_SAPLINGS_T5);
         saplingItem(itemlist.ALCHETREE_SAPLINGS_T6);
         saplingItem(itemlist.ALCHETREE_SAPLINGS_T7);
+        simpleItem(itemlist.ALCHETREE_MYSTERIOUS_SCARECROW);
 
 
 

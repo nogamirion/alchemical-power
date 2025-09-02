@@ -7,6 +7,8 @@ import jp.nogami_rion.alchemical_power.event.ModItemEventHandler;
 import jp.nogami_rion.alchemical_power.init.*;
 import jp.nogami_rion.alchemical_power.loot.ModLootModifiers;
 import jp.nogami_rion.alchemical_power.recipe.ModRecipes;
+import jp.nogami_rion.alchemical_power.registry.ModFluids;
+import jp.nogami_rion.alchemical_power.registry.ModTiers;
 import jp.nogami_rion.alchemical_power.screen.*;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraftforge.api.distmarker.Dist;
@@ -38,6 +40,7 @@ public class Alchemical_power {
         //アイテムリスト・ブロックリスト・クリエイティブタブ・MODレシピなどの追加要素登録
         itemlist.register(modEventBus);
         blocklist.register(modEventBus);
+        ModFluids.register(modEventBus);
         creativetab.register(modEventBus);
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
@@ -64,7 +67,7 @@ public class Alchemical_power {
 
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
+        event.enqueueWork(ModTiers::register);
     }
 
     // Add the example block item to the building blocks tab

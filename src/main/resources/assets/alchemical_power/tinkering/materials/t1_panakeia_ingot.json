@@ -1,5 +1,42 @@
 {
-  "texture": "alchemical_power:block/t1_panakeia_ingot_block",
-  "color": "#CCFFFF",
-  "fallbacks": ["metal_iron"]
+  "color": "FFCCFFFF",
+  "fallbacks": [
+    "metal"
+  ],
+  "generator": {
+    "supported_stats": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:repair_kit",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:bowstring",
+      "tconstruct:armor_plating",
+      "tconstruct:plating_helmet",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_shield",
+      "tconstruct:maille",
+      "tconstruct:armor_maille"
+    ],
+    "transformer": {
+      "type": "tconstruct:grey_to_sprite",
+      "palette": [
+        {
+          "color": "FF000000",
+          "grey": 0
+        },
+        {
+          "grey": 140,
+          "path": "alchemical_power:block/t1_panakeia_ingot_block"
+        },
+        {
+          "grey": 178,
+          "path": "alchemical_power:block/t1_panakeia_ingot_block"
+        }
+      ]
+    }
+  }
 }

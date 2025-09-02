@@ -1,1 +1,4 @@
-{ "condition": {"type":"forge:mod_loaded","modid":"tconstruct"}, "craftable": true, "tier": 2, "sortOrder": 10 }
+{ "condition": {"type":"forge:mod_loaded","modid":"tconstruct"},
+  "craftable": true,
+  "tier": 2,
+  "sortOrder": 4 }

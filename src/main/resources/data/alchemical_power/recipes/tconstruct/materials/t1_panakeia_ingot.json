@@ -1,4 +1,4 @@
-{
+{ "condition": [{"type":"forge:mod_loaded","modid":"tconstruct"}],
   "type": "tconstruct:material",
   "ingredient": { "item": "alchemical_power:t1_panakeia_ingot" },
   "material": "alchemical_power:t1_panakeia_ingot",

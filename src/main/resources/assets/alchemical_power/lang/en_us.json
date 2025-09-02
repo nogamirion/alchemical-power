@@ -546,7 +546,55 @@
   "block.alchemical_power.alchetree_door": "Alchetree Door",
   "block.alchemical_power.alchetree_trapdoor": "Alchetree Trapdoor",
 
+  "entity.alchemical_power.alchetree_mysterious_scarecrow": "Alchetree Mysterious Scarecrow",
+  "item.alchemical_power.alchetree_mysterious_scarecrow": "Alchetree Mysterious Scarecrow",
+
+  "item.alchemical_power.molten_t1_panakeia_ingot_bucket": "Molten T1 Panakeia Ingot Bucket",
+  "item.alchemical_power.molten_t2_panakeia_ingot_bucket": "Molten T2 Panakeia Ingot Bucket",
+  "item.alchemical_power.molten_t3_panakeia_ingot_bucket": "Molten T3 Panakeia Ingot Bucket",
+  "item.alchemical_power.molten_t4_panakeia_gem_bucket": "Molten T4 Panakeia Gem Bucket",
+  "item.alchemical_power.molten_t5_panakeia_gem_bucket": "Molten T5 Panakeia Gem Bucket",
+  "item.alchemical_power.molten_t6_panakeia_ingot_bucket": "Molten T6 Panakeia Ingot Bucket",
+  "item.alchemical_power.molten_unite_alloy_bucket": "Molten Unite Alloy Bucket",
+  "item.alchemical_power.molten_singularity_bucket": "Molten Singularity Bucket",
+  "block.alchemical_power.molten_t1_panakeia_ingot": "Molten T1 Panakeia Ingot",
+  "block.alchemical_power.molten_t2_panakeia_ingot": "Molten T2 Panakeia Ingot",
+  "block.alchemical_power.molten_t3_panakeia_ingot": "Molten T3 Panakeia Ingot",
+  "block.alchemical_power.molten_t4_panakeia_gem": "Molten T4 Panakeia Gem",
+  "block.alchemical_power.molten_t5_panakeia_gem": "Molten T5 Panakeia Gem",
+  "block.alchemical_power.molten_t6_panakeia_ingot": "Molten T6 Panakeia Ingot",
+  "block.alchemical_power.molten_unite_alloy": "Molten Unite Alloy",
+  "block.alchemical_power.molten_singularity": "Molten Singularity",
+  "fluid_type.alchemical_power.molten_t1_panakeia_ingot": "Molten T1 Panakeia Ingot",
+  "fluid_type.alchemical_power.molten_t2_panakeia_ingot": "Molten T2 Panakeia Ingot",
+  "fluid_type.alchemical_power.molten_t3_panakeia_ingot": "Molten T3 Panakeia Ingot",
+  "fluid_type.alchemical_power.molten_t4_panakeia_gem": "Molten T4 Panakeia Gem",
+  "fluid_type.alchemical_power.molten_t5_panakeia_gem": "Molten T5 Panakeia Gem",
+  "fluid_type.alchemical_power.molten_t6_panakeia_ingot": "Molten T6 Panakeia Ingot",
+  "fluid_type.alchemical_power.molten_unite_alloy": "Molten Unite Alloy",
+  "fluid_type.alchemical_power.molten_singularity": "Molten Singularity",
+
+
   //TiC Integration　
   "material.alchemical_power.t1_panakeia_ingot": "T1 Panakeia Ingot",
-  "material.alchemical_power.t2_panakeia_ingot": "T2 Panakeia Ingot"
+  "material.alchemical_power.t1_panakeia_ingot.flavor": "A metal alchemically dyed blue. It's usually derived from copper, though it’s not bronze or anything of the sort.",
+  "material.alchemical_power.t2_panakeia_ingot": "T2 Panakeia Ingot",
+  "material.alchemical_power.t2_panakeia_ingot.flavor": "A metal alchemically dyed yellow. Usually made from iron. Definitely not gold.",
+  "material.alchemical_power.t3_panakeia_ingot": "T3 Panakeia Ingot",
+  "material.alchemical_power.t3_panakeia_ingot.flavor": "A metal alchemically dyed red. Usually made from gold. Has nothing to do with Redstone.",
+  "material.alchemical_power.t4_panakeia_gem": "T4 Panakeia Gem",
+  "material.alchemical_power.t4_panakeia_gem.flavor": "A gemstone alchemically dyed purple. Even when processed from metal, it somehow becomes a gem.",
+  "material.alchemical_power.t5_panakeia_gem": "T5 Panakeia Gem",
+  "material.alchemical_power.t5_panakeia_gem.flavor": "A gemstone alchemically dyed blue. To uncover its mystery, we alchemists ventured deep into the Amazon jungle—.",
+  "material.alchemical_power.t6_panakeia_ingot": "T6 Panakeia Ingot",
+  "material.alchemical_power.t6_panakeia_ingot.flavor": "A metal alchemically dyed white. Alchemy can even imbue Nether metals with holiness, but this one feels a bit too white.",
+  "material.alchemical_power.unite_alloy": "Unite Alloy",
+  "material.alchemical_power.unite_alloy.flavor": "There’s the question: “If you mix all the colors of the rainbow, does it become white? Or black?” But in the world of mods, it’s quite common for it to just stay rainbow-colored.",
+  "material.alchemical_power.singularity": "Singularity",
+  "material.alchemical_power.singularity.flavor": "Try searching for “singularity” in JEI or similar. How many results did you get?",
+
+  "stat.tconstruct.harvest_tier.alchemical_power.unite_alloy": "Unite",
+  "stat.tconstruct.harvest_tier.alchemical_power.singularity": "Singularity"
+
+
 }

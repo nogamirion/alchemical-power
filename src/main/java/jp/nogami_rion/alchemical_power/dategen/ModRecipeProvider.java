@@ -4366,6 +4366,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(itemlist.ALCHETREE_PLANKS.get()),has(itemlist.ALCHETREE_PLANKS.get()))
                 .save(consumer);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, itemlist.ALCHETREE_MYSTERIOUS_SCARECROW.get(),1)
+                .pattern("aaa")
+                .pattern(" a ")
+                .pattern("aba")
+                .define('a',itemlist.ALCHETREE_LOG.get())
+                .define('b',Items.ARMOR_STAND)
+                .unlockedBy(getHasName(itemlist.ALCHETREE_LOG.get()),has(itemlist.ALCHETREE_LOG.get()))
+                .save(consumer);
+
 
 
     }

@@ -1,6 +1,7 @@
 package jp.nogami_rion.alchemical_power.init;
 
 import jp.nogami_rion.alchemical_power.Alchemical_power;
+import jp.nogami_rion.alchemical_power.registry.ModFluids;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -348,6 +349,15 @@ public class creativetab {
                     output.accept(itemlist.SEVEN_SWORDS_OF_TERMINUS.get());
 
                     output.accept(itemlist.ALCHETREE_MYSTERIOUS_SCARECROW.get());
+                    output.accept(ModFluids.T1_PANAKEIA.bucket.get());
+                    output.accept(ModFluids.T2_PANAKEIA.bucket.get());
+                    output.accept(ModFluids.T3_PANAKEIA.bucket.get());
+                    output.accept(ModFluids.T4_PANAKEIA.bucket.get());
+                    output.accept(ModFluids.T5_PANAKEIA.bucket.get());
+                    output.accept(ModFluids.T6_PANAKEIA.bucket.get());
+                    output.accept(ModFluids.UNITE_ALLOY.bucket.get());
+                    output.accept(ModFluids.SINGULARITY.bucket.get());
+
 
 
                 })

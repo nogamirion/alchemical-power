@@ -1,6 +1,16 @@
 {
-  "example.color": {
-      "material.alchemical_power.t1_panakeia_ingot": "#CCFFFF",
-      "material.alchemical_power.t2_panakeia_ingot": "#FFFF66"
+  "material.alchemical_power": {
+    "t1_panakeia_ingot": "#CCFFFF",
+    "t2_panakeia_ingot": "#FFFF66",
+    "t3_panakeia_ingot": "#FF6666",
+    "t4_panakeia_gem": "#FF33FF",
+    "t5_panakeia_gem": "#9999FF",
+    "t6_panakeia_ingot": "#FFFFFF",
+    "unite_alloy": "#000000",
+    "singularity": "#FFF9DC"
+    },
+  "harvest_tier.alchemical_power": {
+    "unite_alloy": "#000000",
+    "singularity": "#FFF9DC"
     }
 }

@@ -1,4 +1,4 @@
-// 1.20.1	2025-08-26T21:01:23.94834	Item Models: alchemical_power
+// 1.20.1	2025-09-02T23:17:09.1765514	Item Models: alchemical_power
 d596ee316a6f7d99db513faf9e46065555cf3427 assets/alchemical_power/models/item/advanced_engraving_ink.json
 73b20b7356e0c87bd5024ad1b35607aceead8633 assets/alchemical_power/models/item/advanced_granulating_rune.json
 bc3cf71e92398e8abe91bce7c3f36172fc44ae95 assets/alchemical_power/models/item/advanced_grinding_rune.json
@@ -12,6 +12,7 @@ b7c855358be777fe31304a2b0fd14ceeffa1db30 assets/alchemical_power/models/item/alc
 5ddee25141f58417dce0373398892a5e3a603838 assets/alchemical_power/models/item/alchetree_door.json
 87042e9a9f81be5a6790c1dd280e8aea3ef90420 assets/alchemical_power/models/item/alchetree_fence.json
 9bf3e44e27cc4a8184a48b80f51bfc5364134342 assets/alchemical_power/models/item/alchetree_fence_gate.json
+882d19154c94146c4478be2a32c106394e7bc24c assets/alchemical_power/models/item/alchetree_mysterious_scarecrow.json
 391556bca506c9d4b783530a250a9a3593078c84 assets/alchemical_power/models/item/alchetree_pressure_plate.json
 2f69b576ab6aac877616cce4f735a7f2e98aebe9 assets/alchemical_power/models/item/alchetree_sapling_t0.json
 ef42bacc0fa945ff396b5e2fa8b185dee4dd5141 assets/alchemical_power/models/item/alchetree_sapling_t1.json
