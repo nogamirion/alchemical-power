@@ -4,7 +4,7 @@
   ],
   "type": "botanypots:crop",
   "seed": { "item": "alchemical_power:panakeia_reed_t7" },
-  "categories": ["dirt", "farmland"],
+  "categories": ["dirt", "farmland","sand"],
   "growthTicks": 1200,
   "display": { "block": "alchemical_power:panakeia_reed_t7" },
   "drops": [

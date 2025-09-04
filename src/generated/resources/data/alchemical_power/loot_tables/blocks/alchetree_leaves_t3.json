@@ -162,6 +162,10 @@
               }
             ]
           }
+        },
+        {
+          "chance": 0.25,
+          "condition": "minecraft:random_chance"
         }
       ],
       "entries": [
@@ -194,7 +198,7 @@
           "name": "alchemical_power:t3_panakeia"
         }
       ],
-      "rolls": 0.25
+      "rolls": 1.0
     }
   ],
   "random_sequence": "alchemical_power:blocks/alchetree_leaves_t3"

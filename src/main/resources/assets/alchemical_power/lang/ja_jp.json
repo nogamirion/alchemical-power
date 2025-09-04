@@ -540,6 +540,7 @@
 
   "entity.alchemical_power.alchetree_mysterious_scarecrow": "錬金樹の不思議な案山子",
   "item.alchemical_power.alchetree_mysterious_scarecrow": "錬金樹の不思議な案山子",
+  "tooltip.alchemical_power.alchetree_mysterious_scarecrow.tooltip": "しゃがみ+右クリックで撤去できます",
 
   "block.alchemical_power.alchetree_stairs": "錬金樹の階段",
   "block.alchemical_power.alchetree_slab": "錬金樹のハーフブロック",

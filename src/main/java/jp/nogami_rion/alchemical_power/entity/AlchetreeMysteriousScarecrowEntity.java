@@ -4,6 +4,7 @@ import jp.nogami_rion.alchemical_power.event.MysteriousScarecrowPropagationHandl
 import jp.nogami_rion.alchemical_power.init.itemlist;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.protocol.Packet;
+import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.damagesource.DamageSource;
@@ -11,10 +12,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.decoration.ArmorStand;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.network.NetworkHooks;
@@ -70,13 +69,59 @@ public class AlchetreeMysteriousScarecrowEntity extends Mob {
     public void addAdditionalSaveData(CompoundTag tag){
         super.addAdditionalSaveData(tag);
         if(ownerUUID != null) tag.putUUID("Owner",ownerUUID);
+        tag.putFloat("ScarecrowHealth",this.getHealth());
+        tag.putFloat("Yaw",this.getYRot());
     }
 
     @Override
     public void readAdditionalSaveData(CompoundTag tag){
         super.readAdditionalSaveData(tag);
         if(tag.hasUUID("Owner")) this.ownerUUID = tag.getUUID("Owner");
+
+        this.getAttribute(Attributes.MAX_HEALTH).setBaseValue(1024.0d);
+
+        if(tag.contains("ScarecrowHealth")){
+            float h = tag.getFloat("ScarecrowHealth");
+            this.setHealth(Math.max(1.0f,Math.min(h,this.getMaxHealth())));
+        } else {
+            this.setHealth(1.0f);
+        }
+
+        if(tag.contains("Yaw")){
+            float yaw = tag.getFloat("Yaw");
+            this.setYRot(yaw);
+            this.setYHeadRot(yaw);
+            this.setYBodyRot(yaw);
+            this.yRotO = yaw;
+            this.yHeadRot = yaw;
+            this.yBodyRot = yaw;
+        }
+
+        this.setPersistenceRequired();
+
     }
+
+    public void initPlacementFrom(@Nullable Entity placer) {
+        if (placer != null) {
+            float yaw = placer.getYHeadRot() + 180.0f;
+            this.setYRot(yaw);
+            this.setYHeadRot(yaw);
+            this.setYBodyRot(yaw);
+            this.yRotO = yaw; this.yHeadRotO = yaw; this.yBodyRotO = yaw;
+        }
+        this.setPersistenceRequired();
+    }
+
+    @Override
+    public @NotNull Packet<ClientGamePacketListener> getAddEntityPacket(){
+        return NetworkHooks.getEntitySpawningPacket(this);
+    }
+
+    @Override
+    public boolean removeWhenFarAway(double distanceToClosestPlayer){
+        return false;
+    }
+
 
     @Override
     public @NotNull InteractionResult mobInteract(Player player, InteractionHand hand){

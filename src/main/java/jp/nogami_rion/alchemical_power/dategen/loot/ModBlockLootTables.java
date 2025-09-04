@@ -11,6 +11,7 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
 import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
@@ -107,57 +108,73 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(blocklist.ALCHETREE_LEAVES[0].get(),block -> createLeavesDrops(block,blocklist.ALCHETREE_SAPLINGS_T0.get(),
                 NORMAL_LEAVES_SAPLING_CHANCES)
-                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(0.25f))
-                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert()).add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T0_PANAKEIA.get())
+                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(1.0f))
+                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert())
+                        .when(LootItemRandomChanceCondition.randomChance(0.25f))
+                        .add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T0_PANAKEIA.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0f,2.0f)))
                                 .apply(ApplyBonusCount.addUniformBonusCount(Enchantments.BLOCK_FORTUNE,1)))))
         );
         this.add(blocklist.ALCHETREE_LEAVES[1].get(),block -> createLeavesDrops(block,blocklist.ALCHETREE_SAPLINGS_T1.get(),
                 NORMAL_LEAVES_SAPLING_CHANCES)
-                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(0.25f))
-                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert()).add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T1_PANAKEIA.get())
+                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(1.0f))
+                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert())
+                        .when(LootItemRandomChanceCondition.randomChance(0.25f))
+                        .add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T1_PANAKEIA.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0f,2.0f)))
                                 .apply(ApplyBonusCount.addUniformBonusCount(Enchantments.BLOCK_FORTUNE,1)))))
         );
         this.add(blocklist.ALCHETREE_LEAVES[2].get(),block -> createLeavesDrops(block,blocklist.ALCHETREE_SAPLINGS_T2.get(),
                 NORMAL_LEAVES_SAPLING_CHANCES)
-                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(0.25f))
-                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert()).add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T2_PANAKEIA.get())
+                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(1.0f))
+                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert())
+                        .when(LootItemRandomChanceCondition.randomChance(0.25f))
+                        .add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T2_PANAKEIA.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0f,2.0f)))
                                 .apply(ApplyBonusCount.addUniformBonusCount(Enchantments.BLOCK_FORTUNE,1)))))
         );
         this.add(blocklist.ALCHETREE_LEAVES[3].get(),block -> createLeavesDrops(block,blocklist.ALCHETREE_SAPLINGS_T3.get(),
                 NORMAL_LEAVES_SAPLING_CHANCES)
-                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(0.25f))
-                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert()).add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T3_PANAKEIA.get())
+                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(1.0f))
+                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert())
+                        .when(LootItemRandomChanceCondition.randomChance(0.25f))
+                        .add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T3_PANAKEIA.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0f,2.0f)))
                                 .apply(ApplyBonusCount.addUniformBonusCount(Enchantments.BLOCK_FORTUNE,1)))))
         );
         this.add(blocklist.ALCHETREE_LEAVES[4].get(),block -> createLeavesDrops(block,blocklist.ALCHETREE_SAPLINGS_T4.get(),
                 NORMAL_LEAVES_SAPLING_CHANCES)
-                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(0.25f))
-                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert()).add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T4_PANAKEIA.get())
+                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(1.0f))
+                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert())
+                        .when(LootItemRandomChanceCondition.randomChance(0.25f))
+                        .add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T4_PANAKEIA.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0f,2.0f)))
                                 .apply(ApplyBonusCount.addUniformBonusCount(Enchantments.BLOCK_FORTUNE,1)))))
         );
         this.add(blocklist.ALCHETREE_LEAVES[5].get(),block -> createLeavesDrops(block,blocklist.ALCHETREE_SAPLINGS_T5.get(),
                 NORMAL_LEAVES_SAPLING_CHANCES)
-                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(0.25f))
-                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert()).add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T5_PANAKEIA.get())
+                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(1.0f))
+                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert())
+                        .when(LootItemRandomChanceCondition.randomChance(0.25f))
+                        .add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T5_PANAKEIA.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0f,2.0f)))
                                 .apply(ApplyBonusCount.addUniformBonusCount(Enchantments.BLOCK_FORTUNE,1)))))
         );
         this.add(blocklist.ALCHETREE_LEAVES[6].get(),block -> createLeavesDrops(block,blocklist.ALCHETREE_SAPLINGS_T6.get(),
                 NORMAL_LEAVES_SAPLING_CHANCES)
-                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(0.25f))
-                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert()).add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T6_PANAKEIA.get())
+                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(1.0f))
+                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert())
+                        .when(LootItemRandomChanceCondition.randomChance(0.25f))
+                        .add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T6_PANAKEIA.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0f,2.0f)))
                                 .apply(ApplyBonusCount.addUniformBonusCount(Enchantments.BLOCK_FORTUNE,1)))))
         );
         this.add(blocklist.ALCHETREE_LEAVES[7].get(),block -> createLeavesDrops(block,blocklist.ALCHETREE_SAPLINGS_T7.get(),
                 NORMAL_LEAVES_SAPLING_CHANCES)
-                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(0.25f))
-                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert()).add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T7_PANAKEIA.get())
+                .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(1.0f))
+                        .when(anyOf(HAS_SHEARS,HAS_SILK_TOUCH).invert())
+                        .when(LootItemRandomChanceCondition.randomChance(0.25f))
+                        .add(applyExplosionCondition(block, LootItem.lootTableItem(itemlist.T7_PANAKEIA.get())
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0f,2.0f)))
                                 .apply(ApplyBonusCount.addUniformBonusCount(Enchantments.BLOCK_FORTUNE,1)))))
         );

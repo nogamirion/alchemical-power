@@ -548,6 +548,7 @@
 
   "entity.alchemical_power.alchetree_mysterious_scarecrow": "Alchetree Mysterious Scarecrow",
   "item.alchemical_power.alchetree_mysterious_scarecrow": "Alchetree Mysterious Scarecrow",
+  "tooltip.alchemical_power.alchetree_mysterious_scarecrow.tooltip": "Sneak + Right-Click to remove.",
 
   "item.alchemical_power.molten_t1_panakeia_ingot_bucket": "Molten T1 Panakeia Ingot Bucket",
   "item.alchemical_power.molten_t2_panakeia_ingot_bucket": "Molten T2 Panakeia Ingot Bucket",
