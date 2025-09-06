@@ -121,10 +121,8 @@ public class Alchemical_Engraver_Recipe implements Recipe<SimpleContainer> {
                 {
                     ingredient.toNetwork(friendlyByteBuf);
                 }
-
-                friendlyByteBuf.writeItemStack(alchemicalEngraverRecipe.getResultItem(null), false);
-
             }
+            friendlyByteBuf.writeItemStack(alchemicalEngraverRecipe.getResultItem(null), false);
         }
     }
 }

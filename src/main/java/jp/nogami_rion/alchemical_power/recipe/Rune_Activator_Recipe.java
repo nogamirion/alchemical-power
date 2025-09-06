@@ -121,10 +121,8 @@ public class Rune_Activator_Recipe implements Recipe<SimpleContainer> {
                 {
                     ingredient.toNetwork(friendlyByteBuf);
                 }
-
-                friendlyByteBuf.writeItemStack(runeActivatorRecipe.getResultItem(null), false);
-
             }
+            friendlyByteBuf.writeItemStack(runeActivatorRecipe.getResultItem(null), false);
         }
     }
 }

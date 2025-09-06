@@ -149,10 +149,8 @@ public class Hermes_Workbench_Recipe implements Recipe<SimpleContainer> {
                 {
                     ingredient.toNetwork(friendlyByteBuf);
                 }
-
-                friendlyByteBuf.writeItemStack(hermesWorkbenchRecipe.getResultItem(null), false);
-
             }
+            friendlyByteBuf.writeItemStack(hermesWorkbenchRecipe.getResultItem(null), false);
         }
     }
 }

@@ -144,7 +144,7 @@ public class Transcendental_Table_Menu extends AbstractContainerMenu {
     private void addPlayerInventory(Inventory playerInventory) {
         for (int i = 0; i < 3; ++i) {
             for (int l = 0; l < 9; ++l) {
-                this.addSlot(new Slot(playerInventory, l + i * 9 + 9, 250 + l * 18, 148 + i * 19));
+                this.addSlot(new Slot(playerInventory, l + i * 9 + 9, 250 + l * 18, 148 + i * 18));
             }
         }
     }

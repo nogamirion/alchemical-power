@@ -149,10 +149,8 @@ public class Transcendental_Table_Recipe implements Recipe<SimpleContainer> {
                 {
                     ingredient.toNetwork(friendlyByteBuf);
                 }
-
-                friendlyByteBuf.writeItemStack(transcendentalTableRecipe.getResultItem(null), false);
-
             }
+            friendlyByteBuf.writeItemStack(transcendentalTableRecipe.getResultItem(null), false);
         }
     }
 }
