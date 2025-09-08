@@ -16,7 +16,7 @@
     {"tag": "forge:storage_blocks/redstone"},
     {"item": "alchemical_power:x38025_cobblestone"},
     {"item": "alchemical_power:t0_panakeia"},
-    {"tag": "alchemical_power:jei_empty_tag"},
+    {"item": "alchemical_power:t7_panakeia"},
     {"tag": "alchemical_power:jei_empty_tag"},
 
     {"tag": "alchemical_power:jei_empty_tag"},

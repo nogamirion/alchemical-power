@@ -32,9 +32,24 @@ public class Alchemical_Engraver_Menu extends AbstractContainerMenu {
         addPlayerHotbar(inv);
 
         this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler -> {
-            this.addSlot(new SlotItemHandler(iItemHandler, 0,66,23));
-            this.addSlot(new SlotItemHandler(iItemHandler, 1,66, 54));
-            this.addSlot(new SlotItemHandler(iItemHandler, 2,38, 15));
+            this.addSlot(new SlotItemHandler(iItemHandler, 0,66,23){
+                @Override
+                public boolean mayPickup(Player player) {
+                    return true;
+                }
+            });
+            this.addSlot(new SlotItemHandler(iItemHandler, 1,66, 54){
+                @Override
+                public boolean mayPickup(Player player) {
+                    return true;
+                }
+            });
+            this.addSlot(new SlotItemHandler(iItemHandler, 2,38, 15){
+                @Override
+                public boolean mayPickup(Player player) {
+                    return true;
+                }
+            });
             this.addSlot(new SlotItemHandler(iItemHandler, 3,120, 38)
 //            {
 //                @Override

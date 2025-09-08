@@ -5,6 +5,6 @@ import net.minecraft.world.item.Rarity;
 
 public class Ultimate_Grinding_Rune extends Item {
     public Ultimate_Grinding_Rune() {
-        super(new Properties().durability(4).rarity(Rarity.EPIC));
+        super(new Properties().durability(6).rarity(Rarity.EPIC));
     }
 }

@@ -9,6 +9,26 @@
     },
     {
       "type": "patchouli:text",
+      "title": "Ver.1.1.3 Page1",
+      "text": "1.Fixes & Adjustments $(br) 1-1:Added [Forge:ores] tag to Panakeia bearing Stone. $(br) 1-2:Fixed errors in some recipes for Unite Alloy. $(br) 1-3:Improved compatibility and usability with recipe-viewing mods such as JEI."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ver.1.1.3 Page2",
+      "text": "1-4:Fixed a critical bug where, under certain operations, items placed into Alchemy Tables could disappear, or items taken out could duplicate. $(br) 1-5:Increased the durability of runes used for ore doubling by 1.5x across the board."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ver.1.1.2",
+      "text": "1.Fixes $(br) 1-1:Fixed misaligned player inventory in the Transcendental Table. $(br) 1-2:Fixed an issue that prevented multiplayer from working properly."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ver.1.1.1",
+      "text": "1.Fixes $(br) 1-1:Fixed a bug where the Scarecrow always appeared to face south upon placement and that could despawn. $(br) 1-2:Fixed incorrect drop conditions for Panakeia from Alchetree leaves."
+    },
+    {
+      "type": "patchouli:text",
       "title": "Ver.1.1.0 Page1",
       "text": "1.Fixes & Adjustments $(br) 1-1:Fixed an issue where the advanced granulation process of Packed Crushed Iron incorrectly required the Elite Granulating Rune instead of the Elite Grinding Rune. $(br) 1-2:Corrected the durability of Tier 1–3 Panakeia Ingot armor, which was significantly lower than intended."
     },

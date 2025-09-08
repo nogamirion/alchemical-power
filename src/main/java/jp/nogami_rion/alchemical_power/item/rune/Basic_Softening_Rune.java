@@ -5,6 +5,6 @@ import net.minecraft.world.item.Rarity;
 
 public class Basic_Softening_Rune extends Item {
     public Basic_Softening_Rune() {
-        super(new Properties().durability(4).rarity(Rarity.COMMON));
+        super(new Properties().durability(6).rarity(Rarity.COMMON));
     }
 }

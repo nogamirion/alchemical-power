@@ -32,8 +32,18 @@ public class Rune_Activator_Menu extends AbstractContainerMenu {
         addPlayerHotbar(inv);
 
         this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler -> {
-            this.addSlot(new SlotItemHandler(iItemHandler, 0,27,50));
-            this.addSlot(new SlotItemHandler(iItemHandler, 1,156, 50));
+            this.addSlot(new SlotItemHandler(iItemHandler, 0,27,50){
+                @Override
+                public boolean mayPickup(Player player) {
+                    return true;
+                }
+            });
+            this.addSlot(new SlotItemHandler(iItemHandler, 1,156, 50){
+                @Override
+                public boolean mayPickup(Player player) {
+                    return true;
+                }
+            });
             this.addSlot(new SlotItemHandler(iItemHandler, 2,91, 50)
 //            {
 //                @Override

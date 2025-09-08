@@ -7,6 +7,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.Containers;
 import net.minecraft.world.MenuProvider;
@@ -32,7 +33,7 @@ import java.util.Optional;
 import java.util.Set;
 
 public class Alchemical_Engraver_Entity extends BlockEntity implements MenuProvider {
-    private final ConfigurableItemHandler itemHandler = new ConfigurableItemHandler(4,
+    private final ConfigurableItemHandler itemHandler = new ConfigurableItemHandler(4,this,
             Set.of(0, 1, 2), Set.of(3));
 
     private static final int INPUT_SLOT = 0;
@@ -91,6 +92,12 @@ public class Alchemical_Engraver_Entity extends BlockEntity implements MenuProvi
     }
 
     @Override
+    public void setRemoved(){
+        super.setRemoved();
+        LazyItemHandler.invalidate();
+    }
+
+    @Override
     public void invalidateCaps() {
         super.invalidateCaps();
         LazyItemHandler.invalidate();
@@ -128,6 +135,25 @@ public class Alchemical_Engraver_Entity extends BlockEntity implements MenuProvi
         super.load(pTag);
         itemHandler.deserializeNBT(pTag.getCompound("inventory"));
         progress = pTag.getInt("alchemical_engraver_progress");
+    }
+
+
+    @Override
+    public CompoundTag getUpdateTag(){
+        CompoundTag tag = new CompoundTag();
+        saveAdditional(tag);
+        return tag;
+    }
+
+    @Override
+    public void handleUpdateTag(CompoundTag tag){
+        load(tag);
+    }
+
+    @org.jetbrains.annotations.Nullable
+    @Override
+    public ClientboundBlockEntityDataPacket getUpdatePacket(){
+        return ClientboundBlockEntityDataPacket.create(this);
     }
 
     public void tick(Level pLevel, BlockPos pPos, BlockState pState) {

@@ -5,6 +5,6 @@ import net.minecraft.world.item.Rarity;
 
 public class Ultimate_Purification_Rune extends Item {
     public Ultimate_Purification_Rune() {
-        super(new Properties().durability(4).rarity(Rarity.EPIC));
+        super(new Properties().durability(6).rarity(Rarity.EPIC));
     }
 }

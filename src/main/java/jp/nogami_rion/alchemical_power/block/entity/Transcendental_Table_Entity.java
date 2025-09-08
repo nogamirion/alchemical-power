@@ -8,6 +8,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.Containers;
 import net.minecraft.world.MenuProvider;
@@ -37,7 +38,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Transcendental_Table_Entity extends BlockEntity implements MenuProvider {
-    private final ConfigurableItemHandler itemHandler = new ConfigurableItemHandler(171,
+    private final ConfigurableItemHandler itemHandler = new ConfigurableItemHandler(171,this,
             IntStream.rangeClosed(0,169).boxed().collect(Collectors.toSet()), Set.of(170));
 
     private static final List<Integer> INPUT_SLOT = new ArrayList<Integer>();
@@ -142,6 +143,12 @@ public class Transcendental_Table_Entity extends BlockEntity implements MenuProv
     }
 
     @Override
+    public void setRemoved(){
+        super.setRemoved();
+        LazyItemHandler.invalidate();
+    }
+
+    @Override
     public void invalidateCaps() {
         super.invalidateCaps();
         LazyItemHandler.invalidate();
@@ -179,6 +186,24 @@ public class Transcendental_Table_Entity extends BlockEntity implements MenuProv
         super.load(pTag);
         itemHandler.deserializeNBT(pTag.getCompound("inventory"));
         progress = pTag.getInt("transcendental_table_progress");
+    }
+
+    @Override
+    public CompoundTag getUpdateTag(){
+        CompoundTag tag = new CompoundTag();
+        saveAdditional(tag);
+        return tag;
+    }
+
+    @Override
+    public void handleUpdateTag(CompoundTag tag){
+        load(tag);
+    }
+
+    @org.jetbrains.annotations.Nullable
+    @Override
+    public ClientboundBlockEntityDataPacket getUpdatePacket(){
+        return ClientboundBlockEntityDataPacket.create(this);
     }
 
     public void tick(Level pLevel, BlockPos pPos, BlockState pState) {

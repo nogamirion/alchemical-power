@@ -5,6 +5,6 @@ import net.minecraft.world.item.Rarity;
 
 public class Advanced_Granulating_Rune extends Item {
     public Advanced_Granulating_Rune() {
-        super(new Properties().durability(4).rarity(Rarity.UNCOMMON));
+        super(new Properties().durability(6).rarity(Rarity.UNCOMMON));
     }
 }

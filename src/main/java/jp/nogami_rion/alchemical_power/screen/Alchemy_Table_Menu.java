@@ -44,12 +44,22 @@ public class Alchemy_Table_Menu extends AbstractContainerMenu {
         this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler -> {
             for (int i = 0; i < 3; ++i) {
                 for (int l = 0; l < 3; ++l) {
-                    this.addSlot(new SlotItemHandler(iItemHandler, l + i * 3, 16 + l * 18, 23 + i * 18));
+                    this.addSlot(new SlotItemHandler(iItemHandler, l + i * 3, 16 + l * 18, 23 + i * 18) {
+                        @Override
+                        public boolean mayPickup(Player player) {
+                            return true;
+                        }
+                    });
                 }
             }
-            this.addSlot(new SlotItemHandler(iItemHandler, 9,88, 41));
+            this.addSlot(new SlotItemHandler(iItemHandler, 9,88, 41){
+                @Override
+                public boolean mayPickup(Player player) {
+                    return true;
+                }
+            });
             this.addSlot(new SlotItemHandler(iItemHandler, 10,145, 41)
-//            {
+            {
 //                @Override
 //                public void onTake(Player entity,ItemStack stack){
 //                    super.onTake(entity,stack);
@@ -57,11 +67,11 @@ public class Alchemy_Table_Menu extends AbstractContainerMenu {
 //
 //                    }
 //                }
-//                @Override
-//                public boolean mayPlace(ItemStack stack) {
-//                    return false;
-//                }
-//            }
+                @Override
+                public boolean mayPlace(ItemStack stack) {
+                    return false;
+                }
+            }
             );
 
 
@@ -69,6 +79,7 @@ public class Alchemy_Table_Menu extends AbstractContainerMenu {
 
         addDataSlots(data);
 
+//        dumpSlotLayout();
 
     }
 
@@ -140,6 +151,14 @@ public class Alchemy_Table_Menu extends AbstractContainerMenu {
                 player, blocklist.ALCHEMY_TABLE.get());
     }
 
+    @Override
+    public void removed(Player player){
+        super.removed(player);
+        if(!player.level().isClientSide){
+            this.blockEntity.setChanged();
+        }
+    }
+
     private void addPlayerInventory(Inventory playerInventory) {
         for (int i = 0; i < 3; ++i) {
             for (int l = 0; l < 9; ++l) {
@@ -152,6 +171,24 @@ public class Alchemy_Table_Menu extends AbstractContainerMenu {
         for (int i = 0; i < 9; ++i) {
             this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 139));
         }
+    }
+
+    // デバッグ用ログ取得
+    private void dumpSlotLayout() {
+        // クライアント側のみ・1回だけ出したいなら適宜ガードを付けてもOK
+        System.out.println("=== [Alchemy_Table_Menu] Slot layout dump ===");
+        for (int i = 0; i < this.slots.size(); i++) {
+            Slot s = this.slots.get(i);
+            // mayPickup は Player が必要なので、ここでは出さない（不要でも原因特定は可能）
+            System.out.printf(
+                    "[MenuSlots] idx=%d, slotClass=%s, container=%s, contSlot=%d%n",
+                    i,
+                    s.getClass().getSimpleName(),
+                    s.container.getClass().getSimpleName(),
+                    s.getContainerSlot()
+            );
+        }
+        System.out.println("=== [/Alchemy_Table_Menu] ===");
     }
 
 }

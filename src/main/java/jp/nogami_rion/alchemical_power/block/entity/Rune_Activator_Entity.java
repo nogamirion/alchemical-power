@@ -36,7 +36,7 @@ import java.util.Optional;
 import java.util.Set;
 
 public class Rune_Activator_Entity extends BlockEntity implements MenuProvider {
-    private final ConfigurableItemHandler itemHandler = new ConfigurableItemHandler(3,
+    private final ConfigurableItemHandler itemHandler = new ConfigurableItemHandler(3,this,
             Set.of(0, 1), Set.of(2)){
         @Override
         protected void onContentsChanged(int slot){
@@ -110,6 +110,12 @@ public class Rune_Activator_Entity extends BlockEntity implements MenuProvider {
     }
 
     @Override
+    public void setRemoved(){
+        super.setRemoved();
+        LazyItemHandler.invalidate();
+    }
+
+    @Override
     public void invalidateCaps() {
         super.invalidateCaps();
         LazyItemHandler.invalidate();
@@ -147,6 +153,25 @@ public class Rune_Activator_Entity extends BlockEntity implements MenuProvider {
         super.load(pTag);
         itemHandler.deserializeNBT(pTag.getCompound("inventory"));
         progress = pTag.getInt("rune_activator_progress");
+    }
+
+
+    @Override
+    public CompoundTag getUpdateTag(){
+        CompoundTag tag = new CompoundTag();
+        saveAdditional(tag);
+        return tag;
+    }
+
+    @Override
+    public void handleUpdateTag(CompoundTag tag){
+        load(tag);
+    }
+
+    @org.jetbrains.annotations.Nullable
+    @Override
+    public ClientboundBlockEntityDataPacket getUpdatePacket(){
+        return ClientboundBlockEntityDataPacket.create(this);
     }
 
     public void tick(Level pLevel, BlockPos pPos, BlockState pState) {
@@ -247,17 +272,6 @@ public class Rune_Activator_Entity extends BlockEntity implements MenuProvider {
     }
     private void increaseCraftingProgress(){
         progress++;
-    }
-
-    @Nullable
-    @Override
-    public Packet<ClientGamePacketListener> getUpdatePacket(){
-        return ClientboundBlockEntityDataPacket.create(this);
-    }
-
-    @Override
-    public CompoundTag getUpdateTag() {
-        return saveWithoutMetadata();
     }
 
 }

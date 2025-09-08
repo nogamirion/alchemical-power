@@ -60,10 +60,20 @@ public class Hermes_Workbench_Menu extends AbstractContainerMenu {
 
             for (int i = 0; i < 5; ++i) {
                 for (int l = 0; l < 5; ++l) {
-                    this.addSlot(new SlotItemHandler(iItemHandler, l + i * 5, 10 + l * 18, 20 + i * 18));
+                    this.addSlot(new SlotItemHandler(iItemHandler, l + i * 5, 10 + l * 18, 20 + i * 18){
+                        @Override
+                        public boolean mayPickup(Player player) {
+                            return true;
+                        }
+                    });
                 }
             }
-            this.addSlot(new SlotItemHandler(iItemHandler, 25,109, 56));
+            this.addSlot(new SlotItemHandler(iItemHandler, 25,109, 56){
+                @Override
+                public boolean mayPickup(Player player) {
+                    return true;
+                }
+            });
             this.addSlot(new SlotItemHandler(iItemHandler, 26,163, 56));
 
         });

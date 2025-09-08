@@ -60,10 +60,20 @@ public class Transcendental_Table_Menu extends AbstractContainerMenu {
 
             for (int i = 0; i < 13; ++i) {
                 for (int l = 0; l < 13; ++l) {
-                    this.addSlot(new SlotItemHandler(iItemHandler, l + i * 13, 7 + l * 18, 4 + i * 18));
+                    this.addSlot(new SlotItemHandler(iItemHandler, l + i * 13, 7 + l * 18, 4 + i * 18){
+                        @Override
+                        public boolean mayPickup(Player player) {
+                            return true;
+                        }
+                    });
                 }
             }
-            this.addSlot(new SlotItemHandler(iItemHandler, 169,257, 64));
+            this.addSlot(new SlotItemHandler(iItemHandler, 169,257, 64){
+                @Override
+                public boolean mayPickup(Player player) {
+                    return true;
+                }
+            });
             this.addSlot(new SlotItemHandler(iItemHandler, 170,348, 64));
 
         });
