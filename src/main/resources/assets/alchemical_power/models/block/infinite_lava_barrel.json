@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "alchemical_power:block/infinite_barrel_bottom",
+    "up": "alchemical_power:block/infinite_barrel_fluid_lava",
+    "north": "alchemical_power:block/infinite_barrel_side",
+    "east": "alchemical_power:block/infinite_barrel_side",
+    "south": "alchemical_power:block/infinite_barrel_side",
+    "west": "alchemical_power:block/infinite_barrel_side",
+    "particle": "alchemical_power:block/infinite_barrel_side"
+  },
+  "render_type": "solid"
+}

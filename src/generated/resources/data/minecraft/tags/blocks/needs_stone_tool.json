@@ -2,6 +2,8 @@
   "values": [
     "alchemical_power:panakeia_bearing_stone",
     "alchemical_power:t1_panakeia_ingot_block",
-    "alchemical_power:t2_panakeia_ingot_block"
+    "alchemical_power:t2_panakeia_ingot_block",
+    "alchemical_power:infinite_water_barrel",
+    "alchemical_power:infinite_lava_barrel"
   ]
 }

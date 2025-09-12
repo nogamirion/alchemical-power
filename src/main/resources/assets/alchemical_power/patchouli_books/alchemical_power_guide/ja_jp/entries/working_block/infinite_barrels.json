@@ -1,0 +1,21 @@
+{
+  "name": "06.無限の液体樽",
+  "icon": "alchemical_power:infinite_water_barrel",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "液体を無限に供給する樽。液体が外部から搬入された場合はすべて消去される。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:infinite_water_barrel"},
+      "text": "無限に水を供給する"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:infinite_lava_barrel"},
+      "text": "無限に溶岩を供給する"
+    }
+  ]
+}

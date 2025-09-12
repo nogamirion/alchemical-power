@@ -102,7 +102,7 @@ public class itemlist {
     public static final RegistryObject<Item> ULTIMATE_SOFTENING_RUNE = ITEMS.register("ultimate_softening_rune", Ultimate_Softening_Rune::new);
     public static final RegistryObject<Item> BASIC_PURIFICATION_RUNE = ITEMS.register("basic_purification_rune", Basic_Purification_Rune::new);
     public static final RegistryObject<Item> ADVANCED_PURIFICATION_RUNE = ITEMS.register("advanced_purification_rune", Advanced_Purification_Rune::new);
-    public static final RegistryObject<Item> ELITE_PURIFICATION_RUNE = ITEMS.register("elite_purification_rune", Basic_Purification_Rune::new);
+    public static final RegistryObject<Item> ELITE_PURIFICATION_RUNE = ITEMS.register("elite_purification_rune", Elite_Purification_Rune::new);
     public static final RegistryObject<Item> ULTIMATE_PURIFICATION_RUNE = ITEMS.register("ultimate_purification_rune", Ultimate_Purification_Rune::new);
     public static final RegistryObject<Item> CRUSHED_RAW_COPPER = ITEMS.register("crushed_raw_copper", CommonAlchemyMaterial::new);
     public static final RegistryObject<Item> CRUSHED_RAW_IRON = ITEMS.register("crushed_raw_iron", CommonAlchemyMaterial::new);
@@ -385,7 +385,8 @@ public class itemlist {
     public static final RegistryObject<Item> FAITH_CRYSTAL_PLATE = ITEMS.register("faith_crystal_plate",EpicAlchemyMaterial::new);
 
     public static final RegistryObject<Item> ALCHETREE_MYSTERIOUS_SCARECROW = ITEMS.register("alchetree_mysterious_scarecrow",MysteriousScarecrowItem::new);
-
+    public static final RegistryObject<Item> INFINITE_WATER_BARREL = ITEMS.register("infinite_water_barrel", () -> new BlockItem(blocklist.INFINITE_WATER_BARREL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> INFINITE_LAVA_BARREL = ITEMS.register("infinite_lava_barrel", () -> new BlockItem(blocklist.INFINITE_LAVA_BARREL.get(), new Item.Properties()));
 
 
     //食材系アイテム（材料系）

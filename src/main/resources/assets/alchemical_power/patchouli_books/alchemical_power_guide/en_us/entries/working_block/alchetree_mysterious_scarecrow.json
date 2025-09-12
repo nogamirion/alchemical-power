@@ -1,0 +1,11 @@
+{
+  "name": "05.Alchetree Mysterious Scarecrow",
+  "icon": "alchemical_power:alchetree_mysterious_scarecrow",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A scarecrow made from the Alchetree appears. The scarecrow spreads the damage it takes to all nearby creatures. It can be retrieved by Sneak + right-click."
+    }
+  ]
+}

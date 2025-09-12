@@ -1,4 +1,4 @@
-// 1.20.1	2025-08-26T14:29:31.8735502	Tags for minecraft:item mod id alchemical_power
+// 1.20.1	2025-09-13T03:35:16.7147686	Tags for minecraft:item mod id alchemical_power
 0f9567d8e352415eaaa31cf0e4db1a23a3cf6811 data/alchemical_power/tags/items/alchemy_kit_tier1.json
 90c4347ed612802c6f05ec543212ca47c06a92d2 data/alchemical_power/tags/items/alchemy_kit_tier2.json
 6ecf49a8c398b07d3ee497821b381387a2f52aa0 data/alchemical_power/tags/items/alchemy_kit_tier3.json
@@ -11,8 +11,14 @@ a40aa7b486e54d57912af7c9347f9e3e8e8ee48a data/alchemical_power/tags/items/collec
 b77c59cca91d39ee1d85a743e01c38660a052982 data/alchemical_power/tags/items/collected_doubling_emerald.json
 7c496a4b3c46b824cfde977f496b2ca13e48a46b data/alchemical_power/tags/items/collected_doubling_gold.json
 7647e0d735843f3a71fc81c8094f52abf2723365 data/alchemical_power/tags/items/collected_doubling_iron.json
+37c1e07dffc966dafe0401977955eba42bfaeccf data/alchemical_power/tags/items/copper_ores.json
+f28dc9f2c7d071fef84fb760a59427d564938731 data/alchemical_power/tags/items/diamond_ores.json
+913bc5c31b098eada6b776a32e560c19f9515e61 data/alchemical_power/tags/items/emerald_ores.json
+fdf6b43d1eb98ab0a3c0823767b0e85ca26e2abf data/alchemical_power/tags/items/gold_ores.json
+11016ca20eef8807f79a3d6958510957c0501d65 data/alchemical_power/tags/items/iron_ores.json
 0cfe632f1229d9c75c3cf8a7fe20854c5490a08c data/alchemical_power/tags/items/jams.json
 8a3b6c43de5696d22edea798ffefe18769ecd1fb data/alchemical_power/tags/items/jei_empty_tag.json
+89a7253fe70309e791af46e2363de068e26b63f2 data/alchemical_power/tags/items/lapis_ores.json
 924b691ceb2df8410ad29020da8b0ad3e226f947 data/alchemical_power/tags/items/netherite_upgrade_template_materials.json
 d768426aa909b810c17b684af5ced2e7a31272f8 data/alchemical_power/tags/items/packaged_doubling_ancient_debris.json
 af6a2a65ca7a2e33f6b3265929286ffbe5adab92 data/alchemical_power/tags/items/packaged_doubling_copper.json
@@ -20,6 +26,7 @@ e99090d1007bbaf249139b44208cd88caaf95888 data/alchemical_power/tags/items/packag
 d82f202a9917c36597656cda9c26816640b1e795 data/alchemical_power/tags/items/packaged_doubling_emerald.json
 e897a1604d7c6f74b0557ead70c1c0164fcbe7fb data/alchemical_power/tags/items/packaged_doubling_gold.json
 4aa36484cc352e5f93b08605f99d070cae6a55d6 data/alchemical_power/tags/items/packaged_doubling_iron.json
+d1b3de80a7e228bb1b85aa05703471032bc2a8c8 data/alchemical_power/tags/items/redstone_ores.json
 ec3b4e119830a3f206de8acbbe04fb49f60be8e3 data/alchemical_power/tags/items/t1_ingot_material.json
 483b15e8328610d3608a60ab38a216fcfc08a4a9 data/alchemical_power/tags/items/t2_ingot_material.json
 acbedbf0b869d42b19cf147e904484e71799ad82 data/alchemical_power/tags/items/t3_ingot_material.json

@@ -146,6 +146,11 @@ repositories {
         url = "https://maven.theillusivec4.top/"
     }
 
+    maven {
+        name = 'DVS1 Maven FS'
+        url = 'https://dvs1.progwml6.com/files/maven'
+    }
+
 
  //   flatDir {
  //       dirs 'libs'
@@ -210,8 +215,11 @@ dependencies {
     // Re:Avaritia
 //    runtimeOnly fg.deobf("curse.maven:re-avaritia-623969:5740694")
     // Tinkers Construct（連携チェック用）
-//    runtimeOnly fg.deobf("curse.maven:mantle-74924:6819217")
-//    runtimeOnly fg.deobf("curse.maven:tinkers-construct-74072:6777068")
+    runtimeOnly fg.deobf("curse.maven:mantle-74924:6819217")
+    runtimeOnly fg.deobf("curse.maven:tinkers-construct-74072:6777068")
+    // Tinkers Construct（連携要素拡張用）
+    compileOnly fg.deobf("curse.maven:mantle-74924:6819217")
+    compileOnly fg.deobf("curse.maven:tinkers-construct-74072:6777068")
 
     // Durability Tooltip and SuperMartijn642's Config Lib (開発補助）
 //    runtimeOnly fg.deobf("curse.maven:supermartijn642s-config-lib-438332:4715408")
@@ -223,6 +231,8 @@ dependencies {
     // MmmMmmMmmMmm （ダメージチェック用）
 //    runtimeOnly fg.deobf("curse.maven:selene-499980:6935940")
 //    runtimeOnly fg.deobf("curse.maven:mmmmmmmmmmmm-225738:6860192")
+    // Mekanism（液体タンク系・電気系の動作確認用）
+//    runtimeOnly fg.deobf("curse.maven:mekanism-268560:6552911")
 
     //ログチェック用
     //   implementation name: 'libs/PrintConnectionException-1.20.1-1.0.0.jar'

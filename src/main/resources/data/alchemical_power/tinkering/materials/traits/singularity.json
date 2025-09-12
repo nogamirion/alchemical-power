@@ -1,79 +1,82 @@
 {
   "default": [
+    { "name": "alchemical_power:singularity", "level": 1 },
+    { "name": "alchemical_power:superpolymerization", "level": 10 },
+    { "name": "alchemical_power:akashic_records", "level": 1 },
     { "name": "tconstruct:unbreakable", "level": 1 }
   ],
   "perStat": {
     "tconstruct:head": [
-      { "name": "tconstruct:swiftstrike", "level": 5 },
-      { "name": "tconstruct:haste", "level": 5 },
-      { "name": "tconstruct:sharpness","level": 5},
-      { "name": "tconstruct:unbreakable", "level": 1 }
+    { "name": "alchemical_power:singularity", "level": 1 },
+    { "name": "alchemical_power:superpolymerization", "level": 10 },
+    { "name": "alchemical_power:akashic_records", "level": 1 },
+    { "name": "tconstruct:unbreakable", "level": 1 }
     ],
     "tconstruct:handle": [
-      { "name": "tconstruct:swiftstrike", "level": 5 },
-      { "name": "tconstruct:haste", "level": 5 },
-      { "name": "tconstruct:sharpness","level": 5},
-      { "name": "tconstruct:unbreakable", "level": 1 }
+    { "name": "alchemical_power:singularity", "level": 1 },
+    { "name": "alchemical_power:superpolymerization", "level": 10 },
+    { "name": "alchemical_power:akashic_records", "level": 1 },
+    { "name": "tconstruct:unbreakable", "level": 1 }
     ],
     "tconstruct:binding": [
-      { "name": "tconstruct:swiftstrike", "level": 5 },
-      { "name": "tconstruct:haste", "level": 5 },
-      { "name": "tconstruct:sharpness","level": 5},
-      { "name": "tconstruct:unbreakable", "level": 1 }
+    { "name": "alchemical_power:singularity", "level": 1 },
+    { "name": "alchemical_power:superpolymerization", "level": 10 },
+    { "name": "alchemical_power:akashic_records", "level": 1 },
+    { "name": "tconstruct:unbreakable", "level": 1 }
     ],
     "tconstruct:rod": [
-      { "name": "tconstruct:swiftstrike", "level": 5 },
-      { "name": "tconstruct:haste", "level": 5 },
-      { "name": "tconstruct:sharpness","level": 5},
-      { "name": "tconstruct:unbreakable", "level": 1 }
+    { "name": "alchemical_power:singularity", "level": 1 },
+    { "name": "alchemical_power:superpolymerization", "level": 10 },
+    { "name": "alchemical_power:akashic_records", "level": 1 },
+    { "name": "tconstruct:unbreakable", "level": 1 }
     ],
     "tconstruct:limb": [
-      { "name": "tconstruct:swiftstrike", "level": 5 },
-      { "name": "tconstruct:haste", "level": 5 },
-      { "name": "tconstruct:sharpness","level": 5},
-      { "name": "tconstruct:unbreakable", "level": 1 }
+    { "name": "alchemical_power:singularity", "level": 1 },
+    { "name": "alchemical_power:superpolymerization", "level": 10 },
+    { "name": "alchemical_power:akashic_records", "level": 1 },
+    { "name": "tconstruct:unbreakable", "level": 1 }
     ],
     "tconstruct:grip": [
-      { "name": "tconstruct:swiftstrike", "level": 5 },
-      { "name": "tconstruct:haste", "level": 5 },
-      { "name": "tconstruct:sharpness","level": 5},
-      { "name": "tconstruct:unbreakable", "level": 1 }
+    { "name": "alchemical_power:singularity", "level": 1 },
+    { "name": "alchemical_power:superpolymerization", "level": 10 },
+    { "name": "alchemical_power:akashic_records", "level": 1 },
+    { "name": "tconstruct:unbreakable", "level": 1 }
     ],
     "tconstruct:plating_helmet": [
-      { "name": "tconstruct:boundless", "level": 5 },
-      { "name": "tconstruct:protection", "level": 10 },
-      { "name": "tconstruct:strength", "level": 10},
-      { "name": "tconstruct:unbreakable", "level": 1 }
+    { "name": "alchemical_power:singularity", "level": 1 },
+    { "name": "alchemical_power:superpolymerization", "level": 10 },
+    { "name": "alchemical_power:akashic_records", "level": 1 },
+    { "name": "tconstruct:unbreakable", "level": 1 }
     ],
     "tconstruct:plating_chestplate": [
-      { "name": "tconstruct:boundless", "level": 5 },
-      { "name": "tconstruct:protection", "level": 10 },
-      { "name": "tconstruct:strength", "level": 10},
-      { "name": "tconstruct:unbreakable", "level": 1 }
+    { "name": "alchemical_power:singularity", "level": 1 },
+    { "name": "alchemical_power:superpolymerization", "level": 10 },
+    { "name": "alchemical_power:akashic_records", "level": 1 },
+    { "name": "tconstruct:unbreakable", "level": 1 }
     ],
     "tconstruct:plating_leggings": [
-      { "name": "tconstruct:boundless", "level": 5 },
-      { "name": "tconstruct:protection", "level": 10 },
-      { "name": "tconstruct:strength", "level": 10},
-      { "name": "tconstruct:unbreakable", "level": 1 }
+    { "name": "alchemical_power:singularity", "level": 1 },
+    { "name": "alchemical_power:superpolymerization", "level": 10 },
+    { "name": "alchemical_power:akashic_records", "level": 1 },
+    { "name": "tconstruct:unbreakable", "level": 1 }
     ],
     "tconstruct:plating_boots": [
-      { "name": "tconstruct:boundless", "level": 5 },
-      { "name": "tconstruct:protection", "level": 10 },
-      { "name": "tconstruct:strength", "level": 10},
-      { "name": "tconstruct:unbreakable", "level": 1 }
+    { "name": "alchemical_power:singularity", "level": 1 },
+    { "name": "alchemical_power:superpolymerization", "level": 10 },
+    { "name": "alchemical_power:akashic_records", "level": 1 },
+    { "name": "tconstruct:unbreakable", "level": 1 }
     ],
     "tconstruct:plating_shield": [
-      { "name": "tconstruct:boundless", "level": 5 },
-      { "name": "tconstruct:protection", "level": 10 },
-      { "name": "tconstruct:strength", "level": 10},
-      { "name": "tconstruct:unbreakable", "level": 1 }
+    { "name": "alchemical_power:singularity", "level": 1 },
+    { "name": "alchemical_power:superpolymerization", "level": 10 },
+    { "name": "alchemical_power:akashic_records", "level": 1 },
+    { "name": "tconstruct:unbreakable", "level": 1 }
     ],
     "tconstruct:maille": [
-      { "name": "tconstruct:boundless", "level": 5 },
-      { "name": "tconstruct:protection", "level": 10 },
-      { "name": "tconstruct:strength", "level": 10},
-      { "name": "tconstruct:unbreakable", "level": 1 }
+    { "name": "alchemical_power:singularity", "level": 1 },
+    { "name": "alchemical_power:superpolymerization", "level": 10 },
+    { "name": "alchemical_power:akashic_records", "level": 1 },
+    { "name": "tconstruct:unbreakable", "level": 1 }
     ]
   }
 }

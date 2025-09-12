@@ -1,0 +1,21 @@
+{
+  "name": "06.Infinite Liquid Barrels",
+  "icon": "alchemical_power:infinite_water_barrel",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A barrel that infinitely supplies liquid. Any liquid brought in from outside is completely erased."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:infinite_water_barrel"},
+      "text": "Supply water infinitely."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:infinite_lava_barrel"},
+      "text": "Supply lava infinitely."
+    }
+  ]
+}

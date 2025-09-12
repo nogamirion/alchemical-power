@@ -64,6 +64,14 @@ public class ModBlockEntities {
             BLOCK_ENTITIES.register("cobblestone_generator_mk8_be",() ->
                     BlockEntityType.Builder.of(CobblestoneGeneratorMk8Entity::new, blocklist.COBBLESTONE_GENERATOR_MK8.get(),blocklist.X9_COBBLESTONE_GENERATOR_MK8.get(),blocklist.X225_COBBLESTONE_GENERATOR_MK8.get(),blocklist.X38025_COBBLESTONE_GENERATOR_MK8.get()).build(null));
 
+    public static final RegistryObject<BlockEntityType<InfiniteWaterBarrelEntity>> INFINITE_WATER_BARREL_BE =
+            BLOCK_ENTITIES.register("infinite_water_barrel_be",() ->
+                    BlockEntityType.Builder.of(InfiniteWaterBarrelEntity::new, blocklist.INFINITE_WATER_BARREL.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<InfiniteLavaBarrelEntity>> INFINITE_LAVA_BARREL_BE =
+            BLOCK_ENTITIES.register("infinite_lava_barrel_be",() ->
+                    BlockEntityType.Builder.of(InfiniteLavaBarrelEntity::new, blocklist.INFINITE_LAVA_BARREL.get()).build(null));
+
     public static void register(IEventBus eventBus){
         BLOCK_ENTITIES.register(eventBus);
     }

@@ -1,0 +1,15 @@
+{
+  "name": "11.Increase Panakeia Part 3",
+  "icon": "alchemical_power:alchetree_sapling_t0",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Enclosing saplings with T0 Panakeia reed creates Alchetree saplings, enabling more effective Panacea cultivation."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Furthermore, you can increase the tier of Panakeia obtained by surrounding an Alchetree sapling with a Panakeia Cube of the next higher tier."
+    }
+  ]
+}

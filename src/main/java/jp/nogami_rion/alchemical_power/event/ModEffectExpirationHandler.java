@@ -2,6 +2,7 @@ package jp.nogami_rion.alchemical_power.event;
 
 import jp.nogami_rion.alchemical_power.Alchemical_power;
 import jp.nogami_rion.alchemical_power.init.effectlist;
+import jp.nogami_rion.alchemical_power.util.DeadEndRainbowUtils;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -17,6 +18,9 @@ public class ModEffectExpirationHandler {
 
     //天使の輪効果の適応かどうかの判断用
     private static final String ANGEL_RING_TAG = "AngelRingFlight";
+    //七彩終焉カウントのリセットカウンター
+    static int count = 0;
+    static int remit = 200; //仮に5分を指定中
 
     //代替案としてプレイヤーを常時監視して天使の輪効果の有無を監視
     //天使の輪の効果適応中かの監視も併せて行い、適応外である場合1度だけクリエ飛行を剥奪
@@ -45,6 +49,17 @@ public class ModEffectExpirationHandler {
                     }
                     persistentData.putBoolean(ANGEL_RING_TAG, false);
                 }
+            }
+
+
+            //プレイヤーの七彩終焉スタックが1以上の場合、5分後にスタック消滅
+            if(DeadEndRainbowUtils.getAttackMark(player) > 0){
+                count++;
+                if(count >= remit){
+                    DeadEndRainbowUtils.resetAttackMark(player);
+                    count = 0;
+                }
+
             }
 
         }

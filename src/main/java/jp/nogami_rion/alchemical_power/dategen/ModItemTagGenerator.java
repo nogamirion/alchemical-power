@@ -235,6 +235,33 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         this.tag(ItemTags.PLANKS)
                 .add(blocklist.ALCHETREE_PLANKS.get().asItem());
 
+        this.tag(ModTags.Items.COPPER_ORES)
+                .add(Blocks.COPPER_ORE.asItem())
+                .add(Blocks.DEEPSLATE_COPPER_ORE.asItem());
+
+        this.tag(ModTags.Items.IRON_ORES)
+                .add(Blocks.IRON_ORE.asItem())
+                .add(Blocks.DEEPSLATE_IRON_ORE.asItem());
+
+        this.tag(ModTags.Items.GOLD_ORES)
+                .add(Blocks.GOLD_ORE.asItem())
+                .add(Blocks.DEEPSLATE_GOLD_ORE.asItem());
+
+        this.tag(ModTags.Items.DIAMOND_ORES)
+                .add(Blocks.DIAMOND_ORE.asItem())
+                .add(Blocks.DEEPSLATE_DIAMOND_ORE.asItem());
+
+        this.tag(ModTags.Items.EMERALD_ORES)
+                .add(Blocks.EMERALD_ORE.asItem())
+                .add(Blocks.DEEPSLATE_EMERALD_ORE.asItem());
+
+        this.tag(ModTags.Items.LAPIS_ORES)
+                .add(Blocks.LAPIS_ORE.asItem())
+                .add(Blocks.DEEPSLATE_LAPIS_ORE.asItem());
+
+        this.tag(ModTags.Items.REDSTONE_ORES)
+                .add(Blocks.REDSTONE_ORE.asItem())
+                .add(Blocks.DEEPSLATE_REDSTONE_ORE.asItem());
 
 
 

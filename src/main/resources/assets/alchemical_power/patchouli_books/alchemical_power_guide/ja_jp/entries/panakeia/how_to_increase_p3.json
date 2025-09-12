@@ -1,0 +1,15 @@
+{
+  "name": "11.パナケイアの増やし方③",
+  "icon": "alchemical_power:alchetree_sapling_t0",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "苗木をパナケイア含有黍で囲うことで、錬金樹の苗木を作り、より効果的にパナケイアを増やすことができる"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "さらに錬金樹の苗木を1段階上のパナケイアキューブで囲むことで、得られるパナケイアを一段階上げることができる"
+    }
+  ]
+}

@@ -1,55 +1,68 @@
 {
   "default": [
-    { "name": "tconstruct:diamond", "level": 1 }
+    { "name": "tconstruct:diamond", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 4 }
   ],
   "perStat": {
     "tconstruct:head": [
       { "name": "tconstruct:silky", "level": 1 },
-      { "name": "tconstruct:diamond", "level": 1 }
+      { "name": "tconstruct:diamond", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 4 }
     ],
     "tconstruct:handle": [
       { "name": "tconstruct:silky", "level": 1 },
-      { "name": "tconstruct:diamond", "level": 1 }
+      { "name": "tconstruct:diamond", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 4 }
     ],
     "tconstruct:binding": [
       { "name": "tconstruct:silky", "level": 1 },
-      { "name": "tconstruct:diamond", "level": 1 }
+      { "name": "tconstruct:diamond", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 4 }
     ],
     "tconstruct:rod": [
       { "name": "tconstruct:silky", "level": 1 },
-      { "name": "tconstruct:diamond", "level": 1 }
+      { "name": "tconstruct:diamond", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 4 }
     ],
     "tconstruct:limb": [
       { "name": "tconstruct:silky", "level": 1 },
-      { "name": "tconstruct:diamond", "level": 1 }
+      { "name": "tconstruct:diamond", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 4 }
     ],
     "tconstruct:grip": [
       { "name": "tconstruct:silky", "level": 1 },
-      { "name": "tconstruct:diamond", "level": 1 }
+      { "name": "tconstruct:diamond", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 4 }
     ],
     "tconstruct:plating_helmet": [
       { "name": "tconstruct:revitalizing", "level": 1 },
-      { "name": "tconstruct:diamond", "level": 1 }
+      { "name": "tconstruct:diamond", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 4 }
     ],
     "tconstruct:plating_chestplate": [
       { "name": "tconstruct:revitalizing", "level": 1 },
-      { "name": "tconstruct:diamond", "level": 1 }
+      { "name": "tconstruct:diamond", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 4 }
     ],
     "tconstruct:plating_leggings": [
       { "name": "tconstruct:revitalizing", "level": 1 },
-      { "name": "tconstruct:diamond", "level": 1 }
+      { "name": "tconstruct:diamond", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 4 }
     ],
     "tconstruct:plating_boots": [
       { "name": "tconstruct:revitalizing", "level": 1 },
-      { "name": "tconstruct:diamond", "level": 1 }
+      { "name": "tconstruct:diamond", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 4 }
     ],
     "tconstruct:plating_shield": [
       { "name": "tconstruct:revitalizing", "level": 1 },
-      { "name": "tconstruct:diamond", "level": 1 }
+      { "name": "tconstruct:diamond", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 4 }
     ],
     "tconstruct:maille": [
       { "name": "tconstruct:revitalizing", "level": 1 },
-      { "name": "tconstruct:diamond", "level": 1 }
+      { "name": "tconstruct:diamond", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 4 }
     ]
   }
 }

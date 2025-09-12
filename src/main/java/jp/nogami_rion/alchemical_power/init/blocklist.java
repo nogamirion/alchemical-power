@@ -139,6 +139,8 @@ public class blocklist {
     public static final RegistryObject<Block> ALCHETREE_DOOR = BLOCKS.register("alchetree_door",() -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS),BlockSetType.OAK));
     public static final RegistryObject<Block> ALCHETREE_TRAPDOOR = BLOCKS.register("alchetree_trapdoor",() -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS),BlockSetType.OAK));
 
+    public static final RegistryObject<Block> INFINITE_WATER_BARREL = BLOCKS.register("infinite_water_barrel", InfiniteWaterBarrel::new);
+    public static final RegistryObject<Block> INFINITE_LAVA_BARREL = BLOCKS.register("infinite_lava_barrel", InfiniteLavaBarrel::new);
 
     //アイテムリストの登録用
     public static void register(IEventBus eventBus){

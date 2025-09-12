@@ -1,67 +1,67 @@
 {
   "default": [
-    { "name": "tconstruct:ductile", "level": 1 },
+    { "name": "alchemical_power:panakeia", "level": 3 },
     { "name": "tconstruct:golden", "level": 1 }
   ],
   "perStat": {
     "tconstruct:head": [
       { "name": "tconstruct:looting", "level": 1 },
-      { "name": "tconstruct:ductile", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 3 },
       { "name": "tconstruct:golden", "level": 1 }
     ],
     "tconstruct:handle": [
       { "name": "tconstruct:looting", "level": 1 },
-      { "name": "tconstruct:ductile", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 3 },
       { "name": "tconstruct:golden", "level": 1 }
     ],
     "tconstruct:binding": [
       { "name": "tconstruct:looting", "level": 1 },
-      { "name": "tconstruct:ductile", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 3 },
       { "name": "tconstruct:golden", "level": 1 }
     ],
     "tconstruct:rod": [
       { "name": "tconstruct:looting", "level": 1 },
-      { "name": "tconstruct:ductile", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 3 },
       { "name": "tconstruct:golden", "level": 1 }
     ],
     "tconstruct:limb": [
       { "name": "tconstruct:looting", "level": 1 },
-      { "name": "tconstruct:ductile", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 3 },
       { "name": "tconstruct:golden", "level": 1 }
     ],
     "tconstruct:grip": [
       { "name": "tconstruct:looting", "level": 1 },
-      { "name": "tconstruct:ductile", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 3 },
       { "name": "tconstruct:golden", "level": 1 }
     ],
     "tconstruct:plating_helmet": [
       { "name": "tconstruct:magic_protection", "level": 1 },
-      { "name": "tconstruct:ductile", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 3 },
       { "name": "tconstruct:golden", "level": 1 }
     ],
     "tconstruct:plating_chestplate": [
       { "name": "tconstruct:magic_protection", "level": 1 },
-      { "name": "tconstruct:ductile", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 3 },
       { "name": "tconstruct:golden", "level": 1 }
     ],
     "tconstruct:plating_leggings": [
       { "name": "tconstruct:magic_protection", "level": 1 },
-      { "name": "tconstruct:ductile", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 3 },
       { "name": "tconstruct:golden", "level": 1 }
     ],
     "tconstruct:plating_boots": [
       { "name": "tconstruct:magic_protection", "level": 1 },
-      { "name": "tconstruct:ductile", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 3 },
       { "name": "tconstruct:golden", "level": 1 }
     ],
     "tconstruct:plating_shield": [
       { "name": "tconstruct:magic_protection", "level": 1 },
-      { "name": "tconstruct:ductile", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 3 },
       { "name": "tconstruct:golden", "level": 1 }
     ],
     "tconstruct:maille": [
       { "name": "tconstruct:magic_protection", "level": 1 },
-      { "name": "tconstruct:ductile", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 3 },
       { "name": "tconstruct:golden", "level": 1 }
     ]
   }

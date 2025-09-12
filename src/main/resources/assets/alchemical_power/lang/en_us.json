@@ -575,27 +575,51 @@
   "fluid_type.alchemical_power.molten_unite_alloy": "Molten Unite Alloy",
   "fluid_type.alchemical_power.molten_singularity": "Molten Singularity",
 
+  "block.alchemical_power.infinite_water_barrel": "Infinite Water Barrel",
+  "block.alchemical_power.infinite_lava_barrel": "Infinite Lava Barrel",
 
   //TiC Integration　
   "material.alchemical_power.t1_panakeia_ingot": "T1 Panakeia Ingot",
   "material.alchemical_power.t1_panakeia_ingot.flavor": "A metal alchemically dyed blue. It's usually derived from copper, though it’s not bronze or anything of the sort.",
+  "material.alchemical_power.t1_panakeia_ingot.encyclopedia": "Grants +20% durability and, per level, +0.25 attack damage, projectile damage, and defense. Also provides +10% mining speed, attack speed, bow draw speed, and armor toughness. T1 has Level 1 of this trait and additionally shares the same properties as copper.",
   "material.alchemical_power.t2_panakeia_ingot": "T2 Panakeia Ingot",
   "material.alchemical_power.t2_panakeia_ingot.flavor": "A metal alchemically dyed yellow. Usually made from iron. Definitely not gold.",
+  "material.alchemical_power.t2_panakeia_ingot.encyclopedia": "T2 has Level 2 of this trait and additionally shares the same properties as iron.",
   "material.alchemical_power.t3_panakeia_ingot": "T3 Panakeia Ingot",
   "material.alchemical_power.t3_panakeia_ingot.flavor": "A metal alchemically dyed red. Usually made from gold. Has nothing to do with Redstone.",
+  "material.alchemical_power.t3_panakeia_ingot.encyclopedia": "T3 has Level 3 of this trait and additionally shares the same properties as gold.",
   "material.alchemical_power.t4_panakeia_gem": "T4 Panakeia Gem",
   "material.alchemical_power.t4_panakeia_gem.flavor": "A gemstone alchemically dyed purple. Even when processed from metal, it somehow becomes a gem.",
+  "material.alchemical_power.t4_panakeia_gem.encyclopedia": "Tier 4 has Level 4 of this trait, and additionally comes pre-upgraded with diamond upgrade and a bonus effect.",
   "material.alchemical_power.t5_panakeia_gem": "T5 Panakeia Gem",
   "material.alchemical_power.t5_panakeia_gem.flavor": "A gemstone alchemically dyed blue. To uncover its mystery, we alchemists ventured deep into the Amazon jungle—.",
+  "material.alchemical_power.t5_panakeia_gem.encyclopedia": "Tier 5 has Level 5 of this trait, and additionally comes pre-upgraded with emerald upgrade and a bonus effect.",
   "material.alchemical_power.t6_panakeia_ingot": "T6 Panakeia Ingot",
   "material.alchemical_power.t6_panakeia_ingot.flavor": "A metal alchemically dyed white. Alchemy can even imbue Nether metals with holiness, but this one feels a bit too white.",
+  "material.alchemical_power.t6_panakeia_ingot.encyclopedia": "Tier 6 has Level 6 of this trait, and additionally comes pre-upgraded with netherite upgrade and a bonus effect.",
   "material.alchemical_power.unite_alloy": "Unite Alloy",
   "material.alchemical_power.unite_alloy.flavor": "There’s the question: “If you mix all the colors of the rainbow, does it become white? Or black?” But in the world of mods, it’s quite common for it to just stay rainbow-colored.",
+  "material.alchemical_power.unite_alloy.encyclopedia": "“Concerning this alloy, I have discovered a truly remarkable property, but this margin is too narrow to contain it.“  ――Nectios",
   "material.alchemical_power.singularity": "Singularity",
   "material.alchemical_power.singularity.flavor": "Try searching for “singularity” in JEI or similar. How many results did you get?",
+  "material.alchemical_power.singularity.encyclopedia": "From light that fills the heavens comes the　sevenfold deadly power, armor that defends all, and all knowledge.",
 
   "stat.tconstruct.harvest_tier.alchemical_power.unite_alloy": "Unite",
-  "stat.tconstruct.harvest_tier.alchemical_power.singularity": "Singularity"
+  "stat.tconstruct.harvest_tier.alchemical_power.singularity": "Singularity",
 
-
+  "modifier.alchemical_power.panakeia": "Panakeia",
+  "modifier.alchemical_power.panakeia.flavor": "It's just a little application.",
+  "modifier.alchemical_power.panakeia.description": "Materials enhanced by alchemy are just a little bit tougher, just a little bit stronger, and just a little bit lighter.",
+  "modifier.alchemical_power.superpolymerization": "Super Polymerization",
+  "modifier.alchemical_power.superpolymerization.flavor": "IIncredible solidarity!",
+  "modifier.alchemical_power.superpolymerization.description": "Almost all the alloy material's characteristics packed in!",
+  "modifier.alchemical_power.superpolymerization.mining_speed": "Super Polymerization:Mining Speed",
+  "modifier.alchemical_power.superpolymerization.attack_damage": "Super Polymerization:Attack Damage",
+  "modifier.alchemical_power.superpolymerization.resistance": "Super Polymerization:Resistance",
+  "modifier.alchemical_power.singularity": "Chroma",
+  "modifier.alchemical_power.singularity.flavor": "Glow of Singularity",
+  "modifier.alchemical_power.singularity.description": "Seven strikes to destroy all, and shield against all.",
+  "modifier.alchemical_power.akashic_records": "Akashic Records",
+  "modifier.alchemical_power.akashic_records.flavor": "All knowledge",
+  "modifier.alchemical_power.akashic_records.description": "You can cram knowledge... specifically up to 10 modifiers each."
 }

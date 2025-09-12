@@ -48,6 +48,14 @@ public class ModTags {
         public static final TagKey<Item> BEEF_OR_PORK = tag("beef_or_pork");
         public static final TagKey<Item> NETHERITE_UPGRADE_TEMPLATE_MATERIALS = tag("netherite_upgrade_template_materials");
 
+        public static final TagKey<Item> COPPER_ORES = tag("copper_ores");
+        public static final TagKey<Item> IRON_ORES = tag("iron_ores");
+        public static final TagKey<Item> GOLD_ORES = tag("gold_ores");
+        public static final TagKey<Item> DIAMOND_ORES = tag("diamond_ores");
+        public static final TagKey<Item> EMERALD_ORES = tag("emerald_ores");
+        public static final TagKey<Item> LAPIS_ORES = tag("lapis_ores");
+        public static final TagKey<Item> REDSTONE_ORES = tag("redstone_ores");
+
 
         private static TagKey<Item> tag(String name){
             return ItemTags.create(new ResourceLocation(Alchemical_power.MODID,name));

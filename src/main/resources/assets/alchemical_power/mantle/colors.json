@@ -12,5 +12,10 @@
   "harvest_tier.alchemical_power": {
     "unite_alloy": "#000000",
     "singularity": "#FFF9DC"
+    },
+  "modifier.alchemical_power": {
+    "panakeia": "aqua",
+    "superpolymerization": "#FF66FF",
+    "akashic_records": "#5555FF"
     }
 }

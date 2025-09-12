@@ -1,0 +1,15 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {
+      "item": "alchemical_power:advanced_grinding_rune"
+    },
+    {
+      "tag": "alchemical_power:gold_ores"
+    }
+  ],
+  "output": {
+    "count": 6,
+    "item": "alchemical_power:crushed_raw_gold"
+  }
+}

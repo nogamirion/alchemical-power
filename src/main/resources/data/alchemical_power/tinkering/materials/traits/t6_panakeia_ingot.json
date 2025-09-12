@@ -1,55 +1,68 @@
 {
   "default": [
-    { "name": "tconstruct:netherite", "level": 1 }
+    { "name": "tconstruct:netherite", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 6 }
   ],
   "perStat": {
     "tconstruct:head": [
       { "name": "tconstruct:piercing", "level": 1 },
-      { "name": "tconstruct:netherite", "level": 1 }
+      { "name": "tconstruct:netherite", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 6 }
     ],
     "tconstruct:handle": [
       { "name": "tconstruct:piercing", "level": 1 },
-      { "name": "tconstruct:netherite", "level": 1 }
+      { "name": "tconstruct:netherite", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 6 }
     ],
     "tconstruct:binding": [
       { "name": "tconstruct:piercing", "level": 1 },
-      { "name": "tconstruct:netherite", "level": 1 }
+      { "name": "tconstruct:netherite", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 6 }
     ],
     "tconstruct:rod": [
       { "name": "tconstruct:piercing", "level": 1 },
-      { "name": "tconstruct:netherite", "level": 1 }
+      { "name": "tconstruct:netherite", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 6 }
     ],
     "tconstruct:limb": [
       { "name": "tconstruct:piercing", "level": 1 },
-      { "name": "tconstruct:netherite", "level": 1 }
+      { "name": "tconstruct:netherite", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 6 }
     ],
     "tconstruct:grip": [
       { "name": "tconstruct:piercing", "level": 1 },
-      { "name": "tconstruct:netherite", "level": 1 }
+      { "name": "tconstruct:netherite", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 6 }
     ],
     "tconstruct:plating_helmet": [
       { "name": "tconstruct:strength", "level": 1 },
-      { "name": "tconstruct:netherite", "level": 1 }
+      { "name": "tconstruct:netherite", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 6 }
     ],
     "tconstruct:plating_chestplate": [
       { "name": "tconstruct:strength", "level": 1 },
-      { "name": "tconstruct:netherite", "level": 1 }
+      { "name": "tconstruct:netherite", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 6 }
     ],
     "tconstruct:plating_leggings": [
       { "name": "tconstruct:strength", "level": 1 },
-      { "name": "tconstruct:netherite", "level": 1 }
+      { "name": "tconstruct:netherite", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 6 }
     ],
     "tconstruct:plating_boots": [
       { "name": "tconstruct:strength", "level": 1 },
-      { "name": "tconstruct:netherite", "level": 1 }
+      { "name": "tconstruct:netherite", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 6 }
     ],
     "tconstruct:plating_shield": [
       { "name": "tconstruct:strength", "level": 1 },
-      { "name": "tconstruct:netherite", "level": 1 }
+      { "name": "tconstruct:netherite", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 6 }
     ],
     "tconstruct:maille": [
       { "name": "tconstruct:strength", "level": 1 },
-      { "name": "tconstruct:netherite", "level": 1 }
+      { "name": "tconstruct:netherite", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 6 }
     ]
   }
 }

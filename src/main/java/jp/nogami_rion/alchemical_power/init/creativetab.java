@@ -92,6 +92,8 @@ public class creativetab {
                     output.accept(itemlist.TRANSCENDENTAL_TABLE.get());
                     output.accept(itemlist.ALCHEMICAL_ENGRAVER.get());
                     output.accept(itemlist.RUNE_ACTIVATOR.get());
+                    output.accept(itemlist.INFINITE_WATER_BARREL.get());
+                    output.accept(itemlist.INFINITE_LAVA_BARREL.get());
                     output.accept(itemlist.T1_PANAKEIA_INGOT_BLOCK.get());
                     output.accept(itemlist.T2_PANAKEIA_INGOT_BLOCK.get());
                     output.accept(itemlist.T3_PANAKEIA_INGOT_BLOCK.get());

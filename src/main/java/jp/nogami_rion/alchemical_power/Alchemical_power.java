@@ -5,6 +5,8 @@ import jp.nogami_rion.alchemical_power.event.Origins_armor_effect_event;
 import jp.nogami_rion.alchemical_power.event.ModEventBusClientEvents;
 import jp.nogami_rion.alchemical_power.event.ModItemEventHandler;
 import jp.nogami_rion.alchemical_power.init.*;
+import jp.nogami_rion.alchemical_power.integration.CooperativeModChecker;
+import jp.nogami_rion.alchemical_power.integration.tinker.TinkersIntegration;
 import jp.nogami_rion.alchemical_power.loot.ModLootModifiers;
 import jp.nogami_rion.alchemical_power.recipe.ModRecipes;
 import jp.nogami_rion.alchemical_power.registry.ModFluids;
@@ -17,6 +19,7 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
@@ -48,6 +51,7 @@ public class Alchemical_power {
         ModLootModifiers.register(modEventBus);
         effectlist.register(modEventBus);
         entitylist.register(modEventBus);
+        CooperativeModChecker.tryRegisterModStuff();
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -67,6 +71,8 @@ public class Alchemical_power {
 
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+
+//        event.enqueueWork(CooperativeModChecker::tryRegisterModStuff);
         event.enqueueWork(ModTiers::register);
     }
 

@@ -1,0 +1,39 @@
+{
+  "level_display": "tconstruct:no_levels",
+  "modules": [
+    {
+      "type": "tconstruct:modifier_slot",
+      "each_level": 10,
+      "name": "upgrades"
+    },
+    {
+      "type": "tconstruct:modifier_slot",
+      "each_level": 10,
+      "name": "abilities"
+    },
+    {
+      "type": "tconstruct:modifier_slot",
+      "each_level": 10,
+      "name": "defense"
+    },
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "each_level": 1.0,
+      "operation": "multiply_total",
+      "slots": [
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ]
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "each_level": 1.0,
+      "operation": "multiply_base",
+      "stat": "tconstruct:attack_damage"
+    }
+  ],
+  "tooltip_display": "always"
+}

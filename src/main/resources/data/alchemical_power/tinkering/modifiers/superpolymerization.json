@@ -1,0 +1,210 @@
+{
+  "level_display": "tconstruct:default",
+  "modules":[
+    {
+      "type": "tconstruct:modifier_slot",
+      "flat": 2,
+      "name": "upgrades"
+    },
+    {
+      "type": "tconstruct:volatile_flag",
+      "flag": "tconstruct:piglin_neutral"
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "each_level": 0.75,
+      "operation": "add",
+      "stat": "tconstruct:attack_damage"
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "each_level": 0.05,
+      "operation": "multiply_base",
+      "stat": "tconstruct:attack_speed"
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "each_level": 4.0,
+      "operation": "add",
+      "stat": "tconstruct:mining_speed"
+    },
+    {
+      "type": "tconstruct:conditional_mining_speed",
+      "blocks": "tconstruct:can_melt",
+      "each_level": 6.0,
+      "percent": false,
+      "require_effective": true
+    },
+    {
+      "type": "tconstruct:constant_enchantment",
+      "level": 1,
+      "name": "minecraft:depth_strider"
+    },
+    {
+      "type": "tconstruct:depth_protection",
+      "baseline_height": 64.0,
+      "damage_source": "mantle:can_protect",
+      "each_level": 1.25,
+      "neutral_range": 32.0
+    },
+    {
+      "type": "tconstruct:max_armor_attribute",
+      "allow_broken": false,
+      "attribute": "minecraft:generic.knockback_resistance",
+      "each_level": 0.05,
+      "held_tag": "tconstruct:modifiable/held",
+      "operation": "addition"
+    },
+    {
+      "type": "tconstruct:protection",
+      "damage_source": {
+        "type": "mantle:and",
+        "predicates": [
+          "mantle:can_protect",
+          {
+            "type": "mantle:tag",
+            "tag": "tconstruct:protection/projectile"
+          }
+        ]
+      },
+      "each_level": 2.0
+    },
+    {
+      "type": "tconstruct:conditional_melee_damage",
+      "each_level": 2.0,
+      "percent": false,
+      "target": {
+        "type": "mantle:or",
+        "predicates": [
+          {
+            "type": "mantle:mob_type",
+            "mobs": "minecraft:illager"
+          },
+          {
+            "type": "mantle:tag",
+            "tag": "tconstruct:killagers"
+          }
+        ]
+      }
+    },
+    {
+      "type": "tconstruct:protection",
+      "damage_source": "mantle:can_protect",
+      "each_level": 1.25
+    },
+    {
+      "type": "tconstruct:constant_enchantment",
+      "level": 1,
+      "name": "minecraft:fortune",
+      "tool": {
+        "type": "mantle:tag",
+        "tag": "tconstruct:modifiable/harvest"
+      }
+    },
+    {
+      "type": "tconstruct:armor_harvest_enchantment",
+      "level": 1,
+      "name": "minecraft:fortune",
+      "slots": [
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ],
+      "tool": {
+        "type": "mantle:tag",
+        "tag": "tconstruct:modifiable/armor/worn"
+      }
+    },
+    {
+      "type": "tconstruct:weapon_looting",
+      "level": 1,
+      "tool": {
+        "type": "mantle:or",
+        "predicates": [
+          {
+            "type": "mantle:set",
+            "items": [
+              "minecraft:air"
+            ]
+          },
+          {
+            "type": "mantle:tag",
+            "tag": "tconstruct:modifiable/melee"
+          }
+        ]
+      }
+    },
+    {
+      "type": "tconstruct:armor_looting",
+      "level": 1,
+      "slots": [
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ],
+      "tool": {
+        "type": "mantle:tag",
+        "tag": "tconstruct:modifiable/armor/worn"
+      }
+    },
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "each_level": 2.0,
+      "operation": "addition",
+      "slots": [
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ]
+    },
+    {
+      "type": "tconstruct:constant_enchantment",
+      "level": 1,
+      "name": "minecraft:silk_touch",
+      "tool": {
+        "type": "mantle:tag",
+        "tag": "tconstruct:modifiable/harvest"
+      }
+    },
+    {
+      "type": "tconstruct:armor_harvest_enchantment",
+      "level": 1,
+      "name": "minecraft:silk_touch",
+      "slots": [
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ],
+      "tool": {
+        "type": "mantle:tag",
+        "tag": "tconstruct:modifiable/armor/worn"
+      }
+    },
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "tconstruct:generic.protection_cap",
+      "each_level": 0.05,
+      "flat": 0.05,
+      "operation": "addition",
+      "slots": [
+        "mainhand",
+        "offhand",
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ],
+      "tool": {
+        "type": "mantle:tag",
+        "tag": "tconstruct:modifiable/armor"
+      },
+      "tooltip_style": "percent"
+    }
+  ],
+  "tooltip_display": "always"
+}

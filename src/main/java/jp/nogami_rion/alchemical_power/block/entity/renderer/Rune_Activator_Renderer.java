@@ -30,7 +30,7 @@ public class Rune_Activator_Renderer implements BlockEntityRenderer<Rune_Activat
         pPoseStack.pushPose();
         pPoseStack.translate(0.5f,1.05f,0.5f);
         pPoseStack.scale(0.35f,0.35f,0.35f);
-        pPoseStack.mulPose(Axis.XP.rotationDegrees(270));
+        pPoseStack.mulPose(Axis.XP.rotationDegrees(90));
 
         itemRenderer.renderStatic(itemStack, ItemDisplayContext.FIXED,getLightLevel(pActivatorEntity.getLevel(),pActivatorEntity.getBlockPos()),
                 OverlayTexture.NO_OVERLAY,pPoseStack,pBuffer,pActivatorEntity.getLevel(),1);

@@ -577,33 +577,53 @@
   "fluid_type.alchemical_power.molten_unite_alloy": "溶融したユナイト合金",
   "fluid_type.alchemical_power.molten_singularity": "溶融した特異点",
 
+  "block.alchemical_power.infinite_water_barrel": "無限の水樽",
+  "block.alchemical_power.infinite_lava_barrel": "無限の溶岩樽",
+
 
   //TiC連携
   "material.alchemical_power.t1_panakeia_ingot": "下級パナケイアインゴット",
   "material.alchemical_power.t1_panakeia_ingot.flavor": "錬金術で青くなった金属。基本的に銅で作れるけど別に青銅とかではない。",
+  "material.alchemical_power.t1_panakeia_ingot.encyclopedia": "20%の耐久度増加とレベルごとに+0.25の攻撃力、射撃ダメージ、防御力の増加、10％の採掘・攻撃・弓引き速度、防具強度を得る。下級パナケイアインゴットはレベル1を持ち、更に銅と同じ特性を持つsy",
   "material.alchemical_power.t2_panakeia_ingot": "中級パナケイアインゴット",
   "material.alchemical_power.t2_panakeia_ingot.flavor": "錬金術で黄色くなった金属。基本的に鉄から作れる。金ではない。",
+  "material.alchemical_power.t2_panakeia_ingot.encyclopedia": "中級パナケイアインゴットはレベル2を持ち、更に鉄と同じ特性を持つ",
   "material.alchemical_power.t3_panakeia_ingot": "上級パナケイアインゴット",
   "material.alchemical_power.t3_panakeia_ingot.flavor": "錬金術で赤くなった金属。基本的に金から作れる。レッドストーンとは関係ない。",
+  "material.alchemical_power.t3_panakeia_ingot.encyclopedia": "上級パナケイアインゴットはレベル3を持ち、更に金と同じ特性を持つ",
   "material.alchemical_power.t4_panakeia_gem": "叡智のパナケイアジェム",
   "material.alchemical_power.t4_panakeia_gem.flavor": "錬金術で紫色になった宝石。金属を元に加工しても何故か宝石になる。",
+  "material.alchemical_power.t4_panakeia_gem.encyclopedia": "叡智のパナケイアインゴットはレベル4を持ち、更に既にダイヤモンドの加工が施されており、おまけの効果もある",
   "material.alchemical_power.t5_panakeia_gem": "究極のパナケイアジェム",
   "material.alchemical_power.t5_panakeia_gem.flavor": "錬金術で青くなった宝石。その謎を解明するため、我々錬金術師はアマゾンの奥地へと向かった――。",
+  "material.alchemical_power.t5_panakeia_gem.encyclopedia": "究極のパナケイアインゴットはレベル5を持ち、更に既にエメラルドの加工が施されており、おまけの効果もある",
   "material.alchemical_power.t6_panakeia_ingot": "神聖なるパナケイアインゴット",
   "material.alchemical_power.t6_panakeia_ingot.flavor": "錬金術で白くなった金属。ネザーの金属にも神聖を宿すのが錬金術なのだが、流石に白すぎると思う。",
+  "material.alchemical_power.t6_panakeia_ingot.encyclopedia": "神聖なるパナケイアインゴットはレベル6を持ち、更に既にネザライトの加工を施されており、おまけの効果もある",
   "material.alchemical_power.unite_alloy": "ユナイト合金",
   "material.alchemical_power.unite_alloy.flavor": "「虹の色を全て混ぜると白色になるのか？黒色になるのか？」という問題があるが、混ぜても虹色のままというのはMOD界隈ではよくあることなのだ。",
+  "material.alchemical_power.unite_alloy.encyclopedia": "「この合金に関して、私は真に驚くべき特性を見つけたが、この余白はそれを書くには狭すぎる。」  ――ネクティオス",
   "material.alchemical_power.singularity": "特異点",
   "material.alchemical_power.singularity.flavor": "JEIなどで「特異点」「シンギュラリティ」「singularity」と検索してみてください。何個出てきましたか？",
+  "material.alchemical_power.singularity.encyclopedia": "天を満たす光より、七重の必殺の力、万物を守る鎧、そしてあらゆる知識が齎される。",
 
   "stat.tconstruct.harvest_tier.alchemical_power.unite_alloy": "ユナイト",
-  "stat.tconstruct.harvest_tier.alchemical_power.singularity": "特異点"
+  "stat.tconstruct.harvest_tier.alchemical_power.singularity": "特異点",
 
-
-
-
-
-
-
+  "modifier.alchemical_power.panakeia": "パナケイア",
+  "modifier.alchemical_power.panakeia.flavor": "ちょっとした応用だよ",
+  "modifier.alchemical_power.panakeia.description": "錬金術で強化された素材はほんの少し頑丈で、ほんの少し強くて、ほんの少し軽い。",
+  "modifier.alchemical_power.superpolymerization": "超融合",
+  "modifier.alchemical_power.superpolymerization.flavor": "ものすごい結束！",
+  "modifier.alchemical_power.superpolymerization.description": "合金の素材の特性（ほぼ）全部乗せ！",
+  "modifier.alchemical_power.superpolymerization.mining_speed": "超融合：採掘速度",
+  "modifier.alchemical_power.superpolymerization.attack_damage": "超融合：攻撃力増加",
+  "modifier.alchemical_power.superpolymerization.resistance": "超融合：耐性",
+  "modifier.alchemical_power.singularity": "七彩",
+  "modifier.alchemical_power.singularity.flavor": "特異点の輝き",
+  "modifier.alchemical_power.singularity.description": "7回で全てを葬る。そして全てを防ぐ。",
+  "modifier.alchemical_power.akashic_records": "アカシックレコード",
+  "modifier.alchemical_power.akashic_records.flavor": "全ての知識",
+  "modifier.alchemical_power.akashic_records.description": "知識を詰め込める…具体的にはそれぞれ10個まで"
 
 }

@@ -1,55 +1,56 @@
 {
   "default": [
-    { "name": "tconstruct:gilded", "level": 1 }
+    { "name": "alchemical_power:superpolymerization", "level": 1 },
+    { "name": "alchemical_power:panakeia", "level": 10 }
   ],
   "perStat": {
     "tconstruct:head": [
-      { "name": "tconstruct:lightweight", "level": 2 },
-      { "name": "tconstruct:gilded", "level": 1 }
+      { "name": "alchemical_power:superpolymerization", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 10 }
     ],
     "tconstruct:handle": [
-      { "name": "tconstruct:lightweight", "level": 2 },
-      { "name": "tconstruct:gilded", "level": 1 }
+      { "name": "alchemical_power:superpolymerization", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 10 }
     ],
     "tconstruct:binding": [
-      { "name": "tconstruct:lightweight", "level": 2 },
-      { "name": "tconstruct:gilded", "level": 1 }
+      { "name": "alchemical_power:superpolymerization", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 10 }
     ],
     "tconstruct:rod": [
-      { "name": "tconstruct:lightweight", "level": 2 },
-      { "name": "tconstruct:gilded", "level": 1 }
+      { "name": "alchemical_power:superpolymerization", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 10 }
     ],
     "tconstruct:limb": [
-      { "name": "tconstruct:lightweight", "level": 2 },
-      { "name": "tconstruct:gilded", "level": 1 }
+      { "name": "alchemical_power:superpolymerization", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 10 }
     ],
     "tconstruct:grip": [
-      { "name": "tconstruct:lightweight", "level": 2 },
-      { "name": "tconstruct:gilded", "level": 1 }
+      { "name": "alchemical_power:superpolymerization", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 10 }
     ],
     "tconstruct:plating_helmet": [
-      { "name": "tconstruct:boundless", "level": 1 },
-      { "name": "tconstruct:gilded", "level": 1 }
+      { "name": "alchemical_power:superpolymerization", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 10 }
     ],
     "tconstruct:plating_chestplate": [
-      { "name": "tconstruct:boundless", "level": 1 },
-      { "name": "tconstruct:gilded", "level": 1 }
+      { "name": "alchemical_power:superpolymerization", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 10 }
     ],
     "tconstruct:plating_leggings": [
-      { "name": "tconstruct:boundless", "level": 1 },
-      { "name": "tconstruct:gilded", "level": 1 }
+      { "name": "alchemical_power:superpolymerization", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 10 }
     ],
     "tconstruct:plating_boots": [
-      { "name": "tconstruct:boundless", "level": 1 },
-      { "name": "tconstruct:gilded", "level": 1 }
+      { "name": "alchemical_power:superpolymerization", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 10 }
     ],
     "tconstruct:plating_shield": [
-      { "name": "tconstruct:boundless", "level": 1 },
-      { "name": "tconstruct:gilded", "level": 1 }
+      { "name": "alchemical_power:superpolymerization", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 10 }
     ],
     "tconstruct:maille": [
-      { "name": "tconstruct:boundless", "level": 1 },
-      { "name": "tconstruct:gilded", "level": 1 }
+      { "name": "alchemical_power:superpolymerization", "level": 1 },
+      { "name": "alchemical_power:panakeia", "level": 10 }
     ]
   }
 }

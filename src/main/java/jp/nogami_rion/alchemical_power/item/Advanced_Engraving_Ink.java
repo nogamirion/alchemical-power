@@ -15,6 +15,11 @@ public class Advanced_Engraving_Ink extends Item {
     }
 
     @Override
+    public boolean isRepairable(ItemStack itemstack) {
+        return false;
+    }
+
+    @Override
     public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
         ItemStack retval = new ItemStack(this);
         retval.setDamageValue(itemstack.getDamageValue() + 1);

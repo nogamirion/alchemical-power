@@ -12,6 +12,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -4375,6 +4376,325 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(itemlist.ALCHETREE_LOG.get()),has(itemlist.ALCHETREE_LOG.get()))
                 .save(consumer);
 
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.BASIC_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.COPPER_ORES),
+                itemlist.CRUSHED_RAW_COPPER.get(),
+                3
+        ).save(consumer,"copper_ore_grinding_basic_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.COPPER_ORES),
+                itemlist.CRUSHED_RAW_COPPER.get(),
+                6
+        ).save(consumer,"copper_ore_grinding_advanced_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ELITE_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.COPPER_ORES),
+                itemlist.CRUSHED_RAW_COPPER.get(),
+                9
+        ).save(consumer,"copper_ore_grinding_elite_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ULTIMATE_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.COPPER_ORES),
+                itemlist.CRUSHED_RAW_COPPER.get(),
+                12
+        ).save(consumer,"copper_ore_grinding_ultimate_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.PHILOSOPHERS_STONE.get()),
+                Ingredient.of(ModTags.Items.COPPER_ORES),
+                itemlist.CRUSHED_RAW_COPPER.get(),
+                64
+        ).save(consumer,"copper_ore_grinding_philosophers_stone");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.BASIC_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.IRON_ORES),
+                itemlist.CRUSHED_RAW_IRON.get(),
+                3
+        ).save(consumer,"iron_ore_grinding_basic_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.IRON_ORES),
+                itemlist.CRUSHED_RAW_IRON.get(),
+                6
+        ).save(consumer,"iron_ore_grinding_advanced_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ELITE_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.IRON_ORES),
+                itemlist.CRUSHED_RAW_IRON.get(),
+                9
+        ).save(consumer,"iron_ore_grinding_elite_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ULTIMATE_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.IRON_ORES),
+                itemlist.CRUSHED_RAW_IRON.get(),
+                12
+        ).save(consumer,"iron_ore_grinding_ultimate_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.PHILOSOPHERS_STONE.get()),
+                Ingredient.of(ModTags.Items.IRON_ORES),
+                itemlist.CRUSHED_RAW_IRON.get(),
+                64
+        ).save(consumer,"iron_ore_grinding_philosophers_stone");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.BASIC_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.GOLD_ORES),
+                itemlist.CRUSHED_RAW_GOLD.get(),
+                3
+        ).save(consumer,"gold_ore_grinding_basic_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.GOLD_ORES),
+                itemlist.CRUSHED_RAW_GOLD.get(),
+                6
+        ).save(consumer,"gold_ore_grinding_advanced_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ELITE_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.GOLD_ORES),
+                itemlist.CRUSHED_RAW_GOLD.get(),
+                9
+        ).save(consumer,"gold_ore_grinding_elite_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ULTIMATE_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.GOLD_ORES),
+                itemlist.CRUSHED_RAW_GOLD.get(),
+                12
+        ).save(consumer,"gold_ore_grinding_ultimate_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.PHILOSOPHERS_STONE.get()),
+                Ingredient.of(ModTags.Items.GOLD_ORES),
+                itemlist.CRUSHED_RAW_GOLD.get(),
+                64
+        ).save(consumer,"gold_ore_grinding_philosophers_stone");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.BASIC_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.DIAMOND_ORES),
+                itemlist.CRUSHED_DIAMOND_ORE.get(),
+                3
+        ).save(consumer,"diamond_ore_grinding_basic_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.DIAMOND_ORES),
+                itemlist.CRUSHED_DIAMOND_ORE.get(),
+                6
+        ).save(consumer,"diamond_ore_grinding_advanced_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ELITE_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.DIAMOND_ORES),
+                itemlist.CRUSHED_DIAMOND_ORE.get(),
+                9
+        ).save(consumer,"diamond_ore_grinding_elite_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ULTIMATE_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.DIAMOND_ORES),
+                itemlist.CRUSHED_DIAMOND_ORE.get(),
+                12
+        ).save(consumer,"diamond_ore_grinding_ultimate_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.PHILOSOPHERS_STONE.get()),
+                Ingredient.of(ModTags.Items.DIAMOND_ORES),
+                itemlist.CRUSHED_DIAMOND_ORE.get(),
+                64
+        ).save(consumer,"diamond_ore_grinding_philosophers_stone");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.BASIC_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.EMERALD_ORES),
+                itemlist.CRUSHED_EMERALD_ORE.get(),
+                3
+        ).save(consumer,"emerald_ore_grinding_basic_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.EMERALD_ORES),
+                itemlist.CRUSHED_EMERALD_ORE.get(),
+                6
+        ).save(consumer,"emerald_ore_grinding_advanced_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ELITE_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.EMERALD_ORES),
+                itemlist.CRUSHED_EMERALD_ORE.get(),
+                9
+        ).save(consumer,"emerald_ore_grinding_elite_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ULTIMATE_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.EMERALD_ORES),
+                itemlist.CRUSHED_EMERALD_ORE.get(),
+                12
+        ).save(consumer,"emerald_ore_grinding_ultimate_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.PHILOSOPHERS_STONE.get()),
+                Ingredient.of(ModTags.Items.EMERALD_ORES),
+                itemlist.CRUSHED_EMERALD_ORE.get(),
+                64
+        ).save(consumer,"emerald_ore_grinding_philosophers_stone");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.BASIC_PURIFICATION_RUNE.get()),
+                Ingredient.of(ModTags.Items.LAPIS_ORES),
+                Items.LAPIS_BLOCK,
+                3
+        ).save(consumer,"lapis_ore_purification_basic_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ADVANCED_PURIFICATION_RUNE.get()),
+                Ingredient.of(ModTags.Items.LAPIS_ORES),
+                Items.LAPIS_BLOCK,
+                6
+        ).save(consumer,"lapis_ore_purification_advanced_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ELITE_PURIFICATION_RUNE.get()),
+                Ingredient.of(ModTags.Items.LAPIS_ORES),
+                Items.LAPIS_BLOCK,
+                9
+        ).save(consumer,"lapis_ore_purification_elite_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ULTIMATE_PURIFICATION_RUNE.get()),
+                Ingredient.of(ModTags.Items.LAPIS_ORES),
+                Items.LAPIS_BLOCK,
+                12
+        ).save(consumer,"lapis_ore_purification_ultimate_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.PHILOSOPHERS_STONE.get()),
+                Ingredient.of(ModTags.Items.LAPIS_ORES),
+                Items.LAPIS_BLOCK,
+                64
+        ).save(consumer,"lapis_ore_purification_philosophers_stone");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.BASIC_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.REDSTONE_ORES),
+                Items.REDSTONE,
+                6
+        ).save(consumer,"redstone_ore_grinding_basic_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.REDSTONE_ORES),
+                Items.REDSTONE,
+                12
+        ).save(consumer,"redstone_ore_grinding_advanced_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ELITE_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.REDSTONE_ORES),
+                Items.REDSTONE,
+                18
+        ).save(consumer,"redstone_ore_grinding_elite_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ULTIMATE_GRINDING_RUNE.get()),
+                Ingredient.of(ModTags.Items.REDSTONE_ORES),
+                Items.REDSTONE,
+                24
+        ).save(consumer,"redstone_ore_grinding_ultimate_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.PHILOSOPHERS_STONE.get()),
+                Ingredient.of(ModTags.Items.REDSTONE_ORES),
+                Items.REDSTONE,
+                64
+        ).save(consumer,"redstone_ore_grinding_philosophers_stone");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.BASIC_GRINDING_RUNE.get()),
+                Ingredient.of(Items.NETHER_QUARTZ_ORE),
+                Items.QUARTZ,
+                3
+        ).save(consumer,"quartz_ore_grinding_basic_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ADVANCED_GRINDING_RUNE.get()),
+                Ingredient.of(Items.NETHER_QUARTZ_ORE),
+                Items.QUARTZ,
+                6
+        ).save(consumer,"quartz_ore_grinding_advanced_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ELITE_GRINDING_RUNE.get()),
+                Ingredient.of(Items.NETHER_QUARTZ_ORE),
+                Items.QUARTZ,
+                9
+        ).save(consumer,"quartz_ore_grinding_elite_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ULTIMATE_GRINDING_RUNE.get()),
+                Ingredient.of(Items.NETHER_QUARTZ_ORE),
+                Items.QUARTZ,
+                12
+        ).save(consumer,"quartz_ore_grinding_ultimate_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.PHILOSOPHERS_STONE.get()),
+                Ingredient.of(Items.NETHER_QUARTZ_ORE),
+                Items.QUARTZ,
+                64
+        ).save(consumer,"quartz_ore_grinding_philosophers_stone");
 
 
     }

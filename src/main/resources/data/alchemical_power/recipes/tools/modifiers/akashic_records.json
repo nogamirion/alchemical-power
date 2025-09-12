@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    { "ingredient": {"item":"alchemical_power:singularity_ingot"},
+      "amount_needed": 1
+    }
+  ],
+  "tools": { "tag": "tconstruct:modifiable"},
+  "result":"alchemical_power:akashic_records",
+  "level": 1
+}

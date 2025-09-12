@@ -2,9 +2,11 @@ package jp.nogami_rion.alchemical_power.dategen;
 
 import jp.nogami_rion.alchemical_power.Alchemical_power;
 import jp.nogami_rion.alchemical_power.init.blocklist;
+import jp.nogami_rion.alchemical_power.item.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -77,6 +79,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(blocklist.PANAKEIA_BEARING_STONE.get())
                 .add(blocklist.T1_PANAKEIA_INGOT_BLOCK.get())
                 .add(blocklist.T2_PANAKEIA_INGOT_BLOCK.get())
+                .add(blocklist.INFINITE_WATER_BARREL.get())
+                .add(blocklist.INFINITE_LAVA_BARREL.get())
+
         ;
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
@@ -133,8 +138,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(blocklist.ALCHETREE_PRESSURE_PLATE.get());
         this.tag(BlockTags.WOODEN_BUTTONS)
                 .add(blocklist.ALCHETREE_BUTTON.get());
-
-
 
 
 

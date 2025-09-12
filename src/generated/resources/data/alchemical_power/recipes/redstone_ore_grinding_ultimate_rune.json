@@ -1,0 +1,15 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {
+      "item": "alchemical_power:ultimate_grinding_rune"
+    },
+    {
+      "tag": "alchemical_power:redstone_ores"
+    }
+  ],
+  "output": {
+    "count": 24,
+    "item": "minecraft:redstone"
+  }
+}

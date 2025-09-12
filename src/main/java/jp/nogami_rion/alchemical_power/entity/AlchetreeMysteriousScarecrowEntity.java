@@ -141,7 +141,7 @@ public class AlchetreeMysteriousScarecrowEntity extends Mob {
         if(amount > cap) amount = cap;
 
         boolean result = super.hurt(source, amount);
-        if(this.getHealth() <= 0.0f){
+        if(this.getHealth() <= 0.0f && this.isAlive()){
             this.setHealth(this.getMaxHealth());
         }
         if(this.isAlive()) {

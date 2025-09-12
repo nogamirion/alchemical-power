@@ -41,7 +41,7 @@ public class Origins_armor_effect_event {
         // Crimson Plate of Justiceの効果
         if (chest.getItem() instanceof Crimson_Plate_of_Justice) {
             LivingEntity attacker = (LivingEntity) event.getSource().getEntity();
-            if (attacker == null || !(player.level() instanceof ServerLevel level)) return;
+            if (attacker == null || attacker == player || !(player.level() instanceof ServerLevel level)) return;
 
             float incomingDamage = event.getAmount(); // 軽減前のダメージ
             DamageSource thornsSource = level.damageSources().thorns(player);
@@ -67,7 +67,7 @@ public class Origins_armor_effect_event {
         // Judicial Carapaceの効果
         if (chest.getItem() instanceof JudicialCarapace) {
             LivingEntity attacker = (LivingEntity) event.getSource().getEntity();
-            if (attacker == null || !(player.level() instanceof ServerLevel level)) return;
+            if (attacker == null || attacker == player || !(player.level() instanceof ServerLevel level)) return;
 
             float incomingDamage = event.getAmount(); // 軽減前のダメージ
             DamageSource reflectSource = ModDamageTypes.singularityTrue((ServerLevel)player.level(),player);// 反射用のダメージソース

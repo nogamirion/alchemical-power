@@ -1,0 +1,11 @@
+{
+  "name": "05.錬金樹の不思議な案山子",
+  "icon": "alchemical_power:alchetree_mysterious_scarecrow",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "錬金樹で作られた案山子が出てくる。案山子は受けたダメージを周りのすべての生物に波及させる。スニーク+右クリックで回収できる。"
+    }
+  ]
+}

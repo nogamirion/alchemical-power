@@ -1,0 +1,15 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {
+      "item": "alchemical_power:basic_purification_rune"
+    },
+    {
+      "tag": "alchemical_power:lapis_ores"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "item": "minecraft:lapis_block"
+  }
+}
