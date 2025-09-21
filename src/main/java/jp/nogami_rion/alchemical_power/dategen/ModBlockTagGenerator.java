@@ -6,6 +6,7 @@ import jp.nogami_rion.alchemical_power.item.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -72,6 +73,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(blocklist.X38025_COBBLESTONE_GENERATOR_MK6.get())
                 .add(blocklist.X38025_COBBLESTONE_GENERATOR_MK7.get())
                 .add(blocklist.X38025_COBBLESTONE_GENERATOR_MK8.get())
+
+        ;
+
+        this.tag(BlockTags.MINEABLE_WITH_AXE)
+                .add(blocklist.INFINITE_WATER_BARREL.get())
+                .add(blocklist.INFINITE_LAVA_BARREL.get())
 
         ;
 

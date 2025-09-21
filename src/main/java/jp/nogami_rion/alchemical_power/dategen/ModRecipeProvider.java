@@ -1170,6 +1170,166 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         new RuneActivatorRecipeBuilder(
                 new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.BASIC_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_GRANULATED_EMERALD.get()),
+                itemlist.COLLECTED_SOFTENED_EMERALD.get(),
+                2
+        ).save(consumer,"collected_emerald_softened_basic_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ADVANCED_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_GRANULATED_EMERALD.get()),
+                itemlist.COLLECTED_SOFTENED_EMERALD.get(),
+                4
+        ).save(consumer,"collected_emerald_softened_advanced_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ELITE_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_GRANULATED_EMERALD.get()),
+                itemlist.COLLECTED_SOFTENED_EMERALD.get(),
+                6
+        ).save(consumer,"collected_emerald_softened_elite_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ULTIMATE_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_GRANULATED_EMERALD.get()),
+                itemlist.COLLECTED_SOFTENED_EMERALD.get(),
+                8
+        ).save(consumer,"collected_emerald_softened_ultimate_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.PHILOSOPHERS_STONE.get()),
+                Ingredient.of(itemlist.COLLECTED_GRANULATED_EMERALD.get()),
+                itemlist.COLLECTED_SOFTENED_EMERALD.get(),
+                64
+        ).save(consumer,"collected_emerald_softened_philosophers_stone");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.BASIC_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_GRANULATED_ANCIENT_DEBRIS.get()),
+                itemlist.COLLECTED_SOFTENED_ANCIENT_DEBRIS.get(),
+                2
+        ).save(consumer,"collected_ancient_debris_softened_basic_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ADVANCED_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_GRANULATED_ANCIENT_DEBRIS.get()),
+                itemlist.COLLECTED_SOFTENED_ANCIENT_DEBRIS.get(),
+                4
+        ).save(consumer,"collected_ancient_debris_softened_advanced_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ELITE_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_GRANULATED_ANCIENT_DEBRIS.get()),
+                itemlist.COLLECTED_SOFTENED_ANCIENT_DEBRIS.get(),
+                6
+        ).save(consumer,"collected_ancient_debris_softened_elite_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ULTIMATE_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_GRANULATED_ANCIENT_DEBRIS.get()),
+                itemlist.COLLECTED_SOFTENED_ANCIENT_DEBRIS.get(),
+                8
+        ).save(consumer,"collected_ancient_debris_softened_ultimate_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.PHILOSOPHERS_STONE.get()),
+                Ingredient.of(itemlist.COLLECTED_GRANULATED_ANCIENT_DEBRIS.get()),
+                itemlist.COLLECTED_SOFTENED_ANCIENT_DEBRIS.get(),
+                64
+        ).save(consumer,"collected_ancient_debris_softened_philosophers_stone");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.BASIC_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_SOFTENED_EMERALD.get()),
+                itemlist.COLLECTED_PURIFIED_EMERALD.get(),
+                2
+        ).save(consumer,"collected_emerald_purified_basic_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ADVANCED_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_SOFTENED_EMERALD.get()),
+                itemlist.COLLECTED_PURIFIED_EMERALD.get(),
+                4
+        ).save(consumer,"collected_emerald_purified_advanced_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ELITE_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_SOFTENED_EMERALD.get()),
+                itemlist.COLLECTED_PURIFIED_EMERALD.get(),
+                6
+        ).save(consumer,"collected_emerald_purified_elite_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ULTIMATE_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_SOFTENED_EMERALD.get()),
+                itemlist.COLLECTED_PURIFIED_EMERALD.get(),
+                8
+        ).save(consumer,"collected_emerald_purified_ultimate_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.PHILOSOPHERS_STONE.get()),
+                Ingredient.of(itemlist.COLLECTED_SOFTENED_EMERALD.get()),
+                itemlist.COLLECTED_PURIFIED_EMERALD.get(),
+                64
+        ).save(consumer,"collected_emerald_purified_philosophers_stone");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.BASIC_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_SOFTENED_ANCIENT_DEBRIS.get()),
+                itemlist.COLLECTED_PURIFIED_ANCIENT_DEBRIS.get(),
+                2
+        ).save(consumer,"collected_ancient_debris_purified_basic_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ADVANCED_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_SOFTENED_ANCIENT_DEBRIS.get()),
+                itemlist.COLLECTED_PURIFIED_ANCIENT_DEBRIS.get(),
+                4
+        ).save(consumer,"collected_ancient_debris_purified_advanced_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ELITE_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_SOFTENED_ANCIENT_DEBRIS.get()),
+                itemlist.COLLECTED_PURIFIED_ANCIENT_DEBRIS.get(),
+                6
+        ).save(consumer,"collected_ancient_debris_purified_elite_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.ULTIMATE_SOFTENING_RUNE.get()),
+                Ingredient.of(itemlist.COLLECTED_SOFTENED_ANCIENT_DEBRIS.get()),
+                itemlist.COLLECTED_PURIFIED_ANCIENT_DEBRIS.get(),
+                8
+        ).save(consumer,"collected_ancient_debris_purified_ultimate_rune");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.PHILOSOPHERS_STONE.get()),
+                Ingredient.of(itemlist.COLLECTED_SOFTENED_ANCIENT_DEBRIS.get()),
+                itemlist.COLLECTED_PURIFIED_ANCIENT_DEBRIS.get(),
+                64
+        ).save(consumer,"collected_ancient_debris_purified_philosophers_stone");
+
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
                 Ingredient.of(itemlist.BASIC_GRANULATING_RUNE.get()),
                 Ingredient.of(itemlist.PACKAGED_CRUSHED_RAW_COPPER.get()),
                 itemlist.PACKAGED_GRANULATED_COPPER.get(),
@@ -2349,7 +2509,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(itemlist.COOKWARE_SET.get())
                 .requires(ItemTags.create(new ResourceLocation("forge","dough/wheat")))
                 .unlockedBy(getHasName(itemlist.COOKWARE_SET.get()),has(itemlist.COOKWARE_SET.get()))
-                .save(consumer);
+                .save(consumer,"bread_cooking");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.CHEESE_BREAD.get(),1)
                 .requires(itemlist.COOKWARE_SET.get())
@@ -4174,9 +4334,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,Items.SLIME_BALL,1)
                 .requires(itemlist.COOKWARE_SET.get())
                 .requires(ItemTags.create(new ResourceLocation("forge","dough")))
-                .requires(Items.GREEN_DYE)
+                .requires(Items.LIME_DYE)
                 .unlockedBy(getHasName(itemlist.COOKWARE_SET.get()),has(itemlist.COOKWARE_SET.get()))
-                .save(consumer);
+                .save(consumer,"slime_ball_cooking");
 
         new RuneActivatorRecipeBuilder(
                 new ResourceLocation("alchemical_power","rune_activator_recipe"),

@@ -9,6 +9,16 @@
     },
     {
       "type": "patchouli:text",
+      "title": "Ver.1.1.5 Page1",
+      "text": "1.Bug Fixes $(br) 1-1:Fixed an issue where some duplication recipes were not implemented. $(br) 1-2:Fixed a problem where incorrect recipe IDs in this mod’s Slimeball and Bread recipes caused conflicts with vanilla recipes. $(br) 1-3:Fixed an issue where the Infinite Water Barrel and Infinite Lava Barrel could not be collected due to lacking proper tool assignments."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ver.1.1.5 Page2",
+      "text": "2.Adjustments $(br) 2-1:Changed the dye used in the Slimeball recipe from Green Dye to Lime Dye."
+    },
+    {
+      "type": "patchouli:text",
       "title": "Ver.1.1.4 Page1",
       "text": "1.Bug Fixes $(br) 1-1:Fixed a duplication bug where combining two damaged Runes or Inks in crafting would result in extra items being created.As part of this fix, some Runes and Inks can no longer be repaired through crafting."
     },

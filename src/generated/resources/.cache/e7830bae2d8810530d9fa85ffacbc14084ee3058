@@ -1,7 +1,8 @@
-// 1.20.1	2025-09-12T23:29:37.3040761	Tags for minecraft:block mod id alchemical_power
+// 1.20.1	2025-09-19T10:32:29.713656	Tags for minecraft:block mod id alchemical_power
 0f29c01f1b470d0f914dc81107eee37a22810abb data/minecraft/tags/blocks/fence_gates.json
 053cc1fa0db0fc5d3fae5ab007387be7268357e4 data/minecraft/tags/blocks/leaves.json
 ead1f8b7139b70d605562ffa18c7f8073cbded9d data/minecraft/tags/blocks/logs_that_burn.json
+3c08c4e52dee0d60f02fd4cc8115fc9ea6c415ad data/minecraft/tags/blocks/mineable/axe.json
 c212d8e9d76104db0331bb3f9f76c1658f00480c data/minecraft/tags/blocks/mineable/pickaxe.json
 1fe65061fada2078ee6d1acd47aa7425fa9a0f28 data/minecraft/tags/blocks/needs_diamond_tool.json
 2333f5b1c56b19e7b9fffafeb25f525bc9f38e92 data/minecraft/tags/blocks/needs_iron_tool.json
