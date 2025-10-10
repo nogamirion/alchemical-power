@@ -1,0 +1,9 @@
+{
+  "asset_name": "alchemical_power_t6_panakeia",
+  "description": {
+    "color": "#00CCCC",
+    "translate": "trim_material.alchemical_power.t6_panakeia"
+  },
+  "ingredient": "alchemical_power:t6_panakeia",
+  "item_model_index": 0.5
+}

@@ -398,6 +398,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         saplingItem(itemlist.ALCHETREE_SAPLINGS_T7);
         simpleItem(itemlist.ALCHETREE_MYSTERIOUS_SCARECROW);
 
+        simpleItem(itemlist.CBBBICS);
+        simpleItem(itemlist.RUNE_CATALYST);
+        simpleItem(itemlist.UNNATURAL_CATALYST);
+        simpleItem(itemlist.INFINITY_PANAKEIA);
+        simpleItem(itemlist.IMITATED_BEDROCKIUM_INGOT);
+        simpleItem(itemlist.JCMOWFBFWSBPOOFBCICIM);
+
 
 
 

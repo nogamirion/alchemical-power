@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alchemical_power:cookware_set"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "alchemical_power:milk_bottle"
+    },
+    {
+      "tag": "alchemical_power:jams"
+    }
+  ],
+  "result": {
+    "item": "alchemical_power:confectionbybakingbatterintocylindricalshape"
+  }
+}

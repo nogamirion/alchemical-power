@@ -13,6 +13,8 @@ import jp.nogami_rion.alchemical_power.registry.ModFluids;
 import jp.nogami_rion.alchemical_power.registry.ModTiers;
 import jp.nogami_rion.alchemical_power.screen.*;
 import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -100,6 +102,9 @@ public class Alchemical_power {
             MenuScreens.register(ModMenuTypes.TRANSCENDENTAL_TABLE_MENU.get(), Transcendental_Table_Screen::new);
             MenuScreens.register(ModMenuTypes.ALCHEMICAL_ENGRAVER_MENU.get(), Alchemical_Engraver_Screen::new);
             MenuScreens.register(ModMenuTypes.RUNE_ACTIVATOR_MENU.get(), Rune_Activator_Screen::new);
+
+            //ブロックモデルのレンダーレイヤー指定
+            ItemBlockRenderTypes.setRenderLayer(blocklist.PAIN_CONVERTER.get(), RenderType.cutout());
         }
     }
 }

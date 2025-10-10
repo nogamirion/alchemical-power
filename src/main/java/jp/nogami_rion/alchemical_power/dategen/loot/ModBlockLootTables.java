@@ -109,6 +109,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(blocklist.INFINITE_WATER_BARREL.get());
         this.dropSelf(blocklist.INFINITE_LAVA_BARREL.get());
 
+        this.dropSelf(blocklist.PAIN_CONVERTER.get());
+
 
         this.add(blocklist.ALCHETREE_LEAVES[0].get(),block -> createLeavesDrops(block,blocklist.ALCHETREE_SAPLINGS_T0.get(),
                 NORMAL_LEAVES_SAPLING_CHANCES)

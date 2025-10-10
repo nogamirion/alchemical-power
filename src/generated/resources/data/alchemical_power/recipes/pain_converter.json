@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "b": {
+      "item": "alchemical_power:t1_panakeia_ingot"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " a ",
+    "b b",
+    "ccc"
+  ],
+  "result": {
+    "item": "alchemical_power:pain_converter"
+  },
+  "show_notification": true
+}

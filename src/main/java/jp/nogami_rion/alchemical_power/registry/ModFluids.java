@@ -89,7 +89,7 @@ public class ModFluids {
         // Block / Bucket
         RegistryObject<LiquidBlock> block = BLOCKS.register(fluidId,
                 () -> new LiquidBlock(source, BlockBehaviour.Properties.of()
-                        .noCollission().strength(100.0F).lightLevel(s -> light).noLootTable()));
+                        .noCollission().strength(100.0F).lightLevel(s -> light).noLootTable().replaceable()));
         RegistryObject<Item> bucket = ITEMS.register(bucketId,
                 () -> new BucketItem(source, new Item.Properties()
                         .craftRemainder(Items.BUCKET).stacksTo(1)));

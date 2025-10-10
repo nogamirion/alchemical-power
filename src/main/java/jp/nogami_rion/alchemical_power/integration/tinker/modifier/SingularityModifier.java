@@ -27,6 +27,7 @@ import slimeknights.tconstruct.library.modifiers.hook.armor.OnAttackedModifierHo
 import slimeknights.tconstruct.library.modifiers.hook.armor.ProtectionModifierHook;
 import slimeknights.tconstruct.library.modifiers.hook.combat.MeleeHitModifierHook;
 import slimeknights.tconstruct.library.modifiers.hook.ranged.ProjectileHitModifierHook;
+import slimeknights.tconstruct.library.modifiers.impl.DurabilityShieldModifier;
 import slimeknights.tconstruct.library.module.ModuleHookMap;
 import slimeknights.tconstruct.library.tools.context.EquipmentContext;
 import slimeknights.tconstruct.library.tools.context.ToolAttackContext;
@@ -39,7 +40,7 @@ import javax.annotation.Nullable;
 import java.awt.*;
 import java.util.List;
 
-public class SingularityModifier extends Modifier implements ProjectileHitModifierHook, MeleeHitModifierHook, OnAttackedModifierHook, ProtectionModifierHook{
+public class SingularityModifier extends Modifier implements ProjectileHitModifierHook, MeleeHitModifierHook, OnAttackedModifierHook, ProtectionModifierHook {
 
     @Override
     protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
@@ -230,4 +231,5 @@ public class SingularityModifier extends Modifier implements ProjectileHitModifi
         int rgb = Color.HSBtoRGB(hue, 1.0f, 1.0f);
         return Component.literal(this.getDisplayName().getString()).withStyle(style -> style.withColor(TextColor.fromRgb(rgb)));
     }
+
 }

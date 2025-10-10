@@ -360,7 +360,11 @@ public class creativetab {
                     output.accept(ModFluids.UNITE_ALLOY.bucket.get());
                     output.accept(ModFluids.SINGULARITY.bucket.get());
 
-
+                    output.accept(itemlist.PAIN_CONVERTER.get());
+                    output.accept(itemlist.RUNE_CATALYST.get());
+                    output.accept(itemlist.UNNATURAL_CATALYST.get());
+                    output.accept(itemlist.INFINITY_PANAKEIA.get());
+                    output.accept(itemlist.IMITATED_BEDROCKIUM_INGOT.get());
 
                 })
                 .build());
@@ -458,6 +462,7 @@ public class creativetab {
                     output.accept(itemlist.CHOCOLATE_CAKE.get());
                     output.accept(itemlist.LEMON_CAKE.get());
                     output.accept(itemlist.APPLE_PIE.get());
+                    output.accept(itemlist.CBBBICS.get());
 
                     //食材系アイテム（野菜系）
                     output.accept(itemlist.COLESLAW.get());
@@ -487,6 +492,7 @@ public class creativetab {
                     output.accept(itemlist.JAM_BUN.get());
 
                     output.accept(itemlist.OMG_STEW.get());
+                    output.accept(itemlist.JCMOWFBFWSBPOOFBCICIM.get());
 
                 }).build());
     }

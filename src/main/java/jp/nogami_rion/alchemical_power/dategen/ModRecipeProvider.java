@@ -2136,6 +2136,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(itemlist.COBBLESTONE_GENERATOR_Mk7.get()),has(itemlist.COBBLESTONE_GENERATOR_Mk7.get()))
                 .save(consumer);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.SINGULARITY_NUGGET.get(),9)
+                .requires(itemlist.SINGULARITY_INGOT.get())
+                .unlockedBy(getHasName(itemlist.SINGULARITY_INGOT.get()),has(itemlist.SINGULARITY_INGOT.get()))
+                .save(consumer);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.SINGULARITY_INGOT.get(),1)
                 .requires(itemlist.SINGULARITY_NUGGET.get(),9)
                 .unlockedBy(getHasName(itemlist.SINGULARITY_NUGGET.get()),has(itemlist.SINGULARITY_NUGGET.get()))
@@ -4211,7 +4215,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("cbc")
                 .define('a',itemlist.UNITE_ALLOY_SMITHING_TEMPLATE.get())
                 .define('b',itemlist.SINGULARITY_INGOT.get())
-                .define('c',itemlist.IMITATED_BEDROCK.get())
+                .define('c',itemlist.IMITATED_BEDROCKIUM_INGOT.get())
                 .unlockedBy(getHasName(itemlist.SINGULARITY_INGOT.get()),has(itemlist.SINGULARITY_INGOT.get()))
                 .save(consumer,"singularity_ingot_upgrade_smithing_template_crafting");
 
@@ -4855,6 +4859,26 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 Items.QUARTZ,
                 64
         ).save(consumer,"quartz_ore_grinding_philosophers_stone");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.CBBBICS.get(),1)
+                .requires(itemlist.COOKWARE_SET.get())
+                .requires(ItemTags.create(new ResourceLocation("forge","flour")))
+                .requires(Items.EGG)
+                .requires(Items.SUGAR)
+                .requires(itemlist.MILK_BOTTLE.get())
+                .requires(ModTags.Items.JAMS)
+                .unlockedBy(getHasName(itemlist.COOKWARE_SET.get()),has(itemlist.COOKWARE_SET.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, itemlist.PAIN_CONVERTER.get(),1)
+                .pattern(" a ")
+                .pattern("b b")
+                .pattern("ccc")
+                .define('a',Items.HEAVY_WEIGHTED_PRESSURE_PLATE)
+                .define('b',itemlist.T1_PANAKEIA_INGOT.get())
+                .define('c',Items.IRON_INGOT)
+                .unlockedBy(getHasName(itemlist.T1_PANAKEIA_INGOT.get()),has(itemlist.T1_PANAKEIA_INGOT.get()))
+                .save(consumer);
 
 
     }

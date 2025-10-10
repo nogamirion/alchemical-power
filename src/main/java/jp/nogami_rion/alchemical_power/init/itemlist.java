@@ -8,7 +8,10 @@ import jp.nogami_rion.alchemical_power.item.accessory.Alchemists_ring;
 import jp.nogami_rion.alchemical_power.item.accessory.Gluttonys_ring;
 import jp.nogami_rion.alchemical_power.item.accessory.Greed_Ring;
 import jp.nogami_rion.alchemical_power.item.baseclass.*;
+import jp.nogami_rion.alchemical_power.item.custom.EnergyBlockItem;
 import jp.nogami_rion.alchemical_power.item.custom.FuelItem;
+import jp.nogami_rion.alchemical_power.item.food.ConfectionByBakingBatterIntoCylindricalShape;
+import jp.nogami_rion.alchemical_power.item.food.JapaneseConfectionMadeOfWheatFlourBatterFilledWithSweetBeanPasteOfOtherFillingsBakedInCircularCastIronMold;
 import jp.nogami_rion.alchemical_power.item.food.Steaves_Lava_Chicken;
 import jp.nogami_rion.alchemical_power.item.materials.*;
 import jp.nogami_rion.alchemical_power.item.rune.*;
@@ -388,6 +391,12 @@ public class itemlist {
     public static final RegistryObject<Item> INFINITE_WATER_BARREL = ITEMS.register("infinite_water_barrel", () -> new BlockItem(blocklist.INFINITE_WATER_BARREL.get(), new Item.Properties()));
     public static final RegistryObject<Item> INFINITE_LAVA_BARREL = ITEMS.register("infinite_lava_barrel", () -> new BlockItem(blocklist.INFINITE_LAVA_BARREL.get(), new Item.Properties()));
 
+    public static final RegistryObject<Item> PAIN_CONVERTER = ITEMS.register("pain_converter",() -> new EnergyBlockItem(blocklist.PAIN_CONVERTER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> RUNE_CATALYST = ITEMS.register("rune_catalyst",EpicFoilAlchemyMaterial::new);
+    public static final RegistryObject<Item> INFINITY_PANAKEIA = ITEMS.register("infinity_panakeia",EpicFoilAlchemyMaterial::new);
+    public static final RegistryObject<Item> IMITATED_BEDROCKIUM_INGOT = ITEMS.register("imitated_bedrockium_ingot",EpicAlchemyMaterial::new);
+    public static final RegistryObject<Item> UNNATURAL_CATALYST = ITEMS.register("unnatural_catalyst",EpicFoilAlchemyMaterial::new);
+
 
     //食材系アイテム（材料系）
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",() -> new BaseFoodItem(64,2,0.6F));
@@ -409,6 +418,8 @@ public class itemlist {
     public static final RegistryObject<Item> BUTTER = ITEMS.register("butter",CommonAlchemyMaterial::new);
     public static final RegistryObject<Item> COD_ROE = ITEMS.register("cod_roe",() -> new BaseFoodItem(64,2,0.6F));
     public static final RegistryObject<Item> SALMON_ROE = ITEMS.register("salmon_roe",() -> new BaseFoodItem(64,2,0.6F));
+
+    public static final RegistryObject<Item> AZUKI_BEANS = ITEMS.register("azuki_beans",CommonAlchemyMaterial::new);
 
     //食材系アイテム（飲料・ジャム系）
     public static final RegistryObject<Item> SWEET_BERRY_JAM = ITEMS.register("sweet_berry_jam",() -> new BaseDrinkItem(64,3,0.6F));
@@ -478,6 +489,8 @@ public class itemlist {
     public static final RegistryObject<Item> LEMON_CAKE = ITEMS.register("lemon_cake",() -> new BaseFoodItem(16,4,0.4F));
     public static final RegistryObject<Item> APPLE_PIE = ITEMS.register("apple_pie",() -> new BaseFoodItem(16,4,0.4F));
 
+    public static final RegistryObject<Item> CBBBICS = ITEMS.register("confectionbybakingbatterintocylindricalshape", ConfectionByBakingBatterIntoCylindricalShape::new);
+
     //食材系アイテム(野菜系）
     public static final RegistryObject<Item> COLESLAW = ITEMS.register("coleslaw",() -> new BaseFoodItem(16,6,0.4F));
     public static final RegistryObject<Item> CHEESE_BAKED_POTATO = ITEMS.register("cheese_baked_potato",() -> new BaseFoodItem(16,6,1.2F));
@@ -507,6 +520,7 @@ public class itemlist {
 
     //完全食
     public static final RegistryObject<Item> OMG_STEW = ITEMS.register("omg_stew", OMG_Stew::new);
+    public static final RegistryObject<Item> JCMOWFBFWSBPOOFBCICIM = ITEMS.register("japaneseconfectionmadeofwheatflourbatterfilledwithsweetbeanpasteofotherfillingsbakedincirecularcastironmold", JapaneseConfectionMadeOfWheatFlourBatterFilledWithSweetBeanPasteOfOtherFillingsBakedInCircularCastIronMold::new);
 
 
 

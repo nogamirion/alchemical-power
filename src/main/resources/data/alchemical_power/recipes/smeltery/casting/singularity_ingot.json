@@ -2,6 +2,6 @@
   "type": "tconstruct:casting_table",
   "cast": { "tag": "tconstruct:casts/multi_use/ingot" },
   "fluid": { "fluid": "alchemical_power:molten_singularity", "amount": 810 },
-  "result": "alchemical_power:singularity",
+  "result": "alchemical_power:singularity_ingot",
   "cooling_time": 200
 }

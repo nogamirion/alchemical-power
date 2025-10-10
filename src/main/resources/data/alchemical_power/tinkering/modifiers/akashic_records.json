@@ -33,6 +33,10 @@
       "each_level": 1.0,
       "operation": "multiply_base",
       "stat": "tconstruct:attack_damage"
+    },
+    {
+      "type": "tconstruct:reduce_tool_damage",
+      "flat": 1.0
     }
   ],
   "tooltip_display": "always"

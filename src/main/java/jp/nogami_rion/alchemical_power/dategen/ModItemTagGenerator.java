@@ -263,6 +263,14 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(Blocks.REDSTONE_ORE.asItem())
                 .add(Blocks.DEEPSLATE_REDSTONE_ORE.asItem());
 
+        this.tag(ItemTags.TRIM_MATERIALS)
+                .add(itemlist.T1_PANAKEIA.get())
+                .add(itemlist.T2_PANAKEIA.get())
+                .add(itemlist.T3_PANAKEIA.get())
+                .add(itemlist.T4_PANAKEIA.get())
+                .add(itemlist.T5_PANAKEIA.get())
+                .add(itemlist.T6_PANAKEIA.get())
+                .add(itemlist.T7_PANAKEIA.get());
 
 
 

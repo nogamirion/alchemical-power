@@ -72,6 +72,10 @@ public class ModBlockEntities {
             BLOCK_ENTITIES.register("infinite_lava_barrel_be",() ->
                     BlockEntityType.Builder.of(InfiniteLavaBarrelEntity::new, blocklist.INFINITE_LAVA_BARREL.get()).build(null));
 
+    public static final RegistryObject<BlockEntityType<PainConverterBlockEntity>> PAIN_CONVERTER_BE =
+            BLOCK_ENTITIES.register("pain_converter_be",() ->
+                    BlockEntityType.Builder.of(PainConverterBlockEntity::new, blocklist.PAIN_CONVERTER.get()).build(null));
+
     public static void register(IEventBus eventBus){
         BLOCK_ENTITIES.register(eventBus);
     }

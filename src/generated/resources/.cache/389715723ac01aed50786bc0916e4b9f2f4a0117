@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-13T03:35:16.7147686	Tags for minecraft:item mod id alchemical_power
+// 1.20.1	2025-10-09T13:42:40.1219214	Tags for minecraft:item mod id alchemical_power
 0f9567d8e352415eaaa31cf0e4db1a23a3cf6811 data/alchemical_power/tags/items/alchemy_kit_tier1.json
 90c4347ed612802c6f05ec543212ca47c06a92d2 data/alchemical_power/tags/items/alchemy_kit_tier2.json
 6ecf49a8c398b07d3ee497821b381387a2f52aa0 data/alchemical_power/tags/items/alchemy_kit_tier3.json
@@ -36,3 +36,4 @@ f0d183286c57e47f55dbd37f9b4fd6399969c3c9 data/alchemical_power/tags/items/t5_gem
 ee9f200ca076b067ac761a5e59c33b6049d596d3 data/alchemical_power/tags/items/t7_ingot_material.json
 ead1f8b7139b70d605562ffa18c7f8073cbded9d data/minecraft/tags/items/logs_that_burn.json
 01e7bd02607d8a7c00292016b05f9f696e0c8e86 data/minecraft/tags/items/planks.json
+dd12bcf50e72d8ce72f71928f6dab7b67e89dd2d data/minecraft/tags/items/trim_materials.json

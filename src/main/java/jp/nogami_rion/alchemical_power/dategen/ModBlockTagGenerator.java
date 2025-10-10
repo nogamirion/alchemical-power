@@ -73,6 +73,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(blocklist.X38025_COBBLESTONE_GENERATOR_MK6.get())
                 .add(blocklist.X38025_COBBLESTONE_GENERATOR_MK7.get())
                 .add(blocklist.X38025_COBBLESTONE_GENERATOR_MK8.get())
+                .add(blocklist.PAIN_CONVERTER.get())
 
         ;
 

@@ -142,6 +142,9 @@ public class blocklist {
     public static final RegistryObject<Block> INFINITE_WATER_BARREL = BLOCKS.register("infinite_water_barrel", InfiniteWaterBarrel::new);
     public static final RegistryObject<Block> INFINITE_LAVA_BARREL = BLOCKS.register("infinite_lava_barrel", InfiniteLavaBarrel::new);
 
+    public static final RegistryObject<Block> PAIN_CONVERTER = BLOCKS.register("pain_converter", PainConverterBlock::new);
+
+
     //アイテムリストの登録用
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);
