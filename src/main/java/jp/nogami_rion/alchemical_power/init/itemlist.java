@@ -443,6 +443,8 @@ public class itemlist {
     public static final RegistryObject<Item> PUMPKIN_JUICE = ITEMS.register("pumpkin_juice",() -> new BaseDrinkItem(64,3,0.6F));
     public static final RegistryObject<Item> PUMPKIN_JAM = ITEMS.register("pumpkin_jam",() -> new BaseDrinkItem(64,3,0.6F));
 
+    public static final RegistryObject<Item> SWEET_AZUKI_PASTE = ITEMS.register("sweet_azuki_paste",() -> new BaseFoodItem(64,3,0.6F));
+
     //食材系アイテム（ソース系）
     public static final RegistryObject<Item> TOMATO_SAUCE = ITEMS.register("tomato_sauce",CommonAlchemyMaterial::new);
     public static final RegistryObject<Item> CHEESE_SAUCE = ITEMS.register("cheese_sauce",CommonAlchemyMaterial::new);

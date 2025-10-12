@@ -1,0 +1,15 @@
+{
+  "type": "alchemical_power:rune_activator_recipe",
+  "ingredients": [
+    {
+      "item": "alchemical_power:rune_of_fruits"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "alchemical_power:azuki_beans"
+  }
+}

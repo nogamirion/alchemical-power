@@ -404,6 +404,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(itemlist.INFINITY_PANAKEIA);
         simpleItem(itemlist.IMITATED_BEDROCKIUM_INGOT);
         simpleItem(itemlist.JCMOWFBFWSBPOOFBCICIM);
+        simpleItem(itemlist.AZUKI_BEANS);
+        simpleItem(itemlist.SWEET_AZUKI_PASTE);
 
 
 

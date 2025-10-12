@@ -1,4 +1,4 @@
-// 1.20.1	2025-10-05T04:39:35.9322233	Item Models: alchemical_power
+// 1.20.1	2025-10-10T20:21:30.4480417	Item Models: alchemical_power
 d596ee316a6f7d99db513faf9e46065555cf3427 assets/alchemical_power/models/item/advanced_engraving_ink.json
 73b20b7356e0c87bd5024ad1b35607aceead8633 assets/alchemical_power/models/item/advanced_granulating_rune.json
 bc3cf71e92398e8abe91bce7c3f36172fc44ae95 assets/alchemical_power/models/item/advanced_grinding_rune.json
@@ -33,6 +33,7 @@ ffbffafc2a1a963c7badf0c892f7afc2ab024e5b assets/alchemical_power/models/item/app
 4cab35c7c9bc500203d59ab1b4139126490c0c07 assets/alchemical_power/models/item/apple_pie.json
 7030a380d686330b3b88735554b46299ec0c2516 assets/alchemical_power/models/item/arcane_dragon_egg.json
 700092052699502d023e49305850da44c76fa1d7 assets/alchemical_power/models/item/arcane_star.json
+7e3ce0235a7a29de5450f3c5d631fd6eb47af2d0 assets/alchemical_power/models/item/azuki_beans.json
 66ab77f669bec60fcd3cbbe96c6b4c48c0498a72 assets/alchemical_power/models/item/basic_engraving_ink.json
 68f03d0100d02d3cba80118d1a80bef997fdfdea assets/alchemical_power/models/item/basic_granulating_rune.json
 d7799b92a5677de64bf6cb55c974cb7e51be92db assets/alchemical_power/models/item/basic_grinding_rune.json
@@ -242,6 +243,7 @@ b0e8ce150aaec5f6c7e167042f69ee326955cd79 assets/alchemical_power/models/item/sof
 2bb0c0002e254acc6273846febe3734db2740517 assets/alchemical_power/models/item/softened_iron.json
 9b24c8cedcdb879f0c064048807299fc25255ef5 assets/alchemical_power/models/item/steves_lava_chicken.json
 5189c435367797dfc2f437568833e9420030dcec assets/alchemical_power/models/item/sushi_rolls.json
+8e13bad4be60bbb0bd8b239f21a2abdde1fd5cd2 assets/alchemical_power/models/item/sweet_azuki_paste.json
 0f21f60f58ae0f33d54c8e576de64331b0c5f9b0 assets/alchemical_power/models/item/sweet_berry_jam.json
 ba2a04b6d3c55ec357fbccec9ae90d4bcf553f53 assets/alchemical_power/models/item/sweet_berry_juice.json
 9c2e7c9e50b69ca4302af98f7427c92f481f8e24 assets/alchemical_power/models/item/sweet_berry_smoothie.json

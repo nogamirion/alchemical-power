@@ -4866,7 +4866,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(Items.EGG)
                 .requires(Items.SUGAR)
                 .requires(itemlist.MILK_BOTTLE.get())
-                .requires(ModTags.Items.JAMS)
+                .requires(itemlist.SWEET_AZUKI_PASTE.get())
                 .unlockedBy(getHasName(itemlist.COOKWARE_SET.get()),has(itemlist.COOKWARE_SET.get()))
                 .save(consumer);
 
@@ -4880,6 +4880,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(itemlist.T1_PANAKEIA_INGOT.get()),has(itemlist.T1_PANAKEIA_INGOT.get()))
                 .save(consumer);
 
+        new RuneActivatorRecipeBuilder(
+                new ResourceLocation("alchemical_power","rune_activator_recipe"),
+                Ingredient.of(itemlist.RUNE_OF_FRUITS.get()),
+                Ingredient.of(Items.WHEAT_SEEDS),
+                itemlist.AZUKI_BEANS.get(),
+                1
+        ).save(consumer,"activator_recipe_azuki_beans");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,itemlist.SWEET_AZUKI_PASTE.get(),1)
+                .requires(itemlist.COOKWARE_SET.get())
+                .requires(Items.SUGAR)
+                .requires(itemlist.AZUKI_BEANS.get())
+                .unlockedBy(getHasName(itemlist.COOKWARE_SET.get()),has(itemlist.COOKWARE_SET.get()))
+                .save(consumer);
 
     }
 }

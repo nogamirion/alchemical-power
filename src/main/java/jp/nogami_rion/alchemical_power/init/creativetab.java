@@ -395,6 +395,7 @@ public class creativetab {
                     output.accept(itemlist.VINEGAR.get());
                     output.accept(itemlist.COOKING_OIL.get());
                     output.accept(itemlist.BUTTER.get());
+                    output.accept(itemlist.AZUKI_BEANS.get());
 
                     //食材系（飲料・ジャム系）
                     output.accept(itemlist.APPLE_JAM.get());
@@ -417,6 +418,7 @@ public class creativetab {
                     output.accept(itemlist.GLOW_BERRY_JUICE.get());
                     output.accept(itemlist.CHORUS_FRUIT_JUICE.get());
                     output.accept(itemlist.HONEY_LEMON_JUICE.get());
+                    output.accept(itemlist.SWEET_AZUKI_PASTE.get());
 
                     //食材系（ソース系）
                     output.accept(itemlist.TOMATO_SAUCE.get());

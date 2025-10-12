@@ -682,7 +682,10 @@
   "trim_material.alchemical_power.t4_panakeia": "T4 Panakeia Trim",
   "trim_material.alchemical_power.t5_panakeia": "T5 Panakeia Trim",
   "trim_material.alchemical_power.t6_panakeia": "T6 Panakeia Trim",
-  "trim_material.alchemical_power.t7_panakeia": "T7 Panakeia Trim"
+  "trim_material.alchemical_power.t7_panakeia": "T7 Panakeia Trim",
+
+  "item.alchemical_power.azuki_beans": "Azuki Beans",
+  "item.alchemical_power.sweet_azuki_paste": "Sweet Azuki Paste"
 
 
 }

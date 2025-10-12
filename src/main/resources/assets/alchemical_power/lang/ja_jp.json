@@ -685,7 +685,9 @@
   "trim_material.alchemical_power.t4_panakeia": "叡智のパナケイア素材",
   "trim_material.alchemical_power.t5_panakeia": "究極のパナケイア素材",
   "trim_material.alchemical_power.t6_panakeia": "神聖なるパナケイア素材",
-  "trim_material.alchemical_power.t7_panakeia": "混沌のパナケイア素材"
+  "trim_material.alchemical_power.t7_panakeia": "混沌のパナケイア素材",
 
+  "item.alchemical_power.azuki_beans": "小豆",
+  "item.alchemical_power.sweet_azuki_paste": "小豆あん"
 
 }
