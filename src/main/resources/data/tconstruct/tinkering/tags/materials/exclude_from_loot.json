@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "alchemical_power:singularity",
+      "required": false
+    },
+    {
+      "id": "alchemical_power:unite_alloy",
+      "required": false
+    }
+  ]
+}

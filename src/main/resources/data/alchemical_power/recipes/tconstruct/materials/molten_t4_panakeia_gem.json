@@ -1,6 +1,6 @@
 { "condition": {"type":"forge:mod_loaded","modid":"tconstruct"},
   "type": "tconstruct:material_fluid",
   "fluid": { "name": "alchemical_power:molten_t4_panakeia_gem","amount": 90},
-  "temperature": 1000,
+  "temperature": 900,
   "output": "alchemical_power:t4_panakeia_gem"
 }

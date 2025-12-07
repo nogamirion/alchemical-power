@@ -49,101 +49,20 @@ public class SingularityModifier extends Modifier implements ProjectileHitModifi
 
     @Override
     public void afterMeleeHit(IToolStackView tool, ModifierEntry modifier, ToolAttackContext context, float damageDealt){
-        LivingEntity target = context.getLivingTarget();
+        Entity targetEntity = context.getTarget();
         LivingEntity attacker = context.getPlayerAttacker();
-        if (!target.level().isClientSide && target instanceof LivingEntity) {
+        if (!targetEntity.level().isClientSide && targetEntity instanceof LivingEntity target) {
             DeadEndRainbowUtils.applyAttackMark(target);
-            int count = DeadEndRainbowUtils.getAttackMark(target);
-
-            // パーティクルの色リスト
-            List<Vec3> colors = List.of(
-                    new Vec3(1.0, 0.0, 0.0), // 赤
-                    new Vec3(1.0, 0.5, 0.0), // 橙
-                    new Vec3(1.0, 1.0, 0.0), // 黄
-                    new Vec3(0.0, 1.0, 0.0), // 緑
-                    new Vec3(0.0, 1.0, 1.0), // 水
-                    new Vec3(0.0, 0.0, 1.0), // 青
-                    new Vec3(0.5, 0.0, 1.0)  // 紫
-            );
-
-            if (target.level() instanceof ServerLevel serverLevel) {
-                for (int i = 0; i < count && i < colors.size(); i++) {
-                    Vec3 color = colors.get(i);
-                    serverLevel.sendParticles(
-                            new DustParticleOptions(new Vector3f((float) color.x, (float) color.y, (float) color.z), 2.0f),
-                            target.getX(), target.getY() + 1.0, target.getZ(),
-                            5, 0.2, 0.2, 0.2, 0.0
-                    );
-                }
-            }
-
-            if (count >= 7) {
-                ServerLevel level = (ServerLevel) target.level();
-                DamageSource singularity = ModDamageTypes.singularityTrue(level, attacker);
-                float maxHealth = target.getMaxHealth();
-
-                target.hurt(singularity, maxHealth * 2.0f);// 最大HPの2倍のダメージ
-
-                if (target.isAlive()) {
-                    target.kill(); // Entity.kill() はエンティティ固有の即死処理
-                }
-
-                if (target.isAlive()) {
-                    target.setHealth(0.0F);
-                    target.die(singularity);
-                }
-
-                DeadEndRainbowUtils.resetAttackMark(target); // スタックリセット
-            }
+            DeadEndRainbowUtils.checkAttackMark(target,attacker);
         }
     }
 
     @Override
     public boolean onProjectileHitEntity(ModifierNBT modifiers, ModDataNBT persistentData, ModifierEntry modifier, Projectile projectile, EntityHitResult hit, @Nullable LivingEntity attacker, @Nullable LivingEntity target) {
+        if(target == null) return false;
         if (!target.level().isClientSide && target != attacker && target instanceof LivingEntity) {
             DeadEndRainbowUtils.applyAttackMark(target);
-            int count = DeadEndRainbowUtils.getAttackMark(target);
-
-            // パーティクルの色リスト
-            List<Vec3> colors = List.of(
-                    new Vec3(1.0, 0.0, 0.0), // 赤
-                    new Vec3(1.0, 0.5, 0.0), // 橙
-                    new Vec3(1.0, 1.0, 0.0), // 黄
-                    new Vec3(0.0, 1.0, 0.0), // 緑
-                    new Vec3(0.0, 1.0, 1.0), // 水
-                    new Vec3(0.0, 0.0, 1.0), // 青
-                    new Vec3(0.5, 0.0, 1.0)  // 紫
-            );
-
-            if (target.level() instanceof ServerLevel serverLevel) {
-                for (int i = 0; i < count && i < colors.size(); i++) {
-                    Vec3 color = colors.get(i);
-                    serverLevel.sendParticles(
-                            new DustParticleOptions(new Vector3f((float) color.x, (float) color.y, (float) color.z), 2.0f),
-                            target.getX(), target.getY() + 1.0, target.getZ(),
-                            5, 0.2, 0.2, 0.2, 0.0
-                    );
-                }
-            }
-
-            if (count >= 7) {
-                ServerLevel level = (ServerLevel) target.level();
-                DamageSource singularity = ModDamageTypes.singularityTrue(level, attacker);
-                float maxHealth = target.getMaxHealth();
-
-                target.hurt(singularity, maxHealth * 2.0f);// 最大HPの2倍のダメージ
-
-                if (target.isAlive()) {
-                    target.kill(); // Entity.kill() はエンティティ固有の即死処理
-                }
-
-                if (target.isAlive()) {
-                    target.setHealth(0.0F);
-                    target.die(singularity);
-                }
-
-                DeadEndRainbowUtils.resetAttackMark(target); // スタックリセット
-            }
+            DeadEndRainbowUtils.checkAttackMark(target,attacker);
 
         }
         return false;
@@ -170,50 +89,8 @@ public class SingularityModifier extends Modifier implements ProjectileHitModifi
                 float reflected = amount * 2.0F;
                 trueAttacker.hurt(damageSource, reflected);
 
-
                 DeadEndRainbowUtils.applyAttackMark(trueAttacker);
-                int count = DeadEndRainbowUtils.getAttackMark(trueAttacker);
-
-                // パーティクルの色リスト
-                List<Vec3> colors = List.of(
-                        new Vec3(1.0, 0.0, 0.0), // 赤
-                        new Vec3(1.0, 0.5, 0.0), // 橙
-                        new Vec3(1.0, 1.0, 0.0), // 黄
-                        new Vec3(0.0, 1.0, 0.0), // 緑
-                        new Vec3(0.0, 1.0, 1.0), // 水
-                        new Vec3(0.0, 0.0, 1.0), // 青
-                        new Vec3(0.5, 0.0, 1.0)  // 紫
-                );
-
-                if (trueAttacker.level() instanceof ServerLevel serverLevel) {
-                    for (int i = 0; i < count && i < colors.size(); i++) {
-                        Vec3 color = colors.get(i);
-                        serverLevel.sendParticles(
-                                new DustParticleOptions(new Vector3f((float) color.x, (float) color.y, (float) color.z), 2.0f),
-                                trueAttacker.getX(), trueAttacker.getY() + 1.0, trueAttacker.getZ(),
-                                5, 0.2, 0.2, 0.2, 0.0
-                        );
-                    }
-                }
-
-                if (count >= 7) {
-                    ServerLevel level = (ServerLevel) trueAttacker.level();
-                    DamageSource singularity = ModDamageTypes.singularityTrue(level, wearer);
-                    float maxHealth = trueAttacker.getMaxHealth();
-
-                    trueAttacker.hurt(singularity, maxHealth * 2.0f);// 最大HPの2倍のダメージ
-
-                    if (trueAttacker.isAlive()) {
-                        trueAttacker.kill(); // Entity.kill() はエンティティ固有の即死処理
-                    }
-
-                    if (trueAttacker.isAlive()) {
-                        trueAttacker.setHealth(0.0F);
-                        trueAttacker.die(singularity);
-                    }
-
-                    DeadEndRainbowUtils.resetAttackMark(trueAttacker); // スタックリセット
-                }
+                DeadEndRainbowUtils.checkAttackMark(trueAttacker,wearer);
 
             }
         }

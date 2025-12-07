@@ -1,6 +1,8 @@
 package jp.nogami_rion.alchemical_power.util;
 
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.LivingEntity;
 
 public class DeadEndRainbowUtils {
@@ -29,5 +31,29 @@ public class DeadEndRainbowUtils {
      */
     public static void resetAttackMark(LivingEntity target) {
         target.getPersistentData().remove(DEAD_END_RAINBOW);
+    }
+
+    /**
+     * 対象のマーク数を確認し、7以上なら即死させる
+     */
+    public static void checkAttackMark(LivingEntity target,LivingEntity attacker){
+        if (getAttackMark(target) >= 7) {
+            ServerLevel level = (ServerLevel) target.level();
+            DamageSource singularity = ModDamageTypes.singularityTrue(level, attacker);
+            float maxHealth = target.getMaxHealth();
+
+            target.hurt(singularity, maxHealth * 2.0f);// 最大HPの2倍のダメージ
+
+            if (target.isAlive()) {
+                target.kill(); // Entity.kill() はエンティティ固有の即死処理
+            }
+
+            if (target.isAlive()) {
+                target.setHealth(0.0F);
+                target.die(singularity);
+            }
+
+            resetAttackMark(target); // スタックリセット
+        }
     }
 }

@@ -626,7 +626,7 @@
   "modifier.alchemical_power.akashic_records.flavor": "全ての知識",
   "modifier.alchemical_power.akashic_records.description": "知識を詰め込める…具体的にはそれぞれ10個まで",
 
-  //1.2.0追加分
+  //1.1.6追加分
   "item.alchemical_power.confectionbybakingbatterintocylindricalshape.name.1": "大判焼き",
   "item.alchemical_power.confectionbybakingbatterintocylindricalshape.name.2": "今川焼き",
   "item.alchemical_power.confectionbybakingbatterintocylindricalshape.name.3": "おやき",

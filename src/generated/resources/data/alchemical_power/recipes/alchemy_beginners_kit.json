@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "a": {
-      "item": "minecraft:glass"
+      "tag": "forge:glass"
     },
     "b": {
       "tag": "minecraft:wooden_buttons"

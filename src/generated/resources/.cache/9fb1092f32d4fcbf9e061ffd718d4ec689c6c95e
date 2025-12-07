@@ -1,4 +1,4 @@
-// 1.20.1	2025-10-11T12:54:23.6720948	Recipes
+// 1.20.1	2025-12-06T23:07:02.0845401	Recipes
 62a9ec9794cf53eab18dc2ea0ee0aad8ffb1aa9a data/alchemical_power/advancements/recipes/building_blocks/alchetree_fence.json
 7bf856eb6ceeee5b9470b1147f74408019968fe0 data/alchemical_power/advancements/recipes/building_blocks/alchetree_fence_gate.json
 dff966260b1dff02f055cffe90b5a2715524b61f data/alchemical_power/advancements/recipes/building_blocks/alchetree_slab.json
@@ -260,7 +260,7 @@ ae77c4f91c9233c9a7f05ec947cfce0ea52dc361 data/alchemical_power/recipes/advanced_
 df6b40fc8e02e0929a9b428a2aa27148f8aa6fca data/alchemical_power/recipes/advanced_grinding_deepslate_coal_ores.json
 912ec72b6322b13c1d50ea0064c2f85838ff80a0 data/alchemical_power/recipes/advanced_grinding_quartz_block.json
 2bf4a9efd3b19bde2cc3a044654a95acbc5be58f data/alchemical_power/recipes/alchemists_ring_recipe.json
-20c9820ae47391b178175bb26c2683d3c03e73d4 data/alchemical_power/recipes/alchemy_beginners_kit.json
+0bb44449c8ef3a607895be30cf2bbe28929732c5 data/alchemical_power/recipes/alchemy_beginners_kit.json
 c5d29b97c27b6f751f545fe38d29860e1271df15 data/alchemical_power/recipes/alchemy_table.json
 1159571675ebee13d25bedbd90ffdb0ac21e174a data/alchemical_power/recipes/alchetree_button.json
 b5f082e2f6d042c1f0bfa61d2bcc33cfbd8eec24 data/alchemical_power/recipes/alchetree_door.json

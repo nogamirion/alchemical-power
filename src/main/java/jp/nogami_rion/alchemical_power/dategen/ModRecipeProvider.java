@@ -96,7 +96,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("aba")
                 .pattern("aca")
                 .pattern("aaa")
-                .define('a',Items.GLASS.asItem())
+                .define('a',ItemTags.create(new ResourceLocation("forge","glass")))
                 .define('b',ItemTags.WOODEN_BUTTONS)
                 .define('c',itemlist.T1_PANAKEIA.get())
                 .unlockedBy(getHasName(itemlist.T1_PANAKEIA.get()),has(itemlist.T1_PANAKEIA.get()))
