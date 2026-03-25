@@ -1,0 +1,36 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "             ",
+    "             ",
+    "             ",
+    "AAAAAAAAAAAAA",
+    "ABBCDBBBDEBBA",
+    "ABCACDBDEAEBA",
+    "ACACACDEAEAEA",
+    "ABCACDBDEAEBA",
+    "ABBCDBBBDEBBA",
+    "AAAAAAAAAAAAA",
+    "             ",
+    "             ",
+    "             "
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:imitated_bedrockium_ingot"},
+    "B": {"item": "alchemical_power:infinity_panakeia"},
+    "C": {"item": "alchemical_power:rune_catalyst"},
+    "D": {"item": "alchemical_power:singularity"},
+    "E": {"item": "alchemical_power:unnatural_catalyst"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier5"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:singularity_ingot"
+  }
+}

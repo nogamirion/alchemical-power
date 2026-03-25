@@ -29,6 +29,21 @@ public class ModMenuTypes {
     public static final RegistryObject<MenuType<Rune_Activator_Menu>> RUNE_ACTIVATOR_MENU =
             registerMenuType("rune_activator_menu", Rune_Activator_Menu::new);
 
+    public static final RegistryObject<MenuType<AlchemicalPowerTables3x3Menu>> ALCHEMICAL_POWER_TABLES_3X3_MENU =
+            registerMenuType("alchemical_power_tables_3x3_menu", AlchemicalPowerTables3x3Menu::new);
+
+    public static final RegistryObject<MenuType<AlchemicalPowerTables5x5Menu>> ALCHEMICAL_POWER_TABLES_5X5_MENU =
+            registerMenuType("alchemical_power_tables_5x5_menu", AlchemicalPowerTables5x5Menu::new);
+
+    public static final RegistryObject<MenuType<AlchemicalPowerTables13x13Menu>> ALCHEMICAL_POWER_TABLES_13X13_MENU =
+            registerMenuType("alchemical_power_tables_13x13_menu", AlchemicalPowerTables13x13Menu::new);
+
+    public static final RegistryObject<MenuType<AutoAlchemicalAssemblerMenu>> AUTO_ALCHEMICAL_ASSEMBLER_MENU =
+            registerMenuType("auto_alchemical_assembler_menu", AutoAlchemicalAssemblerMenu::new);
+
+    public static final RegistryObject<MenuType<PanakeiaGeneratorMenu>> PANAKEIA_GENERATOR_MENU =
+            registerMenuType("panakeia_generator_menu",PanakeiaGeneratorMenu::new);
+
 
     private static <T extends AbstractContainerMenu>RegistryObject<MenuType<T>> registerMenuType(String name, IContainerFactory<T> factory){
         return MENUS.register(name,() -> IForgeMenuType.create(factory));

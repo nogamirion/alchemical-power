@@ -1,0 +1,25 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 5,
+
+  "pattern": [
+    " A A ",
+    "ABBBA",
+    " BBB ",
+    "ABBBA",
+    " A A "
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:t6_panakeia_cube"},
+    "B": {"tag": "alchemical_power:t6_ingot_material"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:t6_panakeia_ingot_block"
+  }
+}

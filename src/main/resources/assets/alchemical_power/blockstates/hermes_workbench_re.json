@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alchemical_power:block/hermes_workbench_re"
+    },
+    "facing=east": {
+      "model": "alchemical_power:block/hermes_workbench_re",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alchemical_power:block/hermes_workbench_re",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alchemical_power:block/hermes_workbench_re",
+      "y": 270
+    }
+  }
+}

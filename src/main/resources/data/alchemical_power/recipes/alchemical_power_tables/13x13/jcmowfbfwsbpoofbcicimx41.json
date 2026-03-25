@@ -1,0 +1,17 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shapeless",
+  "grid": 13,
+
+  "ingredients":[
+    {"item": "alchemical_power:cookware_set","count": 1},
+    {"item": "alchemical_power:confectionbybakingbatterintocylindricalshape","count": 41}
+  ],
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier1"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:japaneseconfectionmadeofwheatflourbatterfilledwithsweetbeanpasteofotherfillingsbakedincirecularcastironmold"
+  }
+}

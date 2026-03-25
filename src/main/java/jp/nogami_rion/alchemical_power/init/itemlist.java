@@ -14,6 +14,8 @@ import jp.nogami_rion.alchemical_power.item.food.ConfectionByBakingBatterIntoCyl
 import jp.nogami_rion.alchemical_power.item.food.JapaneseConfectionMadeOfWheatFlourBatterFilledWithSweetBeanPasteOfOtherFillingsBakedInCircularCastIronMold;
 import jp.nogami_rion.alchemical_power.item.food.Steaves_Lava_Chicken;
 import jp.nogami_rion.alchemical_power.item.materials.*;
+import jp.nogami_rion.alchemical_power.item.mec.UpgradeItem;
+import jp.nogami_rion.alchemical_power.item.mec.UpgradeType;
 import jp.nogami_rion.alchemical_power.item.rune.*;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Blocks;
@@ -397,6 +399,32 @@ public class itemlist {
     public static final RegistryObject<Item> IMITATED_BEDROCKIUM_INGOT = ITEMS.register("imitated_bedrockium_ingot",EpicAlchemyMaterial::new);
     public static final RegistryObject<Item> UNNATURAL_CATALYST = ITEMS.register("unnatural_catalyst",EpicFoilAlchemyMaterial::new);
 
+    public static final RegistryObject<Item> ALCHEMY_TABLE_RE = ITEMS.register("alchemy_table_re",() -> new BlockItem(blocklist.ALCHEMY_TABLE_RE.get(),new Item.Properties()));
+    public static final RegistryObject<Item> HERMES_WORKBENCH_RE = ITEMS.register("hermes_workbench_re",() -> new BlockItem(blocklist.HERMES_WORKBENCH_RE.get(),new Item.Properties()));
+    public static final RegistryObject<Item> TRANSCENDENTAL_TABLE_RE = ITEMS.register("transcendental_table_re",() -> new BlockItem(blocklist.TRANSCENDENTAL_TABLE_RE.get(),new Item.Properties()));
+    public static final RegistryObject<Item> AUTO_ALCHEMICAL_ASSEMBLER = ITEMS.register("auto_alchemical_assembler",() -> new BlockItem(blocklist.AUTO_ALCHEMICAL_ASSEMBLER.get(),new Item.Properties()));
+    public static final RegistryObject<Item> PANAKEIA_GENERATOR = ITEMS.register("panakeia_generator",() -> new BlockItem(blocklist.PANAKEIA_GENERATOR.get(),new Item.Properties()));
+    public static final RegistryObject<Item> ALCHEMY_MACHINE_FRAME = ITEMS.register("alchemy_machine_frame",() ->new BlockItem(blocklist.ALCHEMY_MACHINE_FRAME.get(),new Item.Properties()));
+
+    public static final RegistryObject<Item> SPEED_UPGRADE_T1 = ITEMS.register("speed_upgrade_t1",() -> new UpgradeItem(UpgradeType.SPEED,1,new Item.Properties()));
+    public static final RegistryObject<Item> SPEED_UPGRADE_T2 = ITEMS.register("speed_upgrade_t2",() -> new UpgradeItem(UpgradeType.SPEED,2,new Item.Properties()));
+    public static final RegistryObject<Item> SPEED_UPGRADE_T3 = ITEMS.register("speed_upgrade_t3",() -> new UpgradeItem(UpgradeType.SPEED,3,new Item.Properties()));
+    public static final RegistryObject<Item> SPEED_UPGRADE_T4 = ITEMS.register("speed_upgrade_t4",() -> new UpgradeItem(UpgradeType.SPEED,4,new Item.Properties()));
+    public static final RegistryObject<Item> SPEED_UPGRADE_T5 = ITEMS.register("speed_upgrade_t5",() -> new UpgradeItem(UpgradeType.SPEED,5,new Item.Properties()));
+    public static final RegistryObject<Item> ENERGY_EFFICIENCY_UPGRADE_T1 = ITEMS.register("energy_efficiency_upgrade_t1",() -> new UpgradeItem(UpgradeType.EFFICIENCY,1,new Item.Properties()));
+    public static final RegistryObject<Item> ENERGY_EFFICIENCY_UPGRADE_T2 = ITEMS.register("energy_efficiency_upgrade_t2",() -> new UpgradeItem(UpgradeType.EFFICIENCY,2,new Item.Properties()));
+    public static final RegistryObject<Item> ENERGY_EFFICIENCY_UPGRADE_T3 = ITEMS.register("energy_efficiency_upgrade_t3",() -> new UpgradeItem(UpgradeType.EFFICIENCY,3,new Item.Properties()));
+    public static final RegistryObject<Item> ENERGY_EFFICIENCY_UPGRADE_T4 = ITEMS.register("energy_efficiency_upgrade_t4",() -> new UpgradeItem(UpgradeType.EFFICIENCY,4,new Item.Properties()));
+    public static final RegistryObject<Item> ENERGY_EFFICIENCY_UPGRADE_T5 = ITEMS.register("energy_efficiency_upgrade_t5",() -> new UpgradeItem(UpgradeType.EFFICIENCY,5,new Item.Properties()));
+    public static final RegistryObject<Item> ENERGY_CAPACITY_UPGRADE_T1 = ITEMS.register("energy_capacity_upgrade_t1",() -> new UpgradeItem(UpgradeType.ENERGY,1,new Item.Properties()));
+    public static final RegistryObject<Item> ENERGY_CAPACITY_UPGRADE_T2 = ITEMS.register("energy_capacity_upgrade_t2",() -> new UpgradeItem(UpgradeType.ENERGY,2,new Item.Properties()));
+    public static final RegistryObject<Item> ENERGY_CAPACITY_UPGRADE_T3 = ITEMS.register("energy_capacity_upgrade_t3",() -> new UpgradeItem(UpgradeType.ENERGY,3,new Item.Properties()));
+    public static final RegistryObject<Item> ENERGY_CAPACITY_UPGRADE_T4 = ITEMS.register("energy_capacity_upgrade_t4",() -> new UpgradeItem(UpgradeType.ENERGY,4,new Item.Properties()));
+    public static final RegistryObject<Item> ENERGY_CAPACITY_UPGRADE_T5 = ITEMS.register("energy_capacity_upgrade_t5",() -> new UpgradeItem(UpgradeType.ENERGY,5,new Item.Properties()));
+    public static final RegistryObject<Item> CRAFTING_TOOL_UPGRADE_T2 = ITEMS.register("crafting_tool_upgrade_t2",() -> new UpgradeItem(UpgradeType.TOOL,1,new Item.Properties()));
+    public static final RegistryObject<Item> CRAFTING_TOOL_UPGRADE_T3 = ITEMS.register("crafting_tool_upgrade_t3",() -> new UpgradeItem(UpgradeType.TOOL,2,new Item.Properties()));
+    public static final RegistryObject<Item> CRAFTING_TOOL_UPGRADE_T4 = ITEMS.register("crafting_tool_upgrade_t4",() -> new UpgradeItem(UpgradeType.TOOL,3,new Item.Properties()));
+    public static final RegistryObject<Item> CRAFTING_TOOL_UPGRADE_T5 = ITEMS.register("crafting_tool_upgrade_t5",() -> new UpgradeItem(UpgradeType.TOOL,4,new Item.Properties()));
 
     //食材系アイテム（材料系）
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",() -> new BaseFoodItem(64,2,0.6F));

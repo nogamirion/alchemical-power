@@ -2,6 +2,7 @@ package jp.nogami_rion.alchemical_power.recipe;
 
 import jp.nogami_rion.alchemical_power.Alchemical_power;
 import net.minecraft.world.item.crafting.RecipeSerializer;
+import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -10,6 +11,8 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModRecipes {
     public static final DeferredRegister<RecipeSerializer<?>> SERIALIZERS =
             DeferredRegister.create(ForgeRegistries.RECIPE_SERIALIZERS, Alchemical_power.MODID);
+    public static final DeferredRegister<RecipeType<?>> TYPES =
+            DeferredRegister.create(ForgeRegistries.RECIPE_TYPES, Alchemical_power.MODID);
 
     public static final RegistryObject<RecipeSerializer<Alchemy_Table_Recipe>> ALCHEMY_TABLE_SERIALIZER =
             SERIALIZERS.register("alchemy_table_recipe",() -> Alchemy_Table_Recipe.Serializer.INSTANCE);
@@ -26,7 +29,20 @@ public class ModRecipes {
     public static final RegistryObject<RecipeSerializer<Rune_Activator_Recipe>> RUNE_ACTIVATOR_SERIALIZER =
             SERIALIZERS.register("rune_activator_recipe",() -> Rune_Activator_Recipe.Serializer.INSTANCE);
 
+    public static final RegistryObject<RecipeType<AlchemicalPowerTablesRecipe>> ALCHEMICAL_POWER_TABLES_TYPE =
+            TYPES.register("alchemical_power_tables", () -> new RecipeType<>() {
+                        @Override
+                        public String toString() {
+                            return "alchemical_power_tables";
+                        }}
+            );
+
+    public static final RegistryObject<RecipeSerializer<AlchemicalPowerTablesRecipe>> ALCHEMICAL_POWER_TABLES_SERIALIZER =
+            SERIALIZERS.register("alchemical_power_tables_recipe",AlchemicalPowerTablesRecipeSerializer::new);
+
+
     public static void register(IEventBus eventBus){
+        TYPES.register(eventBus);
         SERIALIZERS.register(eventBus);
     }
 }

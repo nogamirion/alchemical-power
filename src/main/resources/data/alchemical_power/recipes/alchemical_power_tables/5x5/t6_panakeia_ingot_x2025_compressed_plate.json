@@ -1,0 +1,16 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shapeless",
+  "grid": 5,
+
+  "ingredients":[
+    {"item": "alchemical_power:t6_panakeia_ingot_x81_compressed_plate","count": 25}
+  ],
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:t6_panakeia_ingot_x2025_compressed_plate"
+  }
+}

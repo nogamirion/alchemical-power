@@ -1,0 +1,25 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 5,
+
+  "pattern": [
+    "AAAAA",
+    "AAAAA",
+    "AABAA",
+    "AAAAA",
+    "AAAAA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:high_density_t2_panakeia_ingot"},
+    "B": {"item": "minecraft:nether_star"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier3"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:courage_crystal"
+  }
+}

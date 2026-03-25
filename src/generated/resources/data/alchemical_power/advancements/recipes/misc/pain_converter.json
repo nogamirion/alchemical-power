@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_t1_panakeia_ingot": {
+    "has_alchemy_machine_frame": {
       "conditions": {
         "items": [
           {
             "items": [
-              "alchemical_power:t1_panakeia_ingot"
+              "alchemical_power:alchemy_machine_frame"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_t1_panakeia_ingot",
+      "has_alchemy_machine_frame",
       "has_the_recipe"
     ]
   ],

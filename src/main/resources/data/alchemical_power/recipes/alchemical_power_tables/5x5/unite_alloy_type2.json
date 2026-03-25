@@ -1,0 +1,31 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shapeless",
+  "grid": 5,
+
+  "ingredients": [
+    {"tag": "forge:storage_blocks/amethyst"},
+    {"tag": "forge:storage_blocks/coal"},
+    {"item": "alchemical_power:t1_panakeia_ingot_block"},
+    {"item": "alchemical_power:t2_panakeia_ingot_block"},
+    {"item": "alchemical_power:t3_panakeia_ingot_block"},
+
+    {"item": "alchemical_power:t4_panakeia_gem_block"},
+    {"item": "alchemical_power:t5_panakeia_gem_block"},
+    {"item": "alchemical_power:t6_panakeia_ingot_block"},
+    {"tag": "forge:storage_blocks/lapis"},
+    {"tag": "forge:storage_blocks/quartz"},
+
+    {"tag": "forge:storage_blocks/redstone"},
+    {"item": "alchemical_power:x38025_cobblestone"},
+    {"item": "alchemical_power:t0_panakeia"},
+    {"item": "alchemical_power:t7_panakeia"}
+  ],
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:unite_alloy"
+  }
+}

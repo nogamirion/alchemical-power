@@ -1,0 +1,36 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "  AA     AA  ",
+    " ABBA   ABBA ",
+    "ABBBA   ABBBA",
+    "ABBBBAAABBBBA",
+    " ABBBBBBBBBA ",
+    "  ABBCDCBBA  ",
+    "  ABBCCCBBA  ",
+    "  ABBCCCBBA  ",
+    "  ABBBBBBBA  ",
+    "  AEEEEEEEA  ",
+    "  ABBBBBBBA  ",
+    "   AAAAAAA   ",
+    "             "
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:imitated_bedrock"},
+    "B": {"item": "alchemical_power:t3_panakeia_ingot_block"},
+    "C": {"item": "alchemical_power:justice_crystal"},
+    "D": {"item": "alchemical_power:origin_of_justice"},
+    "E": {"item": "minecraft:chain"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier5"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:crimson_plate_of_justice"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 3,
+
+  "pattern": [
+    "ABA",
+    "ACA",
+    "ADA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:x9_cobblestone"},
+    "B": {"item": "alchemical_power:t3_panakeia_ingot"},
+    "C": {"item": "alchemical_power:alchemy_intermediate_kit"},
+    "D": {"item": "alchemical_power:alchemy_table_re"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier2"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:hermes_workbench_re"
+  }
+}

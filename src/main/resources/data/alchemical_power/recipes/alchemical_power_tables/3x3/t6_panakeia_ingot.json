@@ -1,0 +1,23 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 3,
+
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:t6_panakeia"},
+    "B": {"tag": "alchemical_power:t6_ingot_material"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:t6_panakeia_ingot"
+  }
+}

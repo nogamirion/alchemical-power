@@ -29,6 +29,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
+import java.awt.*;
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Alchemical_power.MODID)
 public class Alchemical_power {
@@ -102,9 +104,15 @@ public class Alchemical_power {
             MenuScreens.register(ModMenuTypes.TRANSCENDENTAL_TABLE_MENU.get(), Transcendental_Table_Screen::new);
             MenuScreens.register(ModMenuTypes.ALCHEMICAL_ENGRAVER_MENU.get(), Alchemical_Engraver_Screen::new);
             MenuScreens.register(ModMenuTypes.RUNE_ACTIVATOR_MENU.get(), Rune_Activator_Screen::new);
+            MenuScreens.register(ModMenuTypes.ALCHEMICAL_POWER_TABLES_3X3_MENU.get(),AlchemicalTablesTier1Screen::new);
+            MenuScreens.register(ModMenuTypes.ALCHEMICAL_POWER_TABLES_5X5_MENU.get(),AlchemicalTablesTier2Screen::new);
+            MenuScreens.register(ModMenuTypes.ALCHEMICAL_POWER_TABLES_13X13_MENU.get(),AlchemicalTablesTier3Screen::new);
+            MenuScreens.register(ModMenuTypes.AUTO_ALCHEMICAL_ASSEMBLER_MENU.get(), AutoAlchemicalAssemblerScreen::new);
+            MenuScreens.register(ModMenuTypes.PANAKEIA_GENERATOR_MENU.get(),PanakeiaGeneratorScreen::new);
 
             //ブロックモデルのレンダーレイヤー指定
             ItemBlockRenderTypes.setRenderLayer(blocklist.PAIN_CONVERTER.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(blocklist.ALCHEMY_MACHINE_FRAME.get(), RenderType.cutout());
         }
     }
 }

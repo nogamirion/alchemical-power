@@ -21,7 +21,7 @@
   "item.alchemical_power.t5_panakeia_gem": "究極のパナケイアジェム",
   "item.alchemical_power.t6_panakeia_ingot": "神聖なるパナケイアインゴット",
   "item.alchemical_power.unite_alloy": "ユナイト合金",
-  "block.alchemical_power.alchemy_table": "錬金作業台",
+  "block.alchemical_power.alchemy_table": "錬金作業台（旧式）",
   "block.alchemical_power.t1_panakeia_ingot_block": "下級パナケイアインゴットブロック",
   "block.alchemical_power.t2_panakeia_ingot_block": "中級パナケイアインゴットブロック",
   "block.alchemical_power.t3_panakeia_ingot_block": "上級パナケイアインゴットブロック",
@@ -37,8 +37,8 @@
   "block.alchemical_power.panakeia_reed_t5": "究極のパナケイア黍",
   "block.alchemical_power.panakeia_reed_t6": "神聖なるパナケイア黍",
   "block.alchemical_power.panakeia_reed_t7": "混沌のパナケイア黍",
-  "block.alchemical_power.hermes_workbench": "ヘルメスの錬金作業台",
-  "block.alchemical_power.transcendental_table": "超越論的錬金作業台",
+  "block.alchemical_power.hermes_workbench": "ヘルメスの錬金作業台（旧式）",
+  "block.alchemical_power.transcendental_table": "超越論的錬金作業台（旧式）",
   "item.alchemical_power.high_density_t1_panakeia_ingot": "高密度圧縮下級パナケイアインゴット",
   "item.alchemical_power.high_density_t2_panakeia_ingot": "高密度圧縮中級パナケイアインゴット",
   "item.alchemical_power.high_density_t3_panakeia_ingot": "高密度圧縮上級パナケイアインゴット",
@@ -514,8 +514,6 @@
   "advancements.alchemical_power.obtain_omg_stew.description": "全部混ぜる",
 
 
-  //1.1.0追加分
-
   "block.alchemical_power.alchetree_log": "錬金樹の原木",
   "block.alchemical_power.stripped_alchetree_log": "樹皮を剥いだ錬金樹の原木",
   "block.alchemical_power.alchetree_wood": "錬金樹の木",
@@ -580,8 +578,6 @@
   "block.alchemical_power.infinite_water_barrel": "無限の水樽",
   "block.alchemical_power.infinite_lava_barrel": "無限の溶岩樽",
 
-
-  //TiC連携
   "material.alchemical_power.t1_panakeia_ingot": "下級パナケイアインゴット",
   "material.alchemical_power.t1_panakeia_ingot.flavor": "錬金術で青くなった金属。基本的に銅で作れるけど別に青銅とかではない。",
   "material.alchemical_power.t1_panakeia_ingot.encyclopedia": "20%の耐久度増加とレベルごとに+0.25の攻撃力、射撃ダメージ、防御力の増加、10％の採掘・攻撃・弓引き速度、防具強度を得る。下級パナケイアインゴットはレベル1を持ち、更に銅と同じ特性を持つsy",
@@ -626,7 +622,6 @@
   "modifier.alchemical_power.akashic_records.flavor": "全ての知識",
   "modifier.alchemical_power.akashic_records.description": "知識を詰め込める…具体的にはそれぞれ10個まで",
 
-  //1.1.6追加分
   "item.alchemical_power.confectionbybakingbatterintocylindricalshape.name.1": "大判焼き",
   "item.alchemical_power.confectionbybakingbatterintocylindricalshape.name.2": "今川焼き",
   "item.alchemical_power.confectionbybakingbatterintocylindricalshape.name.3": "おやき",
@@ -688,6 +683,35 @@
   "trim_material.alchemical_power.t7_panakeia": "混沌のパナケイア素材",
 
   "item.alchemical_power.azuki_beans": "小豆",
-  "item.alchemical_power.sweet_azuki_paste": "小豆あん"
+  "item.alchemical_power.sweet_azuki_paste": "小豆あん",
+
+  "container.alchemical_power.alchemical_table_tier1" : "錬金作業台",
+  "block.alchemical_power.alchemy_table_re": "錬金作業台",
+  "container.alchemical_power.alchemical_table_tier2" : "ヘルメスの錬金作業台",
+  "block.alchemical_power.hermes_workbench_re": "ヘルメスの錬金作業台",
+  "container.alchemical_power.alchemical_table_tier3" : "超越論的錬金作業台",
+  "block.alchemical_power.transcendental_table_re": "超越論的錬金作業台",
+  "block.alchemical_power.auto_alchemical_assembler": "自動錬金組立機",
+  "block.alchemical_power.panakeia_generator": "パナケイア発電機",
+  "block.alchemical_power.alchemy_machine_frame": "錬金機械フレーム",
+  "item.alchemical_power.speed_upgrade_t1": "T1スピードアップグレード",
+  "item.alchemical_power.speed_upgrade_t2": "T2スピードアップグレード",
+  "item.alchemical_power.speed_upgrade_t3": "T3スピードアップグレード",
+  "item.alchemical_power.speed_upgrade_t4": "T4スピードアップグレード",
+  "item.alchemical_power.speed_upgrade_t5": "T5スピードアップグレード",
+  "item.alchemical_power.energy_efficiency_upgrade_t1": "T1エネルギー効率アップグレード",
+  "item.alchemical_power.energy_efficiency_upgrade_t2": "T2エネルギー効率アップグレード",
+  "item.alchemical_power.energy_efficiency_upgrade_t3": "T3エネルギー効率アップグレード",
+  "item.alchemical_power.energy_efficiency_upgrade_t4": "T4エネルギー効率アップグレード",
+  "item.alchemical_power.energy_efficiency_upgrade_t5": "T5エネルギー効率アップグレード",
+  "item.alchemical_power.energy_capacity_upgrade_t1": "T1エネルギー容量アップグレード",
+  "item.alchemical_power.energy_capacity_upgrade_t2": "T2エネルギー容量アップグレード",
+  "item.alchemical_power.energy_capacity_upgrade_t3": "T3エネルギー容量アップグレード",
+  "item.alchemical_power.energy_capacity_upgrade_t4": "T4エネルギー容量アップグレード",
+  "item.alchemical_power.energy_capacity_upgrade_t5": "T5エネルギー容量アップグレード",
+  "item.alchemical_power.crafting_tool_upgrade_t2": "中級キットクラフトアップグレード",
+  "item.alchemical_power.crafting_tool_upgrade_t3": "熟練者キットクラフトアップグレード",
+  "item.alchemical_power.crafting_tool_upgrade_t4": "究極キットクラフトアップグレード",
+  "item.alchemical_power.crafting_tool_upgrade_t5": "賢者の石クラフトアップグレード"
 
 }

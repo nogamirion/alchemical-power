@@ -1,0 +1,32 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "             ",
+    "      A      ",
+    "     AAA     ",
+    "    AAAAA    ",
+    "   AAAAAAA   ",
+    "  AAAAAAAAA  ",
+    "  AAAAAAAAA  ",
+    "  AAAAAAAAA  ",
+    "  AAAAAAAAA  ",
+    "   AAAAAAA   ",
+    "    AAAAA    ",
+    "             ",
+    "             "
+  ],
+
+  "key": {
+    "A": {"item": "minecraft:dragon_egg"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:arcane_dragon_egg"
+  }
+}

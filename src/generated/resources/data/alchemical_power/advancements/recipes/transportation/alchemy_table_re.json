@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "alchemical_power:alchemy_table"
+        "recipe": "alchemical_power:alchemy_table_re"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "alchemical_power:alchemy_table"
+      "alchemical_power:alchemy_table_re"
     ]
   },
   "sends_telemetry_event": false

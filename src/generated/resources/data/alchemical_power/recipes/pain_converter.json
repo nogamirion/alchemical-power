@@ -9,7 +9,7 @@
       "item": "alchemical_power:t1_panakeia_ingot"
     },
     "c": {
-      "item": "minecraft:iron_ingot"
+      "item": "alchemical_power:alchemy_machine_frame"
     }
   },
   "pattern": [

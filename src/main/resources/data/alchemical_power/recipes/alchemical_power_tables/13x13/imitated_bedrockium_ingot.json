@@ -1,0 +1,38 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "             ",
+    "             ",
+    "             ",
+    "AAAAAAAAAAAAA",
+    "ABCDDCECDDCBA",
+    "AFBCCEBECCBFA",
+    "ACFBBBGBBBFCA",
+    "AFBCCEBECCBFA",
+    "ABCDDCECDDCBA",
+    "AAAAAAAAAAAAA",
+    "             ",
+    "             ",
+    "             "
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:imitated_bedrock"},
+    "B": {"item": "alchemical_power:infinity_panakeia"},
+    "C": {"item": "alchemical_power:x38025_cobblestone"},
+    "D": {"item": "alchemical_power:arcane_star"},
+    "E": {"item": "alchemical_power:unnatural_catalyst"},
+    "F": {"item": "alchemical_power:rune_catalyst"},
+    "G": {"item": "alchemical_power:arcane_dragon_egg"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:imitated_bedrockium_ingot"
+  }
+}

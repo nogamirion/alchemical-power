@@ -1,0 +1,37 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "AAAAAAAAAAAAA",
+    "ABBBBBBBBBBBA",
+    "ABCCCCCCCCCBA",
+    "ABCDDDDDDDCBA",
+    "ABCDDEEEDDCBA",
+    "ABCDEDEDEDCBA",
+    "ABCDEEFEEDCBA",
+    "ABCDEDEDEDCBA",
+    "ABCDDEEEDDCBA",
+    "ABCDDDDDDDCBA",
+    "ABCCCCCCCCCBA",
+    "ABBBBBBBBBBBA",
+    "AAAAAAAAAAAAA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:t3_combustion_rune_block"},
+    "B": {"item": "alchemical_power:t4_combustion_rune_block"},
+    "C": {"item": "alchemical_power:t5_combustion_rune_block"},
+    "D": {"item": "alchemical_power:t6_combustion_rune_block"},
+    "E": {"item": "alchemical_power:t7_panakeia"},
+    "F": {"item": "alchemical_power:arcane_star"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:semi_eternal_fuel"
+  }
+}

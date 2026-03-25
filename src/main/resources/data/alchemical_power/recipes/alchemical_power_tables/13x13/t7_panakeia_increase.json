@@ -1,0 +1,39 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "AAAAAAAAAAAAA",
+    "BBBBBBBBBBBBB",
+    "CCCCCCCCCCCCC",
+    "DDDDDDDDDDDDD",
+    "EEEEEEEEEEEEE",
+    "FFFFFFFFFFFFF",
+    "GGGGGGHGGGGGG",
+    "FFFFFFFFFFFFF",
+    "EEEEEEEEEEEEE",
+    "DDDDDDDDDDDDD",
+    "CCCCCCCCCCCCC",
+    "BBBBBBBBBBBBB",
+    "AAAAAAAAAAAAA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:t0_panakeia"},
+    "B": {"item": "alchemical_power:t1_panakeia_cube"},
+    "C": {"item": "alchemical_power:t2_panakeia_cube"},
+    "D": {"item": "alchemical_power:t3_panakeia_cube"},
+    "E": {"item": "alchemical_power:t4_panakeia_cube"},
+    "F": {"item": "alchemical_power:t5_panakeia_cube"},
+    "G": {"item": "alchemical_power:t6_panakeia_cube"},
+    "H": {"item": "alchemical_power:t7_panakeia"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 4,
+    "item": "alchemical_power:t7_panakeia"
+  }
+}

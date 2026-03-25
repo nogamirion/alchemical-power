@@ -1,0 +1,44 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "             ",
+    "    AAAAA    ",
+    "   A     A   ",
+    "  A  B C  A  ",
+    " A  D   E  A ",
+    " A F     G A ",
+    " A         A ",
+    " A H     I A ",
+    " A  J   K  A ",
+    "  A  L M  A  ",
+    "   A     A   ",
+    "    AAAAA    ",
+    "             "
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:infinity_panakeia"},
+    "B": {"item": "alchemical_power:origin_of_wisdom"},
+    "C": {"item": "alchemical_power:origin_of_courage"},
+    "D": {"item": "alchemical_power:origin_of_justice"},
+    "E": {"item": "alchemical_power:origin_of_love"},
+    "F": {"item": "alchemical_power:origin_of_hope"},
+    "G": {"item": "alchemical_power:origin_of_temperance"},
+    "H": {"item": "alchemical_power:arcane_star"},
+    "I": {"item": "alchemical_power:origin_of_faith"},
+    "J": {"item": "alchemical_power:arcane_dragon_egg"},
+    "K": {"item": "alchemical_power:omg_stew"},
+    "L": {"item": "alchemical_power:rune_catalyst"},
+    "M": {"item": "alchemical_power:unnatural_catalyst"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:singularity"
+  }
+}

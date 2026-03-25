@@ -17,6 +17,12 @@ public class Philosophers_stone extends Item {
     }
 
     @Override
+    public ItemStack getCraftingRemainingItem(ItemStack stack) {
+        ItemStack copy = stack.copy();
+        return copy;
+    }
+
+    @Override
     @OnlyIn(Dist.CLIENT)
     public boolean isFoil(ItemStack itemstack){
         return true;

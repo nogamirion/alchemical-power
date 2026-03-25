@@ -150,4 +150,16 @@ public class Rune_Activator_Menu extends AbstractContainerMenu {
         }
     }
 
+    public Slot getOutputSlot(){
+        return this.getSlot(38);
+    }
+
+    public int getProgress(){
+        return this.data.get(0);
+    }
+
+    public int getMaxProgress(){
+        return this.data.get(1);
+    }
+
 }

@@ -1,0 +1,48 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "ABBCCDDDCCBBA",
+    "BEEEEEEEEEEEB",
+    "BEFFFFJFFFFEB",
+    "CEFGGGIGGGFEC",
+    "CEFOHHIHHKFEC",
+    "DEFGHHIHHGFED",
+    "DEQIIIPIIIQED",
+    "DEFGHHIHHGFED",
+    "CEFNHHIHHLFEC",
+    "CEFGGGIGGGFEC",
+    "BEFFFFMFFFFEB",
+    "BEEEEEEEEEEEB",
+    "ABBCCDDDCCBBA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:t1_panakeia_ingot"},
+    "B": {"item": "alchemical_power:t2_panakeia_ingot"},
+    "C": {"item": "alchemical_power:t3_panakeia_ingot"},
+    "D": {"item": "alchemical_power:t4_panakeia_gem"},
+    "E": {"item": "alchemical_power:t5_panakeia_gem"},
+    "F": {"item": "alchemical_power:t6_panakeia_ingot"},
+    "G": {"item": "alchemical_power:t5_panakeia"},
+    "H": {"item": "alchemical_power:t6_panakeia"},
+    "I": {"item": "minecraft:dragon_breath"},
+    "J": {"item": "alchemical_power:wisdom_crystal"},
+    "K": {"item": "alchemical_power:courage_crystal"},
+    "L": {"item": "alchemical_power:justice_crystal"},
+    "N": {"item": "alchemical_power:love_crystal"},
+    "M": {"item": "alchemical_power:hope_crystal"},
+    "O": {"item": "alchemical_power:temperance_crystal"},
+    "P": {"item": "minecraft:dragon_egg"},
+    "Q": {"item": "minecraft:sculk_shrieker"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier3"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:t7_panakeia"
+  }
+}

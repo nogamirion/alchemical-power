@@ -1,0 +1,23 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 3,
+
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:justice_crystal"},
+    "B": {"item": "alchemical_power:t3_panakeia_ingot_x2025_compressed_plate"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier3"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:justice_crystal_plate"
+  }
+}

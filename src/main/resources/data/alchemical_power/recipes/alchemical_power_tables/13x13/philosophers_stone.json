@@ -1,0 +1,35 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "             ",
+    "             ",
+    "    AAAAA    ",
+    "   AAAAAAA   ",
+    "  AAAAAAAAA  ",
+    "  AAABCBAAA  ",
+    "  AAACDCAAA  ",
+    "  AAABCBAAA  ",
+    "  AAAAAAAAA  ",
+    "   AAAAAAA   ",
+    "    AAAAA    ",
+    "             ",
+    "             "
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:infinity_panakeia"},
+    "B": {"item": "alchemical_power:semi_eternal_fuel"},
+    "C": {"item": "alchemical_power:imitated_bedrockium_ingot"},
+    "D": {"item": "alchemical_power:singularity"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:philosophers_stone"
+  }
+}

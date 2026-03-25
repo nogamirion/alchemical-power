@@ -407,6 +407,27 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(itemlist.AZUKI_BEANS);
         simpleItem(itemlist.SWEET_AZUKI_PASTE);
 
+        simpleItem(itemlist.SPEED_UPGRADE_T1);
+        simpleItem(itemlist.SPEED_UPGRADE_T2);
+        simpleItem(itemlist.SPEED_UPGRADE_T3);
+        simpleItem(itemlist.SPEED_UPGRADE_T4);
+        simpleItem(itemlist.SPEED_UPGRADE_T5);
+        simpleItem(itemlist.ENERGY_EFFICIENCY_UPGRADE_T1);
+        simpleItem(itemlist.ENERGY_EFFICIENCY_UPGRADE_T2);
+        simpleItem(itemlist.ENERGY_EFFICIENCY_UPGRADE_T3);
+        simpleItem(itemlist.ENERGY_EFFICIENCY_UPGRADE_T4);
+        simpleItem(itemlist.ENERGY_EFFICIENCY_UPGRADE_T5);
+        simpleItem(itemlist.ENERGY_CAPACITY_UPGRADE_T1);
+        simpleItem(itemlist.ENERGY_CAPACITY_UPGRADE_T2);
+        simpleItem(itemlist.ENERGY_CAPACITY_UPGRADE_T3);
+        simpleItem(itemlist.ENERGY_CAPACITY_UPGRADE_T4);
+        simpleItem(itemlist.ENERGY_CAPACITY_UPGRADE_T5);
+        simpleItem(itemlist.CRAFTING_TOOL_UPGRADE_T2);
+        simpleItem(itemlist.CRAFTING_TOOL_UPGRADE_T3);
+        simpleItem(itemlist.CRAFTING_TOOL_UPGRADE_T4);
+        simpleItem(itemlist.CRAFTING_TOOL_UPGRADE_T5);
+
+
 
 
 

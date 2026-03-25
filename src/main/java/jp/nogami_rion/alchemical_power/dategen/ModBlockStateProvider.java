@@ -72,6 +72,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         saplingBlock(blocklist.ALCHETREE_SAPLINGS_T6);
         saplingBlock(blocklist.ALCHETREE_SAPLINGS_T7);
 
+        blockWithItem(blocklist.ALCHEMY_MACHINE_FRAME);
+
 
 
 

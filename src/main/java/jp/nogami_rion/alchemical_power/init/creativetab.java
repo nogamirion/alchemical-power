@@ -90,6 +90,9 @@ public class creativetab {
                     output.accept(itemlist.ALCHEMY_TABLE.get());
                     output.accept(itemlist.HERMES_WORKBENCH.get());
                     output.accept(itemlist.TRANSCENDENTAL_TABLE.get());
+                    output.accept(itemlist.ALCHEMY_TABLE_RE.get());
+                    output.accept(itemlist.HERMES_WORKBENCH_RE.get());
+                    output.accept(itemlist.TRANSCENDENTAL_TABLE_RE.get());
                     output.accept(itemlist.ALCHEMICAL_ENGRAVER.get());
                     output.accept(itemlist.RUNE_ACTIVATOR.get());
                     output.accept(itemlist.INFINITE_WATER_BARREL.get());
@@ -299,6 +302,29 @@ public class creativetab {
                     output.accept(itemlist.UNITE_ALLOY_CHESTPLATE.get());
                     output.accept(itemlist.UNITE_ALLOY_LEGGINGS.get());
                     output.accept(itemlist.UNITE_ALLOY_BOOTS.get());
+
+                    output.accept(itemlist.T1_PANAKEIA_INGOT_X81_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.T2_PANAKEIA_INGOT_X81_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.T3_PANAKEIA_INGOT_X81_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.T4_PANAKEIA_GEM_X81_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.T5_PANAKEIA_GEM_X81_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.T6_PANAKEIA_INGOT_X81_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.UNITE_ALLOY_X81_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.T1_PANAKEIA_INGOT_X2025_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.T2_PANAKEIA_INGOT_X2025_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.T3_PANAKEIA_INGOT_X2025_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.T4_PANAKEIA_GEM_X2025_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.T5_PANAKEIA_GEM_X2025_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.T6_PANAKEIA_INGOT_X2025_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.UNITE_ALLOY_X2025_COMPRESSED_PLATE.get());
+                    output.accept(itemlist.WISDOM_CRYSTAL_PLATE.get());
+                    output.accept(itemlist.COURAGE_CRYSTAL_PLATE.get());
+                    output.accept(itemlist.JUSTICE_CRYSTAL_PLATE.get());
+                    output.accept(itemlist.LOVE_CRYSTAL_PLATE.get());
+                    output.accept(itemlist.HOPE_CRYSTAL_PLATE.get());
+                    output.accept(itemlist.TEMPERANCE_CRYSTAL_PLATE.get());
+                    output.accept(itemlist.FAITH_CRYSTAL_PLATE.get());
+
                     output.accept(itemlist.FOUNDATION_OF_RING.get());
                     output.accept(itemlist.ALCHEMISTS_RING.get());
                     output.accept(itemlist.GLUTTONYS_RING.get());
@@ -360,11 +386,36 @@ public class creativetab {
                     output.accept(ModFluids.UNITE_ALLOY.bucket.get());
                     output.accept(ModFluids.SINGULARITY.bucket.get());
 
-                    output.accept(itemlist.PAIN_CONVERTER.get());
                     output.accept(itemlist.RUNE_CATALYST.get());
                     output.accept(itemlist.UNNATURAL_CATALYST.get());
                     output.accept(itemlist.INFINITY_PANAKEIA.get());
                     output.accept(itemlist.IMITATED_BEDROCKIUM_INGOT.get());
+
+                    output.accept(itemlist.ALCHEMY_MACHINE_FRAME.get());
+                    output.accept(itemlist.PAIN_CONVERTER.get());
+                    output.accept(itemlist.AUTO_ALCHEMICAL_ASSEMBLER.get());
+                    output.accept(itemlist.PANAKEIA_GENERATOR.get());
+
+                    output.accept(itemlist.SPEED_UPGRADE_T1.get());
+                    output.accept(itemlist.SPEED_UPGRADE_T2.get());
+                    output.accept(itemlist.SPEED_UPGRADE_T3.get());
+                    output.accept(itemlist.SPEED_UPGRADE_T4.get());
+                    output.accept(itemlist.SPEED_UPGRADE_T5.get());
+                    output.accept(itemlist.ENERGY_EFFICIENCY_UPGRADE_T1.get());
+                    output.accept(itemlist.ENERGY_EFFICIENCY_UPGRADE_T2.get());
+                    output.accept(itemlist.ENERGY_EFFICIENCY_UPGRADE_T3.get());
+                    output.accept(itemlist.ENERGY_EFFICIENCY_UPGRADE_T4.get());
+                    output.accept(itemlist.ENERGY_EFFICIENCY_UPGRADE_T5.get());
+                    output.accept(itemlist.ENERGY_CAPACITY_UPGRADE_T1.get());
+                    output.accept(itemlist.ENERGY_CAPACITY_UPGRADE_T2.get());
+                    output.accept(itemlist.ENERGY_CAPACITY_UPGRADE_T3.get());
+                    output.accept(itemlist.ENERGY_CAPACITY_UPGRADE_T4.get());
+                    output.accept(itemlist.ENERGY_CAPACITY_UPGRADE_T5.get());
+                    output.accept(itemlist.CRAFTING_TOOL_UPGRADE_T2.get());
+                    output.accept(itemlist.CRAFTING_TOOL_UPGRADE_T3.get());
+                    output.accept(itemlist.CRAFTING_TOOL_UPGRADE_T4.get());
+                    output.accept(itemlist.CRAFTING_TOOL_UPGRADE_T5.get());
+
 
                 })
                 .build());

@@ -21,7 +21,7 @@
   "item.alchemical_power.t5_panakeia_gem": "T5 Panakeia Gem",
   "item.alchemical_power.t6_panakeia_ingot": "T6 Panakeia Ingot",
   "item.alchemical_power.unite_alloy": "Unite Alloy",
-  "block.alchemical_power.alchemy_table": "Alchemy Table",
+  "block.alchemical_power.alchemy_table": "Alchemy Table (old)",
   "block.alchemical_power.t1_panakeia_ingot_block": "T1 Panakeia Ingot Block",
   "block.alchemical_power.t2_panakeia_ingot_block": "T2 Panakeia Ingot Block",
   "block.alchemical_power.t3_panakeia_ingot_block": "T3 Panakeia Ingot Block",
@@ -37,8 +37,8 @@
   "block.alchemical_power.panakeia_reed_t5": "Panakeia Reed T5",
   "block.alchemical_power.panakeia_reed_t6": "Panakeia Reed T6",
   "block.alchemical_power.panakeia_reed_t7": "Panakeia Reed T7",
-  "block.alchemical_power.hermes_workbench": "Hermes's Workbench",
-  "block.alchemical_power.transcendental_table": "Transcendental Table",
+  "block.alchemical_power.hermes_workbench": "Hermes's Workbench (old)",
+  "block.alchemical_power.transcendental_table": "Transcendental Table (old)",
   "item.alchemical_power.high_density_t1_panakeia_ingot": "High Density T1 Panakeia Ingot",
   "item.alchemical_power.high_density_t2_panakeia_ingot": "High Density T2 Panakeia Ingot",
   "item.alchemical_power.high_density_t3_panakeia_ingot": "High Density T3 Panakeia Ingot",
@@ -513,7 +513,6 @@
   "advancements.alchemical_power.obtain_omg_stew.title": "Ask for forgiveness",
   "advancements.alchemical_power.obtain_omg_stew.description": "Mix everything.",
 
-  //1.1.0 version additional
 
   "block.alchemical_power.alchetree_log": "Alchetree Log",
   "block.alchemical_power.stripped_alchetree_log": "Stripped Alchetree Log",
@@ -578,7 +577,7 @@
   "block.alchemical_power.infinite_water_barrel": "Infinite Water Barrel",
   "block.alchemical_power.infinite_lava_barrel": "Infinite Lava Barrel",
 
-  //TiC Integration　
+
   "material.alchemical_power.t1_panakeia_ingot": "T1 Panakeia Ingot",
   "material.alchemical_power.t1_panakeia_ingot.flavor": "A metal alchemically dyed blue. It's usually derived from copper, though it’s not bronze or anything of the sort.",
   "material.alchemical_power.t1_panakeia_ingot.encyclopedia": "Grants +20% durability and, per level, +0.25 attack damage, projectile damage, and defense. Also provides +10% mining speed, attack speed, bow draw speed, and armor toughness. T1 has Level 1 of this trait and additionally shares the same properties as copper.",
@@ -623,7 +622,7 @@
   "modifier.alchemical_power.akashic_records.flavor": "All knowledge",
   "modifier.alchemical_power.akashic_records.description": "You can cram knowledge... specifically up to 10 modifiers each.",
 
-  //1.2.0 version additional
+
   "item.alchemical_power.confectionbybakingbatterintocylindricalshape.name.1": "Ohbanyaki",
   "item.alchemical_power.confectionbybakingbatterintocylindricalshape.name.2": "Imagawayaki",
   "item.alchemical_power.confectionbybakingbatterintocylindricalshape.name.3": "Oyaki",
@@ -685,7 +684,36 @@
   "trim_material.alchemical_power.t7_panakeia": "T7 Panakeia Trim",
 
   "item.alchemical_power.azuki_beans": "Azuki Beans",
-  "item.alchemical_power.sweet_azuki_paste": "Sweet Azuki Paste"
+  "item.alchemical_power.sweet_azuki_paste": "Sweet Azuki Paste",
+
+  "container.alchemical_power.alchemical_table_tier1" : "Alchemy Table",
+  "block.alchemical_power.alchemy_table_re": "Alchemy Table",
+  "container.alchemical_power.alchemical_table_tier2" : "Hermes Workbench",
+  "block.alchemical_power.hermes_workbench_re": "Hermes Workbench",
+  "container.alchemical_power.alchemical_table_tier3" : "Transcendental Table",
+  "block.alchemical_power.transcendental_table_re": "Transcendental Table",
+  "block.alchemical_power.auto_alchemical_assembler": "Auto Alchemical Assembler",
+  "block.alchemical_power.panakeia_generator": "Panakeia Generator",
+  "block.alchemical_power.alchemy_machine_frame": "Alchemy Machine Frame",
+  "item.alchemical_power.speed_upgrade_t1": "Speed Upgrade T1",
+  "item.alchemical_power.speed_upgrade_t2": "Speed Upgrade T2",
+  "item.alchemical_power.speed_upgrade_t3": "Speed Upgrade T3",
+  "item.alchemical_power.speed_upgrade_t4": "Speed Upgrade T4",
+  "item.alchemical_power.speed_upgrade_t5": "Speed Upgrade T5",
+  "item.alchemical_power.energy_efficiency_upgrade_t1": "Energy Efficiency Upgrade T1",
+  "item.alchemical_power.energy_efficiency_upgrade_t2": "Energy Efficiency Upgrade T2",
+  "item.alchemical_power.energy_efficiency_upgrade_t3": "Energy Efficiency Upgrade T3",
+  "item.alchemical_power.energy_efficiency_upgrade_t4": "Energy Efficiency Upgrade T4",
+  "item.alchemical_power.energy_efficiency_upgrade_t5": "Energy Efficiency Upgrade T5",
+  "item.alchemical_power.energy_capacity_upgrade_t1": "Energy Capacity Upgrade T1",
+  "item.alchemical_power.energy_capacity_upgrade_t2": "Energy Capacity Upgrade T2",
+  "item.alchemical_power.energy_capacity_upgrade_t3": "Energy Capacity Upgrade T3",
+  "item.alchemical_power.energy_capacity_upgrade_t4": "Energy Capacity Upgrade T4",
+  "item.alchemical_power.energy_capacity_upgrade_t5": "Energy Capacity Upgrade T5",
+  "item.alchemical_power.crafting_tool_upgrade_t2": "Intermediate Kit Crafting Upgrade",
+  "item.alchemical_power.crafting_tool_upgrade_t3": "Expert's Kit Crafting Upgrade",
+  "item.alchemical_power.crafting_tool_upgrade_t4": "Ultimate Kit Crafting Upgrade",
+  "item.alchemical_power.crafting_tool_upgrade_t5": "Philosopher's Stone Crafting Upgrade"
 
 
 }

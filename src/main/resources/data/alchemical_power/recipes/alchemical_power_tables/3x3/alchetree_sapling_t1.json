@@ -1,0 +1,23 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 3,
+
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:t1_panakeia_cube"},
+    "B": {"item": "alchemical_power:alchetree_sapling_t0"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier1"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:alchetree_sapling_t1"
+  }
+}

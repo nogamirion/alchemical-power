@@ -6,26 +6,31 @@
     {"tag": "minecraft:wooden_slabs"},
     {"tag": "minecraft:wooden_slabs"},
     {"tag":"forge:glass"},
+
     {"tag":"forge:glass"},
     {"item": "minecraft:diamond"},
     {"item": "alchemical_power:t4_panakeia"},
     {"item": "minecraft:diamond"},
     {"tag":"forge:glass"},
+
     {"tag":"forge:glass"},
     {"item": "minecraft:diamond"},
     {"item": "alchemical_power:t5_panakeia"},
     {"item": "minecraft:diamond"},
     {"tag":"forge:glass"},
+
     {"tag":"forge:glass"},
     {"item": "minecraft:diamond"},
     {"item": "minecraft:diamond"},
     {"item": "minecraft:diamond"},
     {"tag":"forge:glass"},
+
     {"tag":"forge:glass"},
     {"tag":"forge:glass"},
     {"tag":"forge:glass"},
     {"tag":"forge:glass"},
     {"tag":"forge:glass"},
+
     {"tag": "alchemical_power:alchemy_kit_tier2"}
   ],
   "output":{

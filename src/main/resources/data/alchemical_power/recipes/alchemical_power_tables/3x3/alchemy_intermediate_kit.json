@@ -1,0 +1,24 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 3,
+
+  "pattern": [
+    "ABA",
+    "ACA",
+    "AAA"
+  ],
+
+  "key": {
+    "A": {"tag":"forge:glass"},
+    "B": {"item": "alchemical_power:t2_panakeia"},
+    "C": {"item": "alchemical_power:t3_panakeia"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier1"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:alchemy_intermediate_kit"
+  }
+}

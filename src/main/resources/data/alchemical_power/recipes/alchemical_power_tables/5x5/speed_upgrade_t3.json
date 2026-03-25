@@ -1,0 +1,26 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 5,
+
+  "pattern": [
+    "AAAAA",
+    "ABBBA",
+    "ABCBA",
+    "ABBBA",
+    "AAAAA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:speed_upgrade_t2"},
+    "B": {"item": "alchemical_power:t4_panakeia_gem"},
+    "C": {"item": "minecraft:feather"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier3"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:speed_upgrade_t3"
+  }
+}

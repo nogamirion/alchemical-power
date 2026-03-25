@@ -2,6 +2,7 @@ package jp.nogami_rion.alchemical_power.block.entity;
 
 import jp.nogami_rion.alchemical_power.Alchemical_power;
 import jp.nogami_rion.alchemical_power.init.blocklist;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -75,6 +76,26 @@ public class ModBlockEntities {
     public static final RegistryObject<BlockEntityType<PainConverterBlockEntity>> PAIN_CONVERTER_BE =
             BLOCK_ENTITIES.register("pain_converter_be",() ->
                     BlockEntityType.Builder.of(PainConverterBlockEntity::new, blocklist.PAIN_CONVERTER.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<AlchemicalTablesTier1BlockEntity>> ALCHEMY_TABLE_BE_RE =
+            BLOCK_ENTITIES.register("alchemy_table_be_re",()->
+                    BlockEntityType.Builder.of(AlchemicalTablesTier1BlockEntity::new, blocklist.ALCHEMY_TABLE_RE.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<AlchemicalTablesTier2BlockEntity>> HERMES_WORKBENCH_BE_RE =
+            BLOCK_ENTITIES.register("hermes_workbench_be_re",()->
+                    BlockEntityType.Builder.of(AlchemicalTablesTier2BlockEntity::new, blocklist.HERMES_WORKBENCH_RE.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<AlchemicalTablesTier3BlockEntity>> TRANSCENDENTAL_TABLE_BE_RE =
+            BLOCK_ENTITIES.register("transcendental_table_be_re",()->
+                    BlockEntityType.Builder.of(AlchemicalTablesTier3BlockEntity::new, blocklist.TRANSCENDENTAL_TABLE_RE.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<AutoAlchemicalAssemblerBlockEntity>> AUTO_ALCHEMICAL_ASSEMBLER =
+            BLOCK_ENTITIES.register("auto_alchemical_assembler",() ->
+                    BlockEntityType.Builder.of(AutoAlchemicalAssemblerBlockEntity::new, blocklist.AUTO_ALCHEMICAL_ASSEMBLER.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<PanakeiaGeneratorBlockEntity>> PANAKEIA_GENERATOR_BE =
+            BLOCK_ENTITIES.register("panakeia_generator_be",()->
+                    BlockEntityType.Builder.of(PanakeiaGeneratorBlockEntity::new,blocklist.PANAKEIA_GENERATOR.get()).build(null));
 
     public static void register(IEventBus eventBus){
         BLOCK_ENTITIES.register(eventBus);

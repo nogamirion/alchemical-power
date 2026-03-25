@@ -196,6 +196,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(blocklist.ALCHETREE_SLAB.get(), block -> createSlabItemTable(blocklist.ALCHETREE_SLAB.get()));
         this.add(blocklist.ALCHETREE_DOOR.get(), block -> createDoorTable(blocklist.ALCHETREE_DOOR.get()));
 
+        this.dropSelf(blocklist.ALCHEMY_TABLE_RE.get());
+        this.dropSelf(blocklist.HERMES_WORKBENCH_RE.get());
+        this.dropSelf(blocklist.TRANSCENDENTAL_TABLE_RE.get());
+        this.dropSelf(blocklist.AUTO_ALCHEMICAL_ASSEMBLER.get());
+        this.dropSelf(blocklist.PANAKEIA_GENERATOR.get());
+        this.dropSelf(blocklist.ALCHEMY_MACHINE_FRAME.get());
+
+
     }
 
     @Override

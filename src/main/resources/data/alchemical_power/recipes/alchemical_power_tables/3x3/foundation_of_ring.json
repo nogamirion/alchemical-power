@@ -1,0 +1,23 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 3,
+
+  "pattern": [
+    "AB ",
+    "B B",
+    " B "
+  ],
+
+  "key": {
+    "A": {"item": "minecraft:amethyst_shard"},
+    "B": {"item": "minecraft:iron_ingot"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier2"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:foundation_of_ring"
+  }
+}

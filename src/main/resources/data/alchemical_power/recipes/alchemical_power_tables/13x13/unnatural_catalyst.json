@@ -1,0 +1,54 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shapeless",
+  "grid": 13,
+
+  "ingredients":[
+    {"item": "alchemical_power:x9_cobblestone"},
+    {"item": "alchemical_power:x225_cobblestone"},
+    {"item": "alchemical_power:x38025_cobblestone"},
+    {"item": "alchemical_power:imitated_bedrock"},
+    {"item": "alchemical_power:panakeia_reed_t0"},
+    {"item": "alchemical_power:panakeia_reed_t1"},
+    {"item": "alchemical_power:panakeia_reed_t2"},
+    {"item": "alchemical_power:panakeia_reed_t3"},
+    {"item": "alchemical_power:panakeia_reed_t4"},
+    {"item": "alchemical_power:panakeia_reed_t5"},
+    {"item": "alchemical_power:panakeia_reed_t6"},
+    {"item": "alchemical_power:panakeia_reed_t7"},
+    {"item": "alchemical_power:alchetree_log"},
+
+    {"item": "alchemical_power:alchetree_sapling_t0"},
+    {"item": "alchemical_power:alchetree_sapling_t1"},
+    {"item": "alchemical_power:alchetree_sapling_t2"},
+    {"item": "alchemical_power:alchetree_sapling_t3"},
+    {"item": "alchemical_power:alchetree_sapling_t4"},
+    {"item": "alchemical_power:alchetree_sapling_t5"},
+    {"item": "alchemical_power:alchetree_sapling_t6"},
+    {"item": "alchemical_power:alchetree_sapling_t7"},
+    {"item": "alchemical_power:alchetree_leaves_t0"},
+    {"item": "alchemical_power:alchetree_leaves_t1"},
+    {"item": "alchemical_power:alchetree_leaves_t2"},
+    {"item": "alchemical_power:alchetree_leaves_t3"},
+    {"item": "alchemical_power:alchetree_leaves_t4"},
+
+    {"item": "alchemical_power:alchetree_leaves_t5"},
+    {"item": "alchemical_power:alchetree_leaves_t6"},
+    {"item": "alchemical_power:alchetree_leaves_t7"},
+    {"item": "alchemical_power:t1_panakeia_ingot"},
+    {"item": "alchemical_power:t2_panakeia_ingot"},
+    {"item": "alchemical_power:t3_panakeia_ingot"},
+    {"item": "alchemical_power:t4_panakeia_gem"},
+    {"item": "alchemical_power:t5_panakeia_gem"},
+    {"item": "alchemical_power:t6_panakeia_ingot"},
+    {"item": "alchemical_power:unite_alloy"},
+    {"item": "minecraft:calibrated_sculk_sensor"}
+  ],
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:unnatural_catalyst"
+  }
+}

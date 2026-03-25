@@ -1,0 +1,34 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    " AAAAAAAAA   ",
+    "AAAAAAAAAABB ",
+    " AAAAAAAAACB ",
+    "        AAAAA",
+    "       BBAAAA",
+    "      BBB AAA",
+    "     BBB  AAA",
+    "    BBB   AAA",
+    "   BBB    AAA",
+    "  BBB     AAA",
+    " BBB      AAA",
+    "BBB       AAA",
+    "BB         A "
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:imitated_bedrockium_ingot"},
+    "B": {"tag": "minecraft:logs"},
+    "C": {"item": "alchemical_power:origin_of_hope"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier5"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:the_destroyer_of_the_rial"
+  }
+}

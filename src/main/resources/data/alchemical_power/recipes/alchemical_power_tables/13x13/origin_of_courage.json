@@ -1,0 +1,35 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "AACCCCCCCCCAA",
+    "ABBBBBABBBBBA",
+    "CBABBAABBBABC",
+    "CBBBAAABBBBBC",
+    "CBBBAAAAAABBC",
+    "CBBBAAAAAAABC",
+    "CAAAAADAAAAAC",
+    "CBAAAAAAABBBC",
+    "CBBAAAAAABBBC",
+    "CBBBBBAAABBBC",
+    "CBABBBAABBABC",
+    "ABBBBBABBBBBA",
+    "AACCCCCCCCCAA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:courage_crystal"},
+    "B": {"item": "alchemical_power:high_density_t2_panakeia_ingot"},
+    "C": {"item": "alchemical_power:t2_panakeia_ingot_block"},
+    "D": {"item": "alchemical_power:arcane_star"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:origin_of_courage"
+  }
+}

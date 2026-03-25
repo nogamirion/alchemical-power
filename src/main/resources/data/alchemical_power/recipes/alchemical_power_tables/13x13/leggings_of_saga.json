@@ -1,0 +1,37 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "  AAAAAAAAA  ",
+    " ABBBBBBBBBA ",
+    " ACBCDDDCBCA ",
+    " ABCBDEDBCBA ",
+    " ABBBDBDBBBA ",
+    " ABBBBBBBBBA ",
+    " ABBBAAABBBA ",
+    " AFFFA AFFFA ",
+    " ABBBA ABBBA ",
+    " ABBBA ABBBA ",
+    " AFFFA AFFFA ",
+    " ABBBA ABBBA ",
+    "  AAA   AAA  "
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:imitated_bedrock"},
+    "B": {"item": "alchemical_power:t1_panakeia_ingot_block"},
+    "C": {"item": "alchemical_power:t6_panakeia_ingot"},
+    "D": {"item": "alchemical_power:wisdom_crystal"},
+    "E": {"item": "alchemical_power:origin_of_wisdom"},
+    "F": {"item": "alchemical_power:x38025_cobblestone"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier5"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:leggings_of_saga"
+  }
+}

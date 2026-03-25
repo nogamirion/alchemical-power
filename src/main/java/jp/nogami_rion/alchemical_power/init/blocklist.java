@@ -2,6 +2,10 @@ package jp.nogami_rion.alchemical_power.init;
 
 import jp.nogami_rion.alchemical_power.Alchemical_power;
 import jp.nogami_rion.alchemical_power.block.*;
+import jp.nogami_rion.alchemical_power.block.craft.AlchemyTableBlock;
+import jp.nogami_rion.alchemical_power.block.craft.AutoAlchemicalAssemblerBlock;
+import jp.nogami_rion.alchemical_power.block.craft.HermesWorkbenchBlock;
+import jp.nogami_rion.alchemical_power.block.craft.TranscendentalTableBlock;
 import jp.nogami_rion.alchemical_power.block.custom.ModFlammableRotatePillarBlock;
 import jp.nogami_rion.alchemical_power.block.custom.ModLeavesBlock;
 import jp.nogami_rion.alchemical_power.block.custom.ModSaplingsBlock;
@@ -144,6 +148,12 @@ public class blocklist {
 
     public static final RegistryObject<Block> PAIN_CONVERTER = BLOCKS.register("pain_converter", PainConverterBlock::new);
 
+    public static final RegistryObject<Block> ALCHEMY_TABLE_RE = BLOCKS.register("alchemy_table_re", AlchemyTableBlock::new);
+    public static final RegistryObject<Block> HERMES_WORKBENCH_RE = BLOCKS.register("hermes_workbench_re", HermesWorkbenchBlock::new);
+    public static final RegistryObject<Block> TRANSCENDENTAL_TABLE_RE = BLOCKS.register("transcendental_table_re", TranscendentalTableBlock::new);
+    public static final RegistryObject<Block> AUTO_ALCHEMICAL_ASSEMBLER = BLOCKS.register("auto_alchemical_assembler", AutoAlchemicalAssemblerBlock::new);
+    public static final RegistryObject<Block> PANAKEIA_GENERATOR = BLOCKS.register("panakeia_generator",PanakeiaGeneratorBlock::new);
+    public static final RegistryObject<Block> ALCHEMY_MACHINE_FRAME = BLOCKS.register("alchemy_machine_frame",AlchemyMachineFrame::new);
 
     //アイテムリストの登録用
     public static void register(IEventBus eventBus){

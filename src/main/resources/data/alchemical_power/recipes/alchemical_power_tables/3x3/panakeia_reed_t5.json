@@ -1,0 +1,23 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 3,
+
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:t5_panakeia"},
+    "B": {"item": "alchemical_power:panakeia_reed_t4"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier3"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:panakeia_reed_t5"
+  }
+}

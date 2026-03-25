@@ -1,0 +1,49 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "AHIJKLMNOPQRA",
+    "ABBBBBBBBBBBA",
+    "ABCCCCCCCCCBA",
+    "ABCDDDDDDDCBA",
+    "ABCDEEEEEDCBA",
+    "ABCDEFFFEDCBA",
+    "ABCDEFGFEDCBA",
+    "ABCDEFFFEDCBA",
+    "ABCDEEEEEDCBA",
+    "ABCDDDDDDDCBA",
+    "ABCCCCCCCCCBA",
+    "ABBBBBBBBBBBA",
+    "AAAAAAAAAAAAA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:x225_cobblestone"},
+    "B": {"item": "alchemical_power:t1_panakeia"},
+    "C": {"item": "alchemical_power:t2_panakeia"},
+    "D": {"item": "alchemical_power:t3_panakeia"},
+    "E": {"item": "alchemical_power:t4_panakeia"},
+    "F": {"item": "alchemical_power:t5_panakeia"},
+    "G": {"item": "alchemical_power:t6_panakeia"},
+    "H": {"item": "minecraft:stonecutter"},
+    "I": {"item": "minecraft:cartography_table"},
+    "J": {"item": "minecraft:fletching_table"},
+    "K": {"item": "minecraft:smithing_table"},
+    "L": {"item": "minecraft:grindstone"},
+    "N": {"item": "minecraft:loom"},
+    "M": {"item": "minecraft:anvil"},
+    "O": {"item": "minecraft:enchanting_table"},
+    "P": {"item": "minecraft:brewing_stand"},
+    "Q": {"item": "minecraft:cauldron"},
+    "R": {"item": "minecraft:beacon"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier3"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:ultimate_alchemy_kit"
+  }
+}

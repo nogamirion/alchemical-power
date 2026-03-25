@@ -1,0 +1,201 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shapeless",
+  "grid": 13,
+
+  "ingredients":[
+    {"item": "alchemical_power:cookware_set"},
+    {"item": "minecraft:apple"},
+    {"item": "minecraft:golden_apple"},
+    {"item": "minecraft:enchanted_golden_apple"},
+    {"item": "minecraft:melon_slice"},
+    {"item": "minecraft:sweet_berries"},
+    {"item": "minecraft:glow_berries"},
+    {"item": "minecraft:chorus_fruit"},
+    {"item": "minecraft:carrot"},
+    {"item": "minecraft:golden_carrot"},
+    {"item": "minecraft:potato"},
+    {"item": "minecraft:baked_potato"},
+    {"item": "minecraft:poisonous_potato"},
+    {"item": "minecraft:beetroot"},
+
+    {"item": "minecraft:dried_kelp"},
+    {"item": "minecraft:beef"},
+    {"item": "minecraft:cooked_beef"},
+    {"item": "minecraft:porkchop"},
+    {"item": "minecraft:cooked_porkchop"},
+    {"item": "minecraft:mutton"},
+    {"item": "minecraft:cooked_mutton"},
+    {"item": "minecraft:chicken"},
+    {"item": "minecraft:cooked_chicken"},
+    {"item": "minecraft:rabbit"},
+    {"item": "minecraft:cooked_rabbit"},
+    {"item": "minecraft:cod"},
+    {"item": "minecraft:cooked_cod"},
+
+    {"item": "minecraft:salmon"},
+    {"item": "minecraft:cooked_salmon"},
+    {"item": "minecraft:tropical_fish"},
+    {"item": "minecraft:pufferfish"},
+    {"item": "minecraft:bread"},
+    {"item": "minecraft:cookie"},
+    {"item": "minecraft:cake"},
+    {"item": "minecraft:pumpkin_pie"},
+    {"item": "minecraft:mushroom_stew"},
+    {"item": "minecraft:beetroot_soup"},
+    {"item": "minecraft:rabbit_stew"},
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:suspicious_stew",
+      "nbt": "{Effects:[{EffectId:23,EffectDuration:7}]}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:suspicious_stew",
+      "nbt": "{Effects:[{EffectId:16,EffectDuration:100}]}"
+    },
+
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:suspicious_stew",
+      "nbt": "{Effects:[{EffectId:12,EffectDuration:80}]}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:suspicious_stew",
+      "nbt": "{Effects:[{EffectId:15,EffectDuration:160}]}"
+    },
+
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:suspicious_stew",
+      "nbt": "{Effects:[{EffectId:18,EffectDuration:180}]}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:suspicious_stew",
+      "nbt": "{Effects:[{EffectId:10,EffectDuration:160}]}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:suspicious_stew",
+      "nbt": "{Effects:[{EffectId:8,EffectDuration:120}]}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:suspicious_stew",
+      "nbt": "{Effects:[{EffectId:19,EffectDuration:240}]}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:suspicious_stew",
+      "nbt": "{Effects:[{EffectId:20,EffectDuration:160}]}"
+    },
+    {"item": "minecraft:honey_bottle"},
+    {"item": "alchemical_power:tomato"},
+    {"item": "alchemical_power:cabbage"},
+    {"item": "alchemical_power:onion"},
+    {"item": "alchemical_power:cheese"},
+    {"item": "alchemical_power:raw_pasta"},
+
+    {"item": "alchemical_power:dough"},
+    {"item": "alchemical_power:rice"},
+    {"item": "alchemical_power:azuki_beans"},
+    {"item": "alchemical_power:sliced_apple"},
+    {"item": "alchemical_power:chopped_seaweed"},
+    {"item": "alchemical_power:nori"},
+    {"item": "alchemical_power:chocolate"},
+    {"item": "alchemical_power:lemon"},
+    {"item": "alchemical_power:cod_roe"},
+    {"item": "alchemical_power:salmon_roe"},
+    {"item": "alchemical_power:sweet_berry_jam"},
+    {"item": "alchemical_power:tomato_jam"},
+    {"item": "alchemical_power:glow_berry_jam"},
+    {"item": "alchemical_power:chorus_fruit_jam"},
+
+    {"item": "alchemical_power:apple_jam"},
+    {"item": "alchemical_power:lemon_jam"},
+    {"item": "alchemical_power:melon_jam"},
+    {"item": "alchemical_power:pumpkin_jam"},
+    {"item": "alchemical_power:milk_bottle"},
+    {"item": "alchemical_power:apple_juice"},
+    {"item": "alchemical_power:lemon_juice"},
+    {"item": "alchemical_power:tomato_juice"},
+    {"item": "alchemical_power:carrot_juice"},
+    {"item": "alchemical_power:wheat_juice"},
+    {"item": "alchemical_power:melon_juice"},
+    {"item": "alchemical_power:sweet_berry_juice"},
+    {"item": "alchemical_power:glow_berry_juice"},
+
+    {"item": "alchemical_power:chorus_fruit_juice"},
+    {"item": "alchemical_power:pumpkin_juice"},
+    {"item": "alchemical_power:honey_lemon_juice"},
+    {"item": "alchemical_power:sweet_azuki_paste"},
+    {"item": "alchemical_power:tomato_soup"},
+    {"item": "alchemical_power:cabbage_and_egg_soup"},
+    {"item": "alchemical_power:onion_soup"},
+    {"item": "alchemical_power:tomato_cream_soup"},
+    {"item": "alchemical_power:chicken_noodle_soup"},
+    {"item": "alchemical_power:beef_stew"},
+    {"item": "alchemical_power:seafood_chowder"},
+    {"item": "alchemical_power:pumpkin_thick_soup"},
+    {"item": "alchemical_power:potato_thick_soup"},
+    {"item": "alchemical_power:meat_sauce_pasta"},
+
+    {"item": "alchemical_power:cream_pasta"},
+    {"item": "alchemical_power:mushroom_risotto"},
+    {"item": "alchemical_power:cheese_risotto"},
+    {"item": "alchemical_power:tomato_risotto"},
+    {"item": "alchemical_power:fried_rice"},
+    {"item": "alchemical_power:omelette_rice"},
+    {"item": "alchemical_power:rice_ball"},
+    {"item": "alchemical_power:salmon_sushi"},
+    {"item": "alchemical_power:konbujime_cod_sushi"},
+    {"item": "alchemical_power:sushi_rolls"},
+    {"item": "alchemical_power:cheese_bread"},
+    {"item": "alchemical_power:onion_bread"},
+    {"item": "alchemical_power:tomato_focaccia"},
+
+    {"item": "alchemical_power:pizza_dough"},
+    {"item": "alchemical_power:pizza_before_baking"},
+    {"item": "alchemical_power:pizza"},
+    {"item": "alchemical_power:calzone_before_baking"},
+    {"item": "alchemical_power:calzone"},
+    {"item": "alchemical_power:cheese_cracker"},
+    {"item": "alchemical_power:cheese_cake"},
+    {"item": "alchemical_power:chocolate_cake"},
+    {"item": "alchemical_power:lemon_cake"},
+    {"item": "alchemical_power:apple_pie"},
+    {"item": "alchemical_power:confectionbybakingbatterintocylindricalshape"},
+    {"item": "alchemical_power:coleslaw"},
+    {"item": "alchemical_power:cheese_baked_potato"},
+    {"item": "alchemical_power:onion_ring"},
+
+    {"item": "alchemical_power:grilled_tomato_and_cheese"},
+    {"item": "alchemical_power:cabbage_roll"},
+    {"item": "alchemical_power:fried_potato"},
+    {"item": "alchemical_power:green_salad"},
+    {"item": "alchemical_power:potato_salad"},
+    {"item": "alchemical_power:fried_chicken"},
+    {"item": "alchemical_power:fried_fish"},
+    {"item": "alchemical_power:hamburg_steak"},
+    {"item": "alchemical_power:hamburger"},
+    {"item": "alchemical_power:steves_lava_chicken"},
+    {"item": "alchemical_power:ice_cream"},
+    {"item": "alchemical_power:chocolate_ice_cream"},
+    {"item": "alchemical_power:lemon_ice_cream"},
+
+    {"item": "alchemical_power:apple_ice_cream"},
+    {"item": "alchemical_power:sweet_berry_smoothie"},
+    {"item": "alchemical_power:glow_berry_smoothie"},
+    {"item": "alchemical_power:rice_pudding"},
+    {"item": "alchemical_power:jam_bun"}
+  ],
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier1"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:omg_stew"
+  }
+}

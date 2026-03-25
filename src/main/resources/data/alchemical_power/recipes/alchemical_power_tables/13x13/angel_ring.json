@@ -1,0 +1,43 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "             ",
+    "             ",
+    "    AAAAA    ",
+    "   ABBCBBA   ",
+    "  ADBEEEBFA  ",
+    " AABE   EBAA ",
+    "AAAGE H EIAAA",
+    "AAABE   EBAAA",
+    "A AJBEEEBKA A",
+    "   ABBLBBA   ",
+    "    AAAAA    ",
+    "             ",
+    "             "
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:t6_panakeia_ingot_block"},
+    "B": {"item": "alchemical_power:courage_crystal"},
+    "C": {"item": "alchemical_power:t1_panakeia_helmet"},
+    "D": {"item": "alchemical_power:t2_panakeia_helmet"},
+    "E": {"item": "alchemical_power:imitated_bedrock"},
+    "F": {"item": "alchemical_power:t3_panakeia_helmet"},
+    "G": {"item": "alchemical_power:t4_panakeia_helmet"},
+    "H": {"item": "alchemical_power:origin_of_faith"},
+    "I": {"item": "alchemical_power:t5_panakeia_helmet"},
+    "J": {"item": "alchemical_power:t6_panakeia_helmet"},
+    "K": {"item": "alchemical_power:unite_alloy_helmet"},
+    "L": {"item": "minecraft:elytra"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier5"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:angel_ring"
+  }
+}

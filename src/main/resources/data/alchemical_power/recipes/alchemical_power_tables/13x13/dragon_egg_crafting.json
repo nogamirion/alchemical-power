@@ -1,0 +1,34 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "     AAA     ",
+    "    ABBBA    ",
+    "   ABBBBBA   ",
+    "  ABBBBBBBA  ",
+    " ABBBBBBBBBA ",
+    " ABBBBBBBBBA ",
+    " ABBBBCBBBBA ",
+    " ABBBBBBBBBA ",
+    " ABBBBBBBBBA ",
+    " ABBBBBBBBBA ",
+    "  ABBBBBBBA  ",
+    "   ABBBBBA   ",
+    "    AAAAA    "
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:x225_cobblestone"},
+    "B": {"item": "minecraft:dragon_breath"},
+    "C": {"item": "minecraft:egg"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "minecraft:dragon_egg"
+  }
+}

@@ -207,7 +207,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(itemlist.CRUSHED_EMERALD_ORE.get()),has(itemlist.CRUSHED_EMERALD_ORE.get()))
                 .save(consumer,"craft_emerald_ore_from_crushed_ore");
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.TRANSPORTATION, blocklist.ALCHEMY_TABLE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.TRANSPORTATION, blocklist.ALCHEMY_TABLE_RE.get())
                 .pattern("aba")
                 .pattern("aca")
                 .pattern("ada")
@@ -4876,8 +4876,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("ccc")
                 .define('a',Items.HEAVY_WEIGHTED_PRESSURE_PLATE)
                 .define('b',itemlist.T1_PANAKEIA_INGOT.get())
-                .define('c',Items.IRON_INGOT)
-                .unlockedBy(getHasName(itemlist.T1_PANAKEIA_INGOT.get()),has(itemlist.T1_PANAKEIA_INGOT.get()))
+                .define('c',itemlist.ALCHEMY_MACHINE_FRAME.get())
+                .unlockedBy(getHasName(itemlist.ALCHEMY_MACHINE_FRAME.get()),has(itemlist.ALCHEMY_MACHINE_FRAME.get()))
                 .save(consumer);
 
         new RuneActivatorRecipeBuilder(

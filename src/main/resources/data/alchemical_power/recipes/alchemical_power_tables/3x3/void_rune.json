@@ -1,0 +1,23 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 3,
+
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+
+  "key": {
+    "A": {"item": "minecraft:echo_shard"},
+    "B": {"item": "alchemical_power:blank_rune"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier3"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:void_rune"
+  }
+}

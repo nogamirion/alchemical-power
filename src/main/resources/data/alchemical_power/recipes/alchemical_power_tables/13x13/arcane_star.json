@@ -1,0 +1,32 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "    AAAAA    ",
+    "   A     A   ",
+    "  A       A  ",
+    " A    A    A ",
+    "A    AAA    A",
+    "A  AAAAAAA  A",
+    "A   AAAAA   A",
+    "A   AAAAA   A",
+    "A  AAAAAAA  A",
+    " A  AA AA  A ",
+    "  A       A  ",
+    "   A     A   ",
+    "    AAAAA    "
+  ],
+
+  "key": {
+    "A": {"item": "minecraft:nether_star"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:arcane_star"
+  }
+}

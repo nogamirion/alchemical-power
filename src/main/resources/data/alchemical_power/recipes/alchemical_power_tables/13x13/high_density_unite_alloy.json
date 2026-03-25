@@ -1,0 +1,16 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shapeless",
+  "grid": 13,
+
+  "ingredients":[
+    {"item": "alchemical_power:unite_alloy_block","count": 169}
+  ],
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:high_density_unite_alloy"
+  }
+}

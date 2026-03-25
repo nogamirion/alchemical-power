@@ -1,0 +1,26 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 5,
+
+  "pattern": [
+    "AAAAA",
+    "ABBBA",
+    "ABCBA",
+    "ABBBA",
+    "AAAAA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:energy_capacity_upgrade_t4"},
+    "B": {"item": "alchemical_power:unite_alloy"},
+    "C": {"item": "minecraft:redstone_block"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:energy_capacity_upgrade_t5"
+  }
+}

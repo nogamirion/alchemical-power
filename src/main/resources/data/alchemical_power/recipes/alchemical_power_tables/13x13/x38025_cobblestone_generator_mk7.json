@@ -1,0 +1,16 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shapeless",
+  "grid": 13,
+
+  "ingredients":[
+    {"item": "alchemical_power:x225_cobblestone_generator_mk7","count": 169}
+  ],
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier4"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:x38025_cobblestone_generator_mk7"
+  }
+}

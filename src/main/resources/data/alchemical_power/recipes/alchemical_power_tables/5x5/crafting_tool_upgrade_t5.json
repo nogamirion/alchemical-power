@@ -1,0 +1,26 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 5,
+
+  "pattern": [
+    "AAAAA",
+    "ABBBA",
+    "ABCBA",
+    "ABBBA",
+    "AAAAA"
+  ],
+
+  "key": {
+    "A": {"item": "minecraft:paper"},
+    "B": {"item": "alchemical_power:t6_panakeia_ingot"},
+    "C": {"item": "alchemical_power:philosophers_stone"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier5"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:crafting_tool_upgrade_t5"
+  }
+}

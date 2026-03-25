@@ -1,0 +1,26 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 5,
+
+  "pattern": [
+    "ABBBA",
+    "ACCCA",
+    "ACCCA",
+    "ACCCA",
+    "ABBBA"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:alchetree_planks"},
+    "B": {"item": "alchemical_power:alchetree_slab"},
+    "C": {"item": "minecraft:water_bucket"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier2"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:infinite_water_barrel"
+  }
+}

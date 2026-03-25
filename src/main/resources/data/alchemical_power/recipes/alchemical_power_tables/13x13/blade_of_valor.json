@@ -1,0 +1,41 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "           AA",
+    "          ABA",
+    "         ACA ",
+    "        ADA  ",
+    " A     AEA   ",
+    " AA   AFA    ",
+    " AAA AGA     ",
+    "  AAAHA      ",
+    "   AIA       ",
+    "  JJAAA      ",
+    " JJJ AAA     ",
+    "JJJ   AAA    ",
+    "JJ           "
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:t2_panakeia_ingot_block"},
+    "B": {"item": "alchemical_power:t1_panakeia_sword"},
+    "C": {"item": "alchemical_power:t2_panakeia_sword"},
+    "D": {"item": "alchemical_power:t3_panakeia_sword"},
+    "E": {"item": "alchemical_power:t4_panakeia_sword"},
+    "F": {"item": "alchemical_power:t5_panakeia_sword"},
+    "G": {"item": "alchemical_power:t6_panakeia_sword"},
+    "H": {"item": "alchemical_power:unite_alloy_sword"},
+    "I": {"item": "alchemical_power:origin_of_courage"},
+    "J": {"tag": "minecraft:logs"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier5"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:blade_of_valor"
+  }
+}

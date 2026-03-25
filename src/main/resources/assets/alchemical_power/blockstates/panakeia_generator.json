@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,lit=false": { "model": "alchemical_power:block/panakeia_generator" },
+    "facing=south,lit=false": { "model": "alchemical_power:block/panakeia_generator", "y": 180 },
+    "facing=west,lit=false":  { "model": "alchemical_power:block/panakeia_generator", "y": 270 },
+    "facing=east,lit=false":  { "model": "alchemical_power:block/panakeia_generator", "y": 90 },
+
+    "facing=north,lit=true": { "model": "alchemical_power:block/panakeia_generator" },
+    "facing=south,lit=true": { "model": "alchemical_power:block/panakeia_generator", "y": 180 },
+    "facing=west,lit=true":  { "model": "alchemical_power:block/panakeia_generator", "y": 270 },
+    "facing=east,lit=true":  { "model": "alchemical_power:block/panakeia_generator", "y": 90 }
+  }
+}

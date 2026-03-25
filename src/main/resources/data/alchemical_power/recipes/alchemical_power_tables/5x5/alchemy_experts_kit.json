@@ -1,0 +1,28 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 5,
+
+  "pattern": [
+    "ABBBA",
+    "ACDCA",
+    "ACECA",
+    "ACCCA",
+    "AAAAA"
+  ],
+
+  "key": {
+    "A": {"tag":"forge:glass"},
+    "B": {"tag": "minecraft:wooden_slabs"},
+    "C": {"item": "minecraft:diamond"},
+    "D": {"item": "alchemical_power:t4_panakeia"},
+    "E": {"item": "alchemical_power:t5_panakeia"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier2"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:alchemy_experts_kit"
+  }
+}

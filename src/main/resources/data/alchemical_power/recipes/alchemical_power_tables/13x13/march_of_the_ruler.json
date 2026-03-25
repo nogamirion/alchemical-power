@@ -1,0 +1,36 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 13,
+
+  "pattern": [
+    "             ",
+    "             ",
+    "             ",
+    "             ",
+    "   AA   AA   ",
+    "  ABCA ACBA  ",
+    "  ABCADACBA  ",
+    "  ABBA ABBA  ",
+    "  ABBA ABBA  ",
+    "  ABBA ABBA  ",
+    " ABBBA ABBBA ",
+    "ABEBBA ABBEBA",
+    " AAAA   AAAA "
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:imitated_bedrock"},
+    "B": {"item": "alchemical_power:t6_panakeia_ingot_block"},
+    "C": {"item": "alchemical_power:temperance_crystal"},
+    "D": {"item": "alchemical_power:origin_of_temperance"},
+    "E": {"item": "minecraft:compass"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier5"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:march_of_the_ruler"
+  }
+}

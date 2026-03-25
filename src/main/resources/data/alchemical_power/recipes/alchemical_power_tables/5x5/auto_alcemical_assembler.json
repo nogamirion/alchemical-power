@@ -1,0 +1,26 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 5,
+
+  "pattern": [
+    "AAAAA",
+    "A   A",
+    "A   A",
+    "A C A",
+    "BBBBB"
+  ],
+
+  "key": {
+    "A": {"item": "alchemical_power:alchemy_machine_frame"},
+    "B": {"item": "alchemical_power:x225_cobblestone"},
+    "C": {"item": "alchemical_power:alchemy_table_re"}
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier2"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:auto_alchemical_assembler"
+  }
+}

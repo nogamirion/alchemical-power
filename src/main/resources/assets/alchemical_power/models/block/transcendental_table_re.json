@@ -1,0 +1,13 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"down": "alchemical_power:block/transcendental_table_bot",
+		"up": "alchemical_power:block/transcendental_table_top",
+		"north": "alchemical_power:block/transcendental_table_front",
+		"east": "alchemical_power:block/transcendental_table_side",
+		"south": "alchemical_power:block/transcendental_table_front",
+		"west": "alchemical_power:block/transcendental_table_side",
+		"particle": "minecraft:block/oak_planks"
+	},
+	"render_type": "solid"
+}
