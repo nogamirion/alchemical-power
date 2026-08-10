@@ -31,6 +31,7 @@ public abstract class AbstractAlchemicalPowerTablesMenu extends AbstractContaine
     private boolean isCustomRecipe = false;
     private boolean playAnimation = false;
     protected final AlchemicalPowerTablesLayout layout;
+    private boolean dirty = false;
 
     protected AbstractAlchemicalPowerTablesMenu(
             MenuType<?> type,
@@ -56,7 +57,7 @@ public abstract class AbstractAlchemicalPowerTablesMenu extends AbstractContaine
         addToolSlot();
         addResultSlot();
         addPlayerInventory(playerInv);
-        grid.setOnChanged(this::setupResultSlot);
+        grid.setOnChanged(()-> this.dirty = true);
         setupResultSlot();
     }
 
@@ -178,8 +179,21 @@ public abstract class AbstractAlchemicalPowerTablesMenu extends AbstractContaine
     @Override
     public void slotsChanged(Container container){
         super.slotsChanged(container);
-//        setupResultSlot();
+        if(!player.level().isClientSide){
+            dirty = true;
+//            setupResultSlot();
+        }
+    }
 
+    @Override
+    public void broadcastChanges(){
+        super.broadcastChanges();
+        if(!player.level().isClientSide && dirty){
+            dirty  = false;
+            setupResultSlot();
+        }
+
+        super.broadcastChanges();
     }
 
     private void setupResultSlot(){
@@ -190,25 +204,35 @@ public abstract class AbstractAlchemicalPowerTablesMenu extends AbstractContaine
         if(apRecipe.isPresent()){
             isCustomRecipe = true;
             ItemStack result = apRecipe.get().assemble(view,player.level().registryAccess());
-            resultContainer.setItem(0,result);
-            resultContainer.setChanged();
-            broadcastChanges();
+            if(!ItemStack.matches(resultContainer.getItem(0),result)) {
+                resultContainer.setItem(0, result);
+                resultContainer.setChanged();
+            }
+//            broadcastChanges();
             return;
-        } else {
-            isCustomRecipe = false;
+        }
+        isCustomRecipe = false;
+
+        Optional<CraftingRecipe> vanilla =
+                player.level().getRecipeManager().getRecipeFor(RecipeType.CRAFTING,view,player.level());
+
+        ItemStack result = vanilla.map(r -> r.assemble(view,player.level().registryAccess()))
+                .orElse(ItemStack.EMPTY);
+
+        if(!ItemStack.matches(resultContainer.getItem(0),result)) {
+            resultContainer.setItem(0, result);
+            resultContainer.setChanged();
         }
 
-        Optional<CraftingRecipe> vanilla = player.level().getRecipeManager().getRecipeFor(RecipeType.CRAFTING,view,player.level());
-
-        if(vanilla.isPresent()){
-            ItemStack result = vanilla.get().assemble(view,player.level().registryAccess());
-            resultContainer.setItem(0,result);
-        } else {
-            resultContainer.setItem(0,ItemStack.EMPTY);
-        }
-
-        resultContainer.setChanged();
-        broadcastChanges();
+//        if(vanilla.isPresent()){
+//            ItemStack result = vanilla.get().assemble(view,player.level().registryAccess());
+//            resultContainer.setItem(0,result);
+//        } else {
+//            resultContainer.setItem(0,ItemStack.EMPTY);
+//        }
+//
+//        resultContainer.setChanged();
+//        broadcastChanges();
     }
 
     public boolean isCustomRecipe() {

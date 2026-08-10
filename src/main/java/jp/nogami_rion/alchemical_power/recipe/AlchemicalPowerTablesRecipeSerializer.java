@@ -46,7 +46,7 @@ public class AlchemicalPowerTablesRecipeSerializer implements RecipeSerializer<A
         int gridSize = buf.readInt();
         Ingredient tool = Ingredient.fromNetwork(buf);
         ItemStack result = buf.readItem();
-        int progressingTime = buf.readInt();
+//        int progressingTime = buf.readInt();
 
         if(mode == AlchemicalPowerTablesRecipe.Mode.SHAPED){
             int height = buf.readInt();
