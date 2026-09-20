@@ -1,0 +1,19 @@
+{
+  "name": "04.上级帕纳凯亚",
+  "icon": "alchemical_power:t3_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "吸收下界之光后升华而成的上位帕纳凯亚。除作为更高级炼金套件的材料外，也可用于制作刻印符文的初级墨水，并强化金等金属。对凋灵骷髅头颅右键点击即可变为睿智帕纳凯亚。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t3_ingot_material"},
+      "title": "上级帕纳凯亚材料",
+      "text": "上级帕纳凯亚可以强化这些金属，使其变为上级帕纳凯亚锭。"
+    }
+  ]
+}
+
+

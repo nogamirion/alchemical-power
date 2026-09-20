@@ -1,0 +1,13 @@
+{
+  "name": "10.如何增加帕纳凯亚②",
+  "icon": "alchemical_power:panakeia_reed_t0",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "帕纳凯亚与甘蔗组合后会变成帕纳凯亚芦苇，也可以像甘蔗一样种植增殖。制作时，需要在炼金工作台中用帕纳凯亚围住1个低一级的帕纳凯亚芦苇。（T0帕纳凯亚则使用普通甘蔗）"
+    }
+  ]
+}
+
+

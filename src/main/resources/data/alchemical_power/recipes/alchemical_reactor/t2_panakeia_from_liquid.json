@@ -1,0 +1,25 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:sugar"
+      },
+      "count": 1
+    }
+  ],
+  "fluid": {
+    "fluid": "alchemical_power:liquid_panakeia",
+    "amount": 71
+  },
+  "sample": {
+    "item": "alchemical_power:t2_panakeia"
+  },
+  "result": {
+    "item": "alchemical_power:t2_panakeia",
+    "count": 1
+  },
+  "tool_tier": 0,
+  "time": 100,
+  "energy": 71
+}

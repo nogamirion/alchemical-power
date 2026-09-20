@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A scarecrow made from the Alchetree appears. The scarecrow spreads the damage it takes to all nearby creatures. It can be retrieved by Sneak + right-click."
+      "text": "A scarecrow made from Alchetree wood. The scarecrow spreads the damage it takes to all nearby creatures. It can be retrieved with Sneak + right-click."
     }
   ]
 }

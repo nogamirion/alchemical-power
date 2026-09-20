@@ -1,0 +1,54 @@
+{
+  "name": "01.匠魂联动",
+  "icon": "alchemical_power:singularity_ingot",
+  "category": "alchemical_power:integration",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "匠魂联动",
+      "text": "安装匠魂后，可使用基于帕纳凯亚强化材料和奇点的工具材料等联动内容。$(br2)材料加工、部件制作和强化条件可在JEI中查看。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:t1_panakeia_ingot"
+      },
+      "title": "帕纳凯亚",
+      "text": "各类帕纳凯亚强化锭、宝石和联合合金所具有的特性。$(br2)提高耐久，并根据装备类型强化攻击伤害、投射物伤害、采掘速度、攻击速度、拉弓速度、护甲和护甲韧性等性能。特性等级随材料而异。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:unite_alloy"
+      },
+      "title": "超融合",
+      "text": "联合合金和奇点材料所具有的特性。$(br2)增加升级槽，并强化战斗、采掘和防御性能。根据装备类型，还提供时运、抢夺、精准采集和水下移动辅助等效果。$(br2)实际适用的效果取决于工具或护甲的类型。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:singularity"
+      },
+      "title": "阿卡西记录",
+      "text": "奇点材料自带的特性，也可使用奇点通过强化获得。$(br2)增加升级、能力和防御槽，提高攻击伤害，并减少耐久消耗。用于护甲时，还会提高穿戴者的攻击力。$(br2)强化所用的是奇点，而不是奇点锭。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:singularity_ingot"
+      },
+      "title": "奇点材料",
+      "text": "奇点材料的特性会在近战或投射物命中时给目标累积印记，反复攻击后触发击杀效果。$(br2)用于护甲时，还会提供防护、反射伤害，并给攻击者施加印记。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "宝库强化",
+      "text": "使用奇点锭，可为兼容的近战或远程武器添加宝库强化，需要能力槽。$(br2)收纳武器后，近战或投射物命中会触发追击。收纳规则与$(l:singularity/constellation_treasury)星罗宝库$(/l)相同。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "收纳与移除强化",
+      "text": "手持强化后的武器，按打开宝库键即可打开收纳界面，默认为G。也可潜行并使用武器打开。$(br2)追击期间无法打开收纳界面。移除强化前，需取出所有收纳武器并等待追击结束。"
+    }
+  ]
+}

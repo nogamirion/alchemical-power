@@ -10,22 +10,22 @@
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:basic_purification_rune"},
-      "text": "Purification into 2 pieces."
+      "text": "Purifies into 2 pieces."
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:advanced_purification_rune"},
-      "text": "Purification into 4 pieces."
+      "text": "Purifies into 4 pieces."
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:elite_purification_rune"},
-      "text": "Purification into 6 pieces."
+      "text": "Purifies into 6 pieces."
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:ultimate_purification_rune"},
-      "text": "Purification into 8 pieces."
+      "text": "Purifies into 8 pieces."
     }
   ]
 }

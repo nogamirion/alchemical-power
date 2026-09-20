@@ -41,6 +41,13 @@ public class ModRecipes {
             SERIALIZERS.register("alchemical_power_tables_recipe",AlchemicalPowerTablesRecipeSerializer::new);
 
 
+    public static final RegistryObject<RecipeType<AlchemicalReactorRecipe>> ALCHEMICAL_REACTOR_TYPE =
+            TYPES.register("alchemical_reactor", () -> new RecipeType<>() {
+                @Override public String toString() { return "alchemical_power:alchemical_reactor"; }
+            });
+    public static final RegistryObject<RecipeSerializer<AlchemicalReactorRecipe>> ALCHEMICAL_REACTOR_SERIALIZER =
+            SERIALIZERS.register("alchemical_reactor", AlchemicalReactorRecipe.Serializer::new);
+
     public static void register(IEventBus eventBus){
         TYPES.register(eventBus);
         SERIALIZERS.register(eventBus);

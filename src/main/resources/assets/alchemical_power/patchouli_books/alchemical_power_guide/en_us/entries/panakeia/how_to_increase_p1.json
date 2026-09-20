@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Panakeia can be increased by surrounding it with one lower panakeia using the alchemy table."
+      "text": "Panakeia can be increased by surrounding it with Panakeia of one lower tier. T1 through T6 use the Alchemy Table, while T7 uses the Transcendental Table."
     }
   ]
 }

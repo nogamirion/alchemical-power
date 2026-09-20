@@ -1,21 +1,21 @@
 {
-  "name": "04.Singularity Ingot",
+  "name": "05.Singularity Ingot",
   "icon": "alchemical_power:singularity_ingot",
   "category": "alchemical_power:singularity",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Ingots that can further enhance Origin tools and armor."
+      "text": "An ingot made from the Singularity and used to upgrade equipment.$(br2)It is mainly crafted at the Transcendental Table.$(br2)Nine Singularity Nuggets can also be compressed back into an ingot at a regular crafting table, but this is only a supporting compression recipe.$(br2)Upgrading equipment also requires a dedicated smithing template."
     },
     {
-      "type": "patchouli:crafting",
-      "recipe":"alchemical_power:singularity_ingot",
-      "text": "Singularity nuggets can be created by surrounding the singularity with imitated bedrock at the alchemy table."
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:singularity_ingot"},
+      "text": "The main crafting method is alchemy crafting at the Transcendental Table."
     },
     {
       "type": "patchouli:crafting",
       "recipe":"minecraft:singularity_ingot_upgrade_smithing_template_crafting",
-      "text": "Strengthening requires the use of blacksmithing dies, as in the case of neatherite and unite alloys."
+      "text": "Upgrading equipment requires a dedicated smithing template, similar to Netherite and Unite Alloy upgrades."
     }
   ]
 }

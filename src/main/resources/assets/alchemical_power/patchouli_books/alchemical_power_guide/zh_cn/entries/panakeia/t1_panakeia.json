@@ -1,0 +1,19 @@
+{
+  "name": "02.下级帕纳凯亚",
+  "icon": "alchemical_power:t1_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "通过洗涤提高纯度后得到的最基础帕纳凯亚。它是最初的炼金套件材料，也可强化铜等金属。对装有熔岩的炼药锅右键点击即可变为中级帕纳凯亚。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t1_ingot_material"},
+      "title": "下级帕纳凯亚材料",
+      "text": "下级帕纳凯亚可以强化这些金属，使其变为下级帕纳凯亚锭。"
+    }
+  ]
+}
+
+

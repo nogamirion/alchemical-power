@@ -1,0 +1,37 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "alchemical_power:alchemical_base_paper"
+      },
+      "count": 16
+    },
+    {
+      "ingredient": {
+        "item": "alchemical_power:unite_alloy"
+      },
+      "count": 8
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:bucket"
+      },
+      "count": 1
+    }
+  ],
+  "fluid": {
+    "amount": 1380352,
+    "fluid": "alchemical_power:liquid_panakeia"
+  },
+  "sample": {
+    "item": "alchemical_power:tank_capacity_upgrade_t5"
+  },
+  "result": {
+    "item": "alchemical_power:tank_capacity_upgrade_t5",
+    "count": 1
+  },
+  "tool_tier": 3,
+  "time": 1224,
+  "energy": 6998380
+}

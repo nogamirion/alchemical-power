@@ -1,0 +1,51 @@
+{
+  "name": "02.升级",
+  "icon": "alchemical_power:speed_upgrade_t1",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "安装到机械上后，可扩展性能或适用范围的物品。$(br2)升级包括提高处理速度、减少FE消耗、增加可储存FE量，以及扩展可处理炼金合成范围的类型。$(br2)每种机械可使用的升级种类不同。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:speed_upgrade_t1"},
+      "title": "速度升级",
+      "text": "提升机械处理速度的升级。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:energy_efficiency_upgrade_t1"},
+      "title": "能量效率升级",
+      "text": "降低机械FE消耗的升级。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:energy_capacity_upgrade_t1"},
+      "title": "能量容量升级",
+      "text": "增加机械可储存FE量的升级。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:crafting_tool_upgrade_t2"},
+      "title": "合成工具升级",
+      "text": "扩大机械可处理炼金合成范围的升级。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:tank_capacity_upgrade_t1"
+      },
+      "title": "储罐容量升级",
+      "text": "增加机械可储存液体量的升级。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "制作与使用",
+      "text": "升级也有使用$(l:machine/alchemical_reactor)炼金反应炉$(/l)制作的配方。请在JEI中查看$(l:machine/alchemical_base_paper)炼金基纸$(/l)等材料，以及所需合成工具等级。$(br2)各机械页面列有支持的升级类型。取下升级的条件见$(l:machine/handling)机械的使用与搬运$(/l)。"
+    }
+  ]
+}
+
+
+

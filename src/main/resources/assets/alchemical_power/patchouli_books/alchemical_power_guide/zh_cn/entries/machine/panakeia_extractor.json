@@ -1,0 +1,28 @@
+{
+  "name": "05.帕纳凯亚提取机",
+  "icon": "alchemical_power:panakeia_extractor",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:panakeia_extractor"
+      },
+      "title": "帕纳凯亚提取机",
+      "text": "消耗帕纳凯亚、水和FE，制作液体帕纳凯亚的机械。$(br2)将帕纳凯亚放入材料槽，并供给水和FE，即可开始提取。也可使用帕纳凯亚立方体，产液量随材料种类而变化。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:liquid_panakeia_bucket"
+      },
+      "title": "液体帕纳凯亚",
+      "text": "提取出的液体用于$(l:machine/alchemical_reactor)炼金反应炉$(/l)加工。$(br2)可通过容器或外部流体运输供水，也可通过输出容器槽或外部流体运输取出液体帕纳凯亚。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "升级与容量",
+      "text": "支持能量容量升级和储罐容量升级。$(br2)两个储罐必须分别容纳一次提取所需的水和生成的液体。使用产液量较大的材料前，需要先扩充储罐容量。"
+    }
+  ]
+}

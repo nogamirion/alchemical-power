@@ -1,0 +1,19 @@
+{
+  "name": "02.戒指基底",
+  "icon": "alchemical_power:foundation_of_ring",
+  "category": "alchemical_power:accessory",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用于制作饰品戒指的基础材料。$(br2)各种戒指都可以通过在炼金刻印台中加工这种材料来制作。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:foundation_of_ring"},
+      "text": "戒指基底可在炼金工作台中制作。"
+    }
+  ]
+}
+
+
+

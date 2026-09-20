@@ -1,0 +1,13 @@
+{
+  "name": "08.混沌帕纳凯亚",
+  "icon": "alchemical_power:t7_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "吸收了Minecraft中所有强大力量的混沌帕纳凯亚。它是制作统合合金的材料，也是抵达炼金术极境所需的最后一块拼图。"
+    }
+  ]
+}
+
+

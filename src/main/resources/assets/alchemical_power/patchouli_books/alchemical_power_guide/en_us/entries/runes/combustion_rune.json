@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Rune with increased combustion efficiency by imprinting coal and charcoal with panakeia."
+      "text": "Runes made by engraving coal or charcoal with Panakeia to improve fuel efficiency."
     },
     {
       "type": "patchouli:spotlight",
@@ -20,12 +20,12 @@
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:t3_combustion_rune"},
-      "text": "Burning time:5400ticks (300 seconds)"
+      "text": "Burning time:5400ticks (270 seconds)"
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:t4_combustion_rune"},
-      "text": "Burning time:8100ticks (450 seconds)"
+      "text": "Burning time:8100ticks (405 seconds)"
     },
     {
       "type": "patchouli:spotlight",
@@ -35,11 +35,11 @@
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:t6_combustion_rune"},
-      "text": "Burning time:18225ticks (1012.5 seconds)"
+      "text": "Burning time:18225ticks (911.25 seconds)"
     },
     {
       "type": "patchouli:text",
-      "text": "Rune of combustion can be blocked just like coal."
+      "text": "Combustion Runes can be crafted into blocks, just like coal."
     },
     {
       "type": "patchouli:crafting",

@@ -1,0 +1,22 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:paper"
+      },
+      "count": 16
+    }
+  ],
+  "fluid": {
+    "amount": 250,
+    "fluid": "alchemical_power:liquid_panakeia"
+  },
+  "result": {
+    "item": "alchemical_power:alchemical_base_paper",
+    "count": 1
+  },
+  "tool_tier": 0,
+  "time": 200,
+  "energy": 5000
+}

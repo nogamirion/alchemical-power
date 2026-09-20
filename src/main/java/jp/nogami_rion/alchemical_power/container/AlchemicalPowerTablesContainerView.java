@@ -15,10 +15,20 @@ public class AlchemicalPowerTablesContainerView implements CraftingContainer {
 
     private final AlchemicalTableGrid grid;
     private final AbstractAlchemicalTableBlockEntity blockEntity;
+    private final ItemStack toolOverride;
 
     public AlchemicalPowerTablesContainerView(AbstractAlchemicalTableBlockEntity blockEntity){
+        this(blockEntity, null);
+    }
+
+    public AlchemicalPowerTablesContainerView(AbstractAlchemicalTableBlockEntity blockEntity, ItemStack toolOverride){
         this.blockEntity = blockEntity;
         this.grid = blockEntity.getGrid();
+        this.toolOverride = toolOverride;
+    }
+
+    public ItemStack getTool() {
+        return toolOverride == null ? blockEntity.getTool() : toolOverride;
     }
 
     private int size(){

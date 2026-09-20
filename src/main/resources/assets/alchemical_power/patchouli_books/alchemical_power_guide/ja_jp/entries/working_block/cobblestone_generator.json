@@ -1,6 +1,6 @@
 {
   "name": "04.丸石製造機",
-  "icon": "alchemical_power:alchemical_engraver",
+  "icon": "alchemical_power:cobblestone_generator_mk1",
   "category": "alchemical_power:working_block",
   "pages": [
     {
@@ -15,7 +15,7 @@
     {
       "type": "patchouli:crafting",
       "recipe":"alchemical_power:cobblestone_generator_mk2",
-      "text": "強化することで丸石の生産量を増やせる。 $(br)1段階強化する事に生産力が4倍になる。"
+      "text": "強化することで丸石の生産量を増やせる。 $(br)段階が上がるほど、1秒あたりの生産量が増加する。"
     },
     {
       "type": "patchouli:crafting",
@@ -45,7 +45,7 @@
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:x38025_cobblestone_generator_mk1"},
-      "text": "同様に、225倍圧縮丸石製造機を超超越論的錬金作業台で169個並べることで、38025倍圧縮丸石を生産する製造機になる。"
+      "text": "同様に、225倍圧縮丸石製造機を超越論的錬金作業台で169個並べることで、38025倍圧縮丸石を生産する製造機になる。"
     }
   ]
 }

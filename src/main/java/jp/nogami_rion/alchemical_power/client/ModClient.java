@@ -21,6 +21,8 @@ public class ModClient {
     @SubscribeEvent
     public static void onRegisterRenderers(EntityRenderersEvent.RegisterRenderers event){
         event.registerEntityRenderer(entitylist.ALCHETREE_MYSTERIOUS_SCARECROW.get(), ScarecrowRenderer::new);
+        event.registerEntityRenderer(entitylist.THROWN_SWORD.get(), ThrownSwordRenderer::new);
+        event.registerEntityRenderer(entitylist.SUMMONED_ARSENAL_WEAPON.get(), SummonedArsenalWeaponRenderer::new);
     }
 }
 

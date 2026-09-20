@@ -1,0 +1,20 @@
+{
+  "name": "05.睿智帕纳凯亚",
+  "icon": "alchemical_power:t4_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "注入凋灵诅咒后获得更强力量的帕纳凯亚。可用于强化钻石等宝石和稀有金属。对龙首右键点击即可变为究极帕纳凯亚。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t4_gem_material"},
+      "title": "睿智帕纳凯亚材料",
+      "text": "睿智帕纳凯亚可以强化这些宝石和金属，使其变为睿智帕纳凯亚宝石。"
+    }
+  ]
+}
+
+
+

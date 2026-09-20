@@ -1,0 +1,29 @@
+{
+  "name": "01.炼金工作台",
+  "icon": "alchemical_power:alchemy_table_re",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用于制作MOD独有物品的工作台。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:alchemy_table_re"},
+      "text": "用于基础炼金工作的工作台。$(br)摆放材料后，可耗时1秒制作物品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:hermes_workbench_re"},
+      "text": "拥有5×5网格的进阶工作台。$(br)摆放材料后，可耗时2秒制作物品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:transcendental_table_re"},
+      "text": "拥有13×13巨大网格的工作台。$(br)摆放材料后，可耗时3秒制作物品。"
+    }
+  ]
+}
+
+
+

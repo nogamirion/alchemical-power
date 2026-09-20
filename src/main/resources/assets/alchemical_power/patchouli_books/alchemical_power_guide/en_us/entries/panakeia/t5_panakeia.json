@@ -9,9 +9,9 @@
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"tag": "alchemical_power:t5_ingot_material"},
+      "item": {"tag": "alchemical_power:t5_gem_material"},
       "title": "T5 Panakeia Material",
-      "text": "T5 Panakeia can strengthens these metals into T5 Panakeia gems."
+      "text": "T5 Panakeia can strengthen these gems and metals into T5 Panakeia Gems."
     }
   ]
 }

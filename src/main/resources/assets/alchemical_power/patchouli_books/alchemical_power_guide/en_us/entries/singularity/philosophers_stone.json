@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The main goal in this mod. $(br)It can be used as an alchemy tool with infinite durability value, and some items can only be created with it. $(br)It can also be used like a rune for ore doubling, in which case it is processed 64 times."
+      "text": "One of the major goals in this mod.$(br2)It can be used as an alchemy tool that does not consume durability, and some items can only be created with the Philosopher's Stone.$(br2)It can also process materials in the Rune Activator, similar to ore-processing runes."
     }
   ]
 }

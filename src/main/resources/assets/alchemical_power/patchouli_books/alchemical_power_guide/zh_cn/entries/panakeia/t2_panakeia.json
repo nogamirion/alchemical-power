@@ -1,0 +1,19 @@
+{
+  "name": "03.中级帕纳凯亚",
+  "icon": "alchemical_power:t2_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这是通过高温获得热量的中位帕纳凯亚。可以强化铁等金属。对荧石右键点击即可变为上级帕纳凯亚。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t2_ingot_material"},
+      "title": "中级帕纳凯亚材料",
+      "text": "中级帕纳凯亚可以强化这些金属，使其变为中级帕纳凯亚锭。"
+    }
+  ]
+}
+
+

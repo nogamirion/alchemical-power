@@ -1,6 +1,6 @@
 {
   "name": "01.Alchemy Table",
-  "icon": "alchemical_power:alchemy_table",
+  "icon": "alchemical_power:alchemy_table_re",
   "category": "alchemical_power:working_block",
   "pages": [
     {
@@ -9,21 +9,21 @@
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:alchemy_table"},
+      "item": {"item": "alchemical_power:alchemy_table_re"},
       "title": "Alchemy Table",
-      "text": "A workbench for the most basic alchemy operations. $(br)When materials are laid out, it takes one second to create an item."
+      "text": "A workbench for basic alchemy operations. $(br)When materials are laid out, it takes one second to create an item."
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:hermes_workbench"},
+      "item": {"item": "alchemical_power:hermes_workbench_re"},
       "title": "Hermes's Workbench",
-      "text": "Developmental workbench for 5x5 work. $(br)When the materials are ready, it takes 2 seconds to create an item."
+      "text": "An advanced workbench with a 5x5 crafting grid. $(br)When the materials are laid out, it takes 2 seconds to create an item."
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:transcendental_table"},
+      "item": {"item": "alchemical_power:transcendental_table_re"},
       "title": "Transcendental Table",
-      "text": "A workbench that allows crafts of a huge size, 13 x 13. $(br)When the materials are ready, the item is created over a period of 3 seconds."
+      "text": "A workbench with a massive 13x13 crafting grid. $(br)When the materials are laid out, it takes 3 seconds to create an item."
     }
   ]
 }

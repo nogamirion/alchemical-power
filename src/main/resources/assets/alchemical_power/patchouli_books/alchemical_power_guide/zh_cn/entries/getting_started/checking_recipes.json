@@ -1,0 +1,13 @@
+{
+  "name": "02.查看配方",
+  "icon": "minecraft:book",
+  "category": "alchemical_power:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "本MOD新增了大量物品和配方，因此建议安装JEI或REI等配方MOD来查看它们。指南书中的部分内容也可能以已安装这些MOD为前提。"
+    }
+  ]
+}
+
+

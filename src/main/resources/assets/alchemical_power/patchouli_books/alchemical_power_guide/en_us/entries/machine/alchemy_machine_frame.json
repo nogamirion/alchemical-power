@@ -1,0 +1,15 @@
+{
+  "name": "01.Alchemy Machine Frame",
+  "icon": "alchemical_power:alchemy_machine_frame",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A basic material used to create alchemical machines.$(br2)Many machines are crafted using this frame as a core component."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:alchemical_power_tables/5x5/alchemy_machine_frame"
+    }
+  ]
+}

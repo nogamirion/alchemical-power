@@ -1,0 +1,54 @@
+{
+  "name": "01.Tinkers' Construct",
+  "icon": "alchemical_power:singularity_ingot",
+  "category": "alchemical_power:integration",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Tinkers' Construct",
+      "text": "With Tinkers' Construct installed, integration includes tool materials based on Panakeia-enhanced materials and Singularity.$(br2)Check JEI for material processing, part recipes and modifier requirements."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:t1_panakeia_ingot"
+      },
+      "title": "Panakeia",
+      "text": "A trait of Panakeia-enhanced ingots and gems, also found on Unite Alloy.$(br2)It improves durability and relevant equipment stats, including attack and projectile damage, mining and attack speed, draw speed, armor and armor toughness. Its level depends on the material."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:unite_alloy"
+      },
+      "title": "Super Polymerization",
+      "text": "A trait of Unite Alloy and Singularity material.$(br2)It adds upgrade slots and improves combat, mining and defense. Depending on the equipment type, it also provides effects such as Fortune, Looting, Silk Touch and improved movement in water.$(br2)The applicable effects depend on the tool or armor type."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:singularity"
+      },
+      "title": "Akashic Records",
+      "text": "A trait of Singularity material that can also be applied as a modifier using Singularity.$(br2)It adds upgrade, ability and defense slots, increases attack damage, and reduces durability loss. On armor, it also increases the wearer's attack damage.$(br2)The modifier uses Singularity, not a Singularity Ingot."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:singularity_ingot"
+      },
+      "title": "Singularity Material",
+      "text": "Singularity material carries a trait that builds up marks through melee and projectile hits. Repeated hits trigger an effect that kills the target.$(br2)On armor, the trait provides protection and reflects damage while marking the attacker."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Treasury Modifier",
+      "text": "Apply the Treasury modifier to compatible melee or ranged weapons using a Singularity Ingot. It requires an ability slot.$(br2)Stored weapons perform follow-up attacks on melee or projectile hits. Storage follows the same rules as the $(l:singularity/constellation_treasury)Constellation Treasury$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Storage and Removal",
+      "text": "Hold the modified weapon and press Open Treasury, bound to G by default, to open storage. Sneaking while using the weapon can also open it.$(br2)Storage is locked during follow-up attacks. Before removing the modifier, empty the storage and wait for all follow-up attacks to finish."
+    }
+  ]
+}

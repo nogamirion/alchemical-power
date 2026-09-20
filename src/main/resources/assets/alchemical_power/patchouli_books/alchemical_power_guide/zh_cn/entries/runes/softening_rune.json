@@ -1,0 +1,33 @@
+{
+  "name": "05.软化符文",
+  "icon": "alchemical_power:basic_softening_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用于进一步加工粒化矿石和宝石的符文。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:basic_softening_rune"},
+      "text": "软化为2个。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:advanced_softening_rune"},
+      "text": "软化为4个。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:elite_softening_rune"},
+      "text": "软化为6个。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:ultimate_softening_rune"},
+      "text": "软化为8个。"
+    }
+  ]
+}
+
+

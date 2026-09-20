@@ -10,22 +10,22 @@
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:basic_softening_rune"},
-      "text": "Softening into 2 pieces."
+      "text": "Softens into 2 pieces."
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:advanced_softening_rune"},
-      "text": "Softening into 4 pieces."
+      "text": "Softens into 4 pieces."
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:elite_softening_rune"},
-      "text": "Softening into 6 pieces."
+      "text": "Softens into 6 pieces."
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:ultimate_softening_rune"},
-      "text": "Softening into 8 pieces."
+      "text": "Softens into 8 pieces."
     }
   ]
 }

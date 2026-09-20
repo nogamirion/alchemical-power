@@ -1,0 +1,17 @@
+{
+  "name": "02.根源",
+  "icon": "alchemical_power:origin_of_wisdom",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "特異点へ至るために必要となる高位素材。$(br2)知恵、勇気、正義、愛、希望、節制、信仰の7種類が存在し、それぞれ根源ツールや根源防具の素材にもなる。$(br2)すべての根源を揃えることで、特異点の作成へ進むことができる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_wisdom"},
+      "title": "根源",
+      "text": "根源は超越論的錬金作業台で作成する。"
+    }
+  ]
+}

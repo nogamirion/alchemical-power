@@ -1,0 +1,24 @@
+{
+  "name": "05.奇点锭",
+  "icon": "alchemical_power:singularity_ingot",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "以奇点为基础制作的装备强化用锭。$(br2)基本上在超越炼金工作台中制作。$(br2)也可以用9个奇点粒在普通工作台中还原为锭，但这只是辅助性的压缩配方。$(br2)强化为奇点装备时，还需要专用锻造模板。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:singularity_ingot"},
+      "text": "主要制作方法是在超越炼金工作台中进行炼金合成。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"minecraft:singularity_ingot_upgrade_smithing_template_crafting",
+      "text": "强化时与下界合金和统合合金一样，需要使用专用锻造模板。"
+    }
+  ]
+}
+
+
+

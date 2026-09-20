@@ -1,0 +1,40 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "alchemical_power:t7_ingot_material"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "alchemical_power:t7_ingot_material"
+      },
+      "count": 36504
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    }
+  ],
+  "fluid": {
+    "fluid": "alchemical_power:liquid_panakeia",
+    "amount": 86611434624
+  },
+  "sample": {
+    "item": "alchemical_power:faith_crystal"
+  },
+  "result": {
+    "item": "alchemical_power:faith_crystal",
+    "count": 1
+  },
+  "tool_tier": 2,
+  "time": 28302,
+  "energy": 397109303
+}

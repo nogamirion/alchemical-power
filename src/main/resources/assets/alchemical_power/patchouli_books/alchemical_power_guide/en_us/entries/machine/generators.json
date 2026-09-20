@@ -1,0 +1,21 @@
+{
+  "name": "03.Generators",
+  "icon": "alchemical_power:panakeia_generator",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Machines that generate FE.$(br2)Generated FE is sent to adjacent machines."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:alchemical_power_tables/5x5/panakeia_generator",
+      "text": "Uses Panakeia as fuel to generate FE. Its output can be improved with catalysts, and it supports energy capacity upgrades."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:pain_converter",
+      "text": "Converts damage taken by nearby living entities into FE."
+    }
+  ]
+}

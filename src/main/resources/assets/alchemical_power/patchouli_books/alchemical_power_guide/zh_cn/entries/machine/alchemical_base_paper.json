@@ -1,0 +1,14 @@
+{
+  "name": "07.炼金基纸",
+  "icon": "alchemical_power:alchemical_base_paper",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:alchemical_base_paper"
+      },
+      "text": "用于制作升级的纸。$(br2)在$(l:machine/alchemical_reactor)炼金反应炉$(/l)中，用液体帕纳凯亚和FE加工纸即可制作。炼金基纸的配方无需成品样本。$(br2)所需材料可在JEI中查看。"
+    }
+  ]
+}

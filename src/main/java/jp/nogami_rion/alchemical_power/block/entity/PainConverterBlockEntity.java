@@ -3,6 +3,7 @@ package jp.nogami_rion.alchemical_power.block.entity;
 import jp.nogami_rion.alchemical_power.block.custom.ModGenEnergyStorage;
 import jp.nogami_rion.alchemical_power.event.DamageCache;
 import jp.nogami_rion.alchemical_power.init.blocklist;
+import jp.nogami_rion.alchemical_power.util.BlockEntityStateHolder;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
@@ -24,7 +25,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-public class PainConverterBlockEntity extends BlockEntity {
+public class PainConverterBlockEntity extends BlockEntity implements BlockEntityStateHolder {
     private final ModGenEnergyStorage energyStorage = new ModGenEnergyStorage(1000000,1000000);
     private final LazyOptional<IEnergyStorage> energyCap = LazyOptional.of(() -> energyStorage);;
     private final Map<UUID,Float> lastHurthMap = new HashMap<>();
@@ -96,6 +97,20 @@ public class PainConverterBlockEntity extends BlockEntity {
         if(tag.contains("Energy")) {
             energyStorage.setEnergy(tag.getInt("Energy"));
         }
+    }
+
+    @Override
+    public void saveToItemTag(CompoundTag tag) {
+        tag.putInt("Energy", energyStorage.getEnergyStored());
+        tag.putInt("MaxEnergy", energyStorage.getMaxEnergyStored());
+    }
+
+    @Override
+    public void loadFromItemTag(CompoundTag tag) {
+        if (tag.contains("Energy")) {
+            energyStorage.setEnergy(tag.getInt("Energy"));
+        }
+        setChanged();
     }
 
     public int getEnergyStored(){

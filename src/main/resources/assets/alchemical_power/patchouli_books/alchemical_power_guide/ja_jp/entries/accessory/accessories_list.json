@@ -1,11 +1,11 @@
 {
-  "name": "02.アクセサリー一覧",
+  "name": "03.アクセサリー一覧",
   "icon": "minecraft:writable_book",
   "category": "alchemical_power:accessory",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Alchemical Powerで追加されるアクセサリーの一覧"
+      "text": "Alchemical Powerで追加されるアクセサリーの一覧。"
     },
     {
       "type": "patchouli:spotlight",

@@ -1,0 +1,38 @@
+{
+  "name": "03.粉碎符文",
+  "icon": "alchemical_power:basic_grinding_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用于粉碎矿石的符文。$(br)此外，也可以粉碎紫水晶块和石英块，或从幽匿催发体中获得回响碎片。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:basic_grinding_rune"},
+      "title": "基础粉碎符文",
+      "text": "粉碎为2倍产物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:advanced_grinding_rune"},
+      "title": "高级粉碎符文",
+      "text": "粉碎为4倍产物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:elite_grinding_rune"},
+      "title": "精英粉碎符文",
+      "text": "粉碎为6倍产物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:ultimate_grinding_rune"},
+      "title": "究极粉碎符文",
+      "text": "粉碎为8倍产物。"
+    }
+  ]
+}
+
+
+

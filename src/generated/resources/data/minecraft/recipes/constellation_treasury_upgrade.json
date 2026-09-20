@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "alchemical_power:singularity_ingot"
+  },
+  "base": {
+    "item": "alchemical_power:seven_swords_of_terminus"
+  },
+  "result": {
+    "item": "alchemical_power:constellation_treasury"
+  },
+  "template": {
+    "item": "alchemical_power:singularity_ingot_smithing_template"
+  }
+}

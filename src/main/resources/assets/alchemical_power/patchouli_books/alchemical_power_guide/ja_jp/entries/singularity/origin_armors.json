@@ -1,11 +1,11 @@
 {
-  "name": "03.根源防具",
+  "name": "07.根源防具",
   "icon": "alchemical_power:crimson_plate_of_justice",
   "category": "alchemical_power:singularity",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "賢者の石と根源を用いて作成する防具。"
+      "text": "賢者の石と根源を用いて作成する防具。$(br2)信仰、正義、知恵、節制の根源から、それぞれ特殊な効果を持つ防具を作成できる。"
     },
     {
       "type": "patchouli:spotlight",
@@ -15,7 +15,7 @@
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:crimson_plate_of_justice"},
-      "text": "正義の根源で作成できる胴防具。 $(br)本来受けるダメージの100％反射し、ノックバックと炎上を与える。"
+      "text": "正義の根源で作成できる胴防具。 $(br)本来受けるダメージの100％を反射し、ノックバックと炎上を与える。"
     },
     {
       "type": "patchouli:spotlight",

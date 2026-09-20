@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Alchemical Power's additional dishes basically need to be made using this tool."
+      "text": "Most dishes added by Alchemical Power are crafted using this tool.$(br2)It is not consumed when used for cooking. Instead, it loses durability."
     },
     {
       "type": "patchouli:crafting",

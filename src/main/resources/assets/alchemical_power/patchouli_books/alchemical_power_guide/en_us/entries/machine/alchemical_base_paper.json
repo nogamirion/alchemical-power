@@ -1,0 +1,14 @@
+{
+  "name": "07.Alchemical Base Paper",
+  "icon": "alchemical_power:alchemical_base_paper",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:alchemical_base_paper"
+      },
+      "text": "Paper used as an ingredient for upgrades.$(br2)Process paper with Liquid Panakeia and FE in the $(l:machine/alchemical_reactor)Alchemical Reactor$(/l). Making Alchemical Base Paper does not require a product sample.$(br2)Check JEI for recipe ingredients."
+    }
+  ]
+}

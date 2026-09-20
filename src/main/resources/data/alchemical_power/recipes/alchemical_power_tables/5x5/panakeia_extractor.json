@@ -1,0 +1,39 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 5,
+  "pattern": [
+    "CGFGC",
+    "GA AG",
+    "FTBTF",
+    "GA AG",
+    "CGFGC"
+  ],
+  "key": {
+    "C": {
+      "item": "alchemical_power:x225_cobblestone"
+    },
+    "G": {
+      "tag": "forge:glass"
+    },
+    "F": {
+      "item": "alchemical_power:alchemy_machine_frame"
+    },
+    "A": {
+      "item": "alchemical_power:t5_panakeia_gem"
+    },
+    "T": {
+      "item": "alchemical_power:t4_panakeia_gem_block"
+    },
+    "B": {
+      "item": "minecraft:cauldron"
+    }
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier3"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:panakeia_extractor"
+  }
+}

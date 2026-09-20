@@ -13,6 +13,11 @@ public class AlchemicalTableGrid implements Container {
 
     private final int size;
     private final NonNullList<ItemStack> items;
+    private long revision;
+
+    public long getRevision() {
+        return revision;
+    }
 
     private Runnable onChanged = () -> {
     };
@@ -34,6 +39,7 @@ public class AlchemicalTableGrid implements Container {
 
     @Override
     public void setChanged() {
+        revision++;
         if(onChanged != null)
             onChanged.run();
     }

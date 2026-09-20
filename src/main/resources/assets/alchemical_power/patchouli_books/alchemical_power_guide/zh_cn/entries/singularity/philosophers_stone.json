@@ -1,0 +1,14 @@
+{
+  "name": "01.贤者之石",
+  "icon": "alchemical_power:philosophers_stone",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "本MOD中的重要目标之一。$(br2)可以作为不消耗耐久值的炼金工具使用，也存在只有贤者之石才能制作的物品。$(br2)此外，也可以像矿石加工用符文一样，在符文激活器中加工材料。"
+    }
+  ]
+}
+
+
+

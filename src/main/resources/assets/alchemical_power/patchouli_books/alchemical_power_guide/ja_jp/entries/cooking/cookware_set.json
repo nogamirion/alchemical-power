@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Alchemical Powerで追加された料理を作るには、基本的にこのツールを使う必要がある。"
+      "text": "Alchemical Powerで追加された料理を作るには、基本的にこのツールを使う必要がある。$(br2)料理に使っても消費されず、代わりに耐久値を消費する。"
     },
     {
       "type": "patchouli:crafting",

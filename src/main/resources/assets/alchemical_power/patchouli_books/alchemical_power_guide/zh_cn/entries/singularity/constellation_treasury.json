@@ -1,0 +1,34 @@
+{
+  "name": "09.星罗宝库",
+  "icon": "alchemical_power:constellation_treasury",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:constellation_treasury"
+      },
+      "text": "可收纳武器，并在击中目标后召唤宝库的财宝进行追击的剑。$(br2)可收纳军械库弓能够发射的武器，但不能放入其他星罗宝库或带有宝库强化的武器。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "制作方法",
+      "text": "在锻造台上，用奇点锭和专用锻造模板强化$(l:singularity/origin_tools)终焉七剑$(/l)即可制作。$(br2)攻击前，先在收纳界面放入要使用的武器。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "武器收纳",
+      "text": "手持宝库并使用，或按打开宝库键，即可打开收纳界面。默认按键为G，可在控制设置中修改。$(br2)追击期间无法打开收纳界面。提示中可查看收纳数量和武器总基础攻击力。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "宝库的财宝追击",
+      "text": "成功击中目标后，对应收纳武器的宝库的财宝会依次追击。实物仍留在宝库中，但追击会消耗收纳武器的耐久。$(br2)宝库本体不会因耐久耗尽而损坏。目标死亡后可继续攻击附近的有效目标，没有目标时结束。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "与军械库弓组合",
+      "text": "可用$(l:panakeia_enhanced/arsenal_bow)军械库弓$(/l)发射星罗宝库。命中目标后，会触发收纳武器的追击。$(br2)射出的宝库会等待追击结束，再根据是否具有忠诚附魔返回或掉落。"
+    }
+  ]
+}

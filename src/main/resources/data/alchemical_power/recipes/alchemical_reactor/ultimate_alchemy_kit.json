@@ -1,0 +1,88 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "alchemical_power:x225_cobblestone"
+      },
+      "count": 37
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:stonecutter"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cartography_table"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:fletching_table"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:smithing_table"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:grindstone"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:loom"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:anvil"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:enchanting_table"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:brewing_stand"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:cauldron"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:beacon"
+      },
+      "count": 1
+    }
+  ],
+  "fluid": {
+    "fluid": "alchemical_power:liquid_panakeia",
+    "amount": 30388
+  },
+  "result": {
+    "item": "alchemical_power:ultimate_alchemy_kit",
+    "count": 1
+  },
+  "tool_tier": 2,
+  "time": 200,
+  "energy": 5000
+}

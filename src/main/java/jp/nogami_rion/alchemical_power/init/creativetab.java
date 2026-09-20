@@ -267,6 +267,8 @@ public class creativetab {
                     output.accept(itemlist.T5_PANAKEIA_SWORD.get());
                     output.accept(itemlist.T6_PANAKEIA_SWORD.get());
                     output.accept(itemlist.UNITE_ALLOY_SWORD.get());
+                    output.accept(itemlist.ARSENAL_BOW.get());
+                    output.accept(itemlist.CONSTELLATION_TREASURY.get());
                     output.accept(itemlist.T1_PANAKEIA_HOE.get());
                     output.accept(itemlist.T2_PANAKEIA_HOE.get());
                     output.accept(itemlist.T3_PANAKEIA_HOE.get());
@@ -385,6 +387,7 @@ public class creativetab {
                     output.accept(ModFluids.T6_PANAKEIA.bucket.get());
                     output.accept(ModFluids.UNITE_ALLOY.bucket.get());
                     output.accept(ModFluids.SINGULARITY.bucket.get());
+                    output.accept(ModFluids.LIQUID_PANAKEIA.bucket.get());
 
                     output.accept(itemlist.RUNE_CATALYST.get());
                     output.accept(itemlist.UNNATURAL_CATALYST.get());
@@ -395,7 +398,10 @@ public class creativetab {
                     output.accept(itemlist.PAIN_CONVERTER.get());
                     output.accept(itemlist.AUTO_ALCHEMICAL_ASSEMBLER.get());
                     output.accept(itemlist.PANAKEIA_GENERATOR.get());
+                    output.accept(itemlist.PANAKEIA_EXTRACTOR.get());
+                    output.accept(itemlist.ALCHEMICAL_REACTOR.get());
 
+                    output.accept(itemlist.ALCHEMICAL_BASE_PAPER.get());
                     output.accept(itemlist.SPEED_UPGRADE_T1.get());
                     output.accept(itemlist.SPEED_UPGRADE_T2.get());
                     output.accept(itemlist.SPEED_UPGRADE_T3.get());
@@ -411,6 +417,11 @@ public class creativetab {
                     output.accept(itemlist.ENERGY_CAPACITY_UPGRADE_T3.get());
                     output.accept(itemlist.ENERGY_CAPACITY_UPGRADE_T4.get());
                     output.accept(itemlist.ENERGY_CAPACITY_UPGRADE_T5.get());
+                    output.accept(itemlist.TANK_CAPACITY_UPGRADE_T1.get());
+                    output.accept(itemlist.TANK_CAPACITY_UPGRADE_T2.get());
+                    output.accept(itemlist.TANK_CAPACITY_UPGRADE_T3.get());
+                    output.accept(itemlist.TANK_CAPACITY_UPGRADE_T4.get());
+                    output.accept(itemlist.TANK_CAPACITY_UPGRADE_T5.get());
                     output.accept(itemlist.CRAFTING_TOOL_UPGRADE_T2.get());
                     output.accept(itemlist.CRAFTING_TOOL_UPGRADE_T3.get());
                     output.accept(itemlist.CRAFTING_TOOL_UPGRADE_T4.get());

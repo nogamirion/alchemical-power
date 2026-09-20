@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "alchemical_power:block/fluid",
+      "model": "alchemical_power:block/molten_unite_alloy_fluid",
       "custom": {
         "fluid": "alchemical_power:molten_unite_alloy"
       }

@@ -1,0 +1,48 @@
+{
+  "name": "04.美德根源",
+  "icon": "alchemical_power:origin_of_wisdom",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "将美德结晶压缩后通往根源的材料。可作为奇点和强力物品的材料。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_wisdom"},
+      "title": "智慧根源"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_courage"},
+      "title": "勇气根源"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_justice"},
+      "title": "正义根源"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_love"},
+      "title": "爱之根源"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_hope"},
+      "title": "希望根源"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_temperance"},
+      "title": "节制根源"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_faith"},
+      "title": "信仰根源"
+    }
+  ]
+}
+
+

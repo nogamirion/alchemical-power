@@ -2,6 +2,7 @@ package jp.nogami_rion.alchemical_power.block.entity;
 
 
 import jp.nogami_rion.alchemical_power.block.CobblestoneGeneratorMk1;
+import jp.nogami_rion.alchemical_power.util.BlockEntityStateHolder;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
@@ -26,7 +27,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.Optional;
 import java.util.Set;
 
-public class CobblestoneGeneratorMk1Entity extends BlockEntity{
+public class CobblestoneGeneratorMk1Entity extends BlockEntity implements BlockEntityStateHolder {
     private final ItemStackHandler itemHandler = new LargeStackItemHandler(1, this);
     private Item product;
     private static final int SLOT = 0;
@@ -212,21 +213,21 @@ public class CobblestoneGeneratorMk1Entity extends BlockEntity{
         }
     }
 
-    // NBTへ保存
-    public void saveToItem(ItemStack stack) {
-        CompoundTag tag = new CompoundTag();
-        tag.put("inventory", itemHandler.serializeNBT());
-        stack.addTagElement("BlockEntityTag", tag);
+    @Override
+    public void saveToItemTag(CompoundTag tag) {
+        if (itemCount <= 0) {
+            return;
+        }
+        tag.putLong("StoredItemCount", itemCount);
+        tag.put("StoredItem", new ItemStack(product).save(new CompoundTag()));
     }
 
-    // NBTから復元
-    public void loadFromItem(ItemStack stack) {
-        if (stack.hasTag() && stack.getTag().contains("BlockEntityTag")) {
-            CompoundTag tag = stack.getTag().getCompound("BlockEntityTag");
-            itemHandler.deserializeNBT(tag.getCompound("inventory"));
+    @Override
+    public void loadFromItemTag(CompoundTag tag) {
+        if (tag.contains("StoredItemCount")) {
+            itemCount = tag.getLong("StoredItemCount");
+            updateStack();
         }
     }
-
-
 
 }

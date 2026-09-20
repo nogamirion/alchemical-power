@@ -1,0 +1,91 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "forge:storage_blocks/amethyst"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "tag": "forge:storage_blocks/coal"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "tag": "forge:storage_blocks/copper"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "tag": "forge:storage_blocks/diamond"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "tag": "forge:storage_blocks/emerald"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "tag": "forge:storage_blocks/gold"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "tag": "forge:storage_blocks/iron"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "tag": "forge:storage_blocks/lapis"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "tag": "forge:storage_blocks/netherite"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "tag": "forge:storage_blocks/quartz"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "tag": "forge:storage_blocks/redstone"
+      },
+      "count": 9
+    },
+    {
+      "ingredient": {
+        "item": "alchemical_power:x38025_cobblestone"
+      },
+      "count": 9
+    }
+  ],
+  "fluid": {
+    "fluid": "alchemical_power:liquid_panakeia",
+    "amount": 2720970
+  },
+  "sample": {
+    "item": "alchemical_power:unite_alloy_block"
+  },
+  "result": {
+    "item": "alchemical_power:unite_alloy_block",
+    "count": 1
+  },
+  "tool_tier": 3,
+  "time": 2120,
+  "energy": 29730157
+}

@@ -1,0 +1,22 @@
+{
+  "name": "08.Machine Handling",
+  "icon": "alchemical_power:alchemy_machine_frame",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Removing Upgrades",
+      "text": "Upgrades may be locked while a machine is processing or generating power.$(br2)Capacity upgrades cannot be removed while stored FE or fluid exceeds the capacity that would remain. Check the displayed reason, then wait for processing to finish or reduce the stored amount."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Moving Machines",
+      "text": "What a machine retains when collected as an item depends on its type.$(br2)The extractor retains FE, water, Liquid Panakeia and upgrades. The assembler and Panakeia Generator retain FE and upgrades; the Pain Converter retains FE.$(br2)Ingredients and containers may drop separately. Collect nearby drops when moving machines."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Moving a Reactor",
+      "text": "The Alchemical Reactor retains its ingredients, sample, products, upgrades, FE, fluid and processing state when collected as an item.$(br2)Place the collected reactor again and supply the required FE and fluid to continue processing."
+    }
+  ]
+}

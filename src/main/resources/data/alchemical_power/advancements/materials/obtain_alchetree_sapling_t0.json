@@ -1,0 +1,22 @@
+{
+  "parent": "alchemical_power:materials/obtain_t0_reed",
+  "display": {
+    "icon": { "item": "alchemical_power:alchetree_sapling_t0" },
+    "title": { "translate": "advancements.alchemical_power.obtain_alchetree_sapling_t0.title" },
+    "description": { "translate": "advancements.alchemical_power.obtain_alchetree_sapling_t0.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["alchemical_power:alchetree_sapling_t0"] }
+        ]
+      }
+    }
+  }
+}

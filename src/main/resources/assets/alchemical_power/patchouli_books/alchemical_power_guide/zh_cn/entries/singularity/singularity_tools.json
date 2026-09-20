@@ -1,0 +1,49 @@
+{
+  "name": "08.奇点装備",
+  "icon": "alchemical_power:constellation_treasury",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "使用奇点锭和专用锻造模板，在锻造台强化武器和护甲。$(br2)终焉七剑可强化为星罗宝库，根源护甲可强化为对应的奇点护甲。整套穿戴护甲时可获得极其强大的防御性能。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:constellation_treasury"
+      },
+      "text": "由终焉七剑强化而成，可召唤与收纳武器对应的宝库的财宝追击目标。$(br2)收纳操作及与军械库弓的组合效果见$(l:singularity/constellation_treasury)星罗宝库$(/l)页面。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:crown_of_the_seraph"
+      },
+      "text": "强化后的天使之环。$(br)原有效果得到强化，并额外免疫摔落、窒息和虚空伤害。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:judicial_carapace"
+      },
+      "text": "强化后的赫钢胸壳。$(br)反射伤害变为特殊真实伤害，伤害也翻倍。此外还会免疫物理伤害。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:gait_of_insight"
+      },
+      "text": "强化后的贤者腿甲。$(br)除原有效果外，还会免疫魔法、凋零和弹射物伤害。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:boots_of_aetherlight"
+      },
+      "text": "强化后的律者行军。$(br)提升移动速度，免疫所有减益。此外还会免疫火焰和地形造成的伤害。"
+    }
+  ]
+}
+
+
+

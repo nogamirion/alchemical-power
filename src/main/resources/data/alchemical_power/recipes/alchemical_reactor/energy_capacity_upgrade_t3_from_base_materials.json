@@ -1,0 +1,37 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "alchemical_power:alchemical_base_paper"
+      },
+      "count": 16
+    },
+    {
+      "ingredient": {
+        "tag": "alchemical_power:t4_gem_material"
+      },
+      "count": 8
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone_block"
+      },
+      "count": 1
+    }
+  ],
+  "fluid": {
+    "amount": 105088,
+    "fluid": "alchemical_power:liquid_panakeia"
+  },
+  "sample": {
+    "item": "alchemical_power:energy_capacity_upgrade_t3"
+  },
+  "result": {
+    "item": "alchemical_power:energy_capacity_upgrade_t3",
+    "count": 1
+  },
+  "tool_tier": 2,
+  "time": 418,
+  "energy": 93704
+}

@@ -1,0 +1,5 @@
+{
+  "parent": "forge:item/bucket",
+  "fluid": "alchemical_power:liquid_panakeia",
+  "loader": "forge:fluid_container"
+}

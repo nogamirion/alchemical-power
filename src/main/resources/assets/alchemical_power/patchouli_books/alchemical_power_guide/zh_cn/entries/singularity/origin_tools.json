@@ -1,0 +1,35 @@
+{
+  "name": "06.根源工具",
+  "icon": "alchemical_power:the_destroyer_of_the_rial",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "使用贤者之石和根源制作的工具。$(br2)勇气根源可制作终焉七剑，希望根源可制作真实破坏者，爱之根源可制作永远燃烧的燃料。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:seven_swords_of_terminus"
+      },
+      "text": "使用勇气根源、各级帕纳凯亚剑、联合合金剑等材料，在超越炼金工作台制作。$(br2)反复攻击可触发击杀效果，并可波及前方的其他敌人。不会因耐久耗尽而损坏。$(br2)还可在锻造台强化为$(l:singularity/constellation_treasury)星罗宝库$(/l)。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:the_destroyer_of_the_rial"
+      },
+      "text": "可用希望根源制作的镐。$(br)右键可移除基岩，Shift+右键可放置基岩。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:eternal_fuel"
+      },
+      "text": "可用爱之根源制作的燃料。$(br)字面意义上会永远燃烧。"
+    }
+  ]
+}
+
+
+

@@ -1,7 +1,7 @@
 {
   "parent": "alchemical_power:tools/crafted_beginner_kit",
   "display": {
-    "icon": { "item": "alchemical_power:alchemy_table" },
+    "icon": { "item": "alchemical_power:alchemy_table_re" },
     "title": { "translate": "advancements.alchemical_power.placed_alchemy_table.title" },
     "description": { "translate": "advancements.alchemical_power.placed_alchemy_table.description" },
     "frame": "task",
@@ -14,7 +14,7 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-          { "items": ["alchemical_power:alchemy_table"] }
+          { "items": ["alchemical_power:alchemy_table_re", "alchemical_power:alchemy_table"] }
         ]
       }
     }

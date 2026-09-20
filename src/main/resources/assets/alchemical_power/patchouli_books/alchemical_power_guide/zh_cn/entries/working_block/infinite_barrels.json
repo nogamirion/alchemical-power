@@ -1,0 +1,23 @@
+{
+  "name": "06.无限液体桶",
+  "icon": "alchemical_power:infinite_water_barrel",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "无限供应液体的桶。如果液体从外部输入，输入的液体会全部被删除。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:infinite_water_barrel"},
+      "text": "无限供应水。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:infinite_lava_barrel"},
+      "text": "无限供应熔岩。"
+    }
+  ]
+}
+
+

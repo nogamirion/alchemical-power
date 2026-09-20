@@ -4,5 +4,6 @@ public enum UpgradeType {
     TOOL,
     SPEED,
     EFFICIENCY,
-    ENERGY
+    ENERGY,
+    TANK
 }

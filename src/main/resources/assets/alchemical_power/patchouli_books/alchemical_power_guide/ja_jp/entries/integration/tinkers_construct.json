@@ -1,0 +1,54 @@
+{
+  "name": "01.Tinkers' Construct連携",
+  "icon": "alchemical_power:singularity_ingot",
+  "category": "alchemical_power:integration",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Tinkers' Construct連携",
+      "text": "Tinkers' Constructを導入すると、パナケイア強化素材や特異点を使ったツール素材などの連携要素を利用できる。$(br2)素材の加工や部品の作成方法、改造の必要条件はJEIで確認できる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:t1_panakeia_ingot"
+      },
+      "title": "パナケイア",
+      "text": "各種パナケイア強化インゴット・ジェムとユナイト合金が持つ特性。$(br2)耐久値に加え、攻撃力・射撃ダメージ・採掘速度・攻撃速度・弓の引き絞り速度・防御力・防具強度など、装備の種類に応じた性能を強化する。素材によって特性のレベルが異なる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:unite_alloy"
+      },
+      "title": "超融合",
+      "text": "ユナイト合金と特異点素材が持つ特性。$(br2)アップグレードスロットを増やし、攻撃・採掘・防御など複数の性能を強化する。装備の種類に応じて、幸運・ドロップ増加・シルクタッチや水中移動の補助などの効果も持つ。$(br2)適用される効果はツールや防具の種類によって異なる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:singularity"
+      },
+      "title": "アカシックレコード",
+      "text": "特異点素材が持つ特性。素材由来の特性としてだけでなく、特異点を使う改造でも付与できる。$(br2)アップグレード・アビリティ・防御の各スロットを増やし、攻撃力を強化する。防具では装備者の攻撃力も強化し、耐久値の消費を抑える効果も持つ。$(br2)改造には特異点インゴットではなく「特異点」を使う。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:singularity_ingot"
+      },
+      "title": "特異点素材と七彩",
+      "text": "特異点素材には「七彩」の特性がある。近接攻撃や飛び道具の命中によって対象に印を蓄積し、繰り返し攻撃すると対象を倒す効果が発動する。$(br2)防具では防護に加え、攻撃してきた相手への反射と印の付与を行う。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "宝物庫の改造",
+      "text": "特異点インゴットを使い、対応する近接・遠距離武器に「宝物庫」の改造を追加できる。アビリティスロットを使用する。$(br2)武器を収納すると、近接攻撃や飛び道具が命中した際に追撃する。収納の基本は$(l:singularity/constellation_treasury)星羅の宝物庫$(/l)と共通。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "収納と改造の取り外し",
+      "text": "改造した武器を手に持ち、「宝物庫を開く」キーで収納画面を開く。初期設定はG。スニークしながら使用操作を行う方法もある。$(br2)追撃中は収納画面を開けない。改造を取り外すときは、収納武器をすべて取り出し、追撃が終わるまで待つ。"
+    }
+  ]
+}

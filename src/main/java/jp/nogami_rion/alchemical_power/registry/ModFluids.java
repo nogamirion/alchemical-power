@@ -52,13 +52,21 @@ public class ModFluids {
         }
     }
 
-    private static FluidEntry registerMolten(String baseId, int argbColor, int temperature, int light) {
-        final String fluidId = "molten_" + baseId;
-        final String flowingId = fluidId + "_flowing";
-        final String bucketId = fluidId + "_bucket";
-        final ResourceLocation STILL_TEX = new ResourceLocation(Alchemical_power.MODID,"fluid/base_molten_ingot_still");
-        final ResourceLocation FLOWING_TEX = new ResourceLocation(Alchemical_power.MODID,"fluid/base_molten_ingot_flowing");
+    private static FluidEntry registerFluid(String fluidId, String bucketId, int argbColor, int temperature, int light) {
+        return registerFluid(
+                fluidId,
+                bucketId,
+                argbColor,
+                temperature,
+                light,
+                new ResourceLocation(Alchemical_power.MODID, "fluid/base_molten_ingot_still"),
+                new ResourceLocation(Alchemical_power.MODID, "fluid/base_molten_ingot_flowing")
+        );
+    }
 
+    private static FluidEntry registerFluid(String fluidId, String bucketId, int argbColor, int temperature, int light,
+                                            ResourceLocation stillTexture, ResourceLocation flowingTexture) {
+        final String flowingId = fluidId + "_flowing";
         RegistryObject<FluidType> type = FLUID_TYPES.register(fluidId, () ->
                 new FluidType(FluidType.Properties.create()
                         .lightLevel(light)
@@ -70,8 +78,8 @@ public class ModFluids {
             @Override
             public void initializeClient(java.util.function.Consumer<IClientFluidTypeExtensions> consumer){
                 consumer.accept(new IClientFluidTypeExtensions() {
-                    @Override public ResourceLocation getStillTexture(){return STILL_TEX;}
-                    @Override public ResourceLocation getFlowingTexture(){return FLOWING_TEX;}
+                    @Override public ResourceLocation getStillTexture(){return stillTexture;}
+                    @Override public ResourceLocation getFlowingTexture(){return flowingTexture;}
                     @Override public int getTintColor() {return argbColor;}
                 });
             }
@@ -103,14 +111,37 @@ public class ModFluids {
         return new FluidEntry(type, source, flowing, block, bucket, holder[0]);
     }
 
+    private static FluidEntry registerMolten(String baseId, int argbColor, int temperature, int light) {
+        final String fluidId = "molten_" + baseId;
+        final String bucketId = fluidId + "_bucket";
+        return registerFluid(fluidId, bucketId, argbColor, temperature, light);
+    }
+
     public static final FluidEntry T1_PANAKEIA = registerMolten("t1_panakeia_ingot", 0xFFCCFFFF, 700, 8);
     public static final FluidEntry T2_PANAKEIA = registerMolten("t2_panakeia_ingot", 0xFFFFFF66, 800, 8);
     public static final FluidEntry T3_PANAKEIA = registerMolten("t3_panakeia_ingot", 0xFFFF6666, 900, 10);
     public static final FluidEntry T4_PANAKEIA = registerMolten("t4_panakeia_gem", 0xFFFF33FF, 1000, 10);
     public static final FluidEntry T5_PANAKEIA = registerMolten("t5_panakeia_gem", 0xFF9999FF, 1000, 12);
     public static final FluidEntry T6_PANAKEIA = registerMolten("t6_panakeia_ingot", 0xFFFFFFFF, 1300, 12);
-    public static final FluidEntry UNITE_ALLOY = registerMolten("unite_alloy",       0x88151228, 1400, 12);
+    public static final FluidEntry UNITE_ALLOY = registerFluid(
+            "molten_unite_alloy",
+            "molten_unite_alloy_bucket",
+            0xFFFFFFFF,
+            1400,
+            12,
+            new ResourceLocation(Alchemical_power.MODID, "fluid/molten_unite_alloy_still"),
+            new ResourceLocation(Alchemical_power.MODID, "fluid/molten_unite_alloy_flowing")
+    );
     public static final FluidEntry SINGULARITY = registerMolten("singularity", 0xFFFFF9DC, 1500, 15);
+    public static final FluidEntry LIQUID_PANAKEIA = registerFluid(
+            "liquid_panakeia",
+            "liquid_panakeia_bucket",
+            0xFFFFFFFF,
+            300,
+            8,
+            new ResourceLocation(Alchemical_power.MODID, "fluid/liquid_panakeia_still"),
+            new ResourceLocation(Alchemical_power.MODID, "fluid/liquid_panakeia_flowing")
+    );
 
     public static void register(IEventBus bus) {
         FLUID_TYPES.register(bus);

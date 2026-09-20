@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": {
+      "model": "alchemical_power:block/liquid_panakeia_fluid",
+      "custom": {
+        "fluid": "alchemical_power:liquid_panakeia"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "05.Vanilla Tools",
+  "icon": "alchemical_power:t1_panakeia_pickaxe",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vanilla tools can be created with enhanced materials. These items have no special functions, but their base stats are improved.$(br)Tool recipes for T1 Panakeia Ingot are shown as examples. Other enhanced materials use similar recipes."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_panakeia_sword",
+      "recipe2": "alchemical_power:t1_panakeia_pickaxe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_panakeia_axe",
+      "recipe2": "alchemical_power:t1_panakeia_shovel"
+    }
+  ,
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_panakeia_hoe",
+      "text": "There is also a proper hoe."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "05.炼金树的神秘稻草人",
+  "icon": "alchemical_power:alchetree_mysterious_scarecrow",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "会生成由炼金树制成的稻草人。稻草人受到的伤害会波及周围所有生物。潜行+右键可以回收。"
+    }
+  ]
+}
+
+

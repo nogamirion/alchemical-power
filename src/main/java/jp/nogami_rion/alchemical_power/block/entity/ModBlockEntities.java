@@ -13,6 +13,10 @@ public class ModBlockEntities {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =
             DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, Alchemical_power.MODID);
 
+    public static final RegistryObject<BlockEntityType<AlchemicalReactorBlockEntity>> ALCHEMICAL_REACTOR_BE =
+            BLOCK_ENTITIES.register("alchemical_reactor_be", () ->
+                    BlockEntityType.Builder.of(AlchemicalReactorBlockEntity::new, blocklist.ALCHEMICAL_REACTOR.get()).build(null));
+
     public static final RegistryObject<BlockEntityType<Alchemy_Table_Entity>> ALCHEMY_TABLE_BE =
             BLOCK_ENTITIES.register("alchemy_table_be",() ->
                     BlockEntityType.Builder.of(Alchemy_Table_Entity::new, blocklist.ALCHEMY_TABLE.get()).build(null));
@@ -96,6 +100,10 @@ public class ModBlockEntities {
     public static final RegistryObject<BlockEntityType<PanakeiaGeneratorBlockEntity>> PANAKEIA_GENERATOR_BE =
             BLOCK_ENTITIES.register("panakeia_generator_be",()->
                     BlockEntityType.Builder.of(PanakeiaGeneratorBlockEntity::new,blocklist.PANAKEIA_GENERATOR.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<PanakeiaExtractorBlockEntity>> PANAKEIA_EXTRACTOR_BE =
+            BLOCK_ENTITIES.register("panakeia_extractor_be",()->
+                    BlockEntityType.Builder.of(PanakeiaExtractorBlockEntity::new,blocklist.PANAKEIA_EXTRACTOR.get()).build(null));
 
     public static void register(IEventBus eventBus){
         BLOCK_ENTITIES.register(eventBus);

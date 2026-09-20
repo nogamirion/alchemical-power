@@ -1,0 +1,41 @@
+{
+  "name": "03.特異点素材",
+  "icon": "alchemical_power:imitated_bedrockium_ingot",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "特異点や特異点インゴットの作成に使う素材。$(br2)模倣岩盤、ルーンのカタリスト、不自然のカタリスト、インフィニティパナケイア、模倣岩盤インゴットなどが該当する。$(br2)これらは主に超越論的錬金作業台で扱う、高度な錬金素材である。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:imitated_bedrock"},
+      "title": "模倣岩盤",
+      "text": "終盤の素材や装備に多く使われる岩盤を模した素材。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:rune_catalyst"},
+      "title": "ルーンのカタリスト",
+      "text": "特異点へ至るための高度な錬金素材。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:unnatural_catalyst"},
+      "title": "不自然のカタリスト",
+      "text": "特異点へ至るための高度な錬金素材。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:infinity_panakeia"},
+      "title": "インフィニティパナケイア",
+      "text": "特異点関連の作成に使う、非常に高位のパナケイア。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:imitated_bedrockium_ingot"},
+      "title": "模倣岩盤インゴット",
+      "text": "模倣岩盤をさらに加工した、特異点関連の主要素材。"
+    }
+  ]
+}

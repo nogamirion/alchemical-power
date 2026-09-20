@@ -155,6 +155,9 @@ public class blocklist {
     public static final RegistryObject<Block> PANAKEIA_GENERATOR = BLOCKS.register("panakeia_generator",PanakeiaGeneratorBlock::new);
     public static final RegistryObject<Block> ALCHEMY_MACHINE_FRAME = BLOCKS.register("alchemy_machine_frame",AlchemyMachineFrame::new);
 
+    public static final RegistryObject<Block> ALCHEMICAL_REACTOR = BLOCKS.register("alchemical_reactor", AlchemicalReactorBlock::new);
+    public static final RegistryObject<Block> PANAKEIA_EXTRACTOR = BLOCKS.register("panakeia_extractor",PanakeiaExtractorBlock::new);
+
     //アイテムリストの登録用
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);

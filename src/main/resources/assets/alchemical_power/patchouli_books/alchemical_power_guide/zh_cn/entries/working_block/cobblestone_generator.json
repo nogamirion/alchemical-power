@@ -1,0 +1,54 @@
+{
+  "name": "04.圆石生成器",
+  "icon": "alchemical_power:cobblestone_generator_mk1",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "生产圆石的方块。$(br)空手右键可取出1组，Shift+右键可查看内部存有多少个。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk1",
+      "text": "最基础的圆石生成器。$(br)每秒生产1个圆石。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk2",
+      "text": "通过强化可以增加圆石产量。$(br)阶段越高，每秒产量越高。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk3",
+      "recipe2": "alchemical_power:cobblestone_generator_mk4"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk5",
+      "recipe2": "alchemical_power:cobblestone_generator_mk6"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cobblestone_generator_mk7",
+      "recipe2": "alchemical_power:cobblestone_generator_mk8"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:x9_cobblestone_generator_mk1"},
+      "text": "各种圆石生成器可在炼金工作台中将9个合并，变为生产9倍压缩圆石的9倍压缩圆石生成器。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:x225_cobblestone_generator_mk1"},
+      "text": "同样，将25个9倍压缩圆石生成器摆放到赫尔墨斯工作台中，可变为生产225倍压缩圆石的生成器。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:x38025_cobblestone_generator_mk1"},
+      "text": "同样，将169个225倍压缩圆石生成器摆放到超越炼金工作台中，可变为生产38025倍压缩圆石的生成器。"
+    }
+  ]
+}
+
+
+

@@ -24,11 +24,15 @@ public class TinkersIntegration {
     public static final StaticModifier<Modifier> SUPERPOLYMERIZATION_MODIFIER = null;
     public static final StaticModifier<Modifier> AKASHIC_RECORDS_MODIFIER = null;
     public static final StaticModifier<Modifier> SINGULARITY_MODIFIER = MODIFIERS.register("singularity", SingularityModifier::new);
+    public static final StaticModifier<Modifier> CONSTELLATION_TREASURY_MODIFIER = MODIFIERS.register("constellation_treasury",
+            jp.nogami_rion.alchemical_power.integration.tinker.modifier.ConstellationTreasuryModifier::new);
 
     public static void register()
     {
         LOGGER.info("[TinkersIntegration] register() start. Thread: " + Thread.currentThread().getName());
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+        bus.addListener((net.minecraftforge.event.RegisterGameTestsEvent event) ->
+                event.register(jp.nogami_rion.alchemical_power.integration.tinker.TreasuryModifierGameTests.class));
         try {
             MODIFIERS.register(bus);
             LOGGER.info("[TinkersIntegration] MODIFIERS.register(bus) called");

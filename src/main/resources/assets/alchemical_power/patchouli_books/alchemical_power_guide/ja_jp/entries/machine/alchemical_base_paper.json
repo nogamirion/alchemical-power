@@ -1,0 +1,14 @@
+{
+  "name": "07.錬金基紙",
+  "icon": "alchemical_power:alchemical_base_paper",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:alchemical_base_paper"
+      },
+      "text": "アップグレードの素材として使う紙。$(br2)$(l:machine/alchemical_reactor)錬金反応炉$(/l)で、紙を液体パナケイアとFEを使って加工する。錬金基紙の作成には完成品サンプルを必要としない。$(br2)必要な素材はJEIで確認できる。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "03.Singularity Materials",
+  "icon": "alchemical_power:imitated_bedrockium_ingot",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Materials used to craft the Singularity and Singularity Ingots.$(br2)These include Imitated Bedrock, Rune Catalysts, Unnatural Catalysts, Infinity Panakeia, and Imitated Bedrock Ingots.$(br2)They are advanced alchemy materials mainly handled at the Transcendental Table."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:imitated_bedrock"},
+      "title": "Imitated Bedrock",
+      "text": "A material modeled after bedrock, used in many late-game materials and equipment."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:rune_catalyst"},
+      "title": "Rune Catalyst",
+      "text": "An advanced alchemy material used on the path to the Singularity."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:unnatural_catalyst"},
+      "title": "Unnatural Catalyst",
+      "text": "An advanced alchemy material used on the path to the Singularity."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:infinity_panakeia"},
+      "title": "Infinity Panakeia",
+      "text": "An extremely high-tier Panakeia used in Singularity-related crafting."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:imitated_bedrockium_ingot"},
+      "title": "Imitated Bedrock Ingot",
+      "text": "A major Singularity-related material made by further processing Imitated Bedrock."
+    }
+  ]
+}

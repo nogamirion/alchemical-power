@@ -200,6 +200,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(blocklist.HERMES_WORKBENCH_RE.get());
         this.dropSelf(blocklist.TRANSCENDENTAL_TABLE_RE.get());
         this.dropSelf(blocklist.AUTO_ALCHEMICAL_ASSEMBLER.get());
+        this.dropSelf(blocklist.ALCHEMICAL_REACTOR.get());
+        this.dropSelf(blocklist.PANAKEIA_EXTRACTOR.get());
         this.dropSelf(blocklist.PANAKEIA_GENERATOR.get());
         this.dropSelf(blocklist.ALCHEMY_MACHINE_FRAME.get());
 

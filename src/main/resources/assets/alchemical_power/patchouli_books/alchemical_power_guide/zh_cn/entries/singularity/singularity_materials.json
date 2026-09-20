@@ -1,0 +1,44 @@
+{
+  "name": "03.奇点材料",
+  "icon": "alchemical_power:imitated_bedrockium_ingot",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用于制作奇点和奇点锭的材料。$(br2)包括仿制基岩、符文催化剂、非自然催化剂、无限帕纳凯亚、仿制基岩锭等。$(br2)这些主要是在超越炼金工作台中处理的高级炼金材料。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:imitated_bedrock"},
+      "title": "仿制基岩",
+      "text": "模仿基岩制成的材料，常用于后期材料和装备。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:rune_catalyst"},
+      "title": "符文催化剂",
+      "text": "通往奇点所需的高级炼金材料。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:unnatural_catalyst"},
+      "title": "非自然催化剂",
+      "text": "通往奇点所需的高级炼金材料。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:infinity_panakeia"},
+      "title": "无限帕纳凯亚",
+      "text": "用于制作奇点相关物品的极高级帕纳凯亚。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:imitated_bedrockium_ingot"},
+      "title": "仿制基岩锭",
+      "text": "进一步加工仿制基岩后得到的奇点相关主要材料。"
+    }
+  ]
+}
+
+
+

@@ -1,35 +1,45 @@
 {
-  "name": "05.特異点ツール",
-  "icon": "alchemical_power:seven_swords_of_terminus",
+  "name": "08.特異点装備",
+  "icon": "alchemical_power:constellation_treasury",
   "category": "alchemical_power:singularity",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "特異点で強化された武器・防具。 $(br)防具を一式で装備すると全てのダメージを無効化できる。"
+      "text": "特異点インゴットと専用の鍛冶型を使い、鍛冶台で武器・防具を強化する。$(br2)終焉の七剣は星羅の宝物庫へ、根源防具はそれぞれの特異点防具へ強化できる。防具を一式で装備すると非常に強力な防御性能を発揮する。"
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:seven_swords_of_terminus"},
-      "text": "強化された英傑の剣 $(br)7回攻撃された敵を即死させる。"
+      "item": {
+        "item": "alchemical_power:constellation_treasury"
+      },
+      "text": "終焉の七剣を強化した武器。内部に収納した武器に対応する「宝物庫の財宝」を召喚し、攻撃した相手に追撃を行う。$(br2)収納操作やアーセナルボウとの連携は$(l:singularity/constellation_treasury)星羅の宝物庫$(/l)のページを参照。"
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:crown_of_the_seraph"},
-      "text": "強化された天使の輪 $(br)元々の効果が強化され、更に落下・窒息・奈落ダメージを無効にする。"
+      "item": {
+        "item": "alchemical_power:crown_of_the_seraph"
+      },
+      "text": "強化された天使の輪 $(br)元々の効果が強化され、さらに落下・窒息・奈落ダメージを無効にする。"
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:judicial_carapace"},
+      "item": {
+        "item": "alchemical_power:judicial_carapace"
+      },
       "text": "強化された赫鋼の胸殻 $(br)反射ダメージが特殊な確定ダメージになり、ダメージも倍になる。さらに物理ダメージを無効にする。"
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:gait_of_insight"},
+      "item": {
+        "item": "alchemical_power:gait_of_insight"
+      },
       "text": "強化された賢者の脚甲 $(br)元々の効果に加えて魔法やウィザー・飛び道具のダメージを無効にする。"
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:boots_of_aetherlight"},
+      "item": {
+        "item": "alchemical_power:boots_of_aetherlight"
+      },
       "text": "強化された律者の行進 $(br)移動速度が増加し、全てのデバフを無効にする。さらに火や地形から受けるダメージを無効にする。"
     }
   ]

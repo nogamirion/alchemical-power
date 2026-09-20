@@ -1,0 +1,16 @@
+{
+  "name": "02.Foundation of Ring",
+  "icon": "alchemical_power:foundation_of_ring",
+  "category": "alchemical_power:accessory",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A basic material used to create accessory rings.$(br2)Various rings can be created by processing this material in the Alchemical Engraver."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:foundation_of_ring"},
+      "text": "The Foundation of Ring is crafted at the Alchemy Table."
+    }
+  ]
+}

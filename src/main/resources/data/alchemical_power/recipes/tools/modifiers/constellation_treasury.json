@@ -1,0 +1,13 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "tconstruct"}],
+  "type": "tconstruct:modifier",
+  "inputs": [{"item": "alchemical_power:singularity_ingot"}],
+  "tools": [
+    {"tag": "tconstruct:modifiable/melee"},
+    {"tag": "tconstruct:modifiable/ranged"}
+  ],
+  "result": "alchemical_power:constellation_treasury",
+  "level": 1,
+  "check_trait_level": true,
+  "slots": {"abilities": 1}
+}

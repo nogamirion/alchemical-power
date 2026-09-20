@@ -31,11 +31,17 @@ public class AlchemicalTablesResultSlot extends Slot {
     }
 
     @Override
+    public boolean mayPickup(Player player) {
+        return menu.canTakeResult();
+    }
+
+    @Override
     public void onTake(Player player, ItemStack stack){
         super.onTake(player, stack);
 
         if(player.level().isClientSide){
             menu.triggerPlayAnimation();
+            return;
         }
 
         if(menu.isCustomRecipe()) {
@@ -43,6 +49,7 @@ public class AlchemicalTablesResultSlot extends Slot {
         }
         blockEntity.consumeInputs();
         blockEntity.clearResult();
+        menu.finishResultTake();
 
     }
 }

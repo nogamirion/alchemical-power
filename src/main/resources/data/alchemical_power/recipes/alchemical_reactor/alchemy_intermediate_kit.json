@@ -1,0 +1,22 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "forge:glass"
+      },
+      "count": 7
+    }
+  ],
+  "fluid": {
+    "fluid": "alchemical_power:liquid_panakeia",
+    "amount": 261
+  },
+  "result": {
+    "item": "alchemical_power:alchemy_intermediate_kit",
+    "count": 1
+  },
+  "tool_tier": 0,
+  "time": 200,
+  "energy": 5000
+}

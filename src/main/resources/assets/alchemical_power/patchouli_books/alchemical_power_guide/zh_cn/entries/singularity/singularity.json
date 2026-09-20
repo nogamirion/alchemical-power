@@ -1,0 +1,19 @@
+{
+  "name": "04.奇点",
+  "icon": "alchemical_power:singularity",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "使用根源和高级材料制作的极其强力的材料。$(br2)用于制作贤者之石、奇点锭等后期物品。$(br2)制作时需要超越炼金工作台。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:singularity"},
+      "text": "奇点是本MOD后期的重要核心材料。"
+    }
+  ]
+}
+
+
+

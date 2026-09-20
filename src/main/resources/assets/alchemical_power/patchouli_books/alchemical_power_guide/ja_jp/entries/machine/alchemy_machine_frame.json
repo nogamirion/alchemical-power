@@ -1,0 +1,15 @@
+{
+  "name": "01.錬金機械フレーム",
+  "icon": "alchemical_power:alchemy_machine_frame",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "錬金機械を作成するための基本素材。$(br2)機械類の多くは、このフレームを中心素材として作成する。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:alchemical_power_tables/5x5/alchemy_machine_frame"
+    }
+  ]
+}

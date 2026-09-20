@@ -1,7 +1,7 @@
 {
   "parent": "alchemical_power:crafters/placed_alchemy_table",
   "display": {
-    "icon": { "item": "alchemical_power:hermes_workbench" },
+    "icon": { "item": "alchemical_power:hermes_workbench_re" },
     "title": { "translate": "advancements.alchemical_power.placed_hermes_workbench.title" },
     "description": { "translate": "advancements.alchemical_power.placed_hermes_workbench.description" },
     "frame": "task",
@@ -14,7 +14,7 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-          { "items": ["alchemical_power:hermes_workbench"] }
+          { "items": ["alchemical_power:hermes_workbench_re", "alchemical_power:hermes_workbench"] }
         ]
       }
     }

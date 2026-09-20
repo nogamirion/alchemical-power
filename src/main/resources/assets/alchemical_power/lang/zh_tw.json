@@ -1,0 +1,9 @@
+{
+  "tooltip.alchemical_power.constellation_treasury.count": "收納數量：%s / %s",
+  "tooltip.alchemical_power.constellation_treasury.total_damage": "收納武器總攻擊力（基礎）：%s",
+  "item.alchemical_power.constellation_treasury": "星羅寶庫",
+  "entity.alchemical_power.summoned_arsenal_weapon": "寶庫的財寶",
+  "message.alchemical_power.constellation_treasury.busy": "請等待寶庫的財寶的追擊結束",
+  "death.attack.arsenal_strike": "%1$s被%2$s的寶庫財寶貫穿了",
+  "death.attack.arsenal_strike.player": "%1$s被%2$s的寶庫財寶貫穿了"
+}

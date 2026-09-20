@@ -1,0 +1,19 @@
+{
+  "name": "08.军械库弓",
+  "icon": "alchemical_power:arsenal_bow",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:arsenal_bow"
+      },
+      "text": "以剑等兼容武器代替箭矢发射的弓。$(br2)在物品栏中放入兼容武器，按住使用键蓄力后松开即可发射。射出的武器会离开物品栏。$(br2)制作配方可在JEI中查看。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "装填与回收",
+      "text": "优先选择快捷栏以外物品栏中的武器，之后才搜索快捷栏。发射前可通过弓的提示查看装填对象。$(br2)弓上的忠诚附魔会使武器在命中后返回。没有忠诚时，需要拾取掉落的武器。不支持无限附魔。"
+    }
+  ]
+}

@@ -10,6 +10,8 @@ import jp.nogami_rion.alchemical_power.item.accessory.Greed_Ring;
 import jp.nogami_rion.alchemical_power.item.baseclass.*;
 import jp.nogami_rion.alchemical_power.item.custom.EnergyBlockItem;
 import jp.nogami_rion.alchemical_power.item.custom.FuelItem;
+import jp.nogami_rion.alchemical_power.item.custom.MachineStateBlockItem;
+import jp.nogami_rion.alchemical_power.item.custom.PanakeiaExtractorBlockItem;
 import jp.nogami_rion.alchemical_power.item.food.ConfectionByBakingBatterIntoCylindricalShape;
 import jp.nogami_rion.alchemical_power.item.food.JapaneseConfectionMadeOfWheatFlourBatterFilledWithSweetBeanPasteOfOtherFillingsBakedInCircularCastIronMold;
 import jp.nogami_rion.alchemical_power.item.food.Steaves_Lava_Chicken;
@@ -303,38 +305,38 @@ public class itemlist {
     public static final RegistryObject<Item> PACKAGED_PURIFIED_EMERALD = ITEMS.register("packaged_purified_emerald", CommonAlchemyMaterial::new);
     public static final RegistryObject<Item> PACKAGED_PURIFIED_ANCIENT_DEBRIS = ITEMS.register("packaged_purified_ancient_debris", CommonAlchemyMaterial::new);
 
-    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk1 = ITEMS.register("cobblestone_generator_mk1", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK1.get(), new Item.Properties()));
-    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk2 = ITEMS.register("cobblestone_generator_mk2", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK2.get(), new Item.Properties()));
-    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk3 = ITEMS.register("cobblestone_generator_mk3", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK3.get(), new Item.Properties()));
-    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk4 = ITEMS.register("cobblestone_generator_mk4", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK4.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
-    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk5 = ITEMS.register("cobblestone_generator_mk5", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK5.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
-    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk6 = ITEMS.register("cobblestone_generator_mk6", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK6.get(), new Item.Properties().rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk7 = ITEMS.register("cobblestone_generator_mk7", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK7.get(), new Item.Properties().rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk8 = ITEMS.register("cobblestone_generator_mk8", () -> new BlockItem(blocklist.COBBLESTONE_GENERATOR_MK8.get(), new Item.Properties().rarity(Rarity.EPIC)));
-    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk1 = ITEMS.register("x9_cobblestone_generator_mk1", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK1.get(), new Item.Properties()));
-    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk2 = ITEMS.register("x9_cobblestone_generator_mk2", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK2.get(), new Item.Properties()));
-    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk3 = ITEMS.register("x9_cobblestone_generator_mk3", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK3.get(), new Item.Properties()));
-    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk4 = ITEMS.register("x9_cobblestone_generator_mk4", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK4.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
-    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk5 = ITEMS.register("x9_cobblestone_generator_mk5", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK5.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
-    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk6 = ITEMS.register("x9_cobblestone_generator_mk6", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK6.get(), new Item.Properties().rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk7 = ITEMS.register("x9_cobblestone_generator_mk7", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK7.get(), new Item.Properties().rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk8 = ITEMS.register("x9_cobblestone_generator_mk8", () -> new BlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK8.get(), new Item.Properties().rarity(Rarity.EPIC)));
-    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk1 = ITEMS.register("x225_cobblestone_generator_mk1", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK1.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
-    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk2 = ITEMS.register("x225_cobblestone_generator_mk2", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK2.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
-    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk3 = ITEMS.register("x225_cobblestone_generator_mk3", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK3.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
-    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk4 = ITEMS.register("x225_cobblestone_generator_mk4", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK4.get(), new Item.Properties().rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk5 = ITEMS.register("x225_cobblestone_generator_mk5", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK5.get(), new Item.Properties().rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk6 = ITEMS.register("x225_cobblestone_generator_mk6", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK6.get(), new Item.Properties().rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk7 = ITEMS.register("x225_cobblestone_generator_mk7", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK7.get(), new Item.Properties().rarity(Rarity.EPIC)));
-    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk8 = ITEMS.register("x225_cobblestone_generator_mk8", () -> new BlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK8.get(), new Item.Properties().rarity(Rarity.EPIC)));
-    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk1 = ITEMS.register("x38025_cobblestone_generator_mk1", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK1.get(), new Item.Properties().rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk2 = ITEMS.register("x38025_cobblestone_generator_mk2", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK2.get(), new Item.Properties().rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk3 = ITEMS.register("x38025_cobblestone_generator_mk3", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK3.get(), new Item.Properties().rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk4 = ITEMS.register("x38025_cobblestone_generator_mk4", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK4.get(), new Item.Properties().rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk5 = ITEMS.register("x38025_cobblestone_generator_mk5", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK5.get(), new Item.Properties().rarity(Rarity.EPIC)));
-    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk6 = ITEMS.register("x38025_cobblestone_generator_mk6", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK6.get(), new Item.Properties().rarity(Rarity.EPIC)));
-    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk7 = ITEMS.register("x38025_cobblestone_generator_mk7", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK7.get(), new Item.Properties().rarity(Rarity.EPIC)));
-    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk8 = ITEMS.register("x38025_cobblestone_generator_mk8", () -> new BlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK8.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk1 = ITEMS.register("cobblestone_generator_mk1", () -> new MachineStateBlockItem(blocklist.COBBLESTONE_GENERATOR_MK1.get(), new Item.Properties()));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk2 = ITEMS.register("cobblestone_generator_mk2", () -> new MachineStateBlockItem(blocklist.COBBLESTONE_GENERATOR_MK2.get(), new Item.Properties()));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk3 = ITEMS.register("cobblestone_generator_mk3", () -> new MachineStateBlockItem(blocklist.COBBLESTONE_GENERATOR_MK3.get(), new Item.Properties()));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk4 = ITEMS.register("cobblestone_generator_mk4", () -> new MachineStateBlockItem(blocklist.COBBLESTONE_GENERATOR_MK4.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk5 = ITEMS.register("cobblestone_generator_mk5", () -> new MachineStateBlockItem(blocklist.COBBLESTONE_GENERATOR_MK5.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk6 = ITEMS.register("cobblestone_generator_mk6", () -> new MachineStateBlockItem(blocklist.COBBLESTONE_GENERATOR_MK6.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk7 = ITEMS.register("cobblestone_generator_mk7", () -> new MachineStateBlockItem(blocklist.COBBLESTONE_GENERATOR_MK7.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> COBBLESTONE_GENERATOR_Mk8 = ITEMS.register("cobblestone_generator_mk8", () -> new MachineStateBlockItem(blocklist.COBBLESTONE_GENERATOR_MK8.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk1 = ITEMS.register("x9_cobblestone_generator_mk1", () -> new MachineStateBlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK1.get(), new Item.Properties()));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk2 = ITEMS.register("x9_cobblestone_generator_mk2", () -> new MachineStateBlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK2.get(), new Item.Properties()));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk3 = ITEMS.register("x9_cobblestone_generator_mk3", () -> new MachineStateBlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK3.get(), new Item.Properties()));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk4 = ITEMS.register("x9_cobblestone_generator_mk4", () -> new MachineStateBlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK4.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk5 = ITEMS.register("x9_cobblestone_generator_mk5", () -> new MachineStateBlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK5.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk6 = ITEMS.register("x9_cobblestone_generator_mk6", () -> new MachineStateBlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK6.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk7 = ITEMS.register("x9_cobblestone_generator_mk7", () -> new MachineStateBlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK7.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X9_COBBLESTONE_GENERATOR_Mk8 = ITEMS.register("x9_cobblestone_generator_mk8", () -> new MachineStateBlockItem(blocklist.X9_COBBLESTONE_GENERATOR_MK8.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk1 = ITEMS.register("x225_cobblestone_generator_mk1", () -> new MachineStateBlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK1.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk2 = ITEMS.register("x225_cobblestone_generator_mk2", () -> new MachineStateBlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK2.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk3 = ITEMS.register("x225_cobblestone_generator_mk3", () -> new MachineStateBlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK3.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk4 = ITEMS.register("x225_cobblestone_generator_mk4", () -> new MachineStateBlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK4.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk5 = ITEMS.register("x225_cobblestone_generator_mk5", () -> new MachineStateBlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK5.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk6 = ITEMS.register("x225_cobblestone_generator_mk6", () -> new MachineStateBlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK6.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk7 = ITEMS.register("x225_cobblestone_generator_mk7", () -> new MachineStateBlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK7.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X225_COBBLESTONE_GENERATOR_Mk8 = ITEMS.register("x225_cobblestone_generator_mk8", () -> new MachineStateBlockItem(blocklist.X225_COBBLESTONE_GENERATOR_MK8.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk1 = ITEMS.register("x38025_cobblestone_generator_mk1", () -> new MachineStateBlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK1.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk2 = ITEMS.register("x38025_cobblestone_generator_mk2", () -> new MachineStateBlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK2.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk3 = ITEMS.register("x38025_cobblestone_generator_mk3", () -> new MachineStateBlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK3.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk4 = ITEMS.register("x38025_cobblestone_generator_mk4", () -> new MachineStateBlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK4.get(), new Item.Properties().rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk5 = ITEMS.register("x38025_cobblestone_generator_mk5", () -> new MachineStateBlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK5.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk6 = ITEMS.register("x38025_cobblestone_generator_mk6", () -> new MachineStateBlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK6.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk7 = ITEMS.register("x38025_cobblestone_generator_mk7", () -> new MachineStateBlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK7.get(), new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> X38025_COBBLESTONE_GENERATOR_Mk8 = ITEMS.register("x38025_cobblestone_generator_mk8", () -> new MachineStateBlockItem(blocklist.X38025_COBBLESTONE_GENERATOR_MK8.get(), new Item.Properties().rarity(Rarity.EPIC)));
 
     public static final RegistryObject<Item> ALCHETREE_LOG = ITEMS.register("alchetree_log", () -> new BlockItem(blocklist.ALCHETREE_LOG.get(), new Item.Properties()));
     public static final RegistryObject<Item> ALCHETREE_WOOD = ITEMS.register("alchetree_wood", () -> new BlockItem(blocklist.ALCHETREE_WOOD.get(), new Item.Properties()));
@@ -402,8 +404,8 @@ public class itemlist {
     public static final RegistryObject<Item> ALCHEMY_TABLE_RE = ITEMS.register("alchemy_table_re",() -> new BlockItem(blocklist.ALCHEMY_TABLE_RE.get(),new Item.Properties()));
     public static final RegistryObject<Item> HERMES_WORKBENCH_RE = ITEMS.register("hermes_workbench_re",() -> new BlockItem(blocklist.HERMES_WORKBENCH_RE.get(),new Item.Properties()));
     public static final RegistryObject<Item> TRANSCENDENTAL_TABLE_RE = ITEMS.register("transcendental_table_re",() -> new BlockItem(blocklist.TRANSCENDENTAL_TABLE_RE.get(),new Item.Properties()));
-    public static final RegistryObject<Item> AUTO_ALCHEMICAL_ASSEMBLER = ITEMS.register("auto_alchemical_assembler",() -> new BlockItem(blocklist.AUTO_ALCHEMICAL_ASSEMBLER.get(),new Item.Properties()));
-    public static final RegistryObject<Item> PANAKEIA_GENERATOR = ITEMS.register("panakeia_generator",() -> new BlockItem(blocklist.PANAKEIA_GENERATOR.get(),new Item.Properties()));
+    public static final RegistryObject<Item> AUTO_ALCHEMICAL_ASSEMBLER = ITEMS.register("auto_alchemical_assembler",() -> new MachineStateBlockItem(blocklist.AUTO_ALCHEMICAL_ASSEMBLER.get(),new Item.Properties()));
+    public static final RegistryObject<Item> PANAKEIA_GENERATOR = ITEMS.register("panakeia_generator",() -> new MachineStateBlockItem(blocklist.PANAKEIA_GENERATOR.get(),new Item.Properties()));
     public static final RegistryObject<Item> ALCHEMY_MACHINE_FRAME = ITEMS.register("alchemy_machine_frame",() ->new BlockItem(blocklist.ALCHEMY_MACHINE_FRAME.get(),new Item.Properties()));
 
     public static final RegistryObject<Item> SPEED_UPGRADE_T1 = ITEMS.register("speed_upgrade_t1",() -> new UpgradeItem(UpgradeType.SPEED,1,new Item.Properties()));
@@ -552,9 +554,16 @@ public class itemlist {
     public static final RegistryObject<Item> OMG_STEW = ITEMS.register("omg_stew", OMG_Stew::new);
     public static final RegistryObject<Item> JCMOWFBFWSBPOOFBCICIM = ITEMS.register("japaneseconfectionmadeofwheatflourbatterfilledwithsweetbeanpasteofotherfillingsbakedincirecularcastironmold", JapaneseConfectionMadeOfWheatFlourBatterFilledWithSweetBeanPasteOfOtherFillingsBakedInCircularCastIronMold::new);
 
-
-
-
+    public static final RegistryObject<Item> ALCHEMICAL_REACTOR = ITEMS.register("alchemical_reactor", () -> new MachineStateBlockItem(blocklist.ALCHEMICAL_REACTOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> PANAKEIA_EXTRACTOR = ITEMS.register("panakeia_extractor",() -> new PanakeiaExtractorBlockItem(blocklist.PANAKEIA_EXTRACTOR.get(),new Item.Properties()));
+    public static final RegistryObject<Item> ALCHEMICAL_BASE_PAPER = ITEMS.register("alchemical_base_paper",() -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TANK_CAPACITY_UPGRADE_T1 = ITEMS.register("tank_capacity_upgrade_t1",() -> new UpgradeItem(UpgradeType.TANK,1,new Item.Properties()));
+    public static final RegistryObject<Item> TANK_CAPACITY_UPGRADE_T2 = ITEMS.register("tank_capacity_upgrade_t2",() -> new UpgradeItem(UpgradeType.TANK,2,new Item.Properties()));
+    public static final RegistryObject<Item> TANK_CAPACITY_UPGRADE_T3 = ITEMS.register("tank_capacity_upgrade_t3",() -> new UpgradeItem(UpgradeType.TANK,3,new Item.Properties()));
+    public static final RegistryObject<Item> TANK_CAPACITY_UPGRADE_T4 = ITEMS.register("tank_capacity_upgrade_t4",() -> new UpgradeItem(UpgradeType.TANK,4,new Item.Properties()));
+    public static final RegistryObject<Item> TANK_CAPACITY_UPGRADE_T5 = ITEMS.register("tank_capacity_upgrade_t5",() -> new UpgradeItem(UpgradeType.TANK,5,new Item.Properties()));
+    public static final RegistryObject<Item> ARSENAL_BOW = ITEMS.register("arsenal_bow", ArsenalBowItem::new);
+    public static final RegistryObject<Item> CONSTELLATION_TREASURY = ITEMS.register("constellation_treasury", ConstellationTreasuryItem::new);
 
     //アイテムリストの登録用
     public static void register(IEventBus eventBus){
