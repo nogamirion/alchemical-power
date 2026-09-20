@@ -74,6 +74,21 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(blocklist.X38025_COBBLESTONE_GENERATOR_MK7.get())
                 .add(blocklist.X38025_COBBLESTONE_GENERATOR_MK8.get())
                 .add(blocklist.PAIN_CONVERTER.get())
+                .add(blocklist.AUTO_ALCHEMICAL_ASSEMBLER.get())
+                .add(blocklist.PANAKEIA_GENERATOR.get())
+                .add(blocklist.PANAKEIA_EXTRACTOR.get())
+                .add(blocklist.ALCHEMICAL_REACTOR.get())
+                .add(blocklist.ADVANCED_ELECTRIC_RUNE_ACTIVATOR.get())
+                .add(blocklist.ELITE_ELECTRIC_RUNE_ACTIVATOR.get())
+                .add(blocklist.ULTIMATE_ELECTRIC_RUNE_ACTIVATOR.get())
+                .add(blocklist.SAGE_ELECTRIC_RUNE_ACTIVATOR.get())
+                .add(blocklist.BASIC_ELECTRIC_RUNE_ACTIVATOR.get())
+                .add(blocklist.RUNE_ASSEMBLY_CORE.get())
+                .add(blocklist.RUNE_ASSEMBLY_CASING.get())
+                .add(blocklist.RUNE_ASSEMBLY_PORT.get())
+                .add(blocklist.RUNE_ASSEMBLY_ENGRAVER.get())
+                .add(blocklist.RUNE_ASSEMBLY_PACKER.get())
+                .add(blocklist.ALCHEMY_MACHINE_FRAME.get())
 
         ;
 

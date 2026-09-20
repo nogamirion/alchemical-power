@@ -200,6 +200,18 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(blocklist.HERMES_WORKBENCH_RE.get());
         this.dropSelf(blocklist.TRANSCENDENTAL_TABLE_RE.get());
         this.dropSelf(blocklist.AUTO_ALCHEMICAL_ASSEMBLER.get());
+        this.dropSelf(blocklist.ADVANCED_ELECTRIC_RUNE_ACTIVATOR.get());
+        this.dropSelf(blocklist.ELITE_ELECTRIC_RUNE_ACTIVATOR.get());
+        this.dropSelf(blocklist.ULTIMATE_ELECTRIC_RUNE_ACTIVATOR.get());
+        this.dropSelf(blocklist.SAGE_ELECTRIC_RUNE_ACTIVATOR.get());
+        this.dropSelf(blocklist.BASIC_ELECTRIC_RUNE_ACTIVATOR.get());
+        this.dropSelf(blocklist.RUNE_ASSEMBLY_CORE.get());
+        this.dropSelf(blocklist.RUNE_ASSEMBLY_CASING.get());
+        this.dropSelf(blocklist.RUNE_ASSEMBLY_PORT.get());
+        this.dropSelf(blocklist.RUNE_ASSEMBLY_ENGRAVER.get());
+        this.dropSelf(blocklist.RUNE_ASSEMBLY_PACKER.get());
+        this.dropSelf(blocklist.ALCHEMICAL_REACTOR.get());
+        this.dropSelf(blocklist.PANAKEIA_EXTRACTOR.get());
         this.dropSelf(blocklist.PANAKEIA_GENERATOR.get());
         this.dropSelf(blocklist.ALCHEMY_MACHINE_FRAME.get());
 

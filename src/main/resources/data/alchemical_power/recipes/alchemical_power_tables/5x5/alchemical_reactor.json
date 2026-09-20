@@ -1,0 +1,39 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 5,
+  "pattern": [
+    "CCCCC",
+    "FADAF",
+    "FBWBF",
+    "FADAF",
+    "CCCCC"
+  ],
+  "key": {
+    "C": {
+      "item": "alchemical_power:x225_cobblestone"
+    },
+    "F": {
+      "item": "alchemical_power:alchemy_machine_frame"
+    },
+    "A": {
+      "item": "alchemical_power:t4_panakeia_gem_block"
+    },
+    "D": {
+      "item": "minecraft:redstone_block"
+    },
+    "B": {
+      "item": "alchemical_power:t5_panakeia_gem_block"
+    },
+    "W": {
+      "item": "alchemical_power:liquid_panakeia_bucket"
+    }
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier3"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:alchemical_reactor"
+  }
+}

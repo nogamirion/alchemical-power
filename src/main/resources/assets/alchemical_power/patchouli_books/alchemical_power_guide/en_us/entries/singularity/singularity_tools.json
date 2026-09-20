@@ -1,35 +1,45 @@
 {
-  "name": "05.Singularity Tools",
-  "icon": "alchemical_power:seven_swords_of_terminus",
+  "name": "08.Singularity Equipment",
+  "icon": "alchemical_power:constellation_treasury",
   "category": "alchemical_power:singularity",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Singularity-enhanced weapons and armor. $(br)A full set of armor can nullify all damage."
+      "text": "Upgrade weapons and armor at a smithing table using a Singularity Ingot and the dedicated smithing template.$(br2)The Seven Swords of Terminus becomes the Constellation Treasury, while Origin armor becomes the corresponding Singularity armor. Wearing the full armor set provides extremely powerful defense."
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:seven_swords_of_terminus"},
-      "text": "Enhanced Blade of Valor. $(br)Instantly kills enemies attacked 7 times."
+      "item": {
+        "item": "alchemical_power:constellation_treasury"
+      },
+      "text": "An upgrade of the Seven Swords of Terminus that summons Treasury Treasures based on stored weapons for follow-up attacks.$(br2)See $(l:singularity/constellation_treasury)Constellation Treasury$(/l) for storage controls and interaction with the Arsenal Bow."
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:crown_of_the_seraph"},
-      "text": "Enhanced Angel Ring. $(br)Enhances the original effect and further nullifies falling, choking, and void damage."
+      "item": {
+        "item": "alchemical_power:crown_of_the_seraph"
+      },
+      "text": "Enhanced Angel Ring. $(br)Enhances the original effect and also nullifies fall, suffocation, and void damage."
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:judicial_carapace"},
-      "text": "Enhanced Crimson plate of Justice. $(br)Reflected damage becomes a special fixed damage, and the damage dealt is doubled. It also nullifies physical damage."
+      "item": {
+        "item": "alchemical_power:judicial_carapace"
+      },
+      "text": "Enhanced Crimson Plate of Justice. $(br)Reflected damage becomes special fixed damage, and the damage dealt is doubled. It also nullifies physical damage."
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:gait_of_insight"},
-      "text": "Enhanced Leggings of Saga. $(br)In addition to the original effect, it also nullifies magic, wither, and flying damage."
+      "item": {
+        "item": "alchemical_power:gait_of_insight"
+      },
+      "text": "Enhanced Leggings of Saga. $(br)In addition to the original effect, it also nullifies magic, wither, and projectile damage."
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:boots_of_aetherlight"},
+      "item": {
+        "item": "alchemical_power:boots_of_aetherlight"
+      },
       "text": "Enhanced March of the Ruler. $(br)Increases movement speed and nullifies all debuffs. It also negates fire and terrain damage."
     }
   ]

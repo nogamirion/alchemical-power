@@ -1,0 +1,32 @@
+{
+  "parent": "alchemical_power:crafters/placed_panakeia_extractor",
+  "display": {
+    "icon": {
+      "item": "alchemical_power:alchemical_reactor"
+    },
+    "title": {
+      "translate": "advancements.alchemical_power.placed_alchemical_reactor.title"
+    },
+    "description": {
+      "translate": "advancements.alchemical_power.placed_alchemical_reactor.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:alchemical_reactor"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

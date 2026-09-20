@@ -1,11 +1,11 @@
 {
-  "name": "03.Origin Armors",
+  "name": "07.Origin Armor",
   "icon": "alchemical_power:crimson_plate_of_justice",
   "category": "alchemical_power:singularity",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Armors created using the Philosopher's Stone and Origin."
+      "text": "Armor created using the Philosopher's Stone and Origins.$(br2)The Origins of Faith, Justice, Wisdom, and Temperance create armor with unique effects."
     },
     {
       "type": "patchouli:spotlight",
@@ -15,12 +15,12 @@
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:crimson_plate_of_justice"},
-      "text": "Body armor that can be created with the Origin of Justice. $(br)Reflects 100% of the damage it would normally take and provides knockback and fire."
+      "text": "Body armor that can be created with the Origin of Justice. $(br)Reflects 100% of incoming damage and inflicts knockback and fire."
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:leggings_of_saga"},
-      "text": "Leg armor that can be created with the Origin of Wisdom. $(br)It reduces movement speed due to blocking, nullifies slow debuffs, and reduces the reduction of satiety."
+      "text": "Leg armor that can be created with the Origin of Wisdom. $(br)It reduces movement speed penalties from blocks, nullifies slowing debuffs, and reduces hunger loss."
     },
     {
       "type": "patchouli:spotlight",

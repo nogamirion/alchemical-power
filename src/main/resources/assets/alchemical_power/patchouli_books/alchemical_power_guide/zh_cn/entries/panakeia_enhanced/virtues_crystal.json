@@ -1,0 +1,48 @@
+{
+  "name": "03.美德结晶",
+  "icon": "alchemical_power:wisdom_crystal",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "对应7种帕纳凯亚的美德结晶。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:wisdom_crystal"},
+      "title": "智慧结晶"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:courage_crystal"},
+      "title": "勇气结晶"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:justice_crystal"},
+      "title": "正义结晶"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:love_crystal"},
+      "title": "爱之结晶"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:hope_crystal"},
+      "title": "希望结晶"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:temperance_crystal"},
+      "title": "节制结晶"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:faith_crystal"},
+      "title": "信仰结晶"
+    }
+  ]
+}
+
+

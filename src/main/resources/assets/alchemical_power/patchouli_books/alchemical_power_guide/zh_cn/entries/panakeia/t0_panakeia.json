@@ -1,0 +1,19 @@
+{
+  "name": "01.含帕纳凯亚粉末",
+  "icon": "alchemical_power:t0_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这是低纯度的帕纳凯亚，可通过采掘或冶炼地下生成的含帕纳凯亚石获得。对装水的炼药锅右键点击即可变为下级帕纳凯亚。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["alchemical_power:textures/gui/entries/panakeia_bearing_stone.png"],
+      "title": "含帕纳凯亚石",
+      "text": "在地下生成的石头，可用镐采掘。"
+    }
+  ]
+}
+
+

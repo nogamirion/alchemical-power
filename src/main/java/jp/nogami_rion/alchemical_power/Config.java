@@ -28,6 +28,11 @@ public class Config {
     // a list of strings that are treated as resource locations for items
     private static final ForgeConfigSpec.ConfigValue<List<? extends String>> ITEM_STRINGS = BUILDER.comment("A list of items to log on common setup.").defineListAllowEmpty("items", List.of("minecraft:iron_ingot"), Config::validateItemName);
 
+    // Base costs, multiplied by 2^(selected processing tier - 1).
+    public static final ForgeConfigSpec.IntValue RUNE_PROCESSOR_FE = BUILDER.defineInRange("runeProcessorFEPerTick", 30, 1, 100000);
+    public static final ForgeConfigSpec.IntValue RUNE_PROCESSOR_FLUID = BUILDER.defineInRange("runeProcessorPanakeiaPerOperation", 100, 1, 16000);
+    public static final ForgeConfigSpec.IntValue RUNE_PROCESSOR_TIME = BUILDER.defineInRange("runeProcessorTicksPerOperation", 100, 1, 32767);
+    public static final ForgeConfigSpec.IntValue RUNE_ASSEMBLY_HEIGHT = BUILDER.defineInRange("runeAssemblyMaxHeight", 16, 3, 64);
     static final ForgeConfigSpec SPEC = BUILDER.build();
 
     public static boolean logDirtBlock;

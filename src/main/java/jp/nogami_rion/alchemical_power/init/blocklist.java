@@ -155,6 +155,20 @@ public class blocklist {
     public static final RegistryObject<Block> PANAKEIA_GENERATOR = BLOCKS.register("panakeia_generator",PanakeiaGeneratorBlock::new);
     public static final RegistryObject<Block> ALCHEMY_MACHINE_FRAME = BLOCKS.register("alchemy_machine_frame",AlchemyMachineFrame::new);
 
+    public static final RegistryObject<Block> ADVANCED_ELECTRIC_RUNE_ACTIVATOR = BLOCKS.register("advanced_electric_rune_activator", () -> new ElectricRuneActivatorBlock(2));
+    public static final RegistryObject<Block> ELITE_ELECTRIC_RUNE_ACTIVATOR = BLOCKS.register("elite_electric_rune_activator", () -> new ElectricRuneActivatorBlock(3));
+    public static final RegistryObject<Block> ULTIMATE_ELECTRIC_RUNE_ACTIVATOR = BLOCKS.register("ultimate_electric_rune_activator", () -> new ElectricRuneActivatorBlock(4));
+    public static final RegistryObject<Block> SAGE_ELECTRIC_RUNE_ACTIVATOR = BLOCKS.register("sage_electric_rune_activator", () -> new ElectricRuneActivatorBlock(5));
+    public static final RegistryObject<Block> BASIC_ELECTRIC_RUNE_ACTIVATOR = BLOCKS.register("basic_electric_rune_activator", ElectricRuneActivatorBlock::new);
+    public static final RegistryObject<Block> ALCHEMICAL_REACTOR = BLOCKS.register("alchemical_reactor", AlchemicalReactorBlock::new);
+    public static final RegistryObject<Block> PANAKEIA_EXTRACTOR = BLOCKS.register("panakeia_extractor",PanakeiaExtractorBlock::new);
+
+    public static final RegistryObject<Block> RUNE_ASSEMBLY_CORE = BLOCKS.register("electric_rune_activator_core", RuneAssemblyCoreBlock::new);
+    public static final RegistryObject<Block> RUNE_ASSEMBLY_CASING = BLOCKS.register("rune_assembly_casing", RuneAssemblyCasingBlock::new);
+    public static final RegistryObject<Block> RUNE_ASSEMBLY_PORT = BLOCKS.register("rune_assembly_port", RuneAssemblyPortBlock::new);
+    public static final RegistryObject<Block> RUNE_ASSEMBLY_ENGRAVER = BLOCKS.register("rune_assembly_engraver", RuneAssemblyEngraverBlock::new);
+    public static final RegistryObject<Block> RUNE_ASSEMBLY_PACKER = BLOCKS.register("rune_assembly_packer", RuneAssemblyPackerBlock::new);
+
     //アイテムリストの登録用
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);

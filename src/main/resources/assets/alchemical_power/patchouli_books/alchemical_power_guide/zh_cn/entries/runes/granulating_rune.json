@@ -1,0 +1,37 @@
+{
+  "name": "04.粒化符文",
+  "icon": "alchemical_power:basic_granulating_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用于将粉碎后的矿石和宝石粒化的符文。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:basic_granulating_rune"},
+      "title": "基础粒化符文",
+      "text": "粒化为2倍产物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:advanced_granulating_rune"},
+      "title": "高级粒化符文",
+      "text": "粒化为4倍产物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:elite_granulating_rune"},
+      "title": "精英粒化符文",
+      "text": "粒化为6倍产物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:ultimate_granulating_rune"},
+      "title": "究极粒化符文",
+      "text": "粒化为8倍产物。"
+    }
+  ]
+}
+
+

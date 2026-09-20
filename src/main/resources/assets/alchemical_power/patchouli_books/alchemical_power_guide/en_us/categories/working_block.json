@@ -1,5 +1,5 @@
 {
-  "name": "04.Working Block",
-  "description": "List of blocks for specific tasks.",
-  "icon": "alchemical_power:alchemy_table"
+  "name": "04.Working Blocks",
+  "description": "Blocks used for specific tasks.",
+  "icon": "alchemical_power:alchemy_table_re"
 }

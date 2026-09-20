@@ -53,17 +53,21 @@ public class PanakeiaGeneratorMenu extends AbstractContainerMenu {
         //アプグレ
         for(int i = 2; i <= 5;i++) {
             int slotPosition = i - 2;
-            this.addSlot(new SlotItemHandler(blockEntity.getItemHandler(), i, 149, 5 + (slotPosition * 18)){
+            int upgradeIndex = i;
+            LockedUpgradeSlot upgradeSlot = new LockedUpgradeSlot(blockEntity.getItemHandler(), i, 149, 5 + (slotPosition * 18),
+                    level.isClientSide, () -> blockEntity.getUpgradeRemovalState(upgradeIndex)){
                 @Override
                 public boolean mayPlace(ItemStack stack){
-                    return isUpgrade(stack);
+                    return isUpgrade(stack) && super.mayPlace(stack);
                 }
                 @Override
                 public int getMaxStackSize(){
                     return 1;
                 }
 
-            });
+            };
+            addSlot(upgradeSlot);
+            addDataSlots(upgradeSlot.syncData());
         }
 
         //playerInventory
@@ -77,7 +81,7 @@ public class PanakeiaGeneratorMenu extends AbstractContainerMenu {
         ItemStack itemstack = ItemStack.EMPTY;
         Slot slot = this.slots.get(index);
 
-        if (slot != null && slot.hasItem()) {
+        if (slot != null && slot.hasItem() && slot.mayPickup(player)) {
 
             ItemStack stack = slot.getItem();
             itemstack = stack.copy();

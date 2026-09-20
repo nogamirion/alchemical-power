@@ -1,0 +1,25 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "alchemical_power:t4_gem_material"
+      },
+      "count": 1
+    }
+  ],
+  "fluid": {
+    "fluid": "alchemical_power:liquid_panakeia",
+    "amount": 4048
+  },
+  "sample": {
+    "item": "alchemical_power:t4_panakeia_gem"
+  },
+  "result": {
+    "item": "alchemical_power:t4_panakeia_gem",
+    "count": 1
+  },
+  "tool_tier": 2,
+  "time": 418,
+  "energy": 93704
+}

@@ -1,0 +1,13 @@
+{
+  "name": "03.符文激活器",
+  "icon": "alchemical_power:rune_activator",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用于使用符文的装置。$(br)左侧放入符文，右侧放入对应物品，经过一段时间后，物品会从中央出现。"
+    }
+  ]
+}
+
+

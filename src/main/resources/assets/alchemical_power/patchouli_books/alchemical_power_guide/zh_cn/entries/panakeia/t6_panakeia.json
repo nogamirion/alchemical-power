@@ -1,0 +1,20 @@
+{
+  "name": "07.神圣帕纳凯亚",
+  "icon": "alchemical_power:t6_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "蕴含星之力而获得神圣性的帕纳凯亚。除作为最高级炼金套件的材料外，也可用于强化下界合金等极稀有金属。T7帕纳凯亚需要在超越炼金工作台中制作。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t6_ingot_material"},
+      "title": "神圣帕纳凯亚材料",
+      "text": "神圣帕纳凯亚可以强化这些金属，使其变为神圣帕纳凯亚锭。"
+    }
+  ]
+}
+
+
+

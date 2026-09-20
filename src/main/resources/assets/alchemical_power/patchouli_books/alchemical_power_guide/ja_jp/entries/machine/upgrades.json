@@ -1,0 +1,48 @@
+{
+  "name": "02.アップグレード",
+  "icon": "alchemical_power:speed_upgrade_t1",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "機械に取り付けることで、性能や対応範囲を拡張するアイテム。$(br2)アップグレードには、処理速度を上げるもの、消費FEを抑えるもの、保持できるFE量を増やすもの、対応する錬金クラフトを拡張するものがある。$(br2)使用できるアップグレードの種類は機械ごとに異なる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:speed_upgrade_t1"},
+      "title": "スピードアップグレード",
+      "text": "機械の処理速度を上げるアップグレード。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:energy_efficiency_upgrade_t1"},
+      "title": "エネルギー効率アップグレード",
+      "text": "機械の消費FEを抑えるアップグレード。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:energy_capacity_upgrade_t1"},
+      "title": "エネルギー容量アップグレード",
+      "text": "機械が保持できるFE量を増やすアップグレード。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:crafting_tool_upgrade_t2"},
+      "title": "クラフトツールアップグレード",
+      "text": "機械が対応できる錬金クラフトの範囲を広げるアップグレード。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:tank_capacity_upgrade_t1"
+      },
+      "title": "タンク容量アップグレード",
+      "text": "機械が保持できる液体の量を増やすアップグレード。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "作成と取り扱い",
+      "text": "アップグレードには、$(l:machine/alchemical_reactor)錬金反応炉$(/l)で作るレシピもある。$(l:machine/alchemical_base_paper)錬金基紙$(/l)などの素材や、必要なクラフトツールの段階をJEIで確認する。$(br2)対応する種類は各機械のページに記載している。取り外しの条件は$(l:machine/handling)機械の取り扱い$(/l)を参照。"
+    }
+  ]
+}

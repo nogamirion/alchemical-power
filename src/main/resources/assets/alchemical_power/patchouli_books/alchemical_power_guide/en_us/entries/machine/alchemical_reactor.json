@@ -1,0 +1,29 @@
+{
+  "name": "06.Alchemical Reactor",
+  "icon": "alchemical_power:alchemical_reactor",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:alchemical_reactor"
+      },
+      "text": "A machine that processes items, fluid and FE using dedicated recipes.$(br2)Check the reactor recipes in JEI, place the ingredients in the input slots, and supply the required fluid and FE. Finished items are placed in the output slot."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Product Samples",
+      "text": "For recipes that require a sample, place the specified product in the sample slot. The sample is not consumed.$(br2)Leave the sample slot empty for recipes that do not require one. Samples cannot be removed during processing."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Supported Upgrades",
+      "text": "Supports Crafting Tool, Speed, Energy Efficiency, Energy Capacity and Tank Capacity Upgrades.$(br2)The required Crafting Tool tier depends on the recipe. If processing stops, check the status display, FE supply, fluid supply and output space."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Alternative Recipes",
+      "text": "Reactor recipes include Alchemical Base Paper, upgrades, Unite Alloy and high-density materials.$(br2)Their ingredients and requirements differ from workbench recipes; check the reactor recipe in JEI.$(br2)External item transport can supply ingredients and extract products. Set the sample and upgrades in the machine screen."
+    }
+  ]
+}

@@ -272,6 +272,42 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(itemlist.T6_PANAKEIA.get())
                 .add(itemlist.T7_PANAKEIA.get());
 
+        this.tag(ModTags.Items.DOUBLING_COPPER)
+                .add(itemlist.CRUSHED_RAW_COPPER.get())
+                .add(itemlist.GRANULATED_COPPER.get())
+                .add(itemlist.SOFTENED_COPPER.get())
+                .add(itemlist.PURIFIED_COPPER.get());
+
+        this.tag(ModTags.Items.DOUBLING_IRON)
+                .add(itemlist.CRUSHED_RAW_IRON.get())
+                .add(itemlist.GRANULATED_IRON.get())
+                .add(itemlist.SOFTENED_IRON.get())
+                .add(itemlist.PURIFIED_IRON.get());
+
+        this.tag(ModTags.Items.DOUBLING_GOLD)
+                .add(itemlist.CRUSHED_RAW_GOLD.get())
+                .add(itemlist.GRANULATED_GOLD.get())
+                .add(itemlist.SOFTENED_GOLD.get())
+                .add(itemlist.PURIFIED_GOLD.get());
+
+        this.tag(ModTags.Items.DOUBLING_DIAMOND)
+                .add(itemlist.CRUSHED_DIAMOND_ORE.get())
+                .add(itemlist.GRANULATED_DIAMOND.get())
+                .add(itemlist.SOFTENED_DIAMOND.get())
+                .add(itemlist.PURIFIED_DIAMOND.get());
+
+        this.tag(ModTags.Items.DOUBLING_EMERALD)
+                .add(itemlist.CRUSHED_EMERALD_ORE.get())
+                .add(itemlist.GRANULATED_EMERALD.get())
+                .add(itemlist.SOFTENED_EMERALD.get())
+                .add(itemlist.PURIFIED_EMERALD.get());
+
+        this.tag(ModTags.Items.DOUBLING_ANCIENT_DEBRIS)
+                .add(itemlist.CRUSHED_ANCIENT_DEBRIS.get())
+                .add(itemlist.GRANULATED_ANCIENT_DEBRIS.get())
+                .add(itemlist.SOFTENED_ANCIENT_DEBRIS.get())
+                .add(itemlist.PURIFIED_ANCIENT_DEBRIS.get());
+
 
 
     }

@@ -1,0 +1,34 @@
+{
+  "name": "09.Constellation Treasury",
+  "icon": "alchemical_power:constellation_treasury",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:constellation_treasury"
+      },
+      "text": "A sword that stores weapons and summons Treasury Treasures for follow-up attacks when it hits a target.$(br2)It accepts weapon types that the Arsenal Bow can launch, except other Constellation Treasuries and weapons with the Treasury modifier.$(br2)Base attack damage while held in the main hand is 36, matching its storage capacity."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Crafting",
+      "text": "Upgrade the $(l:singularity/origin_tools)Seven Swords of Terminus$(/l) at a smithing table with a Singularity Ingot and the dedicated smithing template.$(br2)Place weapons in its storage before attacking."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapon Storage",
+      "text": "Hold the treasury and Shift+right-click, or press Open Treasury, to open storage. The default key is V and can be changed in Controls. Existing bindings are retained; change G manually if necessary.$(br2)Storage cannot be opened during follow-up attacks. The tooltip shows the stored weapon count and total base attack damage."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Treasury Treasure Attacks",
+      "text": "After a successful hit, Treasury Treasures, summoned copies of stored weapons, perform follow-up attacks. The real weapons remain inside, but attacks use their durability.$(br2)The treasury itself does not break from durability loss. If a target dies, attacks can continue against nearby valid targets, ending when none remain."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Using the Arsenal Bow",
+      "text": "The $(l:panakeia_enhanced/arsenal_bow)Arsenal Bow$(/l) can launch the Constellation Treasury. Hitting a target triggers follow-up attacks from its stored weapons.$(br2)The launched treasury waits for those attacks to finish before returning with Loyalty or dropping without it."
+    }
+  ]
+}

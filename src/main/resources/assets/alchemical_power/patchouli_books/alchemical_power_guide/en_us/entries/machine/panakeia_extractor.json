@@ -1,0 +1,28 @@
+{
+  "name": "05.Panakeia Extractor",
+  "icon": "alchemical_power:panakeia_extractor",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:panakeia_extractor"
+      },
+      "title": "Panakeia Extractor",
+      "text": "A machine that consumes Panakeia, water and FE to produce Liquid Panakeia.$(br2)Place Panakeia in the input slot and supply water and FE to begin extraction. Panakeia Cubes are also accepted. The fluid yield depends on the input."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:liquid_panakeia_bucket"
+      },
+      "title": "Liquid Panakeia",
+      "text": "The extracted fluid is used in the $(l:machine/alchemical_reactor)Alchemical Reactor$(/l).$(br2)Supply water using fluid containers or external fluid transport. Collect Liquid Panakeia through the output container slot or external fluid transport."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Upgrades and Capacity",
+      "text": "Supports Energy Capacity and Tank Capacity Upgrades.$(br2)Both tanks must be large enough for the water and fluid output of a single operation. Increase tank capacity before using inputs with a large fluid yield."
+    }
+  ]
+}

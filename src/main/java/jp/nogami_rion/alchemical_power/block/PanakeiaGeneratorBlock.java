@@ -2,12 +2,14 @@ package jp.nogami_rion.alchemical_power.block;
 
 import jp.nogami_rion.alchemical_power.block.entity.ModBlockEntities;
 import jp.nogami_rion.alchemical_power.block.entity.PanakeiaGeneratorBlockEntity;
+import jp.nogami_rion.alchemical_power.util.BlockEntityStateTransfer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.Containers;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -22,10 +24,14 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.network.NetworkHooks;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class PanakeiaGeneratorBlock extends BaseEntityBlock {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
@@ -102,14 +108,31 @@ public class PanakeiaGeneratorBlock extends BaseEntityBlock {
         if(!level.isClientSide && state.getBlock() != newState.getBlock()){
             BlockEntity be = level.getBlockEntity(pos);
             if(be instanceof PanakeiaGeneratorBlockEntity generator){
-                dropInventory(level,pos,generator.getItemHandler());
+                dropInventory(level,pos,generator);
             }
         }
         super.onRemove(state,level,pos,newState,isMoving);
     }
 
-    private void dropInventory(Level level, BlockPos pos, IItemHandler handler) {
+    @Override
+    public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+        List<ItemStack> drops = super.getDrops(state, builder);
+        BlockEntity blockEntity = builder.getOptionalParameter(LootContextParams.BLOCK_ENTITY);
+        return BlockEntityStateTransfer.copyStateToDrops(drops, this, blockEntity);
+    }
+
+    @Override
+    public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
+        BlockEntity blockEntity = level.getBlockEntity(pos);
+        if (blockEntity instanceof PanakeiaGeneratorBlockEntity generator) {
+            BlockEntityStateTransfer.loadStateFromStack(stack, generator);
+        }
+    }
+
+    private void dropInventory(Level level, BlockPos pos, PanakeiaGeneratorBlockEntity generator) {
+        IItemHandler handler = generator.getItemHandler();
         for(int i = 0; i < handler.getSlots(); i++){
+            if (!generator.shouldDropInventorySlot(i)) continue;
             ItemStack stack = handler.getStackInSlot(i);
             if(!stack.isEmpty()){
                 Containers.dropItemStack(level, pos.getX(), pos.getY(), pos.getZ(), stack.copy());

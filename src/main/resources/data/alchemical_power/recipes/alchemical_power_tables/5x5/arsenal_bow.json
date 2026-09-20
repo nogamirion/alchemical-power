@@ -1,0 +1,36 @@
+{
+  "type": "alchemical_power:alchemical_power_tables_recipe",
+  "mode": "shaped",
+  "grid": 5,
+  "pattern": [
+    "  I S",
+    " I ES",
+    "ICB S",
+    " I ES",
+    "  I S"
+  ],
+  "key": {
+    "I": {
+      "item": "alchemical_power:t3_panakeia_ingot"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "B": {
+      "item": "minecraft:bow"
+    }
+  },
+  "tool": {
+    "tag": "alchemical_power:alchemy_kit_tier2"
+  },
+  "result": {
+    "count": 1,
+    "item": "alchemical_power:arsenal_bow"
+  }
+}

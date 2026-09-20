@@ -1,0 +1,37 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:paper"
+      },
+      "count": 16
+    },
+    {
+      "ingredient": {
+        "tag": "alchemical_power:t1_ingot_material"
+      },
+      "count": 8
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:minecart"
+      },
+      "count": 1
+    }
+  ],
+  "fluid": {
+    "amount": 1728,
+    "fluid": "alchemical_power:liquid_panakeia"
+  },
+  "sample": {
+    "item": "alchemical_power:energy_efficiency_upgrade_t1"
+  },
+  "result": {
+    "item": "alchemical_power:energy_efficiency_upgrade_t1",
+    "count": 1
+  },
+  "tool_tier": 0,
+  "time": 200,
+  "energy": 5000
+}

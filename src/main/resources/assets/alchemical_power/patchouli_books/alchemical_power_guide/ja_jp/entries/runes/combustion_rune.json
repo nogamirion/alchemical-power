@@ -20,12 +20,12 @@
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:t3_combustion_rune"},
-      "text": "燃焼時間:5400ticks (300秒)"
+      "text": "燃焼時間:5400ticks (270秒)"
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:t4_combustion_rune"},
-      "text": "燃焼時間:8100ticks (450秒)"
+      "text": "燃焼時間:8100ticks (405秒)"
     },
     {
       "type": "patchouli:spotlight",
@@ -35,7 +35,7 @@
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:t6_combustion_rune"},
-      "text": "燃焼時間:18225ticks (1012.5秒)"
+      "text": "燃焼時間:18225ticks (911.25秒)"
     },
     {
       "type": "patchouli:text",

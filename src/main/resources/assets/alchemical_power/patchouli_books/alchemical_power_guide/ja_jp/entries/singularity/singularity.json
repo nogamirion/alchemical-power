@@ -1,0 +1,16 @@
+{
+  "name": "04.特異点",
+  "icon": "alchemical_power:singularity",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "根源と高位素材を用いて作成する、非常に強力な素材。$(br2)賢者の石や特異点インゴットなど、終盤のアイテム作成に使用する。$(br2)作成には超越論的錬金作業台が必要となる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:singularity"},
+      "text": "特異点は、このMODの終盤における重要な中核素材である。"
+    }
+  ]
+}

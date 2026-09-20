@@ -4,6 +4,8 @@ import jp.nogami_rion.alchemical_power.block.entity.AutoAlchemicalAssemblerBlock
 import jp.nogami_rion.alchemical_power.init.blocklist;
 import jp.nogami_rion.alchemical_power.item.mec.UpgradeItem;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.server.level.ServerPlayer;
+import jp.nogami_rion.alchemical_power.network.AssemblerPreviewNetwork;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
@@ -24,6 +26,9 @@ public class AutoAlchemicalAssemblerMenu extends AbstractContainerMenu {
 
     private final AutoAlchemicalAssemblerBlockEntity blockEntity;
     private final Level level;
+    private final Player viewer;
+    private ItemStack recipePreview = ItemStack.EMPTY;
+    private boolean previewSent;
 
     private static final int COLUMNS = 13;
     private static final int TOTAL_ROWS = 13;
@@ -48,6 +53,7 @@ public class AutoAlchemicalAssemblerMenu extends AbstractContainerMenu {
 
         this.blockEntity = (AutoAlchemicalAssemblerBlockEntity) entity;
         this.level = playerInv.player.level();
+        this.viewer = playerInv.player;
         IItemHandler input = blockEntity.getInventoryHandler();
         IItemHandler outPut = blockEntity.getOutputHandler();
         IItemHandler upgrade = blockEntity.getUpgradeHandler();
@@ -102,12 +108,11 @@ public class AutoAlchemicalAssemblerMenu extends AbstractContainerMenu {
 
         // アップグレードスロット
         for(int i = 0; i < 4; i++) {
-            addSlot(new SlotItemHandler(upgrade,i, 172 + i * 18, 84){
-                @Override
-                public boolean mayPlace(ItemStack stack) {
-                    return stack.getItem() instanceof UpgradeItem;
-                }
-            });
+            int upgradeIndex = i;
+            LockedUpgradeSlot upgradeSlot = new LockedUpgradeSlot(upgrade, i, 172 + i * 18, 84,
+                    level.isClientSide, () -> blockEntity.getUpgradeRemovalState(upgradeIndex));
+            addSlot(upgradeSlot);
+            addDataSlots(upgradeSlot.syncData());
         }
 
         addPlayerInventory(playerInv);
@@ -154,7 +159,7 @@ public class AutoAlchemicalAssemblerMenu extends AbstractContainerMenu {
         ItemStack stack = ItemStack.EMPTY;
         Slot slot = this.slots.get(index);
 
-        if(slot != null && slot.hasItem()){
+        if(slot != null && slot.hasItem() && slot.mayPickup(player)){
             ItemStack item = slot.getItem();
             stack = item.copy();
 
@@ -194,6 +199,27 @@ public class AutoAlchemicalAssemblerMenu extends AbstractContainerMenu {
 
     public int getFirstRow(){
         return firstRow;
+    }
+
+    @Override
+    public void broadcastChanges() {
+        super.broadcastChanges();
+        if (viewer instanceof ServerPlayer player) {
+            ItemStack result = blockEntity.getRecognizedRecipeResult();
+            if (!previewSent || !ItemStack.matches(recipePreview, result)) {
+                recipePreview = result.copy();
+                previewSent = true;
+                AssemblerPreviewNetwork.send(player, containerId, result);
+            }
+        }
+    }
+
+    public ItemStack getRecipePreview() {
+        return recipePreview;
+    }
+
+    public void setRecipePreview(ItemStack stack) {
+        if (level.isClientSide) recipePreview = stack.copy();
     }
 
     // ===== GUI用 getter =====

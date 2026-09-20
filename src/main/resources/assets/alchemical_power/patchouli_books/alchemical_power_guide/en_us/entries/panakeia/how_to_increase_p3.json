@@ -5,11 +5,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Enclosing saplings with T0 Panakeia reed creates Alchetree saplings, enabling more effective Panacea cultivation."
+      "text": "Surrounding a normal sapling with T0 Panakeia Reed creates an Alchetree sapling. When an Alchetree grows, it produces special leaves, and breaking those leaves can yield Panakeia."
     },
     {
       "type": "patchouli:text",
-      "text": "Furthermore, you can increase the tier of Panakeia obtained by surrounding an Alchetree sapling with a Panakeia Cube of the next higher tier."
+      "text": "You can also raise the Alchetree's tier by surrounding an Alchetree sapling with Panakeia Cubes of the next higher tier. Higher-tier Alchetrees can yield higher-tier Panakeia."
     }
   ]
 }

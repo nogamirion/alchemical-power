@@ -1,0 +1,25 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "minecraft:coals"
+      },
+      "count": 1
+    }
+  ],
+  "fluid": {
+    "fluid": "alchemical_power:liquid_panakeia",
+    "amount": 794
+  },
+  "sample": {
+    "item": "alchemical_power:t4_combustion_rune"
+  },
+  "result": {
+    "item": "alchemical_power:t4_combustion_rune",
+    "count": 1
+  },
+  "tool_tier": 0,
+  "time": 278,
+  "energy": 18380
+}

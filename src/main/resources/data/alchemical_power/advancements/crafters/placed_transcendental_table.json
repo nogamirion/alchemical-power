@@ -1,7 +1,7 @@
 {
   "parent": "alchemical_power:crafters/placed_hermes_workbench",
   "display": {
-    "icon": { "item": "alchemical_power:transcendental_table" },
+    "icon": { "item": "alchemical_power:transcendental_table_re" },
     "title": { "translate": "advancements.alchemical_power.placed_transcendental_table.title" },
     "description": { "translate": "advancements.alchemical_power.placed_transcendental_table.description" },
     "frame": "goal",
@@ -14,7 +14,7 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-          { "items": ["alchemical_power:transcendental_table"] }
+          { "items": ["alchemical_power:transcendental_table_re", "alchemical_power:transcendental_table"] }
         ]
       }
     }

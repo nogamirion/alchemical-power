@@ -1,0 +1,34 @@
+{
+  "name": "07.根源护甲",
+  "icon": "alchemical_power:crimson_plate_of_justice",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "使用贤者之石和根源制作的护甲。$(br2)可由信仰、正义、智慧、节制的根源分别制作具有特殊效果的护甲。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:angel_ring"},
+      "text": "可用信仰根源制作的头部护甲。$(br)除赋予可进行创造飞行的增益外，还会赋予生命恢复III和抗性II。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:crimson_plate_of_justice"},
+      "text": "可用正义根源制作的胸部护甲。$(br)反射本应受到伤害的100%，并造成击退与着火。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:leggings_of_saga"},
+      "text": "可用智慧根源制作的腿部护甲。$(br)减轻方块导致的移动速度下降，无效化迟缓类减益，并降低饱食度消耗。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:march_of_the_ruler"},
+      "text": "可用节制根源制作的靴子。$(br)免疫摔落伤害，并将所有减益的持续时间减半。"
+    }
+  ]
+}
+
+
+

@@ -1,26 +1,26 @@
 {
-  "name": "02.Accessories List",
+  "name": "03.Accessories List",
   "icon": "minecraft:writable_book",
   "category": "alchemical_power:accessory",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "List of accessories to be added with　Alchemical power"
+      "text": "A list of accessories added by Alchemical Power."
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:alchemists_ring"},
-      "text": "Increased attack and defense."
+      "text": "Increases attack damage and armor."
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:greed_ring"},
-      "text": "Picking up items restores strength and increases mining speed for a certain period of time."
+      "text": "Picking up items restores health and increases mining speed for a short time."
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:gluttonys_ring"},
-      "text": "You gain multiple buffs as your maximum strength increases significantly and your satiety level is restored."
+      "text": "Greatly increases maximum health and grants multiple buffs when your food level is restored."
     }
   ]
 }

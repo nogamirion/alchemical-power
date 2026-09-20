@@ -13,8 +13,11 @@ import jp.nogami_rion.alchemical_power.registry.ModFluids;
 import jp.nogami_rion.alchemical_power.registry.ModTiers;
 import jp.nogami_rion.alchemical_power.screen.*;
 import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.item.ItemProperties;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -52,6 +55,9 @@ public class Alchemical_power {
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
         ModRecipes.register(modEventBus);
+        jp.nogami_rion.alchemical_power.network.ReactorTransferNetwork.register();
+        jp.nogami_rion.alchemical_power.network.ConstellationTreasuryNetwork.register();
+        jp.nogami_rion.alchemical_power.network.AssemblerPreviewNetwork.register();
         ModLootModifiers.register(modEventBus);
         effectlist.register(modEventBus);
         entitylist.register(modEventBus);
@@ -100,6 +106,7 @@ public class Alchemical_power {
 
             //GUIの追加
             MenuScreens.register(ModMenuTypes.ALCHEMY_TABLE_MENU.get(), Alchemy_Table_Screen::new);
+            MenuScreens.register(ModMenuTypes.CONSTELLATION_TREASURY_MENU.get(), ConstellationTreasuryScreen::new);
             MenuScreens.register(ModMenuTypes.HERMES_WORKBENCH_MENU.get(), HermesWorkbench_Screen::new);
             MenuScreens.register(ModMenuTypes.TRANSCENDENTAL_TABLE_MENU.get(), Transcendental_Table_Screen::new);
             MenuScreens.register(ModMenuTypes.ALCHEMICAL_ENGRAVER_MENU.get(), Alchemical_Engraver_Screen::new);
@@ -109,10 +116,31 @@ public class Alchemical_power {
             MenuScreens.register(ModMenuTypes.ALCHEMICAL_POWER_TABLES_13X13_MENU.get(),AlchemicalTablesTier3Screen::new);
             MenuScreens.register(ModMenuTypes.AUTO_ALCHEMICAL_ASSEMBLER_MENU.get(), AutoAlchemicalAssemblerScreen::new);
             MenuScreens.register(ModMenuTypes.PANAKEIA_GENERATOR_MENU.get(),PanakeiaGeneratorScreen::new);
+            MenuScreens.register(ModMenuTypes.PANAKEIA_EXTRACTOR_MENU.get(),PanakeiaExtractorScreen::new);
+            MenuScreens.register(ModMenuTypes.ELECTRIC_RUNE_ACTIVATOR_MENU.get(), ElectricRuneActivatorScreen::new);
+            MenuScreens.<RuneAssemblyMenu, AbstractContainerScreen<RuneAssemblyMenu>>register(ModMenuTypes.RUNE_ASSEMBLY_MENU.get(), (menu,inventory,title) ->
+                    menu.isCore ? new RuneAssemblyCoreScreen(menu,inventory,title) : new RuneAssemblyScreen(menu,inventory,title));
+            MenuScreens.register(ModMenuTypes.ALCHEMICAL_REACTOR_MENU.get(), AlchemicalReactorScreen::new);
 
             //ブロックモデルのレンダーレイヤー指定
             ItemBlockRenderTypes.setRenderLayer(blocklist.PAIN_CONVERTER.get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(blocklist.ALCHEMY_MACHINE_FRAME.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.LIQUID_PANAKEIA.block.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.LIQUID_PANAKEIA.source.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.LIQUID_PANAKEIA.flowing.get(), RenderType.translucent());
+
+            event.enqueueWork(ClientModEvents::registerItemProperties);
+        }
+
+        private static void registerItemProperties() {
+            ItemProperties.register(itemlist.ARSENAL_BOW.get(), new ResourceLocation("pulling"), (stack, level, entity, seed) ->
+                    entity != null && entity.isUsingItem() && entity.getUseItem() == stack ? 1.0F : 0.0F);
+            ItemProperties.register(itemlist.ARSENAL_BOW.get(), new ResourceLocation("pull"), (stack, level, entity, seed) -> {
+                if (entity == null) {
+                    return 0.0F;
+                }
+                return entity.getUseItem() != stack ? 0.0F : (float) (stack.getUseDuration() - entity.getUseItemRemainingTicks()) / 20.0F;
+            });
         }
     }
 }

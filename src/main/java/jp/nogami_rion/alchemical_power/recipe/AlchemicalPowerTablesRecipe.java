@@ -103,7 +103,7 @@ public class AlchemicalPowerTablesRecipe implements Recipe<Container> {
 
         AbstractAlchemicalTableBlockEntity be = view.getBlockEntity();
 
-        if(!tool.test(be.getTool())){
+        if(!tool.test(view.getTool())){
             return false;
         }
 
@@ -130,6 +130,20 @@ public class AlchemicalPowerTablesRecipe implements Recipe<Container> {
     private boolean matchesShaped(AlchemicalTableGrid grid){
         int patternHeight = pattern.length;
         int patternWidth = pattern[0].length;
+
+        // Reject unrelated items before trying offsets. Matching the pattern then
+        // accounts for every occupied slot, so crafting cannot consume extras.
+        int requiredSlots = 0;
+        for (Ingredient[] row : pattern) {
+            for (Ingredient ingredient : row) {
+                if (!ingredient.isEmpty()) requiredSlots++;
+            }
+        }
+        int occupiedSlots = 0;
+        for (int i = 0; i < grid.getGridSize() * grid.getGridSize(); i++) {
+            if (!grid.getItem(i).isEmpty()) occupiedSlots++;
+        }
+        if (occupiedSlots != requiredSlots) return false;
 
         for (int y = 0; y <= grid.getGridSize() - patternHeight; y++) {
             for (int x = 0; x <= grid.getGridSize() - patternWidth; x++) {

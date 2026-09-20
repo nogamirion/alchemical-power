@@ -1,0 +1,44 @@
+{
+  "name": "02.食材",
+  "icon": "alchemical_power:tomato",
+  "category": "alchemical_power:cooking",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Alchemical Power新增的一部分食材无法通过种植获得，需要用丰收符文准备。$(br2)它们也兼容其他农业类MOD新增的材料。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:flour",
+      "recipe2": "alchemical_power:raw_pasta",
+      "text": "面粉、生意面等可作为其他料理材料的食材。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:tomato_sauce",
+      "recipe2": "alchemical_power:cream_sauce",
+      "text": "各种酱汁可作为意面、炖菜等料理的材料。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:vinaigrette_sauce",
+      "recipe2": "alchemical_power:sweet_azuki_paste",
+      "text": "提前准备调味料和加工好的材料，可以扩大可制作料理的范围。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:fried_rice",
+      "recipe2": "alchemical_power:cream_pasta",
+      "text": "将厨具套装与食材组合即可制作各种料理。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:onion_ring",
+      "recipe2": "alchemical_power:rice_pudding",
+      "text": "不仅可以制作正餐，也可以制作小吃和甜点。"
+    }
+  ]
+}
+
+
+

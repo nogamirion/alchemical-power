@@ -1,0 +1,19 @@
+{
+  "name": "08.アーセナルボウ",
+  "icon": "alchemical_power:arsenal_bow",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:arsenal_bow"
+      },
+      "text": "矢の代わりに剣などの対応する武器を射出する弓。$(br2)所持品に対応武器を入れ、使用操作で引き絞ってから離すと射出する。射出した武器は所持品から取り出される。$(br2)作成レシピはJEIで確認できる。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "装填対象と回収",
+      "text": "ホットバー以外の所持品を先に探し、その後ホットバーから装填対象を選ぶ。射出前に弓のツールチップで装填対象を確認できる。$(br2)弓に忠誠を付けると、命中後の武器が戻ってくる。忠誠がなければ、落ちた武器を回収する。無限には対応しない。"
+    }
+  ]
+}

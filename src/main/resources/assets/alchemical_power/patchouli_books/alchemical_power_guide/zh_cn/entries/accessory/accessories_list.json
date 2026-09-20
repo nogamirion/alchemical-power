@@ -1,0 +1,29 @@
+{
+  "name": "03.饰品列表",
+  "icon": "minecraft:writable_book",
+  "category": "alchemical_power:accessory",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Alchemical Power新增饰品列表。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:alchemists_ring"},
+      "text": "提升攻击力和防御力。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:greed_ring"},
+      "text": "拾取物品时恢复生命值，并在一段时间内提升采掘速度。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:gluttonys_ring"},
+      "text": "大幅提升最大生命值，并在饱食度恢复时获得多种增益。"
+    }
+  ]
+}
+
+
+

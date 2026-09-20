@@ -13,6 +13,13 @@ public class ModBlockEntities {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =
             DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, Alchemical_power.MODID);
 
+    public static final RegistryObject<BlockEntityType<ElectricRuneActivatorBlockEntity>> ELECTRIC_RUNE_ACTIVATOR_BE =
+            BLOCK_ENTITIES.register("electric_rune_activator_be", () ->
+                    BlockEntityType.Builder.of(ElectricRuneActivatorBlockEntity::new, blocklist.BASIC_ELECTRIC_RUNE_ACTIVATOR.get(), blocklist.ADVANCED_ELECTRIC_RUNE_ACTIVATOR.get(), blocklist.ELITE_ELECTRIC_RUNE_ACTIVATOR.get(), blocklist.ULTIMATE_ELECTRIC_RUNE_ACTIVATOR.get(), blocklist.SAGE_ELECTRIC_RUNE_ACTIVATOR.get()).build(null));
+    public static final RegistryObject<BlockEntityType<AlchemicalReactorBlockEntity>> ALCHEMICAL_REACTOR_BE =
+            BLOCK_ENTITIES.register("alchemical_reactor_be", () ->
+                    BlockEntityType.Builder.of(AlchemicalReactorBlockEntity::new, blocklist.ALCHEMICAL_REACTOR.get()).build(null));
+
     public static final RegistryObject<BlockEntityType<Alchemy_Table_Entity>> ALCHEMY_TABLE_BE =
             BLOCK_ENTITIES.register("alchemy_table_be",() ->
                     BlockEntityType.Builder.of(Alchemy_Table_Entity::new, blocklist.ALCHEMY_TABLE.get()).build(null));
@@ -96,6 +103,16 @@ public class ModBlockEntities {
     public static final RegistryObject<BlockEntityType<PanakeiaGeneratorBlockEntity>> PANAKEIA_GENERATOR_BE =
             BLOCK_ENTITIES.register("panakeia_generator_be",()->
                     BlockEntityType.Builder.of(PanakeiaGeneratorBlockEntity::new,blocklist.PANAKEIA_GENERATOR.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<PanakeiaExtractorBlockEntity>> PANAKEIA_EXTRACTOR_BE =
+            BLOCK_ENTITIES.register("panakeia_extractor_be",()->
+                    BlockEntityType.Builder.of(PanakeiaExtractorBlockEntity::new,blocklist.PANAKEIA_EXTRACTOR.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<RuneAssemblyCoreBlockEntity>> RUNE_ASSEMBLY_CORE_BE =
+            BLOCK_ENTITIES.register("electric_rune_activator_core", () -> BlockEntityType.Builder.of(RuneAssemblyCoreBlockEntity::new, blocklist.RUNE_ASSEMBLY_CORE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<RuneAssemblyPortBlockEntity>> RUNE_ASSEMBLY_PORT_BE =
+            BLOCK_ENTITIES.register("rune_assembly_port", () -> BlockEntityType.Builder.of(RuneAssemblyPortBlockEntity::new, blocklist.RUNE_ASSEMBLY_PORT.get()).build(null));
+    public static final RegistryObject<BlockEntityType<RuneAssemblyPackerBlockEntity>> RUNE_ASSEMBLY_PACKER_BE = BLOCK_ENTITIES.register("rune_assembly_packer", () -> BlockEntityType.Builder.of(RuneAssemblyPackerBlockEntity::new, blocklist.RUNE_ASSEMBLY_PACKER.get()).build(null));
 
     public static void register(IEventBus eventBus){
         BLOCK_ENTITIES.register(eventBus);

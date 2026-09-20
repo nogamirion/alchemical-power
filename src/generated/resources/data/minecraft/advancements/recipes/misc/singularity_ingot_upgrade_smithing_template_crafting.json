@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_singularity_ingot": {
+    "has_singularity_nugget": {
       "conditions": {
         "items": [
           {
             "items": [
-              "alchemical_power:singularity_ingot"
+              "alchemical_power:singularity_nugget"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_singularity_ingot",
+      "has_singularity_nugget",
       "has_the_recipe"
     ]
   ],

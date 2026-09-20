@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "It can convert a sapling into another sapling, return baked food to the way it was before it was baked, or convert a rare item into another rare item. (limited to vanilla items)."
+      "text": "Converts saplings into other saplings, restores cooked foods to their uncooked forms, and converts rare items into other rare items. Limited to vanilla items."
     }
   ]
 }

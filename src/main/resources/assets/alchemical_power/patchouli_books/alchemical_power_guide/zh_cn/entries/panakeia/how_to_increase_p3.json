@@ -1,0 +1,18 @@
+{
+  "name": "11.如何增加帕纳凯亚③",
+  "icon": "alchemical_power:alchetree_sapling_t0",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用含帕纳凯亚芦苇围住普通树苗，即可制作炼金树树苗。炼金树成长后会长出专用树叶，破坏这些树叶可以获得帕纳凯亚。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "此外，用高一级的帕纳凯亚方块围住炼金树树苗，可以提升炼金树的阶级。阶级提升后的炼金树可以产出更高级的帕纳凯亚。"
+    }
+  ]
+}
+
+
+

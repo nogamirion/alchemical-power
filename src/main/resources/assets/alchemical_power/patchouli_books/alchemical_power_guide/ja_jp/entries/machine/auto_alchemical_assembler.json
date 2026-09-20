@@ -1,0 +1,15 @@
+{
+  "name": "04.自動錬金組立機",
+  "icon": "alchemical_power:auto_alchemical_assembler",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "FEを消費して、錬金作業台系のレシピを自動で作成する機械。$(br2)素材を内部に入れておくことで、下に置かれた作業台で並べたレシピを検出して作成を行う。完成品は出力スロットに置かれる。$(br2)クラフトツールアップグレード、スピードアップグレード、エネルギー効率アップグレード、エネルギー容量アップグレードに対応している。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:alchemical_power_tables/5x5/auto_alcemical_assembler"
+    }
+  ]
+}

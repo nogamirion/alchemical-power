@@ -1,0 +1,24 @@
+{
+  "name": "03.发电机",
+  "icon": "alchemical_power:panakeia_generator",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "生成FE的机械。$(br2)生成的FE会发送到相邻机械。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:alchemical_power_tables/5x5/panakeia_generator",
+      "text": "以帕纳凯亚作为燃料生成FE。放入催化剂可以提高发电能力，并且支持能量容量升级。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:pain_converter",
+      "text": "将周围生物受到的伤害转换为FE。"
+    }
+  ]
+}
+
+
+

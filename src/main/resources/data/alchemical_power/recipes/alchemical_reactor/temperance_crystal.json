@@ -1,0 +1,31 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "alchemical_power:t6_ingot_material"
+      },
+      "count": 36504
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      },
+      "count": 1
+    }
+  ],
+  "fluid": {
+    "fluid": "alchemical_power:liquid_panakeia",
+    "amount": 1050147072
+  },
+  "sample": {
+    "item": "alchemical_power:temperance_crystal"
+  },
+  "result": {
+    "item": "alchemical_power:temperance_crystal",
+    "count": 1
+  },
+  "tool_tier": 2,
+  "time": 9392,
+  "energy": 131773714
+}

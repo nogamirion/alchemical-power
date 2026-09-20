@@ -2,6 +2,7 @@ package jp.nogami_rion.alchemical_power.block;
 
 import jp.nogami_rion.alchemical_power.block.entity.CobblestoneGeneratorMk2Entity;
 import jp.nogami_rion.alchemical_power.block.entity.ModBlockEntities;
+import jp.nogami_rion.alchemical_power.util.BlockEntityStateTransfer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.InteractionHand;
@@ -20,9 +21,12 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 import net.minecraft.world.phys.BlockHitResult;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.List;
 import java.util.function.Supplier;
 
 public class CobblestoneGeneratorMk2 extends BaseEntityBlock {
@@ -113,29 +117,22 @@ public class CobblestoneGeneratorMk2 extends BaseEntityBlock {
                 (pLevel1,pPos,pState1,pBlockEntity) -> pBlockEntity.tick(pLevel1,pPos,pState1));
     }
 
+
+    @Override
+    public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+        List<ItemStack> drops = super.getDrops(state, builder);
+        BlockEntity blockEntity = builder.getOptionalParameter(LootContextParams.BLOCK_ENTITY);
+        return BlockEntityStateTransfer.copyStateToDrops(drops, this, blockEntity);
+    }
     @Override
     public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
         BlockEntity blockEntity = level.getBlockEntity(pos);
         if (blockEntity instanceof CobblestoneGeneratorMk2Entity cobbleGen) {
-            cobbleGen.loadFromItem(stack);
+            BlockEntityStateTransfer.loadStateFromStack(stack, cobbleGen);
         }
     }
 
     public Item getProduct(){
         return product.get();
     }
-//NBTアイテムへの内部保存　よくわからないのでコメントアウト
-//    @Override
-//    public List<ItemStack> getDrops(BlockState state, LootContext context) {
-//        BlockEntity blockEntity = context.getParamOrNull(LootContextParams.BLOCK_ENTITY);
-//        ItemStack drop = new ItemStack(this);
-//
-//        if (blockEntity instanceof CobblestoneGeneratorMk2Entity cobbleGen) {
-//            cobbleGen.saveToItem(drop);
-//        }
-//
-//        java.util.List<ItemStack> drops = new java.util.ArrayList<>();
-//        drops.add(drop);
-//        return drops;
-//    }
 }

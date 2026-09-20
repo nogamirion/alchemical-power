@@ -1,0 +1,16 @@
+{
+  "name": "04.Singularity",
+  "icon": "alchemical_power:singularity",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "An extremely powerful material crafted from Origins and high-tier materials.$(br2)It is used to create late-game items such as the Philosopher's Stone and Singularity Ingots.$(br2)Crafting it requires the Transcendental Table."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:singularity"},
+      "text": "The Singularity is a key core material in the late game of this mod."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "06.纯化符文",
+  "icon": "alchemical_power:basic_purification_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用于纯化软化后的矿石和宝石的符文。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:basic_purification_rune"},
+      "text": "纯化为2个。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:advanced_purification_rune"},
+      "text": "纯化为4个。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:elite_purification_rune"},
+      "text": "纯化为6个。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:ultimate_purification_rune"},
+      "text": "纯化为8个。"
+    }
+  ]
+}
+
+

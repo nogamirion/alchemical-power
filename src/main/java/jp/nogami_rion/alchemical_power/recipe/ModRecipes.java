@@ -41,6 +41,20 @@ public class ModRecipes {
             SERIALIZERS.register("alchemical_power_tables_recipe",AlchemicalPowerTablesRecipeSerializer::new);
 
 
+    public static final RegistryObject<RecipeType<AlchemicalReactorRecipe>> ALCHEMICAL_REACTOR_TYPE =
+            TYPES.register("alchemical_reactor", () -> new RecipeType<>() {
+                @Override public String toString() { return "alchemical_power:alchemical_reactor"; }
+            });
+    public static final RegistryObject<RecipeSerializer<AlchemicalReactorRecipe>> ALCHEMICAL_REACTOR_SERIALIZER =
+            SERIALIZERS.register("alchemical_reactor", AlchemicalReactorRecipe.Serializer::new);
+
+    public static final RegistryObject<RecipeSerializer<net.minecraft.world.item.crafting.SmeltingRecipe>> TAG_OUTPUT_SMELTING =
+            SERIALIZERS.register("tag_output_smelting", () -> new TagOutputRecipeSerializer<>(RecipeSerializer.SMELTING_RECIPE, true));
+    public static final RegistryObject<RecipeSerializer<net.minecraft.world.item.crafting.BlastingRecipe>> TAG_OUTPUT_BLASTING =
+            SERIALIZERS.register("tag_output_blasting", () -> new TagOutputRecipeSerializer<>(RecipeSerializer.BLASTING_RECIPE, true));
+    public static final RegistryObject<RecipeSerializer<net.minecraft.world.item.crafting.StonecutterRecipe>> TAG_OUTPUT_STONECUTTING =
+            SERIALIZERS.register("tag_output_stonecutting", () -> new TagOutputRecipeSerializer<>(RecipeSerializer.STONECUTTER, false));
+
     public static void register(IEventBus eventBus){
         TYPES.register(eventBus);
         SERIALIZERS.register(eventBus);

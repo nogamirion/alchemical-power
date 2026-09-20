@@ -9,9 +9,9 @@
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"tag": "alchemical_power:t5_ingot_material"},
+      "item": {"tag": "alchemical_power:t5_gem_material"},
       "title": "究極のパナケイア素材",
-      "text": "究極のパナケイアはこれらの金属を強化して、究極のパナケイアジェムにできます。"
+      "text": "究極のパナケイアはこれらの宝石・金属を強化して、究極のパナケイアジェムにできます。"
     }
   ]
 }

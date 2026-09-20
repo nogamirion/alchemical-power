@@ -1,0 +1,56 @@
+{
+  "name": "01.强化材料",
+  "icon": "alchemical_power:t1_panakeia_ingot",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "由帕纳凯亚强化而成的材料。可以用它们制作工具和护甲。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t1_panakeia_ingot"},
+      "title": "下级帕纳凯亚锭",
+      "text": "使用下级帕纳凯亚强化的锭。作为工具的属性如下。$(br)采掘等级:2 $(br)工具耐久:270 $(br)基础攻击速度:5.0 $(br)基础伤害:1.0 $(br)护甲基础耐久:6 $(br)防御力:2/5/4/2 $(br)护甲韧性:0 $(br)击退抗性:0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t2_panakeia_ingot"},
+      "title": "中级帕纳凯亚锭",
+      "text": "使用中级帕纳凯亚强化的锭。作为工具的属性如下。$(br)采掘等级:2 $(br)工具耐久:375 $(br)基础攻击速度:6.0 $(br)基础伤害:2.5 $(br)护甲基础耐久:8 $(br)防御力:2/6/5/2 $(br)护甲韧性:0.5 $(br)击退抗性:0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t3_panakeia_ingot"},
+      "title": "上级帕纳凯亚锭",
+      "text": "使用上级帕纳凯亚强化的锭。作为工具的属性如下。$(br)采掘等级:2 $(br)工具耐久:425 $(br)基础攻击速度:7.0 $(br)基础伤害:3.0 $(br)护甲基础耐久:9 $(br)防御力:2/6/6/3 $(br)护甲韧性:1.0 $(br)击退抗性:0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t4_panakeia_gem"},
+      "title": "睿智帕纳凯亚宝石",
+      "text": "使用睿智帕纳凯亚强化的宝石或锭。作为工具的属性如下。$(br)采掘等级:3 $(br)工具耐久:2341 $(br)基础攻击速度:8.5 $(br)基础伤害:3.5 $(br)护甲基础耐久:50 $(br)防御力:3/8/6/3 $(br)护甲韧性:2.5 $(br)击退抗性:0"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t5_panakeia_gem"},
+      "title": "究极帕纳凯亚宝石",
+      "text": "使用究极帕纳凯亚强化的宝石或锭。作为工具的属性如下。$(br)采掘等级:3 $(br)工具耐久:2716 $(br)基础攻击速度:9.0 $(br)基础伤害:4.0 $(br)护甲基础耐久:58 $(br)防御力:3/8/6/3 $(br)护甲韧性:2.5 $(br)击退抗性:0.1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t6_panakeia_ingot"},
+      "title": "神圣帕纳凯亚锭",
+      "text": "使用神圣帕纳凯亚强化的锭。作为工具的属性如下。$(br)采掘等级:4 $(br)工具耐久:3047 $(br)基础攻击速度:9.5 $(br)基础伤害:5.5 $(br)护甲基础耐久:65 $(br)防御力:3/8/6/3 $(br)护甲韧性:3.5 $(br)击退抗性:0.1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:unite_alloy"},
+      "title": "统合合金",
+      "text": "使用混沌帕纳凯亚制作的合金。作为工具的属性如下。$(br)采掘等级:6 $(br)工具耐久:8192 $(br)基础攻击速度:11.0 $(br)基础伤害:11.0 $(br)护甲基础耐久:175 $(br)防御力:5/10/8/5 $(br)护甲韧性:5.0 $(br)击退抗性:0.3"
+    }
+  ]
+}
+
+
+

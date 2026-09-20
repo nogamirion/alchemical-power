@@ -1,0 +1,25 @@
+{
+  "name": "01.基础符文",
+  "icon": "alchemical_power:blank_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "大多数符文都可以通过在基础符文上刻印来制作。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:blank_rune"},
+      "title": "空白符文",
+      "text": "最基础的符文。$(br)直到高级符文为止，都以这个符文为基础。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:void_rune"},
+      "title": "虚无符文",
+      "text": "用于制作更强大符文的材料。$(br)精英符文及之后的符文需要以它为材料。"
+    }
+  ]
+}
+
+

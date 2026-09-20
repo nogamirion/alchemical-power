@@ -12,6 +12,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.*;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.CraftingRecipe;
+import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.item.crafting.RecipeType;
 
 import java.util.Optional;
@@ -32,6 +33,8 @@ public abstract class AbstractAlchemicalPowerTablesMenu extends AbstractContaine
     private boolean playAnimation = false;
     protected final AlchemicalPowerTablesLayout layout;
     private boolean dirty = false;
+    private long observedRevision = -1;
+    private Recipe<? super AlchemicalPowerTablesContainerView> currentRecipe;
 
     protected AbstractAlchemicalPowerTablesMenu(
             MenuType<?> type,
@@ -53,12 +56,19 @@ public abstract class AbstractAlchemicalPowerTablesMenu extends AbstractContaine
         this.view = new AlchemicalPowerTablesContainerView(blockEntity);
         this.player = playerInv.player;
 
+//        long debugStart = System.nanoTime();
+
         addGridSlots();
         addToolSlot();
         addResultSlot();
         addPlayerInventory(playerInv);
-        grid.setOnChanged(()-> this.dirty = true);
         setupResultSlot();
+//
+////        //デバッグ用ログ
+//        long debugEnd = System.nanoTime();
+//        System.out.println("[Alchemical Power] Menu initialization: "
+//                + ((debugEnd - debugStart)/1_000_000.0) + "ms");
+
     }
 
     private void addGridSlots() {
@@ -115,6 +125,7 @@ public abstract class AbstractAlchemicalPowerTablesMenu extends AbstractContaine
 
     @Override
     public ItemStack quickMoveStack(Player player, int index) {
+        if (index == resultSlotIndex && !canTakeResult()) return ItemStack.EMPTY;
         ItemStack original = ItemStack.EMPTY;
         Slot slot = this.slots.get(index);
 
@@ -167,6 +178,7 @@ public abstract class AbstractAlchemicalPowerTablesMenu extends AbstractContaine
             }
 
             slot.onTake(player,stack);
+            if (index == resultSlotIndex) player.drop(stack, false);
         }
         return original;
     }
@@ -187,21 +199,71 @@ public abstract class AbstractAlchemicalPowerTablesMenu extends AbstractContaine
 
     @Override
     public void broadcastChanges(){
-        super.broadcastChanges();
-        if(!player.level().isClientSide && dirty){
-            dirty  = false;
+        if(!player.level().isClientSide && (dirty || observedRevision != grid.getRevision())){
             setupResultSlot();
         }
 
         super.broadcastChanges();
     }
 
+    @Override
+    public void clicked(int slotId, int button, ClickType clickType, Player player) {
+        if (!player.level().isClientSide) {
+            ItemStack previousResult = resultContainer.getItem(0).copy();
+            if (dirty || observedRevision != grid.getRevision()) setupResultSlot();
+            // Do not turn a click on an old preview into a different craft.
+            if (slotId == resultSlotIndex
+                    && !ItemStack.matches(previousResult, resultContainer.getItem(0))) {
+                broadcastChanges();
+                return;
+            }
+        }
+        super.clicked(slotId, button, clickType, player);
+    }
+
+    public boolean canTakeResult() {
+        if (player.level().isClientSide) return !resultContainer.getItem(0).isEmpty();
+        // Never replace the result here: callers may already hold its ItemStack.
+        return !dirty && observedRevision == grid.getRevision()
+                && currentRecipe != null && !resultContainer.getItem(0).isEmpty()
+                && currentRecipe.matches(view, player.level())
+                && ItemStack.matches(resultContainer.getItem(0),
+                        currentRecipe.assemble(view, player.level().registryAccess()));
+    }
+
+    public void finishResultTake() {
+        resultContainer.setItem(0, ItemStack.EMPTY);
+        setupResultSlot();
+    }
+
+    @Override
+    public boolean canTakeItemForPickAll(ItemStack stack, Slot slot) {
+        return slot.container != resultContainer && super.canTakeItemForPickAll(stack, slot);
+    }
+
     private void setupResultSlot(){
+//        long debugStart = System.nanoTime();
+
         if(player.level().isClientSide) return;
+        observedRevision = grid.getRevision();
+        dirty = false;
+        currentRecipe = null;
+
+//        long debugAPRecipeStart = System.nanoTime();
 
         Optional<AlchemicalPowerTablesRecipe> apRecipe = player.level().getRecipeManager().getRecipeFor(ModRecipes.ALCHEMICAL_POWER_TABLES_TYPE.get(),view,player.level());
 
+//        //デバッグ用ログ
+//        long debugAPRecipeEnd = System.nanoTime();
+//
+//        System.out.println(
+//                "[AlchemicalPower] Alchemical recipe search: "
+//                        + ((debugAPRecipeEnd - debugAPRecipeStart) / 1_000_000.0)
+//                        + " ms"
+//        );
+
         if(apRecipe.isPresent()){
+            currentRecipe = apRecipe.get();
             isCustomRecipe = true;
             ItemStack result = apRecipe.get().assemble(view,player.level().registryAccess());
             if(!ItemStack.matches(resultContainer.getItem(0),result)) {
@@ -213,8 +275,36 @@ public abstract class AbstractAlchemicalPowerTablesMenu extends AbstractContaine
         }
         isCustomRecipe = false;
 
+        //入力が空ならバニラレシピの検索をスキップ
+        boolean hasInput = false;
+        for (int i = 0; i < view.getContainerSize(); i++){
+            if(!view.getItem(i).isEmpty()) {
+                hasInput = true;
+                break;
+            }
+        }
+
+        if(!hasInput){
+            if(!resultContainer.getItem(0).isEmpty()) {
+                resultContainer.setItem(0,ItemStack.EMPTY);
+                resultContainer.setChanged();
+            }
+            return;
+        }
+
+//        long debugCraftingStart = System.nanoTime();
+
         Optional<CraftingRecipe> vanilla =
                 player.level().getRecipeManager().getRecipeFor(RecipeType.CRAFTING,view,player.level());
+        currentRecipe = vanilla.orElse(null);
+//
+//        long debugCraftingEnd = System.nanoTime();
+//
+//        System.out.println(
+//                "[AlchemicalPower] Crafting recipe search: "
+//                        + ((debugCraftingEnd - debugCraftingStart) / 1_000_000.0)
+//                        + " ms"
+//        );
 
         ItemStack result = vanilla.map(r -> r.assemble(view,player.level().registryAccess()))
                 .orElse(ItemStack.EMPTY);
@@ -224,15 +314,14 @@ public abstract class AbstractAlchemicalPowerTablesMenu extends AbstractContaine
             resultContainer.setChanged();
         }
 
-//        if(vanilla.isPresent()){
-//            ItemStack result = vanilla.get().assemble(view,player.level().registryAccess());
-//            resultContainer.setItem(0,result);
-//        } else {
-//            resultContainer.setItem(0,ItemStack.EMPTY);
-//        }
+
+//        long debugEnd = System.nanoTime();
 //
-//        resultContainer.setChanged();
-//        broadcastChanges();
+//        System.out.println(
+//                "[AlchemicalPower] setupResultSlot: "
+//                        + ((debugEnd - debugStart) / 1_000_000.0)
+//                        + " ms"
+//        );
     }
 
     public boolean isCustomRecipe() {

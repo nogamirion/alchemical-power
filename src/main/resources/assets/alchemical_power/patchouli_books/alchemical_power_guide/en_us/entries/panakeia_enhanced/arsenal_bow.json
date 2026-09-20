@@ -1,0 +1,19 @@
+{
+  "name": "08.Arsenal Bow",
+  "icon": "alchemical_power:arsenal_bow",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:arsenal_bow"
+      },
+      "text": "A bow that launches compatible weapons, such as swords, instead of arrows.$(br2)Carry a compatible weapon, hold use to draw, then release to fire. The launched weapon leaves your inventory.$(br2)Check JEI for its crafting recipe."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Loading and Recovery",
+      "text": "Weapons in the main inventory are selected before those in the hotbar. Check the bow's tooltip to see which weapon will be loaded.$(br2)Loyalty on the bow returns the weapon after impact. Without Loyalty, collect the dropped weapon. Infinity is not supported."
+    }
+  ]
+}

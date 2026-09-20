@@ -5,7 +5,9 @@ import jp.nogami_rion.alchemical_power.init.itemlist;
 import jp.nogami_rion.alchemical_power.item.mec.UpgradeItem;
 import jp.nogami_rion.alchemical_power.item.mec.UpgradeType;
 import jp.nogami_rion.alchemical_power.screen.PanakeiaGeneratorMenu;
+import jp.nogami_rion.alchemical_power.util.BlockEntityStateHolder;
 import jp.nogami_rion.alchemical_power.util.DynamicEnergyStorage;
+import jp.nogami_rion.alchemical_power.util.UpgradeRemovalState;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
@@ -32,9 +34,14 @@ import org.spongepowered.asm.mixin.Dynamic;
 
 import java.util.Map;
 
-public class PanakeiaGeneratorBlockEntity extends BlockEntity implements MenuProvider {
+public class PanakeiaGeneratorBlockEntity extends BlockEntity implements MenuProvider, BlockEntityStateHolder {
     // インベントリ 0:燃料　1：触媒　2～5；アプグレスロット
     private final ItemStackHandler inventory = new ItemStackHandler(6){
+        @Override
+        public ItemStack extractItem(int slot, int amount, boolean simulate) {
+            if (slot >= 2 && slot <= 5 && !getUpgradeRemovalState(slot).allowed()) return ItemStack.EMPTY;
+            return super.extractItem(slot, amount, simulate);
+        }
         @Override
         public int getSlotLimit(int slot){
             if(slot >= 2 && slot <= 5){
@@ -183,14 +190,26 @@ public class PanakeiaGeneratorBlockEntity extends BlockEntity implements MenuPro
     }
 
     private int getMaxEnergy(){
+        return getEnergyCapacityWithout(-1);
+    }
+
+    private int getEnergyCapacityWithout(int removedSlot) {
         long capacity = BASE_CAPACITY;
         for (int i = 2; i <= 5; i++){
+            if (i == removedSlot) continue;
             ItemStack stack = inventory.getStackInSlot(i);
             int tier = getUpgradeTier(stack);
             capacity *= (1 + 3L * tier);
         }
 
         return (int)Math.min(capacity,Integer.MAX_VALUE);
+    }
+
+    public UpgradeRemovalState getUpgradeRemovalState(int slot) {
+        int limit = getEnergyCapacityWithout(slot);
+        int reasons = burnTime > 0 ? UpgradeRemovalState.GENERATING : 0;
+        if (energy.getEnergyStored() > limit) reasons |= UpgradeRemovalState.ENERGY;
+        return new UpgradeRemovalState(reasons, limit, 0);
     }
 
     private void tryStartBurn(){
@@ -310,6 +329,43 @@ public class PanakeiaGeneratorBlockEntity extends BlockEntity implements MenuPro
         } else {
             activeFuel = ItemStack.EMPTY;
         }
+    }
+
+    @Override
+    public void saveToItemTag(CompoundTag tag) {
+        tag.put("Energy", energy.serializeNBT());
+        tag.putInt("MaxEnergy", getMaxEnergy());
+
+        CompoundTag upgradeTag = new CompoundTag();
+        int index = 1;
+        for (int i = 2; i <= 5; i++) {
+            ItemStack stack = inventory.getStackInSlot(i);
+            if (!stack.isEmpty()) {
+                upgradeTag.put("EnergyUpgrade" + index, stack.save(new CompoundTag()));
+                index++;
+            }
+        }
+        if (!upgradeTag.isEmpty()) {
+            tag.put("Upgrades", upgradeTag);
+        }
+    }
+
+    @Override
+    public void loadFromItemTag(CompoundTag tag) {
+        if (tag.contains("Upgrades")) {
+            CompoundTag upgradeTag = tag.getCompound("Upgrades");
+            for (int i = 2; i <= 5; i++) {
+                inventory.setStackInSlot(i, ItemStack.EMPTY);
+            }
+            for (int i = 1; i <= 4; i++) {
+                inventory.setStackInSlot(i + 1, ItemStack.of(upgradeTag.getCompound("EnergyUpgrade" + i)));
+            }
+        }
+        if (tag.contains("Energy")) {
+            energy.deserializeNBT(tag.get("Energy"));
+            energy.setEnergy(Math.min(energy.getEnergyStored(), energy.getMaxEnergyStored()));
+        }
+        setChanged();
     }
 
     @Override
@@ -457,6 +513,10 @@ public class PanakeiaGeneratorBlockEntity extends BlockEntity implements MenuPro
 
     public ItemStackHandler getInventory() {
         return inventory;
+    }
+
+    public boolean shouldDropInventorySlot(int slot) {
+        return slot < 2 || slot > 5;
     }
 
     public int getFuelTier() {

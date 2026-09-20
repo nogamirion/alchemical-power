@@ -1,0 +1,13 @@
+{
+  "name": "02.炼金刻印台",
+  "icon": "alchemical_power:alchemical_engraver",
+  "category": "alchemical_power:working_block",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用于制作符文和特殊物品的工作台。$(br)上方放入作为材料的物品，下方放入要被刻印的物品，并根据需要在左上放入墨水，即可进行刻印。"
+    }
+  ]
+}
+
+

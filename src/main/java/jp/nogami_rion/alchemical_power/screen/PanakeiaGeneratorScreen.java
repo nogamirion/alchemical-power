@@ -10,6 +10,11 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.item.ItemStack;
 
 public class PanakeiaGeneratorScreen extends AbstractContainerScreen<PanakeiaGeneratorMenu> {
+    @Override
+    protected java.util.List<Component> getTooltipFromContainerItem(ItemStack stack) {
+        return UpgradeLockTooltip.append(super.getTooltipFromContainerItem(stack), hoveredSlot);
+    }
+
     private static final ResourceLocation TEXTURE = new ResourceLocation(Alchemical_power.MODID,"textures/gui/panakeia_generator_gui.png");
     private float displayedEnergy = 0;
 

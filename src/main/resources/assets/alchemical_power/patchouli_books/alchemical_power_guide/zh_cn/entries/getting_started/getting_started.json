@@ -1,0 +1,14 @@
+{
+  "name": "01.关于记载内容",
+  "icon": "minecraft:writable_book",
+  "category": "alchemical_power:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "本指南的英语译文由日语使用者借助翻译工具和聊天AI制作。因此，部分表达可能不自然，或包含与原意不同的译词。$(br2)各版本的更新内容请查看CurseForge和Modrinth的发布页面。"
+    }
+  ]
+}
+
+
+

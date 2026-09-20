@@ -1,25 +1,31 @@
 {
-  "name": "02.根源ツール",
+  "name": "06.根源ツール",
   "icon": "alchemical_power:the_destroyer_of_the_rial",
   "category": "alchemical_power:singularity",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "賢者の石と根源を用いて作成するツール。"
+      "text": "賢者の石と根源を用いて作成するツール。$(br2)勇気の根源からは終焉の七剣、希望の根源からは本物を破壊する者、愛の根源からは永久に燃え続ける燃料を作成できる。"
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:blade_of_valor"},
-      "text": "勇気の根源で作成できる武器。 $(br)持っている状態でダメージを受けるとバフを受け、特殊な確定ダメージを与える範囲攻撃ができる。"
+      "item": {
+        "item": "alchemical_power:seven_swords_of_terminus"
+      },
+      "text": "勇気の根源と各種パナケイアの剣・ユナイト合金の剣などを使い、超越論的錬金作業台で作成する。$(br2)攻撃を重ねた相手を倒す効果と、前方の敵を巻き込む攻撃を持つ。耐久値では壊れない。$(br2)さらに鍛冶台で$(l:singularity/constellation_treasury)星羅の宝物庫$(/l)へ強化できる。"
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:the_destroyer_of_the_rial"},
+      "item": {
+        "item": "alchemical_power:the_destroyer_of_the_rial"
+      },
       "text": "希望の根源で作成できるツルハシ。 $(br)右クリックで岩盤を撤去でき、シフト+右クリックで岩盤を設置できる。"
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:eternal_fuel"},
+      "item": {
+        "item": "alchemical_power:eternal_fuel"
+      },
       "text": "愛の根源で作成できる燃料  $(br)文字通り永久に燃え続ける。"
     }
   ]

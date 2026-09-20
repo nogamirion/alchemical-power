@@ -1,0 +1,14 @@
+{
+  "name": "01.起步",
+  "icon": "minecraft:writable_book",
+  "category": "alchemical_power:accessory",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Alchemical Power新增的饰品可以装备在专用槽位“实用指环”中。"
+    }
+  ]
+}
+
+
+

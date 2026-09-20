@@ -1,0 +1,28 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "alchemical_power:cobblestone_generator_mk4"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "alchemical_power:x9_cobblestone"
+      },
+      "count": 8
+    }
+  ],
+  "fluid": {
+    "fluid": "alchemical_power:liquid_panakeia",
+    "amount": 8000
+  },
+  "result": {
+    "item": "alchemical_power:x9_cobblestone_generator_mk4",
+    "count": 1
+  },
+  "tool_tier": 1,
+  "time": 200,
+  "energy": 5000
+}

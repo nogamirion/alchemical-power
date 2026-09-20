@@ -1,0 +1,20 @@
+{
+  "name": "02.根源",
+  "icon": "alchemical_power:origin_of_wisdom",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "抵达奇点所需的高级材料。$(br2)共有智慧、勇气、正义、爱、希望、节制、信仰7种，也分别可作为根源工具和根源护甲的材料。$(br2)集齐所有根源后，即可继续制作奇点。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_wisdom"},
+      "title": "根源",
+      "text": "根源可在超越炼金工作台中制作。"
+    }
+  ]
+}
+
+
+

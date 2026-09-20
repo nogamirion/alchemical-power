@@ -6,8 +6,15 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.ChatFormatting;
 
 public class AutoAlchemicalAssemblerScreen extends AbstractContainerScreen<AutoAlchemicalAssemblerMenu> {
+    @Override
+    protected java.util.List<Component> getTooltipFromContainerItem(net.minecraft.world.item.ItemStack stack) {
+        return UpgradeLockTooltip.append(super.getTooltipFromContainerItem(stack), hoveredSlot);
+    }
+
 
     private static final ResourceLocation TEXTURE = new ResourceLocation("alchemical_power", "textures/gui/auto_alchemical_assembler_gui.png");
     private float scrollProgress = 0.0f;
@@ -16,6 +23,8 @@ public class AutoAlchemicalAssemblerScreen extends AbstractContainerScreen<AutoA
     private static final int TOTAL_ROWS = 13;
     private static final int VISIBLE_ROWS = 3;
     private static final int MAX_SCROLL = TOTAL_ROWS - VISIBLE_ROWS;
+    private static final int PREVIEW_X = 145;
+    private static final int PREVIEW_Y = 84;
 
 
 
@@ -91,6 +100,13 @@ public class AutoAlchemicalAssemblerScreen extends AbstractContainerScreen<AutoA
         renderBackground(guiGraphics);
         super.render(guiGraphics, mouseX, mouseY, partialTick);
         renderTooltip(guiGraphics, mouseX, mouseY);
+        ItemStack preview = menu.getRecipePreview();
+        if (!preview.isEmpty() && isHovering(PREVIEW_X, PREVIEW_Y, 16, 16, mouseX, mouseY)) {
+            var tooltip = new java.util.ArrayList<>(super.getTooltipFromContainerItem(preview));
+            tooltip.add(Component.translatable("gui.alchemical_power.assembler.recognized_recipe")
+                    .withStyle(ChatFormatting.GRAY));
+            guiGraphics.renderTooltip(font, tooltip, preview.getTooltipImage(), mouseX, mouseY);
+        }
     }
 
     private boolean isMouseOverScrollBar(double mouseX, double mouseY){
@@ -149,6 +165,11 @@ public class AutoAlchemicalAssemblerScreen extends AbstractContainerScreen<AutoA
     protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
         int centeredX = (this.imageWidth - font.width(this.title)) / 2;
         guiGraphics.drawString(font,this.title,centeredX,6,0x404040,false);
+        ItemStack preview = menu.getRecipePreview();
+        if (!preview.isEmpty()) {
+            guiGraphics.renderItem(preview, PREVIEW_X, PREVIEW_Y);
+            guiGraphics.renderItemDecorations(font, preview, PREVIEW_X, PREVIEW_Y);
+        }
 
         // energy表示
         int energy = menu.getEnergyStored();

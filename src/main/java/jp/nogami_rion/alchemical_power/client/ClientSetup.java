@@ -48,7 +48,8 @@ public class ClientSetup {
                 ModFluids.T5_PANAKEIA.bucket.get(),
                 ModFluids.T6_PANAKEIA.bucket.get(),
                 ModFluids.UNITE_ALLOY.bucket.get(),
-                ModFluids.SINGULARITY.bucket.get()
+                ModFluids.SINGULARITY.bucket.get(),
+                ModFluids.LIQUID_PANAKEIA.bucket.get()
         );
     }
 

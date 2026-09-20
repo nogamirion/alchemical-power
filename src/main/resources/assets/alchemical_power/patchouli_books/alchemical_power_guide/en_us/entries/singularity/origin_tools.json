@@ -1,25 +1,31 @@
 {
-  "name": "02.Origin Tools",
+  "name": "06.Origin Tools",
   "icon": "alchemical_power:the_destroyer_of_the_rial",
   "category": "alchemical_power:singularity",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Tools created using the Philosopher's Stone and Origin."
+      "text": "Tools created using the Philosopher's Stone and Origins.$(br2)The Origin of Courage creates the Seven Swords of Terminus, the Origin of Hope creates The Destroyer of the Rial, and the Origin of Love creates fuel that burns forever."
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:blade_of_valor"},
-      "text": "A weapon that can be created with the Origin of Courage. $(br)When you take damage while holding it, you receive a buff and can perform a ranged attack that deals special, definite damage."
+      "item": {
+        "item": "alchemical_power:seven_swords_of_terminus"
+      },
+      "text": "Crafted at the Transcendental Table using the Origin of Courage, Panakeia swords, a Unite Alloy sword and other materials.$(br2)Repeated hits kill the target, and attacks also strike nearby enemies in front of the wielder. It does not break from durability loss.$(br2)It can be upgraded into the $(l:singularity/constellation_treasury)Constellation Treasury$(/l) at a smithing table."
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:the_destroyer_of_the_rial"},
+      "item": {
+        "item": "alchemical_power:the_destroyer_of_the_rial"
+      },
       "text": "A pickaxe that can be created with the Origin of Hope. $(br)Right-click to remove a bedrock, shift+right-click to place a bedrock."
     },
     {
       "type": "patchouli:spotlight",
-      "item": {"item": "alchemical_power:eternal_fuel"},
+      "item": {
+        "item": "alchemical_power:eternal_fuel"
+      },
       "text": "Fuel that can be created with the Origin of Love.  $(br)It literally burns forever."
     }
   ]

@@ -1,0 +1,25 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "alchemical_power:t6_ingot_material"
+      },
+      "count": 1
+    }
+  ],
+  "fluid": {
+    "fluid": "alchemical_power:liquid_panakeia",
+    "amount": 28768
+  },
+  "sample": {
+    "item": "alchemical_power:t6_panakeia_ingot"
+  },
+  "result": {
+    "item": "alchemical_power:t6_panakeia_ingot",
+    "count": 1
+  },
+  "tool_tier": 3,
+  "time": 680,
+  "energy": 665926
+}

@@ -1,0 +1,18 @@
+{
+  "name": "01.厨具套装",
+  "icon": "alchemical_power:cookware_set",
+  "category": "alchemical_power:cooking",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "制作Alchemical Power新增料理时，基本都需要使用这个工具。$(br2)用于料理时不会被消耗，而是消耗耐久值。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:cookware_set"
+    }
+  ]
+}
+
+
+

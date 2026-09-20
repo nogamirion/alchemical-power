@@ -6,11 +6,14 @@ import jp.nogami_rion.alchemical_power.recipe.*;
 import jp.nogami_rion.alchemical_power.screen.*;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
+import mezz.jei.api.gui.handlers.IGuiContainerHandler;
 import mezz.jei.api.constants.RecipeTypes;
 import mezz.jei.api.constants.VanillaTypes;
 import mezz.jei.api.registration.*;
 import mezz.jei.api.recipe.RecipeType;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.Rect2i;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeManager;
@@ -34,6 +37,8 @@ public class JEI_Alchemical_Power_Plugin implements IModPlugin {
 
     @Override
     public void registerCategories(IRecipeCategoryRegistration registration) {
+        registration.addRecipeCategories(new PanakeiaExtractorCategory(registration.getJeiHelpers().getGuiHelper()));
+        registration.addRecipeCategories(new AlchemicalReactorCategory(registration.getJeiHelpers().getGuiHelper()));
         registration.addRecipeCategories(new Alchemy_Table_Category(registration.getJeiHelpers().getGuiHelper()));
         registration.addRecipeCategories(new Hermes_Workbench_Category(registration.getJeiHelpers().getGuiHelper()));
         registration.addRecipeCategories(new Transcendental_Table_Category(registration.getJeiHelpers().getGuiHelper()));
@@ -46,7 +51,9 @@ public class JEI_Alchemical_Power_Plugin implements IModPlugin {
 
     @Override
     public void registerRecipes(IRecipeRegistration registration) {
+        registration.addRecipes(PanakeiaExtractorCategory.TYPE, PanakeiaExtractorCategory.getRecipes());
         RecipeManager recipeManager = Minecraft.getInstance().level.getRecipeManager();
+        registration.addRecipes(AlchemicalReactorCategory.TYPE, recipeManager.getAllRecipesFor(ModRecipes.ALCHEMICAL_REACTOR_TYPE.get()));
 
         var recipes = Minecraft.getInstance().getConnection().getRecipeManager().getAllRecipesFor(ModRecipes.ALCHEMICAL_POWER_TABLES_TYPE.get());
 
@@ -74,6 +81,26 @@ public class JEI_Alchemical_Power_Plugin implements IModPlugin {
 
     @Override
     public void registerGuiHandlers(IGuiHandlerRegistration registration) {
+        registration.addGuiContainerHandler(RuneAssemblyCoreScreen.class, new IGuiContainerHandler<RuneAssemblyCoreScreen>() {
+            @Override
+            public List<Rect2i> getGuiExtraAreas(RuneAssemblyCoreScreen screen) {
+                return screen.getExtraGuiAreas();
+            }
+        });
+        registration.addRecipeClickArea(ElectricRuneActivatorScreen.class,
+                ElectricRuneActivatorLayout.ARROW_X, ElectricRuneActivatorLayout.ARROW_Y,
+                ElectricRuneActivatorLayout.ARROW_WIDTH, ElectricRuneActivatorLayout.ARROW_HEIGHT,
+                Rune_Activator_Category.RUNE_ACTIVATOR_RECIPE_TYPE);
+        var font = Minecraft.getInstance().font;
+        int extractorTitleWidth = font.width(Component.translatable("block.alchemical_power.panakeia_extractor"));
+        registration.addRecipeClickArea(PanakeiaExtractorScreen.class,
+                (PanakeiaExtractorLayout.WIDTH - extractorTitleWidth) / 2, 8,
+                extractorTitleWidth, font.lineHeight,
+                PanakeiaExtractorCategory.TYPE);
+        registration.addRecipeClickArea(AlchemicalReactorScreen.class,
+                AlchemicalReactorScreen.TITLE_AREA_X, AlchemicalReactorScreen.TITLE_AREA_Y,
+                AlchemicalReactorScreen.TITLE_AREA_WIDTH, AlchemicalReactorScreen.TITLE_AREA_HEIGHT,
+                AlchemicalReactorCategory.TYPE);
         registration.addRecipeClickArea(Alchemy_Table_Screen.class,116,42,16,13,
                 Alchemy_Table_Category.ALCHEMY_TABLE_RECIPE_TYPE);
 
@@ -101,6 +128,8 @@ public class JEI_Alchemical_Power_Plugin implements IModPlugin {
 
     @Override
     public void registerRecipeCatalysts(IRecipeCatalystRegistration registration){
+        registration.addRecipeCatalyst(new ItemStack(blocklist.PANAKEIA_EXTRACTOR.get()), PanakeiaExtractorCategory.TYPE);
+        registration.addRecipeCatalyst(new ItemStack(blocklist.ALCHEMICAL_REACTOR.get()), AlchemicalReactorCategory.TYPE);
         registration.addRecipeCatalyst(
                 new ItemStack(blocklist.ALCHEMY_TABLE.get().asItem()),
                 Alchemy_Table_Category.ALCHEMY_TABLE_RECIPE_TYPE
@@ -145,6 +174,7 @@ public class JEI_Alchemical_Power_Plugin implements IModPlugin {
 
     @Override
     public void registerRecipeTransferHandlers(IRecipeTransferRegistration registration){
+        registration.addRecipeTransferHandler(new AlchemicalReactorTransferHandler(registration.getTransferHelper()), AlchemicalReactorCategory.TYPE);
         registration.addRecipeTransferHandler(
                 Alchemy_Table_Menu.class,
                 ModMenuTypes.ALCHEMY_TABLE_MENU.get(),

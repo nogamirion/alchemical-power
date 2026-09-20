@@ -1,0 +1,19 @@
+{
+  "name": "07.统合合金强化",
+  "icon": "alchemical_power:unite_alloy_smithing_template",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "统合合金可用于强化神圣帕纳凯亚锭工具和护甲。强化时和下界合金一样，需要使用锻造模板。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"minecraft:unite_alloy_upgrade_smithing_template_crafting",
+      "recipe2": "minecraft:unite_alloy_upgrade_smithing_template_increase"
+    }
+  ]
+}
+
+
+

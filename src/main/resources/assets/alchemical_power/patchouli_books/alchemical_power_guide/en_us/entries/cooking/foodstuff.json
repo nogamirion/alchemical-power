@@ -1,11 +1,41 @@
 {
-  "name": "02.Foodstuff",
+  "name": "02.Ingredients",
   "icon": "alchemical_power:tomato",
   "category": "alchemical_power:cooking",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Alchemical Power by itself requires the use of rune of fruit to prepare the ingredients. $(br)Alchemical Power vegetables cannot be grown. $(br)It is compatible with materials added by other farming mods."
+      "text": "Some ingredients added by Alchemical Power cannot be obtained by growing crops, and are prepared with the Rune of Fruits.$(br2)They are compatible with ingredients added by other farming mods."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:flour",
+      "recipe2": "alchemical_power:raw_pasta",
+      "text": "Ingredients such as flour and raw pasta are used as materials for other dishes."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:tomato_sauce",
+      "recipe2": "alchemical_power:cream_sauce",
+      "text": "Sauces are used in pasta, stews, and other dishes."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:vinaigrette_sauce",
+      "recipe2": "alchemical_power:sweet_azuki_paste",
+      "text": "Preparing seasonings and processed ingredients expands the range of dishes you can make."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:fried_rice",
+      "recipe2": "alchemical_power:cream_pasta",
+      "text": "Combining the Cookware Set with ingredients lets you craft a variety of dishes."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:onion_ring",
+      "recipe2": "alchemical_power:rice_pudding",
+      "text": "You can also make snacks and sweets, not just meals."
     }
   ]
 }

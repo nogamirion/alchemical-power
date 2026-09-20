@@ -1,0 +1,16 @@
+{
+  "name": "02.指輪の基礎",
+  "icon": "alchemical_power:foundation_of_ring",
+  "category": "alchemical_power:accessory",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "アクセサリーとなる指輪を作成するための基本素材。$(br2)各種指輪は、この素材を錬金刻印機で加工することで作成できる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:foundation_of_ring"},
+      "text": "指輪の基礎は、錬金作業台で作成する。"
+    }
+  ]
+}

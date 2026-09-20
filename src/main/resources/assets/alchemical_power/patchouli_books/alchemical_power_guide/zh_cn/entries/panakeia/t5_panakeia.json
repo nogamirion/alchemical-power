@@ -1,0 +1,20 @@
+{
+  "name": "06.究极帕纳凯亚",
+  "icon": "alchemical_power:t5_panakeia",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "吸收末影龙之力后接近究极的帕纳凯亚。除作为强力炼金套件的材料外，也可用于强化绿宝石等稀有宝石和金属。对信标右键点击即可变为神圣帕纳凯亚。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"tag": "alchemical_power:t5_gem_material"},
+      "title": "究极帕纳凯亚材料",
+      "text": "究极帕纳凯亚可以强化这些宝石和金属，使其变为究极帕纳凯亚宝石。"
+    }
+  ]
+}
+
+
+

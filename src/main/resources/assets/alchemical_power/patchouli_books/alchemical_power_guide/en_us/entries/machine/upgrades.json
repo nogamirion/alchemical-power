@@ -1,0 +1,48 @@
+{
+  "name": "02.Upgrades",
+  "icon": "alchemical_power:speed_upgrade_t1",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Items that can be installed in machines to expand their performance or capabilities.$(br2)Upgrades include ones that improve processing speed, reduce FE consumption, increase FE storage, or expand the range of supported alchemy crafts.$(br2)The available upgrade types differ by machine."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:speed_upgrade_t1"},
+      "title": "Speed Upgrade",
+      "text": "An upgrade that increases a machine's processing speed."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:energy_efficiency_upgrade_t1"},
+      "title": "Energy Efficiency Upgrade",
+      "text": "An upgrade that reduces a machine's FE consumption."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:energy_capacity_upgrade_t1"},
+      "title": "Energy Capacity Upgrade",
+      "text": "An upgrade that increases the amount of FE a machine can store."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:crafting_tool_upgrade_t2"},
+      "title": "Crafting Tool Upgrade",
+      "text": "An upgrade that expands the range of alchemy crafts a machine can handle."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:tank_capacity_upgrade_t1"
+      },
+      "title": "Tank Capacity Upgrade",
+      "text": "An upgrade that increases the amount of fluid a machine can store."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Recipes and Handling",
+      "text": "Upgrades also have recipes in the $(l:machine/alchemical_reactor)Alchemical Reactor$(/l). Check JEI for ingredients such as $(l:machine/alchemical_base_paper)Alchemical Base Paper$(/l) and the required Crafting Tool tier.$(br2)Each machine's entry lists its supported upgrades. See $(l:machine/handling)Machine Handling$(/l) for removal conditions."
+    }
+  ]
+}

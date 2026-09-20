@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "alchemical_power:item/constellation_treasury"
+  }
+}

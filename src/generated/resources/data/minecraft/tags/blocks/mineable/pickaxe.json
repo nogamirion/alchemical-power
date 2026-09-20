@@ -50,6 +50,21 @@
     "alchemical_power:x38025_cobblestone_generator_mk6",
     "alchemical_power:x38025_cobblestone_generator_mk7",
     "alchemical_power:x38025_cobblestone_generator_mk8",
-    "alchemical_power:pain_converter"
+    "alchemical_power:pain_converter",
+    "alchemical_power:auto_alchemical_assembler",
+    "alchemical_power:panakeia_generator",
+    "alchemical_power:panakeia_extractor",
+    "alchemical_power:alchemical_reactor",
+    "alchemical_power:alchemy_machine_frame",
+    "alchemical_power:basic_electric_rune_activator",
+    "alchemical_power:advanced_electric_rune_activator",
+    "alchemical_power:elite_electric_rune_activator",
+    "alchemical_power:ultimate_electric_rune_activator",
+    "alchemical_power:sage_electric_rune_activator",
+    "alchemical_power:electric_rune_activator_core",
+    "alchemical_power:rune_assembly_casing",
+    "alchemical_power:rune_assembly_port",
+    "alchemical_power:rune_assembly_engraver",
+    "alchemical_power:rune_assembly_packer"
   ]
 }

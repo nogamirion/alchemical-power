@@ -5,19 +5,19 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Many runes can be created by imprinting on the underlying rune."
+      "text": "Many runes can be created by engraving a base rune."
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:blank_rune"},
       "title": "Blank Rune",
-      "text": "The basic rune. $(br)This rune is the foundation until the developmental type."
+      "text": "The basic rune. $(br)This rune is used as the foundation for runes up to the advanced tier."
     },
     {
       "type": "patchouli:spotlight",
       "item": {"item": "alchemical_power:void_rune"},
       "title": "Void Rune",
-      "text": "Material of runes with more power. $(br)After the elite type, it is necessary to use this material."
+      "text": "A material for more powerful runes. $(br)Elite-tier and higher runes require this material."
     }
   ]
 }

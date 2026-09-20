@@ -5,7 +5,37 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Alchemical Power単体では実りのルーンを用いて材料を用意する必要がある。 $(br)Alchemical Powerの野菜は栽培できない。 $(br)他の農業系MODで追加される材料と互換性を持つ。"
+      "text": "Alchemical Powerで追加される一部の食材は栽培では入手できず、実りのルーンで用意する。$(br2)他の農業系MODで追加される材料と互換性を持つ。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:flour",
+      "recipe2": "alchemical_power:raw_pasta",
+      "text": "小麦粉や生パスタなど、他の料理の材料になる食材。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:tomato_sauce",
+      "recipe2": "alchemical_power:cream_sauce",
+      "text": "ソース類は、パスタや煮込み料理などの材料として使う。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:vinaigrette_sauce",
+      "recipe2": "alchemical_power:sweet_azuki_paste",
+      "text": "調味料や加工済みの材料を用意しておくと、作れる料理の幅が広がる。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:fried_rice",
+      "recipe2": "alchemical_power:cream_pasta",
+      "text": "調理器具セットと食材を組み合わせることで、さまざまな料理を作成できる。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:onion_ring",
+      "recipe2": "alchemical_power:rice_pudding",
+      "text": "食事だけでなく、軽食や甘味も作成できる。"
     }
   ]
 }

@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Vanilla ingredients can be converted to ingredients added by Alchemical Power."
+      "text": "Converts vanilla ingredients into ingredients added by Alchemical Power."
     }
   ]
 }

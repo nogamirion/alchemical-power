@@ -1,0 +1,13 @@
+{
+  "name": "10.[C]复制符文",
+  "icon": "alchemical_power:rune_of_reproduction",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "创造模式专用物品。$(br)可以连同NBT标签一起复制任意物品。"
+    }
+  ]
+}
+
+

@@ -56,6 +56,13 @@ public class ModTags {
         public static final TagKey<Item> LAPIS_ORES = tag("lapis_ores");
         public static final TagKey<Item> REDSTONE_ORES = tag("redstone_ores");
 
+        public static final TagKey<Item> DOUBLING_COPPER = tag("doubling_copper");
+        public static final TagKey<Item> DOUBLING_IRON = tag("doubling_iron");
+        public static final TagKey<Item> DOUBLING_GOLD = tag("doubling_gold");
+        public static final TagKey<Item> DOUBLING_DIAMOND = tag("doubling_diamond");
+        public static final TagKey<Item> DOUBLING_EMERALD = tag("doubling_emerald");
+        public static final TagKey<Item> DOUBLING_ANCIENT_DEBRIS = tag("doubling_ancient_debris");
+
 
         private static TagKey<Item> tag(String name){
             return ItemTags.create(new ResourceLocation(Alchemical_power.MODID,name));

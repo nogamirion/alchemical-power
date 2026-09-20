@@ -4,10 +4,12 @@ import jp.nogami_rion.alchemical_power.block.entity.AutoAlchemicalAssemblerBlock
 import jp.nogami_rion.alchemical_power.block.entity.ModBlockEntities;
 import jp.nogami_rion.alchemical_power.item.mec.UpgradeItem;
 import jp.nogami_rion.alchemical_power.screen.AutoAlchemicalAssemblerMenu;
+import jp.nogami_rion.alchemical_power.util.BlockEntityStateTransfer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.*;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
@@ -21,11 +23,15 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.network.NetworkHooks;
 
 import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class AutoAlchemicalAssemblerBlock extends Block implements EntityBlock {
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
@@ -66,6 +72,21 @@ public class AutoAlchemicalAssemblerBlock extends Block implements EntityBlock {
     }
 
     @Override
+    public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+        List<ItemStack> drops = super.getDrops(state, builder);
+        BlockEntity blockEntity = builder.getOptionalParameter(LootContextParams.BLOCK_ENTITY);
+        return BlockEntityStateTransfer.copyStateToDrops(drops, this, blockEntity);
+    }
+
+    @Override
+    public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
+        BlockEntity blockEntity = level.getBlockEntity(pos);
+        if (blockEntity instanceof AutoAlchemicalAssemblerBlockEntity be) {
+            BlockEntityStateTransfer.loadStateFromStack(stack, be);
+        }
+    }
+
+    @Override
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
         if (!level.isClientSide()) {
             MenuProvider provider = new SimpleMenuProvider((id, inv, ply) ->
@@ -90,11 +111,22 @@ public class AutoAlchemicalAssemblerBlock extends Block implements EntityBlock {
         dropItemHandler(level,pos,be.getOutputHandler());
 
         // upgrade
-        dropItemHandler(level,pos,be.getUpgradeHandler());
+        dropUpgradeHandler(level,pos,be);
     }
 
     private void dropItemHandler(Level level, BlockPos pos, IItemHandler handler){
         for(int i = 0; i < handler.getSlots(); i++){
+            ItemStack stack = handler.getStackInSlot(i);
+            if(!stack.isEmpty()){
+                Containers.dropItemStack(level,pos.getX(),pos.getY(),pos.getZ(),stack);
+            }
+        }
+    }
+
+    private void dropUpgradeHandler(Level level, BlockPos pos, AutoAlchemicalAssemblerBlockEntity be) {
+        IItemHandler handler = be.getUpgradeHandler();
+        for(int i = 0; i < handler.getSlots(); i++){
+            if (!be.shouldDropUpgradeSlot(i)) continue;
             ItemStack stack = handler.getStackInSlot(i);
             if(!stack.isEmpty()){
                 Containers.dropItemStack(level,pos.getX(),pos.getY(),pos.getZ(),stack);

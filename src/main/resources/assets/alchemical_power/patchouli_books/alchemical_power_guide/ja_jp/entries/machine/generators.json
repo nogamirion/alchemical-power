@@ -1,0 +1,21 @@
+{
+  "name": "03.発電機",
+  "icon": "alchemical_power:panakeia_generator",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "FEを生成する機械。$(br2)生成したFEは隣接する機械へ送られる。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:alchemical_power_tables/5x5/panakeia_generator",
+      "text": "パナケイアを燃料としてFEを生成する。触媒を入れることで発電能力を高めることができ、エネルギー容量アップグレードにも対応している。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:pain_converter",
+      "text": "周囲の生物が受けたダメージをFEに変換する。"
+    }
+  ]
+}

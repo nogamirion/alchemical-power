@@ -1,0 +1,64 @@
+{
+  "name": "07.燃烧符文",
+  "icon": "alchemical_power:t1_combustion_rune",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用帕纳凯亚刻印煤炭或木炭，可制成提高燃烧效率的符文。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t1_combustion_rune"},
+      "text": "燃烧时间:2400ticks（120秒）"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t2_combustion_rune"},
+      "text": "燃烧时间:3600ticks（180秒）"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t3_combustion_rune"},
+      "text": "燃烧时间:5400ticks（270秒）"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t4_combustion_rune"},
+      "text": "燃烧时间:8100ticks（405秒）"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t5_combustion_rune"},
+      "text": "燃烧时间:12150ticks（675秒）"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:t6_combustion_rune"},
+      "text": "燃烧时间:18225ticks（911.25秒）"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "燃烧符文也可以像煤炭一样合成为方块。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_combustion_rune_block",
+      "recipe2": "alchemical_power:t2_combustion_rune_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t3_combustion_rune_block",
+      "recipe2": "alchemical_power:t4_combustion_rune_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t5_combustion_rune_block",
+      "recipe2": "alchemical_power:t6_combustion_rune_block"
+    }
+
+  ]
+}
+
+
+

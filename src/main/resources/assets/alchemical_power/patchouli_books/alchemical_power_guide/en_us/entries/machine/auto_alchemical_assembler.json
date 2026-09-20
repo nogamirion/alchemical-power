@@ -1,0 +1,15 @@
+{
+  "name": "04.Auto Alchemical Assembler",
+  "icon": "alchemical_power:auto_alchemical_assembler",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A machine that consumes FE to automatically craft alchemy table recipes.$(br2)When materials are stored inside, it detects the recipe laid out on the workbench below it and crafts it. Finished items are placed in the output slot.$(br2)It supports crafting tool upgrades, speed upgrades, energy efficiency upgrades, and energy capacity upgrades."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:alchemical_power_tables/5x5/auto_alcemical_assembler"
+    }
+  ]
+}

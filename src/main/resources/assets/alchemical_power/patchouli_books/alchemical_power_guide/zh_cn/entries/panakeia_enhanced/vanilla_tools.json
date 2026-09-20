@@ -1,0 +1,30 @@
+{
+  "name": "05.原版工具",
+  "icon": "alchemical_power:t1_panakeia_pickaxe",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "可用强化材料制作的原版工具。没有特殊功能，只是单纯强化了各项数值。$(br)这里以使用下级帕纳凯亚锭的工具配方为例。其他强化材料也可用同类配方制作。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_panakeia_sword",
+      "recipe2": "alchemical_power:t1_panakeia_pickaxe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_panakeia_axe",
+      "recipe2": "alchemical_power:t1_panakeia_shovel"
+    }
+  ,
+    {
+      "type": "patchouli:crafting",
+      "recipe":"alchemical_power:t1_panakeia_hoe",
+      "text": "锄头也确实有。"
+    }
+  ]
+}
+
+
+

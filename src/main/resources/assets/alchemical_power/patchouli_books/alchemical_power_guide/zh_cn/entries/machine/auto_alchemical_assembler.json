@@ -1,0 +1,18 @@
+{
+  "name": "04.自动炼金组装机",
+  "icon": "alchemical_power:auto_alchemical_assembler",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "消耗FE并自动制作炼金工作台系列配方的机械。$(br2)将材料放入内部后，它会检测下方工作台中摆放的配方并进行制作。成品会放入输出槽。$(br2)支持合成工具升级、速度升级、能量效率升级和能量容量升级。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:alchemical_power_tables/5x5/auto_alcemical_assembler"
+    }
+  ]
+}
+
+
+

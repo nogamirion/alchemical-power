@@ -1,0 +1,14 @@
+{
+  "name": "09.如何增加帕纳凯亚①",
+  "icon": "alchemical_power:alchemy_table",
+  "category": "alchemical_power:panakeia",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用低一级的帕纳凯亚围住帕纳凯亚即可增加数量。T1到T6使用炼金工作台，T7使用超越炼金工作台。"
+    }
+  ]
+}
+
+
+

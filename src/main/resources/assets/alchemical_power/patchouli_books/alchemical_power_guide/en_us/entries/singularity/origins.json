@@ -1,0 +1,17 @@
+{
+  "name": "02.Origins",
+  "icon": "alchemical_power:origin_of_wisdom",
+  "category": "alchemical_power:singularity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "High-tier materials needed to reach the Singularity.$(br2)There are seven Origins: Wisdom, Courage, Justice, Love, Hope, Temperance, and Faith. Each is also used to create Origin tools or Origin armor.$(br2)Gathering every Origin lets you proceed toward crafting the Singularity."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:origin_of_wisdom"},
+      "title": "Origins",
+      "text": "Origins are crafted at the Transcendental Table."
+    }
+  ]
+}

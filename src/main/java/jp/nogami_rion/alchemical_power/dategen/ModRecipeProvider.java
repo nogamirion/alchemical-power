@@ -4214,9 +4214,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("bab")
                 .pattern("cbc")
                 .define('a',itemlist.UNITE_ALLOY_SMITHING_TEMPLATE.get())
-                .define('b',itemlist.SINGULARITY_INGOT.get())
+                .define('b',itemlist.SINGULARITY_NUGGET.get())
                 .define('c',itemlist.IMITATED_BEDROCKIUM_INGOT.get())
-                .unlockedBy(getHasName(itemlist.SINGULARITY_INGOT.get()),has(itemlist.SINGULARITY_INGOT.get()))
+                .unlockedBy(getHasName(itemlist.SINGULARITY_NUGGET.get()),has(itemlist.SINGULARITY_NUGGET.get()))
                 .save(consumer,"singularity_ingot_upgrade_smithing_template_crafting");
 
         SmithingTransformRecipeBuilder.smithing(
@@ -4253,11 +4253,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         SmithingTransformRecipeBuilder.smithing(
                 Ingredient.of(itemlist.SINGULARITY_INGOT_SMITHING_TEMPLATE.get()),
-                Ingredient.of(itemlist.BLADE_OF_VALOR.get()),
+                Ingredient.of(itemlist.SEVEN_SWORDS_OF_TERMINUS.get()),
                 Ingredient.of(itemlist.SINGULARITY_INGOT.get()),
-                RecipeCategory.TOOLS,itemlist.SEVEN_SWORDS_OF_TERMINUS.get())
+                RecipeCategory.TOOLS,itemlist.CONSTELLATION_TREASURY.get())
                 .unlocks(getHasName(itemlist.SINGULARITY_INGOT_SMITHING_TEMPLATE.get()),has(itemlist.SINGULARITY_INGOT_SMITHING_TEMPLATE.get()))
-                .save(consumer,"seven_swords_of_terminus_upgrade");
+                .save(consumer,"constellation_treasury_upgrade");
 
         new AlchemicalEngraverRecipeBuilder(
                 new ResourceLocation("alchemical_power","alchemical_engraver_recipe"),

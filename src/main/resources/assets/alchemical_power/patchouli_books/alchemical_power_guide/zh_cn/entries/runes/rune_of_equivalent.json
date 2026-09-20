@@ -1,0 +1,13 @@
+{
+  "name": "08.等价符文",
+  "icon": "alchemical_power:rune_of_equivalent",
+  "category": "alchemical_power:runes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "可以将树苗转换为其他树苗，将烤熟的食物还原到烹饪前，也可以将稀有物品转换为其他稀有物品。（仅限原版物品）"
+    }
+  ]
+}
+
+

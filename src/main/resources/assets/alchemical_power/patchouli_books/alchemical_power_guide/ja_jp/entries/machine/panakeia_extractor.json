@@ -1,0 +1,28 @@
+{
+  "name": "05.パナケイア抽出機",
+  "icon": "alchemical_power:panakeia_extractor",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:panakeia_extractor"
+      },
+      "title": "パナケイア抽出機",
+      "text": "パナケイアと水を消費し、FEを使って液体パナケイアを作る機械。$(br2)パナケイアを素材スロットに入れ、水とFEを供給すると抽出を開始する。パナケイアキューブも使用でき、素材の種類によって得られる液体の量が変わる。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:liquid_panakeia_bucket"
+      },
+      "title": "液体パナケイア",
+      "text": "抽出した液体は、$(l:machine/alchemical_reactor)錬金反応炉$(/l)の加工に使う。$(br2)水は容器や外部の流体搬送で供給できる。液体パナケイアは出力側の容器スロットや外部の流体搬送で取り出せる。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "アップグレードと容量",
+      "text": "エネルギー容量アップグレードとタンク容量アップグレードに対応する。$(br2)一度の抽出に必要な水量と生成する液体量を、各タンクに収められる容量が必要になる。大量の液体を生む素材を使う場合は、先にタンク容量を拡張しておく。"
+    }
+  ]
+}

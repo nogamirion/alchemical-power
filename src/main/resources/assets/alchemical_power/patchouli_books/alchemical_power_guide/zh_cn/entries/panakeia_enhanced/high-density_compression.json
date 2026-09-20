@@ -1,0 +1,48 @@
+{
+  "name": "02.高密度压缩材料",
+  "icon": "alchemical_power:high_density_t1_panakeia_ingot",
+  "category": "alchemical_power:panakeia_enhanced",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "将各种帕纳凯亚强化后的锭/宝石制成方块，再摆放到超越炼金工作台中即可制作。$(br2)也有使用$(l:machine/alchemical_reactor)炼金反应炉$(/l)的制作途径。所需材料、液体和升级请查看JEI中的反应炉配方。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t1_panakeia_ingot"},
+      "title": "高密度压缩下级帕纳凯亚锭"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t2_panakeia_ingot"},
+      "title": "高密度压缩中级帕纳凯亚锭"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t3_panakeia_ingot"},
+      "title": "高密度压缩上级帕纳凯亚锭"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t4_panakeia_gem"},
+      "title": "高密度压缩睿智帕纳凯亚宝石"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t5_panakeia_gem"},
+      "title": "高密度压缩究极帕纳凯亚宝石"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_t6_panakeia_ingot"},
+      "title": "高密度压缩神圣帕纳凯亚锭"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {"item": "alchemical_power:high_density_unite_alloy"},
+      "title": "高密度压缩统合合金"
+    }
+  ]
+}
+
+

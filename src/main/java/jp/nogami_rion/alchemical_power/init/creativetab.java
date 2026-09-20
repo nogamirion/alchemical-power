@@ -172,72 +172,84 @@ public class creativetab {
                     output.accept(itemlist.CRUSHED_DIAMOND_ORE.get());
                     output.accept(itemlist.CRUSHED_EMERALD_ORE.get());
                     output.accept(itemlist.CRUSHED_ANCIENT_DEBRIS.get());
+                    acceptProcessedOres(output, "crushed_");
                     output.accept(itemlist.GRANULATED_COPPER.get());
                     output.accept(itemlist.GRANULATED_IRON.get());
                     output.accept(itemlist.GRANULATED_GOLD.get());
                     output.accept(itemlist.GRANULATED_DIAMOND.get());
                     output.accept(itemlist.GRANULATED_EMERALD.get());
                     output.accept(itemlist.GRANULATED_ANCIENT_DEBRIS.get());
+                    acceptProcessedOres(output, "granulated_");
                     output.accept(itemlist.SOFTENED_COPPER.get());
                     output.accept(itemlist.SOFTENED_IRON.get());
                     output.accept(itemlist.SOFTENED_GOLD.get());
                     output.accept(itemlist.SOFTENED_DIAMOND.get());
                     output.accept(itemlist.SOFTENED_EMERALD.get());
                     output.accept(itemlist.SOFTENED_ANCIENT_DEBRIS.get());
+                    acceptProcessedOres(output, "softened_");
                     output.accept(itemlist.PURIFIED_COPPER.get());
                     output.accept(itemlist.PURIFIED_IRON.get());
                     output.accept(itemlist.PURIFIED_GOLD.get());
                     output.accept(itemlist.PURIFIED_DIAMOND.get());
                     output.accept(itemlist.PURIFIED_EMERALD.get());
                     output.accept(itemlist.PURIFIED_ANCIENT_DEBRIS.get());
+                    acceptProcessedOres(output, "purified_");
                     output.accept(itemlist.COLLECTED_CRUSHED_RAW_COPPER.get());
                     output.accept(itemlist.COLLECTED_CRUSHED_RAW_IRON.get());
                     output.accept(itemlist.COLLECTED_CRUSHED_RAW_GOLD.get());
                     output.accept(itemlist.COLLECTED_CRUSHED_DIAMOND_ORE.get());
                     output.accept(itemlist.COLLECTED_CRUSHED_EMERALD_ORE.get());
                     output.accept(itemlist.COLLECTED_CRUSHED_ANCIENT_DEBRIS.get());
+                    acceptProcessedOres(output, "collected_crushed_");
                     output.accept(itemlist.COLLECTED_GRANULATED_COPPER.get());
                     output.accept(itemlist.COLLECTED_GRANULATED_IRON.get());
                     output.accept(itemlist.COLLECTED_GRANULATED_GOLD.get());
                     output.accept(itemlist.COLLECTED_GRANULATED_DIAMOND.get());
                     output.accept(itemlist.COLLECTED_GRANULATED_EMERALD.get());
                     output.accept(itemlist.COLLECTED_GRANULATED_ANCIENT_DEBRIS.get());
+                    acceptProcessedOres(output, "collected_granulated_");
                     output.accept(itemlist.COLLECTED_SOFTENED_COPPER.get());
                     output.accept(itemlist.COLLECTED_SOFTENED_IRON.get());
                     output.accept(itemlist.COLLECTED_SOFTENED_GOLD.get());
                     output.accept(itemlist.COLLECTED_SOFTENED_DIAMOND.get());
                     output.accept(itemlist.COLLECTED_SOFTENED_EMERALD.get());
                     output.accept(itemlist.COLLECTED_SOFTENED_ANCIENT_DEBRIS.get());
+                    acceptProcessedOres(output, "collected_softened_");
                     output.accept(itemlist.COLLECTED_PURIFIED_COPPER.get());
                     output.accept(itemlist.COLLECTED_PURIFIED_IRON.get());
                     output.accept(itemlist.COLLECTED_PURIFIED_GOLD.get());
                     output.accept(itemlist.COLLECTED_PURIFIED_DIAMOND.get());
                     output.accept(itemlist.COLLECTED_PURIFIED_EMERALD.get());
                     output.accept(itemlist.COLLECTED_PURIFIED_ANCIENT_DEBRIS.get());
+                    acceptProcessedOres(output, "collected_purified_");
                     output.accept(itemlist.PACKAGED_CRUSHED_RAW_COPPER.get());
                     output.accept(itemlist.PACKAGED_CRUSHED_RAW_IRON.get());
                     output.accept(itemlist.PACKAGED_CRUSHED_RAW_GOLD.get());
                     output.accept(itemlist.PACKAGED_CRUSHED_DIAMOND_ORE.get());
                     output.accept(itemlist.PACKAGED_CRUSHED_EMERALD_ORE.get());
                     output.accept(itemlist.PACKAGED_CRUSHED_ANCIENT_DEBRIS.get());
+                    acceptProcessedOres(output, "packaged_crushed_");
                     output.accept(itemlist.PACKAGED_GRANULATED_COPPER.get());
                     output.accept(itemlist.PACKAGED_GRANULATED_IRON.get());
                     output.accept(itemlist.PACKAGED_GRANULATED_GOLD.get());
                     output.accept(itemlist.PACKAGED_GRANULATED_DIAMOND.get());
                     output.accept(itemlist.PACKAGED_GRANULATED_EMERALD.get());
                     output.accept(itemlist.PACKAGED_GRANULATED_ANCIENT_DEBRIS.get());
+                    acceptProcessedOres(output, "packaged_granulated_");
                     output.accept(itemlist.PACKAGED_SOFTENED_COPPER.get());
                     output.accept(itemlist.PACKAGED_SOFTENED_IRON.get());
                     output.accept(itemlist.PACKAGED_SOFTENED_GOLD.get());
                     output.accept(itemlist.PACKAGED_SOFTENED_DIAMOND.get());
                     output.accept(itemlist.PACKAGED_SOFTENED_EMERALD.get());
                     output.accept(itemlist.PACKAGED_SOFTENED_ANCIENT_DEBRIS.get());
+                    acceptProcessedOres(output, "packaged_softened_");
                     output.accept(itemlist.PACKAGED_PURIFIED_COPPER.get());
                     output.accept(itemlist.PACKAGED_PURIFIED_IRON.get());
                     output.accept(itemlist.PACKAGED_PURIFIED_GOLD.get());
                     output.accept(itemlist.PACKAGED_PURIFIED_DIAMOND.get());
                     output.accept(itemlist.PACKAGED_PURIFIED_EMERALD.get());
                     output.accept(itemlist.PACKAGED_PURIFIED_ANCIENT_DEBRIS.get());
+                    acceptProcessedOres(output, "packaged_purified_");
 
                     output.accept(itemlist.T1_PANAKEIA_PICKAXE.get());
                     output.accept(itemlist.T2_PANAKEIA_PICKAXE.get());
@@ -267,6 +279,8 @@ public class creativetab {
                     output.accept(itemlist.T5_PANAKEIA_SWORD.get());
                     output.accept(itemlist.T6_PANAKEIA_SWORD.get());
                     output.accept(itemlist.UNITE_ALLOY_SWORD.get());
+                    output.accept(itemlist.ARSENAL_BOW.get());
+                    output.accept(itemlist.CONSTELLATION_TREASURY.get());
                     output.accept(itemlist.T1_PANAKEIA_HOE.get());
                     output.accept(itemlist.T2_PANAKEIA_HOE.get());
                     output.accept(itemlist.T3_PANAKEIA_HOE.get());
@@ -385,6 +399,7 @@ public class creativetab {
                     output.accept(ModFluids.T6_PANAKEIA.bucket.get());
                     output.accept(ModFluids.UNITE_ALLOY.bucket.get());
                     output.accept(ModFluids.SINGULARITY.bucket.get());
+                    output.accept(ModFluids.LIQUID_PANAKEIA.bucket.get());
 
                     output.accept(itemlist.RUNE_CATALYST.get());
                     output.accept(itemlist.UNNATURAL_CATALYST.get());
@@ -395,7 +410,28 @@ public class creativetab {
                     output.accept(itemlist.PAIN_CONVERTER.get());
                     output.accept(itemlist.AUTO_ALCHEMICAL_ASSEMBLER.get());
                     output.accept(itemlist.PANAKEIA_GENERATOR.get());
+                    output.accept(itemlist.PANAKEIA_EXTRACTOR.get());
+                    output.accept(itemlist.BASIC_ELECTRIC_RUNE_ACTIVATOR.get());
+                    output.accept(itemlist.ADVANCED_ELECTRIC_RUNE_ACTIVATOR.get());
+                    output.accept(itemlist.ELITE_ELECTRIC_RUNE_ACTIVATOR.get());
+                    output.accept(itemlist.ULTIMATE_ELECTRIC_RUNE_ACTIVATOR.get());
+                    output.accept(itemlist.SAGE_ELECTRIC_RUNE_ACTIVATOR.get());
+                    output.accept(itemlist.RUNE_ASSEMBLY_CORE.get());
+                    output.accept(itemlist.RUNE_ASSEMBLY_CASING.get());
+                    output.accept(itemlist.RUNE_ASSEMBLY_PORT.get());
+                    output.accept(itemlist.RUNE_ASSEMBLY_ENGRAVER.get());
+                    output.accept(itemlist.RUNE_ASSEMBLY_PACKER.get());
+                    output.accept(itemlist.GRINDING_CORE_CHIP.get());
+                    output.accept(itemlist.GRANULATING_CORE_CHIP.get());
+                    output.accept(itemlist.SOFTENING_CORE_CHIP.get());
+                    output.accept(itemlist.PURIFICATION_CORE_CHIP.get());
+                    output.accept(itemlist.EQUIVALENT_CORE_CHIP.get());
+                    output.accept(itemlist.FRUITS_CORE_CHIP.get());
+                    output.accept(itemlist.CORE_CHIP_BASE.get());
+                    output.accept(itemlist.CORE_CHIP_ENGRAVING_INK.get());
+                    output.accept(itemlist.ALCHEMICAL_REACTOR.get());
 
+                    output.accept(itemlist.ALCHEMICAL_BASE_PAPER.get());
                     output.accept(itemlist.SPEED_UPGRADE_T1.get());
                     output.accept(itemlist.SPEED_UPGRADE_T2.get());
                     output.accept(itemlist.SPEED_UPGRADE_T3.get());
@@ -411,6 +447,11 @@ public class creativetab {
                     output.accept(itemlist.ENERGY_CAPACITY_UPGRADE_T3.get());
                     output.accept(itemlist.ENERGY_CAPACITY_UPGRADE_T4.get());
                     output.accept(itemlist.ENERGY_CAPACITY_UPGRADE_T5.get());
+                    output.accept(itemlist.TANK_CAPACITY_UPGRADE_T1.get());
+                    output.accept(itemlist.TANK_CAPACITY_UPGRADE_T2.get());
+                    output.accept(itemlist.TANK_CAPACITY_UPGRADE_T3.get());
+                    output.accept(itemlist.TANK_CAPACITY_UPGRADE_T4.get());
+                    output.accept(itemlist.TANK_CAPACITY_UPGRADE_T5.get());
                     output.accept(itemlist.CRAFTING_TOOL_UPGRADE_T2.get());
                     output.accept(itemlist.CRAFTING_TOOL_UPGRADE_T3.get());
                     output.accept(itemlist.CRAFTING_TOOL_UPGRADE_T4.get());
@@ -551,6 +592,13 @@ public class creativetab {
     }
 
 
+
+    private static void acceptProcessedOres(CreativeModeTab.Output output, String stagePrefix) {
+        // Preserve material registration order within each existing form/stage group.
+        itemlist.MOD_ORE_PROCESSING.stream()
+                .filter(item -> item.getId().getPath().startsWith(stagePrefix))
+                .forEach(item -> output.accept(item.get()));
+    }
 
     public static void register(IEventBus eventBus){
         TABS.register(eventBus);

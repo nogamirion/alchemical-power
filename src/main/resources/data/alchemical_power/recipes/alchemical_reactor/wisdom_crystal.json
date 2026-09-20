@@ -1,0 +1,31 @@
+{
+  "type": "alchemical_power:alchemical_reactor",
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "alchemical_power:t1_ingot_material"
+      },
+      "count": 36504
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      },
+      "count": 1
+    }
+  ],
+  "fluid": {
+    "fluid": "alchemical_power:liquid_panakeia",
+    "amount": 7884864
+  },
+  "sample": {
+    "item": "alchemical_power:wisdom_crystal"
+  },
+  "result": {
+    "item": "alchemical_power:wisdom_crystal",
+    "count": 1
+  },
+  "tool_tier": 2,
+  "time": 2766,
+  "energy": 38789556
+}

@@ -1,0 +1,22 @@
+{
+  "name": "08.机械的使用与搬运",
+  "icon": "alchemical_power:alchemy_machine_frame",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "取下升级",
+      "text": "机械加工或发电时，升级可能被锁定而无法取出。$(br2)储存的FE或液体超过移除升级后的容量时，也无法取下容量升级。请查看界面显示的原因，待运行结束或减少储量后再取出。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "拆卸与重新放置",
+      "text": "机械作为物品回收时，保留的内容因机型而异。$(br2)提取机保留FE、水、液体帕纳凯亚和升级。组装机与帕纳凯亚发电机保留FE和升级，痛觉发电机保留FE。$(br2)材料、容器等可能单独掉落，搬运时也要拾取周围的掉落物。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "搬运反应炉",
+      "text": "炼金反应炉作为物品回收时，会保留内部材料、样本、成品、升级、FE、液体和加工进度。$(br2)重新放置回收的反应炉，并供给所需FE和液体，即可继续加工。"
+    }
+  ]
+}

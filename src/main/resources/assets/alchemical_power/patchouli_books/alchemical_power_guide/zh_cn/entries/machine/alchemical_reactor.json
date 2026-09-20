@@ -1,0 +1,29 @@
+{
+  "name": "06.炼金反应炉",
+  "icon": "alchemical_power:alchemical_reactor",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "alchemical_power:alchemical_reactor"
+      },
+      "text": "使用材料、液体和FE，通过专用配方加工的机械。$(br2)在JEI中查看反应炉配方，将材料放入输入槽，并供给所需液体和FE。成品会放入输出槽。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "成品样本",
+      "text": "配方要求样本时，将指定成品放入样本槽。加工不会消耗样本。$(br2)无需样本的配方必须保持样本槽为空。加工期间无法取出样本。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "支持的升级",
+      "text": "支持合成工具、速度、能量效率、能量容量和储罐容量升级。$(br2)不同配方要求不同等级的合成工具升级。加工停止时，请检查状态显示、FE、液体供应和输出槽空间。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "其他制作途径",
+      "text": "反应炉配方包括炼金基纸、升级、联合合金和高密度压缩材料等。$(br2)材料和条件与工作台配方不同，请在JEI中查看反应炉配方。$(br2)可从外部输入材料并输出成品。样本和升级需在机械界面中设置。"
+    }
+  ]
+}

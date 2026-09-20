@@ -1,5 +1,6 @@
-// 1.20.1	2026-03-25T15:03:52.7774933	Loot Tables
+// 1.20.1	2026-09-20T17:49:03.7350358	Loot Tables
 e2eae62b918cdca36f1ec6cf4c0e94d543e0787e data/alchemical_power/loot_tables/blocks/alchemical_engraver.json
+02ddfc4d0ec4033dd6e1f000ee0da78827c2cd98 data/alchemical_power/loot_tables/blocks/alchemical_reactor.json
 324988cb044cf9134dc91248e431895ede4f061d data/alchemical_power/loot_tables/blocks/alchemy_machine_frame.json
 4cbcf843ae111b599490c89071d5fbfb4fd1bff5 data/alchemical_power/loot_tables/blocks/alchemy_table.json
 5baa432a8a49c4401e5df934e374a52f47013065 data/alchemical_power/loot_tables/blocks/alchemy_table_re.json
@@ -47,6 +48,7 @@ f43e0b0dccc45d119ba2bf43176c9a6d73472cc2 data/alchemical_power/loot_tables/block
 9b897a92f7593b5753f477efd306c560530bdd6b data/alchemical_power/loot_tables/blocks/infinite_water_barrel.json
 9a40c2daa949cdb70c3c7c29afe9e4cd3f379a67 data/alchemical_power/loot_tables/blocks/pain_converter.json
 e6bbbbb41237c4b532986bae1b47e7cfacb72ccb data/alchemical_power/loot_tables/blocks/panakeia_bearing_stone.json
+8be0db21b1331b314ea947329e3a508b6e382eaf data/alchemical_power/loot_tables/blocks/panakeia_extractor.json
 18f075394665c17698dff54174726dea2321e73b data/alchemical_power/loot_tables/blocks/panakeia_generator.json
 7e26ced159483e41d028a93016f9c14777249641 data/alchemical_power/loot_tables/blocks/panakeia_reed_t0.json
 ce31d9fe013475696a7cae3c1207c748ff678bc8 data/alchemical_power/loot_tables/blocks/panakeia_reed_t1.json

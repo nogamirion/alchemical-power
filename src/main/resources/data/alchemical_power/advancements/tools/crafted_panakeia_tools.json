@@ -1,0 +1,79 @@
+{
+  "parent": "alchemical_power:materials/obtain_t1_panakeia_ingot",
+  "display": {
+    "icon": { "item": "alchemical_power:t1_panakeia_pickaxe" },
+    "title": { "translate": "advancements.alchemical_power.crafted_panakeia_tools.title" },
+    "description": { "translate": "advancements.alchemical_power.crafted_panakeia_tools.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alchemical_power:t1_panakeia_pickaxe",
+              "alchemical_power:t1_panakeia_axe",
+              "alchemical_power:t1_panakeia_shovel",
+              "alchemical_power:t1_panakeia_hoe",
+              "alchemical_power:t1_panakeia_sword",
+              "alchemical_power:t1_panakeia_helmet",
+              "alchemical_power:t1_panakeia_chestplate",
+              "alchemical_power:t1_panakeia_leggings",
+              "alchemical_power:t1_panakeia_boots",
+              "alchemical_power:t2_panakeia_pickaxe",
+              "alchemical_power:t2_panakeia_axe",
+              "alchemical_power:t2_panakeia_shovel",
+              "alchemical_power:t2_panakeia_hoe",
+              "alchemical_power:t2_panakeia_sword",
+              "alchemical_power:t2_panakeia_helmet",
+              "alchemical_power:t2_panakeia_chestplate",
+              "alchemical_power:t2_panakeia_leggings",
+              "alchemical_power:t2_panakeia_boots",
+              "alchemical_power:t3_panakeia_pickaxe",
+              "alchemical_power:t3_panakeia_axe",
+              "alchemical_power:t3_panakeia_shovel",
+              "alchemical_power:t3_panakeia_hoe",
+              "alchemical_power:t3_panakeia_sword",
+              "alchemical_power:t3_panakeia_helmet",
+              "alchemical_power:t3_panakeia_chestplate",
+              "alchemical_power:t3_panakeia_leggings",
+              "alchemical_power:t3_panakeia_boots",
+              "alchemical_power:t4_panakeia_pickaxe",
+              "alchemical_power:t4_panakeia_axe",
+              "alchemical_power:t4_panakeia_shovel",
+              "alchemical_power:t4_panakeia_hoe",
+              "alchemical_power:t4_panakeia_sword",
+              "alchemical_power:t4_panakeia_helmet",
+              "alchemical_power:t4_panakeia_chestplate",
+              "alchemical_power:t4_panakeia_leggings",
+              "alchemical_power:t4_panakeia_boots",
+              "alchemical_power:t5_panakeia_pickaxe",
+              "alchemical_power:t5_panakeia_axe",
+              "alchemical_power:t5_panakeia_shovel",
+              "alchemical_power:t5_panakeia_hoe",
+              "alchemical_power:t5_panakeia_sword",
+              "alchemical_power:t5_panakeia_helmet",
+              "alchemical_power:t5_panakeia_chestplate",
+              "alchemical_power:t5_panakeia_leggings",
+              "alchemical_power:t5_panakeia_boots",
+              "alchemical_power:t6_panakeia_pickaxe",
+              "alchemical_power:t6_panakeia_axe",
+              "alchemical_power:t6_panakeia_shovel",
+              "alchemical_power:t6_panakeia_hoe",
+              "alchemical_power:t6_panakeia_sword",
+              "alchemical_power:t6_panakeia_helmet",
+              "alchemical_power:t6_panakeia_chestplate",
+              "alchemical_power:t6_panakeia_leggings",
+              "alchemical_power:t6_panakeia_boots"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

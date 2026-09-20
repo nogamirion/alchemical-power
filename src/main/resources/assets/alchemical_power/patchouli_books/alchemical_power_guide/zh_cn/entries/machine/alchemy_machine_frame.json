@@ -1,0 +1,18 @@
+{
+  "name": "01.炼金机械框架",
+  "icon": "alchemical_power:alchemy_machine_frame",
+  "category": "alchemical_power:machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用于制作炼金机械的基础材料。$(br2)大多数机械都以这个框架作为核心材料制作。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alchemical_power:alchemical_power_tables/5x5/alchemy_machine_frame"
+    }
+  ]
+}
+
+
+

@@ -14,6 +14,9 @@ public class ModMenuTypes {
     public static final DeferredRegister<MenuType<?>> MENUS =
             DeferredRegister.create(ForgeRegistries.MENU_TYPES, Alchemical_power.MODID);
 
+    public static final RegistryObject<MenuType<ConstellationTreasuryMenu>> CONSTELLATION_TREASURY_MENU =
+            registerMenuType("constellation_treasury_menu", ConstellationTreasuryMenu::new);
+
     public static final RegistryObject<MenuType<Alchemy_Table_Menu>> ALCHEMY_TABLE_MENU =
             registerMenuType("alchemy_table_menu",Alchemy_Table_Menu::new);
 
@@ -44,6 +47,16 @@ public class ModMenuTypes {
     public static final RegistryObject<MenuType<PanakeiaGeneratorMenu>> PANAKEIA_GENERATOR_MENU =
             registerMenuType("panakeia_generator_menu",PanakeiaGeneratorMenu::new);
 
+    public static final RegistryObject<MenuType<PanakeiaExtractorMenu>> PANAKEIA_EXTRACTOR_MENU =
+            registerMenuType("panakeia_extractor_menu",PanakeiaExtractorMenu::new);
+
+
+    public static final RegistryObject<MenuType<ElectricRuneActivatorMenu>> ELECTRIC_RUNE_ACTIVATOR_MENU =
+            registerMenuType("electric_rune_activator_menu", ElectricRuneActivatorMenu::new);
+    public static final RegistryObject<MenuType<AlchemicalReactorMenu>> ALCHEMICAL_REACTOR_MENU =
+            registerMenuType("alchemical_reactor_menu", AlchemicalReactorMenu::new);
+
+    public static final RegistryObject<MenuType<RuneAssemblyMenu>> RUNE_ASSEMBLY_MENU = registerMenuType("rune_assembly_menu", RuneAssemblyMenu::new);
 
     private static <T extends AbstractContainerMenu>RegistryObject<MenuType<T>> registerMenuType(String name, IContainerFactory<T> factory){
         return MENUS.register(name,() -> IForgeMenuType.create(factory));
